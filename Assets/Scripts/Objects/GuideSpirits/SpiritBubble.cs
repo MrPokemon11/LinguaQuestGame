@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
+using System.Collections.Generic;
 
 public class SpiritBubble : MonoBehaviour
 {
@@ -7,9 +9,22 @@ public class SpiritBubble : MonoBehaviour
     public TextMeshProUGUI bubbleText;
     public Vector3 offset = new Vector3(1.5f, 2f, 0f);
     public float displayDuration = 4f;
+    public List<string> startMessages = new List<string>() { "Welcome to the Spirit World!",
+        "Use WASD to move around.",
+        "Press Space to interact." };
 
     private float timer = 0f;
     private bool showing = false;
+
+    void Start()
+    {
+        if (bubbleCanvas == null || bubbleText == null)
+        {
+            Debug.LogError("Bubble Canvas or Text is not assigned in the inspector.");
+            return;
+        }
+        StartCoroutine(ShowMessages(startMessages));
+    }
 
     void Update()
     {
@@ -28,8 +43,54 @@ public class SpiritBubble : MonoBehaviour
         }
     }
 
+
+    public IEnumerator ShowMessages(List<string> messages)
+    {
+        if (messages == null || messages.Count == 0)
+        {
+            Debug.LogWarning("No messages to show.");
+            yield break;
+        }
+        Debug.Log("Starting to show messages.");
+        foreach (string message in messages)
+        {
+            ShowMessage(message);
+
+            bool skipToNext = false;
+            float elapsed = 0f;
+            while (elapsed < displayDuration && !skipToNext)
+            {
+                if (Input.GetKeyDown(KeyCode.V))
+                {
+                    skipToNext = true; // Skip to the next message
+                }
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+
+            HideBubble();
+
+            // Pause before showing the next message, allow skipping as well
+            if (!skipToNext)
+            {
+                elapsed = 0f;
+                while (elapsed < 1f)
+                {
+                    if (Input.GetKeyDown(KeyCode.V))
+                    {
+                        break; // Skip the pause
+                    }
+                    elapsed += Time.deltaTime;
+                    yield return null;
+                }
+            }
+        }
+    }
+
+
     public void ShowMessage(string message)
     {
+        Debug.Log("Showing message: " + message);
         bubbleText.text = message;
         bubbleCanvas.gameObject.SetActive(true);
         timer = 0f;

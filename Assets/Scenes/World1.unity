@@ -381,7 +381,7 @@ Animator:
   m_GameObject: {fileID: 161300298}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2b7d045def9b03d4399f70a8fdd2c8b1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -408,6 +408,10 @@ MonoBehaviour:
   bubbleText: {fileID: 2083276216}
   offset: {x: 1.5, y: 2, z: 0}
   displayDuration: 4
+  startMessages:
+  - Welcome to the Spirit World!
+  - Use WASD to move around.
+  - Press Space to interact.
 --- !u!114 &161300305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,8 +791,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.12, y: -1.5}
-  m_SizeDelta: {x: 12.1242, y: 7.5692}
+  m_AnchoredPosition: {x: 0.41, y: -0.45}
+  m_SizeDelta: {x: 6.7988, y: 3.2559}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &220207759
 MonoBehaviour:
@@ -2882,7 +2886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1462127472
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2900,8 +2904,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.49, y: 0.262}
-  m_SizeDelta: {x: 14.1572, y: 6.80446}
+  m_AnchoredPosition: {x: 0.471, y: 0.316}
+  m_SizeDelta: {x: 14.58189, y: 6.9258}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1462127473
 MonoBehaviour:
@@ -111837,7 +111841,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0717, y: 0.3872}
+  m_AnchoredPosition: {x: 1.39, y: -0.56}
   m_SizeDelta: {x: 6.4054, y: 2.4639}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2083276216
@@ -111887,12 +111891,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
+  m_fontSize: 0.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 0.3
-  m_fontSizeMax: 0.5
+  m_fontSizeMin: 0.1
+  m_fontSizeMax: 0.3
   m_fontStyle: 0
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
@@ -111923,7 +111927,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -0.023070335, z: 2.80299, w: 1.4187981}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

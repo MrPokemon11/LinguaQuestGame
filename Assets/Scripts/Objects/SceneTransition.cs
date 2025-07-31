@@ -46,7 +46,7 @@ public class SceneTransition : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Collision detected with: " + collision.name);
+        //Debug.Log("Collision detected with: " + collision.name);
         if (collision.CompareTag("Player") && !collision.isTrigger)
         {
             playerStorage.runtimeValue = playerPosition;
