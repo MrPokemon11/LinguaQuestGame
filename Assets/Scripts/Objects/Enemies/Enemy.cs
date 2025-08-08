@@ -41,8 +41,8 @@ public class Enemy : MonoBehaviour
             return;
         }
         currentState = EnemyState.Idle;
-        target = GameObject.FindGameObjectWithTag("Player").transform;
         player = GameObject.FindGameObjectWithTag("Player");
+        target = player.transform;
         rb = GetComponent<Rigidbody2D>();
         Animation = GetComponent<Animator>();
         if (Animation != null)

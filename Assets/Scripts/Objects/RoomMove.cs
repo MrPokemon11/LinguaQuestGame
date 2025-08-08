@@ -35,8 +35,14 @@ public class RoomMove : MonoBehaviour
     private IEnumerator placeNameCoroutine()
     {
         roomSignal.Raise();
+        if (text == null)
+        {
+            Debug.LogError("Text object is not assigned in the inspector.");
+            yield break;
+        }
         text.SetActive(true);
         yield return new WaitForSeconds(2);
         text.SetActive(false);
+        this.gameObject.SetActive(false);
     }
 }

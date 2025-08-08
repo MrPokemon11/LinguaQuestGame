@@ -10,16 +10,7 @@ public class SpiritBubble : MonoBehaviour
     public Vector3 offset = new Vector3(1.5f, 2f, 0f);
     public float displayDuration = 4f;
     public BoolValue hasShownIntroduction;
-    public List<string> startMessages = new List<string>() {
-        "Dear explorer,",
-        "Welcome to the linguistic World!",
-        "Here, you will learn different linguistic skills.",
-        "and have fun!",
-        "I am your guide spirit.",
-        "I will help you on your journey.",
-        "Let's get started!",
-        "Use WASD to move around.",
-        "Press E to interact." };
+    public List<string> startMessages = new List<string>();
 
 
     public List<string> MessagesBeatingFirstEnemy = new List<string>() {
