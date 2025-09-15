@@ -95,7 +95,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 255
+        width: 151
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e342fadfea73cd94a83068a27fed87b4
+      internalID: 877860621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 274
+        width: 147
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b4e8941bff3f448afd1f7dccb8a32e
+      internalID: -632903618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 235
+        width: 120
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d0d6026d81baa4781e7c351e63b8fd
+      internalID: 242737100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 22
+        width: 138
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e98ee7fc84c5c42a7fd81f02e4739c
+      internalID: 1840051725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 42
+        width: 125
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7884d176d5c46498fba76f9f600bee
+      internalID: 840765750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250814_175132-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 15
+        width: 142
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32cfa13aa62bc6042be10df94ac13685
+      internalID: -498175717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +232,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Copilot_20250814_175132-removebg-preview_0: 877860621
+      Copilot_20250814_175132-removebg-preview_1: -632903618
+      Copilot_20250814_175132-removebg-preview_2: 242737100
+      Copilot_20250814_175132-removebg-preview_3: 1840051725
+      Copilot_20250814_175132-removebg-preview_4: 840765750
+      Copilot_20250814_175132-removebg-preview_5: -498175717
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -227,9 +227,14 @@ public class BattleManager : MonoBehaviour
         // Play the win sound
         audioSource.PlayOneShot(winSound);
 
-        // Wait until player presses the "E" key
-        while (!Input.GetKeyDown(KeyCode.E))
+        // Wait until player presses the "E" key twice
+        int ePressCount = 0;
+        while (ePressCount < 2)
         {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                ePressCount++;
+            }
             yield return null;
         }
 

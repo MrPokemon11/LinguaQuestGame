@@ -2093,6 +2093,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 5953356034358854159}
+    - target: {fileID: 9117569194842042526, guid: 097b7b4bb7cd77c4cb0734401405f2a1, type: 3}
+      propertyPath: maxHealth
+      value: 
+      objectReference: {fileID: 11400000, guid: 20717857e21a4ee488b5826a0878e665, type: 2}
     - target: {fileID: 9161362651880018783, guid: 097b7b4bb7cd77c4cb0734401405f2a1, type: 3}
       propertyPath: m_Name
       value: FightingLog3

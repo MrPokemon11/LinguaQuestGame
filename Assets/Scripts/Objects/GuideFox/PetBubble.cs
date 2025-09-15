@@ -7,26 +7,39 @@ public class PetBubble : MonoBehaviour
 {
     public Canvas bubbleCanvas;
     public TextMeshProUGUI bubbleText;
-    public Vector3 offset = new Vector3(1.5f, 0f, 0f);
-    public float displayDuration = 4f;
+    public Vector3 offset = new Vector3(1.5f, 2f, 0f);
+    public float baseDisplayDuration = 4f;
     public BoolValue hasShownIntroduction;
-    public PetMovement petMovement;
+    public List<string> startMessages = new List<string>() {
+        "Dear explorer,",
+        "Welcome to the linguistic World!",
+        "Here, you will learn different linguistic skills.",
+        "and have fun!",
+        "I am your guide spirit.",
+        "I will help you on your journey.",
+        "Let's get started!",
+        "Use WASD to move around.",
+        "Press E to interact."
+    };
 
     private float timer = 0f;
     private bool showing = false;
+    private Coroutine currentRoutine;
+    private PetMovement petMovement;
 
     void Start()
     {
-        bubbleCanvas.gameObject.SetActive(false);
+        if (bubbleCanvas == null || bubbleText == null)
+        {
+            Debug.LogError("Bubble Canvas or Text is not assigned in the inspector.");
+            return;
+        }
+
+        petMovement = GetComponent<PetMovement>();
 
         if (!hasShownIntroduction.runtimeValue)
         {
-            ShowMessagesToPlayer(new List<string>() {
-                "Dear explorer,",
-                "Welcome to the linguistic World!",
-                "Here, you will learn different linguistic skills.",
-                "I am your guide spirit."
-            });
+            ShowMessagesToPlayer(startMessages);
             hasShownIntroduction.runtimeValue = true;
         }
     }
@@ -36,46 +49,69 @@ public class PetBubble : MonoBehaviour
         if (showing)
         {
             timer += Time.deltaTime;
-            if (timer > displayDuration)
+            if (timer > baseDisplayDuration)
             {
                 HideBubble();
             }
 
+            // Keep the bubble above the pet
             bubbleCanvas.transform.position = transform.position + offset;
-            bubbleCanvas.transform.LookAt(Camera.main.transform);
-            bubbleCanvas.transform.Rotate(0, 180f, 0);
+            bubbleCanvas.transform.rotation = Quaternion.LookRotation(
+                bubbleCanvas.transform.position - Camera.main.transform.position
+            );
         }
     }
 
-    public void ShowMessagesToPlayer(List<string> messages)
+    public IEnumerator ShowMessages(List<string> messages)
     {
-        StartCoroutine(ShowMessages(messages));
-    }
+        if (messages == null || messages.Count == 0)
+        {
+            Debug.LogWarning("No messages to show.");
+            yield break;
+        }
 
-    IEnumerator ShowMessages(List<string> messages)
-    {
-        petMovement.Appear();
+        // Pet appears
+        if (petMovement != null) petMovement.Appear();
 
         foreach (string message in messages)
         {
             ShowMessage(message);
 
+            bool skipToNext = false;
             float elapsed = 0f;
-            bool skip = false;
-            while (elapsed < displayDuration && !skip)
+
+            // Scale duration based on length of the message
+            float duration = Mathf.Max(baseDisplayDuration, message.Length * 0.08f);
+
+            while (elapsed < duration && !skipToNext)
             {
                 if (Input.GetKeyDown(KeyCode.V))
-                    skip = true;
+                {
+                    skipToNext = true; // Skip to the next message
+                }
                 elapsed += Time.deltaTime;
                 yield return null;
             }
 
             HideBubble();
-            yield return new WaitForSeconds(0.5f);
+
+            // Short pause before next message (unless skipped)
+            if (!skipToNext)
+            {
+                elapsed = 0f;
+                while (elapsed < 0.5f)
+                {
+                    if (Input.GetKeyDown(KeyCode.V)) break;
+                    elapsed += Time.deltaTime;
+                    yield return null;
+                }
+            }
         }
 
-        yield return new WaitForSeconds(0.5f);
-        petMovement.Disappear();
+        // Pet disappears when all messages are done
+        if (petMovement != null) petMovement.Disappear();
+        bubbleCanvas.gameObject.SetActive(false);
+        currentRoutine = null;
     }
 
     public void ShowMessage(string message)
@@ -84,6 +120,15 @@ public class PetBubble : MonoBehaviour
         bubbleCanvas.gameObject.SetActive(true);
         timer = 0f;
         showing = true;
+    }
+
+    public void ShowMessagesToPlayer(List<string> messages)
+    {
+        if (currentRoutine != null)
+        {
+            StopCoroutine(currentRoutine);
+        }
+        currentRoutine = StartCoroutine(ShowMessages(messages));
     }
 
     public void HideBubble()

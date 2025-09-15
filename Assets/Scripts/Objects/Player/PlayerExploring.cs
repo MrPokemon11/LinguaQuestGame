@@ -15,22 +15,43 @@ public enum PlayerState
 
 public class PlayerExploring : MonoBehaviour
 {
+    // --- Serialized Fields (visible in Inspector) ---
+    [Header("Movement")]
     public float speed = 5f;
     public Rigidbody2D myRigidbody;
-    public UnityEngine.Vector3 change = UnityEngine.Vector3.zero; // Use UnityEngine.Vector3 to match the original code
-    private Animator animator;
-    public FloatValue currentHealth;
-    public PlayerState currentState;
-    public Signal playerHealthSignal;
-    public Signal playerAttackSignal;
     public VectorValue StartingPosition;
+
+    [Header("Animation")]
+    private Animator animator;
+
+    [Header("Player State")]
+    public PlayerState currentState = PlayerState.walk;
+    public UnityEngine.Vector3 change = UnityEngine.Vector3.zero;
+
+    [Header("Health & Magic")]
+    public FloatValue currentHealth;
+    public FloatValue magicLevel;
+
+    [Header("Inventory & Items")]
     public Inventory inventory;
     public SpriteRenderer receiveItemSprite;
-    public StepSoundManager stepSoundManager;
-    public float stepSoundCooldown = 0.5f; // Cooldown for step sound
-    private float lastStepSoundTime = 0f; // Track the last time a step sound was played
 
-    // Start is called before the first frame update
+    [Header("Signals")]
+    public Signal playerHealthSignal;
+    public Signal playerAttackSignal;
+
+    [Header("Step Sound")]
+    public StepSoundManager stepSoundManager;
+    public float stepSoundCooldown = 0.5f;
+    private float lastStepSoundTime = 0f;
+
+    [Header("Magic Attacks")]
+    public GameObject fireballPrefab;
+    public Transform firePoint;
+    public GameObject lightningEffectPrefab;
+    public float lightningCastOffset = 4.5f;
+
+    // --- Unity Methods ---
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -39,25 +60,36 @@ public class PlayerExploring : MonoBehaviour
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
         myRigidbody.position = StartingPosition.runtimeValue;
+        magicLevel.runtimeValue = magicLevel.initialValue;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        lastStepSoundTime += Time.deltaTime; // Increment the cooldown timer
+        lastStepSoundTime += Time.deltaTime;
         if (currentState == PlayerState.interact)
-        {
-            return; // If the player is interacting, do not process movement
-        }
+            return;
+
         change = UnityEngine.Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         change.z = 0;
-        change.Normalize(); // Normalize the vector to prevent faster diagonal movement
+        change.Normalize();
 
         if (Input.GetMouseButtonDown(0) && currentState != PlayerState.attack)
         {
             StartCoroutine(AttackCo());
+        }
+        else if (Input.GetMouseButtonDown(1) && currentState == PlayerState.attack)
+        {
+            animator.SetTrigger("swordDance");
+        }
+        else if (Input.GetKeyDown(KeyCode.F) && magicLevel.runtimeValue >= 1)
+        {
+            CastFireball();
+        }
+        else if (Input.GetKeyDown(KeyCode.G) && magicLevel.runtimeValue >= 2)
+        {
+            CastLightning();
         }
         else if (currentState == PlayerState.walk)
         {
@@ -65,6 +97,7 @@ public class PlayerExploring : MonoBehaviour
         }
     }
 
+    // --- Movement & Animation ---
     private void UpdateAnimationAndMove()
     {
         if (change != UnityEngine.Vector3.zero)
@@ -75,7 +108,7 @@ public class PlayerExploring : MonoBehaviour
             myRigidbody.MovePosition(myRigidbody.position + new UnityEngine.Vector2(change.x, change.y) * speed * Time.fixedDeltaTime);
             if (stepSoundManager != null && lastStepSoundTime >= stepSoundCooldown)
             {
-                lastStepSoundTime = 0f; // Reset the cooldown timer
+                lastStepSoundTime = 0f;
                 stepSoundManager.PlayStepSound(transform.position);
             }
         }
@@ -85,6 +118,7 @@ public class PlayerExploring : MonoBehaviour
         }
     }
 
+    // --- Item Handling ---
     public void RaiseItem()
     {
         if (currentState != PlayerState.interact)
@@ -97,17 +131,16 @@ public class PlayerExploring : MonoBehaviour
         {
             animator.SetBool("receive_item", false);
             currentState = PlayerState.walk;
-            receiveItemSprite.sprite = null; // Clear the sprite when not receiving an item
+            receiveItemSprite.sprite = null;
         }
-
     }
 
-
+    // --- Attack ---
     private IEnumerator AttackCo()
     {
         animator.SetBool("attacking", true);
         currentState = PlayerState.attack;
-        yield return new WaitForSeconds(0.26f); // Wait for the attack animation to play
+        yield return new WaitForSeconds(0.26f);
         animator.SetBool("attacking", false);
         currentState = PlayerState.walk;
     }
@@ -119,5 +152,29 @@ public class PlayerExploring : MonoBehaviour
         animator.SetBool("moving", false);
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", 0);
+    }
+
+    // --- Magic Attacks ---
+    private void CastFireball()
+    {
+        animator.SetTrigger("castFireball");
+        GameObject fireball = Instantiate(fireballPrefab, firePoint.position, Quaternion.identity);
+        fireball.GetComponent<Fireball>().SetDirection(new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY")));
+    }
+
+    private void CastLightning()
+    {
+        animator.SetTrigger("castFireball");
+        Vector2 castDirection = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        if (castDirection.sqrMagnitude < 0.01f)
+            castDirection = new Vector2(0, -1);
+        Vector2 strikePosition = (Vector2)transform.position + castDirection.normalized * lightningCastOffset;
+        Instantiate(lightningEffectPrefab, strikePosition, Quaternion.identity);
+    }
+
+    public void UpgradeMagicLevel(int amount)
+    {
+        magicLevel.runtimeValue += amount;
+        magicLevel.initialValue += amount;
     }
 }

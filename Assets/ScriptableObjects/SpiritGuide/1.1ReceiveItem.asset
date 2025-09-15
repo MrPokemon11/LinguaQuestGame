@@ -12,4 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da62a036f7fea244dbd929946e37de4a, type: 3}
   m_Name: 1.1ReceiveItem
   m_EditorClassIdentifier: 
-  messages: []
+  messages:
+  - nice nice
+  - we get sth!

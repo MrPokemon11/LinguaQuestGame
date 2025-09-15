@@ -10,6 +10,7 @@ public class Log : Enemy
     // Update is called once per frame
     void FixedUpdate()
     {
+        if (isDead.runtimeValue) return;
         CheckDistance();
     }
 

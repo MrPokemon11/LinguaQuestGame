@@ -196,7 +196,7 @@ public class BattleManager_FeatureMatch : MonoBehaviour
         }
 
         // Assuming you have a SceneTracker script like in the original
-        // SceneTracker.Instance.ReturnToPreviousScene(winScreen.gameObject.activeSelf);
+        SceneTracker.Instance.ReturnToPreviousScene(winScreen.gameObject.activeSelf);
     }
 
     public IEnumerator ShowTextWithDelay(string message, float delay)
