@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerPosition
   m_EditorClassIdentifier: 
   initialValue: {x: -6, y: 0.8}
-  runtimeValue: {x: 23.220896, y: 0.33205795}
+  runtimeValue: {x: -6, y: 0.8}
