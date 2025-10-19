@@ -23,11 +23,11 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Slash
   - Water
   - UI
   - Meat
-  - 
+  - WordLabel
   - Enemy
   - Obstacles
   - 
