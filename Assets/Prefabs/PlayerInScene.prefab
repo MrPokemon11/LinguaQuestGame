@@ -387,6 +387,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6f6438db1b74c840b2239ecf8858e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3109216973154259716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2200159935357943152}
+  m_Layer: 0
+  m_Name: CastFireBall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2200159935357943152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109216973154259716}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.05, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2511885089559273175}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4918496166464257366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2292713628860857407}
+  m_Layer: 0
+  m_Name: OrbitCenter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2292713628860857407
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4918496166464257366}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.24, y: 0.41, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2511885089559273175}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5332954429276080320
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,6 +682,8 @@ Transform:
   - {fileID: 9030690823351823395}
   - {fileID: 7827084233721632629}
   - {fileID: 1621700445723601115}
+  - {fileID: 2292713628860857407}
+  - {fileID: 2200159935357943152}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &3216470867649282586
@@ -708,16 +772,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   myRigidbody: {fileID: 0}
+  StartingPosition: {fileID: 11400000, guid: a87c36d17f4406241b8d69f19e769a9a, type: 2}
+  currentState: 0
   change: {x: 0, y: 0, z: 0}
   currentHealth: {fileID: 11400000, guid: 24d54e5e82915304989d08783c9721a6, type: 2}
-  currentState: 0
-  playerHealthSignal: {fileID: 11400000, guid: c0505c54d811cd74f966d312a1606740, type: 2}
-  playerAttackSignal: {fileID: 11400000, guid: 387f0737ecc640642b068c9b25f42250, type: 2}
-  StartingPosition: {fileID: 11400000, guid: a87c36d17f4406241b8d69f19e769a9a, type: 2}
+  magicLevel: {fileID: 11400000, guid: d9a5127bbcac15846a189cfde0aee638, type: 2}
   inventory: {fileID: 11400000, guid: 4e0ae81afb7d6104a829e015cbb29259, type: 2}
   receiveItemSprite: {fileID: 1703327037887166645}
+  playerHealthSignal: {fileID: 11400000, guid: c0505c54d811cd74f966d312a1606740, type: 2}
+  playerAttackSignal: {fileID: 11400000, guid: 387f0737ecc640642b068c9b25f42250, type: 2}
   stepSoundManager: {fileID: 0}
   stepSoundCooldown: 0.5
+  fireballPrefab: {fileID: 1778486026994022884, guid: 97b35096b28b31b47bc9f142003d5e68, type: 3}
+  firePoint: {fileID: 2200159935357943152}
+  lightningEffectPrefab: {fileID: 1068689431743136575, guid: 2fe84ba0c21516a44b5c210d2fe229cd, type: 3}
+  lightningCastOffset: 4.5
 --- !u!212 &3540530879073513603
 SpriteRenderer:
   m_ObjectHideFlags: 0

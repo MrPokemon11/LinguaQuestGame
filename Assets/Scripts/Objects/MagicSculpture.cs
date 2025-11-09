@@ -6,6 +6,7 @@ public class MagicSculpture : Sign
 {
 
     public int sculptureID;
+    public SpriteRenderer spriteRenderer;
     public bool isCompleted = false;
     public BoolValue sculptureCompletion;
     public List<MultipleChoiceQuestion> questionData;
@@ -27,14 +28,26 @@ public class MagicSculpture : Sign
     public override void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
         if (sculptureCompletion != null)
         {
             isCompleted = sculptureCompletion.runtimeValue;
+            if (isCompleted && spriteRenderer != null)
+            {
+                // Change appearance to indicate completion
+                spriteRenderer.color = Color.green; // Example: turn the statue green
+                // Optionally, you can also make it semi-transparent if desired:
+                // spriteRenderer.color = new Color(0f, 1f, 0f, 0.7f); // green and semi-transparent
+            }
         }
         if (PlayerPrefab == null)
         {
             PlayerPrefab = GameObject.FindGameObjectWithTag("Player");
         }
+
     }
 
     public override void Update()
@@ -106,6 +119,10 @@ public class MagicSculpture : Sign
                 sculptureCompletion.runtimeValue = true;
             }
             interactSignal.Raise();
+            // Change appearance to indicate completion
+            spriteRenderer.color = Color.green; // Example: turn the statue green
+            // Optionally, you can also make it semi-transparent if desired:
+            // spriteRenderer.color = new Color(0f, 1f, 0f, 0.7f); // green and semi-transparent
         }
         else
         {

@@ -19,15 +19,16 @@ TagManager:
   - Rabbit
   - MouseDeer
   - Coin
+  - WordBlock
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Slash
   - Water
   - UI
   - Meat
-  - 
+  - WordLabel
   - Enemy
   - Obstacles
   - 

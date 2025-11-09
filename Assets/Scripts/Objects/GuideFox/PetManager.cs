@@ -15,6 +15,11 @@ public class PetManager : MonoBehaviour
 
     public List<PetTrigger> petTriggers = new();
 
+    private void Start()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     // In PetManager.cs
     private void Awake()
     {
@@ -31,7 +36,20 @@ public class PetManager : MonoBehaviour
 
             // Configure it while it's disabled
             listener.signal = trigger.triggerSignal;
-            listener.response.AddListener(() => petBubble.ShowMessagesToPlayer(trigger.messageSequence.messages));
+
+            // Create a local copy of the listener for the closure
+            SignalListener capturedListener = listener;
+
+            UnityEngine.Events.UnityAction action = null;
+            action = () =>
+            {
+                petBubble.ShowMessagesToPlayer(trigger.messageSequence.messages);
+                // Remove this listener so it only triggers once
+                capturedListener.response.RemoveListener(action);
+                Destroy(capturedListener);
+            };
+
+            listener.response.AddListener(action);
 
             // Now, enable it. This will call its OnEnable(), and since 'signal' is now assigned, it will register correctly.
             listener.enabled = true;

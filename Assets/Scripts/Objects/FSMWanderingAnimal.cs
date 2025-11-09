@@ -263,13 +263,15 @@ public class FSMWanderingAnimal : MonoBehaviour
         MoveTowards(transform.position + (Vector3)dir, fleeSpeed);
     }
 
-    private float lastWanderChangeTime = 0f;
-    private float wanderChangeInterval = 3f;
+    public float lastWanderChangeTime = 0f;
+    public float wanderChangeInterval = 1f;
 
     void Wander()
     {
+
+
         // Only pick a new target position if enough time has passed or we've reached the target
-        if (targetPosition == Vector2.zero || IsAtTarget(targetPosition) || Time.time - lastWanderChangeTime > wanderChangeInterval)
+        if ((targetPosition == Vector2.zero || IsAtTarget(targetPosition)) || Time.time - lastWanderChangeTime > wanderChangeInterval)
         {
             // Try up to 10 times to find a valid target position not overlapping with obstacles
             for (int i = 0; i < 10; i++)
@@ -281,12 +283,14 @@ public class FSMWanderingAnimal : MonoBehaviour
                     break;
                 }
             }
+            //Debug.Log("New wander target position: " + targetPosition);
             lastWanderChangeTime = Time.time;
+
         }
 
         Vector2 desiredDirection = (targetPosition - (Vector2)transform.position).normalized;
-        Vector2 safeDir = FindSafeDirection(desiredDirection);
-        MoveInDirection(safeDir, wanderSpeed);
+        //Vector2 safeDir = FindSafeDirection(desiredDirection);
+        MoveInDirection(desiredDirection, wanderSpeed);
     }
 
     void MoveTowards(Vector2 destination, float speed)
@@ -302,6 +306,7 @@ public class FSMWanderingAnimal : MonoBehaviour
     {
         // The direction is already calculated, so we just use it.
         rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
+        //Debug.Log("Moving in direction: " + direction);
         animator.SetFloat("moveX", direction.x);
         animator.SetFloat("moveY", direction.y);
     }

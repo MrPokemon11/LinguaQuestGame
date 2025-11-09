@@ -1,0 +1,1456 @@
+fileFormatVersion: 2
+guid: ae2be829dc459b44aa3d343874da7c51
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 601
+        width: 213
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da085e7dc05ebd94ab43db352aaced68
+      internalID: -1236349091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_1
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 776
+        width: 17
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b796b278830e604abaf7b436bc26199
+      internalID: -1832266097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 473
+        width: 316
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00ac6e416086dc449da510ac117d427
+      internalID: -979766768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 577
+        width: 409
+        height: 433
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a425e85634bb34598473ed95387b70
+      internalID: 691757024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 772
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bed073a9a551f4ba90151607982f36
+      internalID: 1774646208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_5
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 751
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a41aec9b17562c4b8231f3841be1d73
+      internalID: 1184505688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 727
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad05a52d088799429b9f996a90012c9
+      internalID: 526829580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_7
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 710
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87928c9e8a5cbb4eb3bf9365a2cc7bd
+      internalID: -2021698638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_8
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 718
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8a8abc87756e844970308aefd53abb
+      internalID: -1539926074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 702
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c802e5d6395d0754abd26a21f64cea8b
+      internalID: 273030090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_10
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 677
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f913a6a7d089f724fb5c25494a167a6e
+      internalID: 1807100481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_11
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 693
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2b16f577e016b48958f7afc5969eda
+      internalID: -679328023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_12
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 688
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d566386953862e44bba922920ed8faf
+      internalID: 195566497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 664
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dd51b0286edb54c8a4c82f3784c16d
+      internalID: -731149231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_14
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 672
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c30e11d51aad540bf14d01e3168748
+      internalID: -1540894031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_15
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 664
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cde5da2fe38fbf4c94aabba47e9dfe5
+      internalID: -2115654083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_16
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 650
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40f6cb48c29604ebb768ebc4d891dd
+      internalID: 80841990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_17
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 633
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46ed28d07694c8e45b54c2bb54a423df
+      internalID: 1641225023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_18
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 648
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02435c5497405d64ebf89d91a12ac403
+      internalID: 1932687205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_19
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 632
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3256e4cb60dbf4da067599a1fb107a
+      internalID: -963762285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_20
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 635
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d940c957c835bc14bb783ada95f5d437
+      internalID: 753415579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 345
+        width: 131
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bf7a3727841f244b870430358fdb3e
+      internalID: -644796018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_22
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 344
+        width: 110
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa073cf52c7d8ad43a96ff6aca0219a6
+      internalID: -648331189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_23
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 464
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5060262ca33b5c40a74f9e0011ea735
+      internalID: -868718995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_24
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 342
+        width: 146
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adea3b3f7a884f4789d3360494c9a42
+      internalID: 1752992924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_25
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 456
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd333789e796f47821ff20faefe373
+      internalID: 500574158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_26
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 458
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426633f036bceb04bb15c1cd0defe77c
+      internalID: 637219680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_27
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 424
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9562b035bf481cb4b9881c2a75fe9705
+      internalID: -682846834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 401
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2450f24ce8f7cb488ee1a9909b640e8
+      internalID: -213673805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_29
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 422
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496b9e10db1ac18429c79976968b7b03
+      internalID: -759296670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_30
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 305
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f38f3a4c34a8941b882645e7309982
+      internalID: 1856240938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_31
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 401
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cba6ff49a07f944e990072368fa37e5
+      internalID: -1216476547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_32
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 379
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c514687f372cf44bea17247318405c
+      internalID: 1304174187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_33
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 352
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6ea8b328def9f48a5d333fcc9ab545
+      internalID: 543247663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_34
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 377
+        width: 77
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a020e695780313c41b2beede2d5f5e23
+      internalID: 551675490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_35
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 359
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10bf40c00baafab4b8473f69046c8232
+      internalID: -1247118934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_36
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 365
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295ddbcbf1a2c0043b6847b203247bd8
+      internalID: 1725020906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 248
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d30cb2020c62468eda3762412e0e9
+      internalID: 558418766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_38
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 89
+        width: 145
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853c307b3b9ee7c4fa6c46e75e244418
+      internalID: -1627994107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_39
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 248
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003d89ed14b27d84f9fa9a11927b91a1
+      internalID: 1183761667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_40
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 247
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3150a4d7c1a66f44aa140904857ba34
+      internalID: 1564326596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_41
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 261
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c71fd7c8794d704fa856b73d19ddcfa
+      internalID: -629359744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_42
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 49
+        width: 85
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea78a0a629f5f545b261cce0d4a594d
+      internalID: 1690617870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_43
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 248
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ccc0da0bbccf404280b4b14007f8737
+      internalID: -1713130855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_44
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 240
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1a137a3cf43a84db9099feafe06bfa
+      internalID: -1541314039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_45
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 227
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72fd8980a7cdacd45aa07ab3c9d022bb
+      internalID: 942130580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_46
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 227
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8cbafeef7460848aa8d570d11e7fed
+      internalID: 772729719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_47
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 232
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91748072dc7ecd478703e0cfb903930
+      internalID: -413279363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_48
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 235
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b925675d91e3b43bad590a28dd5918
+      internalID: 1908416389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_49
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 198
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffd7c09067f1c94d877c1ccf7498a5d
+      internalID: 482493958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_50
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 201
+        width: 141
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619057338e4496847a48c922ac82d36b
+      internalID: 1948477519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_51
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 102
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e579ed9a90d15b841a9c4ac088dcfbb3
+      internalID: 1215282098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_52
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 48
+        width: 49
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6544d24f548984c9f016d8522027e3
+      internalID: -1629625163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_53
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 98
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174460231e4ac3e45b8acda091161025
+      internalID: -172407716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_54
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 108
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f2115e742c3c0488abd779dea48e81
+      internalID: -1793671031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_55
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 103
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea54696bbcb3e641b3e2ac212d9e8a6
+      internalID: -1695604912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_56
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 87
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221de73a80f261b458e209c4c1c068f6
+      internalID: -574280225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_57
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 65
+        width: 95
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7309156071407834ab42c498831c63a6
+      internalID: 530052134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_58
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 70
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2f96bf0c240f643bd15e589c9acae5
+      internalID: 1001719400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_59
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 76
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885a3cd1721eae94494517abc192ed53
+      internalID: -419122121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Copilot_20250827_163715_60
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 59
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19e843ada51dfb46a59a5dc647745d9
+      internalID: 302975411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Copilot_20250827_163715_0: -1236349091
+      Copilot_20250827_163715_1: -1832266097
+      Copilot_20250827_163715_10: 1807100481
+      Copilot_20250827_163715_11: -679328023
+      Copilot_20250827_163715_12: 195566497
+      Copilot_20250827_163715_13: -731149231
+      Copilot_20250827_163715_14: -1540894031
+      Copilot_20250827_163715_15: -2115654083
+      Copilot_20250827_163715_16: 80841990
+      Copilot_20250827_163715_17: 1641225023
+      Copilot_20250827_163715_18: 1932687205
+      Copilot_20250827_163715_19: -963762285
+      Copilot_20250827_163715_2: -979766768
+      Copilot_20250827_163715_20: 753415579
+      Copilot_20250827_163715_21: -644796018
+      Copilot_20250827_163715_22: -648331189
+      Copilot_20250827_163715_23: -868718995
+      Copilot_20250827_163715_24: 1752992924
+      Copilot_20250827_163715_25: 500574158
+      Copilot_20250827_163715_26: 637219680
+      Copilot_20250827_163715_27: -682846834
+      Copilot_20250827_163715_28: -213673805
+      Copilot_20250827_163715_29: -759296670
+      Copilot_20250827_163715_3: 691757024
+      Copilot_20250827_163715_30: 1856240938
+      Copilot_20250827_163715_31: -1216476547
+      Copilot_20250827_163715_32: 1304174187
+      Copilot_20250827_163715_33: 543247663
+      Copilot_20250827_163715_34: 551675490
+      Copilot_20250827_163715_35: -1247118934
+      Copilot_20250827_163715_36: 1725020906
+      Copilot_20250827_163715_37: 558418766
+      Copilot_20250827_163715_38: -1627994107
+      Copilot_20250827_163715_39: 1183761667
+      Copilot_20250827_163715_4: 1774646208
+      Copilot_20250827_163715_40: 1564326596
+      Copilot_20250827_163715_41: -629359744
+      Copilot_20250827_163715_42: 1690617870
+      Copilot_20250827_163715_43: -1713130855
+      Copilot_20250827_163715_44: -1541314039
+      Copilot_20250827_163715_45: 942130580
+      Copilot_20250827_163715_46: 772729719
+      Copilot_20250827_163715_47: -413279363
+      Copilot_20250827_163715_48: 1908416389
+      Copilot_20250827_163715_49: 482493958
+      Copilot_20250827_163715_5: 1184505688
+      Copilot_20250827_163715_50: 1948477519
+      Copilot_20250827_163715_51: 1215282098
+      Copilot_20250827_163715_52: -1629625163
+      Copilot_20250827_163715_53: -172407716
+      Copilot_20250827_163715_54: -1793671031
+      Copilot_20250827_163715_55: -1695604912
+      Copilot_20250827_163715_56: -574280225
+      Copilot_20250827_163715_57: 530052134
+      Copilot_20250827_163715_58: 1001719400
+      Copilot_20250827_163715_59: -419122121
+      Copilot_20250827_163715_6: 526829580
+      Copilot_20250827_163715_60: 302975411
+      Copilot_20250827_163715_7: -2021698638
+      Copilot_20250827_163715_8: -1539926074
+      Copilot_20250827_163715_9: 273030090
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

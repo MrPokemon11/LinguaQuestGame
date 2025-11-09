@@ -36,8 +36,14 @@ public class Enemy : MonoBehaviour
     {
         if (isDead.runtimeValue)
         {
-            deathSignal.Raise(); // Raise the death signal if the enemy is already dead
-            gameObject.SetActive(false); // Deactivate the enemy if it is dead
+            //deathSignal.Raise(); // Raise the death signal if the enemy is already dead
+            // Make the enemy invisible if it is dead
+            var renderers = GetComponentsInChildren<Renderer>();
+            foreach (var renderer in renderers)
+            {
+                renderer.enabled = false;
+            }
+            enemyNameText.text = ""; // Clear the enemy name in the UI
             return;
         }
         currentState = EnemyState.Idle;
@@ -98,5 +104,17 @@ public class Enemy : MonoBehaviour
         Animation.SetBool("doge", true);
         yield return new WaitForSeconds(0.6f); // Adjust the wait time as needed for the dodge animation
         Animation.SetBool("doge", false);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            if (isDead.runtimeValue)
+            {
+                deathSignal.Raise(); // Raise the death signal if the enemy is already dead
+                gameObject.SetActive(false); // Deactivate the enemy GameObject
+            }
+        }
     }
 }

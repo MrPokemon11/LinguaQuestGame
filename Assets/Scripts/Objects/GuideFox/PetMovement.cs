@@ -17,6 +17,7 @@ public class PetMovement : MonoBehaviour
 
     [Header("State Transition Smoothing")]
     public float stateSwitchDelay = 0.5f; // seconds to wait before switching state
+    public float stopThreshold = 1f;    // how close to target counts as "arrived"
 
     private Vector3 orbitCenter;
     private Vector3 wanderTarget;
@@ -26,14 +27,13 @@ public class PetMovement : MonoBehaviour
     public Animator animator;
     private Vector3 lastMoveDir;
 
-    private enum PetState { Wandering, Chasing }
-    private PetState currentState = PetState.Wandering;
+    private enum PetState { Wandering, Chasing, Idle }
+    private PetState currentState = PetState.Idle;
     private PetState targetState = PetState.Wandering;
     private float stateTimer = 0f;
 
     void Start()
     {
-        //animator = this.GetComponent<Animator>();
         PickNewWanderTarget();
     }
 
@@ -41,16 +41,31 @@ public class PetMovement : MonoBehaviour
     {
         if (player == null) return;
 
-        // Decide orbit center based on player facing direction
+        // Orbit center depends on which way player is facing
         Vector3 offset = (player.localScale.x > 0) ? behindHeadOffsetRight : behindHeadOffsetLeft;
         orbitCenter = player.position + offset;
 
         float dist = Vector3.Distance(transform.position, orbitCenter);
 
-        // Desired state based on distance
-        targetState = (dist > followDistance) ? PetState.Chasing : PetState.Wandering;
+        float maxTeleportDistance = followDistance * 5f;
+        if (dist > maxTeleportDistance)
+        {
+            transform.position = orbitCenter;
+            animator.SetBool("isMoving", false);
+            currentState = PetState.Idle;
+            stateTimer = 0f;
+            return;
+        }
 
-        // Smooth switching between states
+        // Decide state
+        if (dist > followDistance)
+            targetState = PetState.Chasing;
+        else if (dist <= stopThreshold)
+            targetState = PetState.Idle;
+        else
+            targetState = PetState.Wandering;
+
+        // Smooth state transition
         if (targetState != currentState)
         {
             stateTimer += Time.deltaTime;
@@ -60,31 +75,32 @@ public class PetMovement : MonoBehaviour
                 stateTimer = 0f;
             }
         }
-        else
-        {
-            stateTimer = 0f;
-        }
+        else stateTimer = 0f;
 
-        // Execute behavior based on state
-        if (currentState == PetState.Chasing)
+        // Execute behavior
+        switch (currentState)
         {
-            MoveTowards(orbitCenter);
-        }
-        else
-        {
-            WanderAround();
+            case PetState.Chasing:
+                MoveTowards(orbitCenter);
+                break;
+
+            case PetState.Wandering:
+                WanderAround();
+                break;
+
+            case PetState.Idle:
+                IdleFacingPlayer();
+                break;
         }
     }
 
     void WanderAround()
     {
         wanderTimer += Time.deltaTime;
-
         if (wanderTimer >= nextWanderTime)
         {
             PickNewWanderTarget();
         }
-
         MoveTowards(wanderTarget);
     }
 
@@ -92,7 +108,6 @@ public class PetMovement : MonoBehaviour
     {
         Vector2 randomCircle = Random.insideUnitCircle * wanderRadius;
         wanderTarget = orbitCenter + new Vector3(randomCircle.x, randomCircle.y, 0);
-
         wanderTimer = 0f;
         nextWanderTime = Random.Range(wanderCooldownMin, wanderCooldownMax);
     }
@@ -100,9 +115,36 @@ public class PetMovement : MonoBehaviour
     void MoveTowards(Vector3 target)
     {
         Vector3 direction = (target - transform.position).normalized;
-        transform.position = Vector3.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
+        float distance = Vector3.Distance(transform.position, target);
 
-        UpdateAnimator(direction);
+        if (distance > stopThreshold)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, target, moveSpeed * Time.deltaTime);
+            UpdateAnimator(direction);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
+        }
+    }
+
+    void IdleFacingPlayer()
+    {
+        Vector3 toPlayer = (player.position - transform.position);
+        if (Mathf.Abs(toPlayer.x) > Mathf.Abs(toPlayer.y))
+        {
+            // Horizontal facing
+            lastMoveDir = (toPlayer.x > 0) ? Vector3.right : Vector3.left;
+        }
+        else
+        {
+            // Vertical facing
+            lastMoveDir = (toPlayer.y > 0) ? Vector3.up : Vector3.down;
+        }
+
+        animator.SetBool("isMoving", false);
+        animator.SetFloat("moveX", lastMoveDir.x);
+        animator.SetFloat("moveY", lastMoveDir.y);
     }
 
     void UpdateAnimator(Vector3 moveDir)
@@ -114,21 +156,8 @@ public class PetMovement : MonoBehaviour
             animator.SetFloat("moveY", moveDir.y);
             lastMoveDir = moveDir;
         }
-        else
-        {
-            animator.SetBool("isMoving", false);
-            animator.SetFloat("moveX", lastMoveDir.x);
-            animator.SetFloat("moveY", lastMoveDir.y);
-        }
     }
 
-    public void Appear()
-    {
-        animator.SetTrigger("Appear");
-    }
-
-    public void Disappear()
-    {
-        animator.SetTrigger("Disappear");
-    }
+    public void Appear() => animator.SetTrigger("Appear");
+    public void Disappear() => animator.SetTrigger("Disappear");
 }
