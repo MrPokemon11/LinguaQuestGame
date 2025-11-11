@@ -6,13 +6,14 @@ using System.Collections;
 public class PartyManager : MonoBehaviour
 {
     public static PartyManager Instance { get; private set; }
-    public List<Character> Party = new List<Character>();
+    public List<CharacterStats> Party = new List<CharacterStats>();
     public List<GameObject> PartyObjects = new List<GameObject>();
 
     [Header("Follow Settings")]
     public float followDistance = 2f;
 
-    [HideInInspector] public PlayerExploring playerMovement;
+    [HideInInspector] public PlayerExploring playerExploring;
+    [HideInInspector] public PlayerMovement playerMovement;
     [HideInInspector] public Transform player;
 
     void Awake()
@@ -33,42 +34,72 @@ public class PartyManager : MonoBehaviour
     // Called each time a scene changes
     void Initialize(Scene oldScene, Scene newScene)
     {
-        playerMovement = FindObjectOfType<PlayerExploring>();
+        playerExploring = null;
+        playerMovement = null;
+        StopAllCoroutines();
+        playerExploring = FindObjectOfType<PlayerExploring>();
 
-        if(playerMovement != null)
+        if(playerExploring != null)
         {
-            player = playerMovement.transform;
+            player = playerExploring.transform;
         }
         else
         {
-            Debug.LogError("No PlayerExploring script found in scene " + newScene.name);
-            return;
+            playerMovement = FindObjectOfType<PlayerMovement>();
+            
+            if(playerMovement != null)
+            {
+                player = playerMovement.transform;
+            }
+            else
+            {
+                Debug.LogError("No PlayerExploring or PlayerMovement script found in scene " + newScene.name);
+                return;
+            }
         }
 
-        if(Party.Count == 0)
+        CharacterCreator creator = player.GetComponent<CharacterCreator>();
+        
+        if(Party.Count > 1 && creator != null)
         {
-            CharacterCreator creator = player.GetComponent<CharacterCreator>();
-            if (creator != null)
-                UpdateParty(creator.character);
+            for(int i = 1; i < PartyObjects.Count; i++)
+            {
+                GameObject[] allObjects = FindObjectsOfType<GameObject>();
+
+                foreach(GameObject obj in allObjects)
+                {
+                    if (obj.name.StartsWith(PartyObjects[i].name))
+                    {
+                        Destroy(obj);
+                    }
+                }
+                Debug.Log("PARTY SYSTEM: Creating clone");
+                GameObject copy = Instantiate(PartyObjects[i], player.position, player.rotation);
+                StartCoroutine(FollowCoroutine(copy));
+            }
+        }
+        else if(creator != null)
+        {
+            UpdateParty(creator.character);
         }
     }
 
-    public void UpdateParty(Character character)
+    public void UpdateParty(CharacterStats creator)
     {
-        if (character == null)
+        if (creator == null)
         {
             Debug.LogError("No character found to update party. (character was null)");
             return;
         }
 
-        if (character.characterPrefab != null)
+        if (creator.character.characterPrefab != null)
         {
-            Party.Add(character);
-            PartyObjects.Add(character.characterPrefab);
+            Party.Add(creator);
+            PartyObjects.Add(creator.character.characterPrefab);
         }
         else
         {
-            Debug.LogError("No character object found on character. (characterPrefab was null, did you make a prefab for this character?)");
+            Debug.LogError($"No character object found on character {creator.character.name}. (characterPrefab was null, did you make a prefab for this character?)");
             return;
         }
     }
@@ -82,6 +113,13 @@ public class PartyManager : MonoBehaviour
         }
 
         CharacterCreator creator = follower.GetComponent<CharacterCreator>();
+
+        if(Party.Contains(creator.character))
+        {
+            Debug.Log("Already added character to party, returning.");
+            return;
+        }
+
         UpdateParty(creator.character);
         StartCoroutine(FollowCoroutine(follower));
     }
@@ -92,9 +130,9 @@ public class PartyManager : MonoBehaviour
     
         while(true)
         {
-            if(player == null) yield break;
-    
-            if(playerMovement.isMoving)
+            if(player == null || playerExploring == null) yield break;
+
+            if(playerExploring.isMoving)
             {
                 float distance = Vector3.Distance(player.position, followerTransform.position);
                 if(distance > followDistance)
@@ -102,11 +140,11 @@ public class PartyManager : MonoBehaviour
                     followerTransform.position = Vector3.Lerp(
                         followerTransform.position,
                         player.position,
-                        Time.deltaTime * playerMovement.speed
+                        Time.deltaTime * playerExploring.speed
                     );
                 }
             }
-    
+            
             yield return null;
         }
     }

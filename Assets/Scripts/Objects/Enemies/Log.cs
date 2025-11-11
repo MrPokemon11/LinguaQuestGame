@@ -84,7 +84,7 @@ public class Log : Enemy
     public void StartFighting()
     {
         player.GetComponent<PlayerExploring>().StartingPosition.runtimeValue = target.position;
-        SceneTracker.Instance.RecordSceneAndPosition(player.transform.position);
+        //SceneTracker.Instance.RecordSceneAndPosition(player.transform.position);
         SceneManager.LoadScene(SceneToFight);
     }
 }

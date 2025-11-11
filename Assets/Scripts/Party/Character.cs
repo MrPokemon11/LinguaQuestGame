@@ -1,15 +1,10 @@
 using System;
 using UnityEngine;
 
-[Serializable]
-public class Character
+[CreateAssetMenu(fileName = "NewCharacter", menuName = "Game/Character", order = 1)]
+public class Character : ScriptableObject
 {
-    public string name;
+    [Header("Character Info")]
+    public string characterName;
     public GameObject characterPrefab;
-    
-    //Stats
-    public int attack;
-    public int defense;
-    public int speed;
-    public int health;
 }
