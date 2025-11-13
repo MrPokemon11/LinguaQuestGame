@@ -6,12 +6,17 @@ using TMPro;
 public class WordLassoManager : MonoBehaviour
 {
     [Header("Setup")]
-    public Transform spawnArea;         // Reference to WordSpawnArea
-    public GameObject wordPrefab;       // Prefab of the word target
+    public Transform spawnArea;              // The WordSpawnArea in your scene
+    public GameObject wordPrefab;            // Prefab for each word target
     public WordOrderQuestion currentQuestion;
 
-    [Header("Gameplay")]
+    [Header("UI Feedback")]
+    public TMP_Text currentSentenceText;     // Optional TMP at bottom to show progress
+    public TMP_Text feedbackText;            // Optional TMP for “Correct!” / “Try again!”
+
+    [Header("Gameplay Data")]
     public List<WordTargetController> activeWords = new List<WordTargetController>();
+    private List<string> collectedWords = new List<string>();
 
     void Start()
     {
@@ -21,68 +26,113 @@ public class WordLassoManager : MonoBehaviour
         }
     }
 
+    // ---------------------------------------------------------------
+    // Spawning words
+    // ---------------------------------------------------------------
     public void SpawnWords(WordOrderQuestion question)
     {
-        // Clear old words if any
+        // Destroy old ones
         foreach (var w in activeWords)
         {
             if (w != null) Destroy(w.gameObject);
         }
         activeWords.Clear();
+        collectedWords.Clear();
+
+        UpdateSentenceText("");
+        UpdateFeedback("");
 
         currentQuestion = question;
 
-        // Shuffle the word parts
+        // Shuffle the word parts randomly
         List<string> shuffledParts = new List<string>(question.wordParts);
         for (int i = 0; i < shuffledParts.Count; i++)
         {
             int randIndex = Random.Range(i, shuffledParts.Count);
-            string temp = shuffledParts[i];
-            shuffledParts[i] = shuffledParts[randIndex];
-            shuffledParts[randIndex] = temp;
+            (shuffledParts[i], shuffledParts[randIndex]) = (shuffledParts[randIndex], shuffledParts[i]);
         }
 
-        // Determine spawn bounds
+        // Spawn words horizontally across spawn area
         Vector2 center = spawnArea.position;
         Vector2 halfSize = spawnArea.localScale / 2f;
-
-        // Calculate spacing for a horizontal line
         float spacing = (halfSize.x * 2f) / shuffledParts.Count;
 
-        // Spawn words in a horizontal line, evenly spaced
         for (int i = 0; i < shuffledParts.Count; i++)
         {
-            Vector2 spawnPos = new Vector2(
-                center.x - halfSize.x + spacing / 2f + i * spacing, // x position
-                center.y // y position fixed
-            );
-
+            Vector2 spawnPos = new Vector2(center.x - halfSize.x + spacing / 2f + i * spacing, center.y);
             GameObject newWord = Instantiate(wordPrefab, spawnPos, Quaternion.identity);
             var controller = newWord.GetComponent<WordTargetController>();
             controller.SetWord(shuffledParts[i], this);
-
             activeWords.Add(controller);
         }
     }
 
-    // Called when a word is “removed” (e.g. caught by the lasso)
-    public void OnWordRemoved(WordTargetController word)
+    // ---------------------------------------------------------------
+    // Called when a word reaches the catch zone
+    // ---------------------------------------------------------------
+    public void OnWordCollected(WordTargetController word)
     {
-        if (activeWords.Contains(word))
-        {
-            activeWords.Remove(word);
-            Destroy(word.gameObject);
+        string w = word.GetWord();
+        collectedWords.Add(w);
+        activeWords.Remove(word);
 
-            if (CheckIfOnlyCorrectWordsRemain())
+        UpdateSentenceText(string.Join(" ", collectedWords));
+
+        // Check correctness after each collection
+        if (collectedWords.Count == currentQuestion.wordParts.Length)
+        {
+            if (IsCorrectOrder())
             {
+                UpdateFeedback("Correct!");
                 Debug.Log("Sentence complete!");
+            }
+            else
+            {
+                UpdateFeedback("Try again!");
+                StartCoroutine(ResetAfterDelay(1.5f));
             }
         }
     }
 
-    bool CheckIfOnlyCorrectWordsRemain()
+    // ---------------------------------------------------------------
+    // Check if order matches correct sequence
+    // ---------------------------------------------------------------
+    bool IsCorrectOrder()
     {
-        // Placeholder for logic later: compare active words to correct order
-        return activeWords.Count == currentQuestion.correctOrderIndices.Length;
+        // Build what the correct answer should be
+        List<string> correctSequence = new List<string>();
+        foreach (int idx in currentQuestion.correctOrderIndices)
+        {
+            correctSequence.Add(currentQuestion.wordParts[idx]);
+        }
+
+        if (correctSequence.Count != collectedWords.Count)
+            return false;
+
+        for (int i = 0; i < correctSequence.Count; i++)
+        {
+            if (correctSequence[i] != collectedWords[i])
+                return false;
+        }
+
+        return true;
+    }
+
+    IEnumerator ResetAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        SpawnWords(currentQuestion);
+    }
+
+    void UpdateSentenceText(string txt)
+    {
+        if (currentSentenceText != null)
+            currentSentenceText.text = txt;
+    }
+
+    void UpdateFeedback(string txt)
+    {
+        if (feedbackText != null)
+            feedbackText.text = txt;
     }
 }

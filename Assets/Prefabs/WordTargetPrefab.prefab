@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6717215923968858368}
   - component: {fileID: 8335578999624677860}
   - component: {fileID: 488641074533581107}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: WordTargetPrefab
   m_TagString: Word
   m_Icon: {fileID: 0}
@@ -280,7 +280,7 @@ GameObject:
   - component: {fileID: 6142776661041438923}
   - component: {fileID: 6968487044215359577}
   - component: {fileID: 7313359945215478595}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
