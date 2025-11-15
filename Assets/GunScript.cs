@@ -69,4 +69,12 @@ public class GunScript : MonoBehaviour
 
         spring.connectedBody = target.GetComponent<Rigidbody2D>();
     }
+    public void ReleaseHook()
+    {
+        target = null;
+        line.enabled = false;
+
+        spring.connectedBody = null;
+        spring.enabled = false;
+    }
 }

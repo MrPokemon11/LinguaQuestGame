@@ -78,6 +78,8 @@ public class WordLassoManager : MonoBehaviour
 
         UpdateSentenceText(string.Join(" ", collectedWords));
 
+        FindObjectOfType<GunScript>().ReleaseHook();
+
         // Check correctness after each collection
         if (collectedWords.Count == currentQuestion.wordParts.Length)
         {
