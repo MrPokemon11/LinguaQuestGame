@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionText: Arrange the words to form a correct sentence.
   wordParts:
-  - Shirt
-  - Chapeau
-  - Qilaut
-  - Tuque
-  - Shoe
-  correctOrderIndices: 030000000100000002000000
-  explanation: 'This follows basic English structure: NP (Mary) + VP (had a little
-    lamb).'
+  - Wear
+  - your
+  - tuque
+  - outside
+  - today
+  correctOrderIndices: 0000000001000000020000000300000004000000
+  explanation: Canadian weather related imperative sentence
