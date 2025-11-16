@@ -23,7 +23,7 @@ public class WordTargetController : MonoBehaviour
         if (collision.CompareTag("CatchZone"))
         {
             collected = true;
-            manager.OnWordCollected(this); // new method you'll add in manager
+            manager.OnWordCollected(this);
             gameObject.SetActive(false);   // hide it after collection
         }
     }
