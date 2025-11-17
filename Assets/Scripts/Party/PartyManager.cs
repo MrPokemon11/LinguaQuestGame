@@ -7,6 +7,7 @@ public class PartyManager : MonoBehaviour
 {
     public static PartyManager Instance { get; private set; }
     public List<CharacterStats> Party = new List<CharacterStats>();
+    public List<GameObject> PartyPrefabs = new List<GameObject>();
     public List<GameObject> PartyObjects = new List<GameObject>();
 
     [Header("Follow Settings")]
@@ -34,6 +35,7 @@ public class PartyManager : MonoBehaviour
     // Called each time a scene changes
     void Initialize(Scene oldScene, Scene newScene)
     {
+        //Basically add the player to the party and bring other party members to other scenes
         playerExploring = null;
         playerMovement = null;
         StopAllCoroutines();
@@ -62,28 +64,29 @@ public class PartyManager : MonoBehaviour
         
         if(Party.Count > 1 && creator != null)
         {
-            for(int i = 1; i < PartyObjects.Count; i++)
+            for(int i = 1; i < PartyPrefabs.Count; i++)
             {
                 GameObject[] allObjects = FindObjectsOfType<GameObject>();
 
                 foreach(GameObject obj in allObjects)
                 {
-                    if (obj.name.StartsWith(PartyObjects[i].name))
+                    if (obj.name.StartsWith(PartyPrefabs[i].name))
                     {
                         Destroy(obj);
                     }
                 }
                 Debug.Log("PARTY SYSTEM: Creating clone");
-                GameObject copy = Instantiate(PartyObjects[i], player.position, player.rotation);
-                StartCoroutine(FollowCoroutine(copy));
+                GameObject copy = Instantiate(PartyPrefabs[i], player.position, player.rotation);
+                StartCoroutine(FollowCoroutine(copy, player));
             }
         }
-        else if(creator != null)
+        else if(creator != null && Party.Count < 1)
         {
             UpdateParty(creator.character);
         }
     }
 
+    //This is the actual process of adding to the party. Don't need to interact with this funciton.
     public void UpdateParty(CharacterStats creator)
     {
         if (creator == null)
@@ -95,7 +98,8 @@ public class PartyManager : MonoBehaviour
         if (creator.character.characterPrefab != null)
         {
             Party.Add(creator);
-            PartyObjects.Add(creator.character.characterPrefab);
+            PartyPrefabs.Add(creator.character.characterPrefab);
+            //PartyObjects.Add(creator.gameObject);
         }
         else
         {
@@ -104,6 +108,7 @@ public class PartyManager : MonoBehaviour
         }
     }
 
+    //Use PartyManager.Instance.AddToParty(Whatever GameObject); in other scripts to add them to the party
     public void AddToParty(GameObject follower)
     {
         if(player == null)
@@ -113,6 +118,11 @@ public class PartyManager : MonoBehaviour
         }
 
         CharacterCreator creator = follower.GetComponent<CharacterCreator>();
+        if(creator == null)
+        {
+            Debug.LogError($"No CharacterCreator component was found on the {follower.name} GameObject");
+            return;
+        }
 
         if(Party.Contains(creator.character))
         {
@@ -121,25 +131,68 @@ public class PartyManager : MonoBehaviour
         }
 
         UpdateParty(creator.character);
-        StartCoroutine(FollowCoroutine(follower));
+        StartCoroutine(FollowCoroutine(follower, player));
     }
 
-    private IEnumerator FollowCoroutine(GameObject follower)
+    /*
+        To modify a character's stat, you must reference:
+        - The character's name (string)
+        - The stat you want to change (StatType)
+        - The amount you want to increase or decrease by (int)
+
+        Example:
+            PartyManager.Instance.ModifyStat("Player", StatType.Attack, 5);   // Increases Player's attack by 5
+            PartyManager.Instance.ModifyStat("Player", StatType.Health, -10); // Decreases Player's health by 10
+
+        The available stat types are:
+            - StatType.Attack
+            - StatType.Defense
+            - StatType.Speed
+            - StatType.Health
+
+        If you want to add more stats:
+        1. Open CharacterStats.cs
+        2. Add a new integer field (e.g., public int mana;)
+        3. Add the corresponding StatType (e.g., Mana) in the StatType enum
+        4. Add a case for the new stat inside ModifyStat()
+
+        This system automatically supports any stat you add.
+    */
+    public void ModifyStat(string name, StatType type, int amount)
+    {
+        GetCharacter(name).ModifyStat(type, amount);
+    }
+
+    public CharacterStats GetCharacter(string name)
+    {
+        foreach(CharacterStats characterStat in Party)
+        {
+            if(characterStat.character.characterName == name)
+            {
+                return characterStat;
+            }
+        }
+
+        Debug.LogError($"CHARACTER {name} NOT FOUND IN PARTY");
+        return null;
+    }
+
+    private IEnumerator FollowCoroutine(GameObject follower, Transform objectToFollow)
     {
         Transform followerTransform = follower.transform;
     
         while(true)
         {
-            if(player == null || playerExploring == null) yield break;
+            if(objectToFollow == null || playerExploring == null) yield break;
 
             if(playerExploring.isMoving)
             {
-                float distance = Vector3.Distance(player.position, followerTransform.position);
+                float distance = Vector3.Distance(objectToFollow.position, followerTransform.position);
                 if(distance > followDistance)
                 {
                     followerTransform.position = Vector3.Lerp(
                         followerTransform.position,
-                        player.position,
+                        objectToFollow.position,
                         Time.deltaTime * playerExploring.speed
                     );
                 }
