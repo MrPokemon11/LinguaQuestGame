@@ -22,6 +22,7 @@ TagManager:
   - Gun
   - Word
   - CatchZone
+  - WordBlock
   layers:
   - Default
   - TransparentFX
