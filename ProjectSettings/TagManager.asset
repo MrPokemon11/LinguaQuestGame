@@ -19,6 +19,9 @@ TagManager:
   - Rabbit
   - MouseDeer
   - Coin
+  - Gun
+  - Word
+  - CatchZone
   - WordBlock
   layers:
   - Default
@@ -31,7 +34,7 @@ TagManager:
   - WordLabel
   - Enemy
   - Obstacles
-  - 
+  - Word
   - 
   - 
   - 
