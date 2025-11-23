@@ -129,6 +129,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 24
   lifetime: 2
+  isCorrectWave: 0
   energyCost: 10
   scoreReward: 50
   energyReward: 15

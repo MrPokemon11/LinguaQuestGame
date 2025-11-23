@@ -1,62 +1,85 @@
-// Assets/Scripts/Data/SentenceJsonLoader.cs
 using System.Collections.Generic;
-using UnityEngine;
 using System.IO;
+using UnityEngine;
 
 public static class SentenceJsonLoader
 {
-    [System.Serializable] private class EntryDTO { public string word; public string shownLabel; public bool isLabelCorrect; }
     [System.Serializable]
-    private class SentenceDTO
-    {
-        public string guid;
-        public string sentence;
-        public string language;
-        public string topic;
-        public string subtopic;
-        public int difficulty;
-        public List<EntryDTO> entries;
-    }
-    [System.Serializable]
-    private class PackDTO
+    private class SentencePack
     {
         public string packName;
         public string language;
-        public List<SentenceDTO> sentences;
+        public List<SentenceData> sentences;
     }
 
     public static List<SentenceData> LoadPackFromStreamingAssets(string filename)
     {
-        var path = Path.Combine(Application.streamingAssetsPath, filename);
-        if (!File.Exists(path)) { Debug.LogWarning($"[SentenceJsonLoader] Missing: {path}"); return new List<SentenceData>(); }
+        string path = Path.Combine(Application.streamingAssetsPath, filename);
 
-        var json = File.ReadAllText(path);
-        var pack = JsonUtility.FromJson<PackDTO>(json);
-        var list = new List<SentenceData>();
-
-        if (pack == null || pack.sentences == null) return list;
-
-        foreach (var s in pack.sentences)
+        if (!File.Exists(path))
         {
-            var sd = ScriptableObject.CreateInstance<SentenceData>();
-            sd.guid = string.IsNullOrEmpty(s.guid) ? System.Guid.NewGuid().ToString() : s.guid;
-            sd.sentence = s.sentence;
-            sd.language = string.IsNullOrEmpty(s.language) ? pack.language : s.language;
-            sd.topic = s.topic; sd.subtopic = s.subtopic; sd.difficulty = s.difficulty;
-
-            sd.entries = new List<SentenceData.Entry>();
-            if (s.entries != null)
-            {
-                foreach (var e in s.entries)
-                    sd.entries.Add(new SentenceData.Entry
-                    {
-                        word = e.word,
-                        shownLabel = e.shownLabel,
-                        isLabelCorrect = e.isLabelCorrect
-                    });
-            }
-            list.Add(sd);
+            Debug.LogError($"[SentenceJsonLoader] File not found: {path}");
+            return new List<SentenceData>();
         }
-        return list;
+
+        try
+        {
+            string json = File.ReadAllText(path);
+
+            // Deserialize the pack wrapper
+            SentencePack pack = JsonUtility.FromJson<SentencePack>(json);
+
+            if (pack == null)
+            {
+                Debug.LogError($"[SentenceJsonLoader] Failed to parse JSON from {filename}");
+                return new List<SentenceData>();
+            }
+
+            if (pack.sentences == null || pack.sentences.Count == 0)
+            {
+                Debug.LogWarning($"[SentenceJsonLoader] No sentences found in {filename}");
+                return new List<SentenceData>();
+            }
+
+            Debug.Log($"[SentenceJsonLoader] Loaded {pack.sentences.Count} sentences from {filename} (Pack: {pack.packName})");
+
+            return pack.sentences;
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[SentenceJsonLoader] Error loading {filename}: {e.Message}");
+            return new List<SentenceData>();
+        }
+    }
+
+    public static List<SentenceData> LoadPackFromResources(string filename)
+    {
+        TextAsset asset = Resources.Load<TextAsset>(filename);
+
+        if (asset == null)
+        {
+            Debug.LogError($"[SentenceJsonLoader] File not found in Resources: {filename}");
+            return new List<SentenceData>();
+        }
+
+        try
+        {
+            SentencePack pack = JsonUtility.FromJson<SentencePack>(asset.text);
+
+            if (pack == null || pack.sentences == null)
+            {
+                Debug.LogError($"[SentenceJsonLoader] Failed to parse JSON from Resources: {filename}");
+                return new List<SentenceData>();
+            }
+
+            Debug.Log($"[SentenceJsonLoader] Loaded {pack.sentences.Count} sentences from Resources/{filename}");
+
+            return pack.sentences;
+        }
+        catch (System.Exception e)
+        {
+            Debug.LogError($"[SentenceJsonLoader] Error loading from Resources {filename}: {e.Message}");
+            return new List<SentenceData>();
+        }
     }
 }

@@ -22,7 +22,7 @@ public class SwordWave : MonoBehaviour
     public int energyReward = 15;
 
     [Header("Area Effect")]
-    public float explosionRadius = 2f; // Radius to explode nearby blocks
+    public float explosionRadius = 0.1f; // Radius to explode nearby blocks
     public LayerMask wordBlockLayer; // Set to layer that WordBlocks are on
 
     [Header("Effects")]

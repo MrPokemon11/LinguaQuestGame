@@ -54,7 +54,7 @@ public class SyntaxSwordGameManager : MonoBehaviour
         }
 
         CurrentSentence = _roundQueue[_currentIndex];
-        if (sentenceTMP) sentenceTMP.text = CurrentSentence ? CurrentSentence.sentence : "";
+        if (sentenceTMP) sentenceTMP.text = CurrentSentence != null ? CurrentSentence.sentence : "";
         // Notify spawners (simple approach: broadcast)
         SendMessage("OnNewSentence", CurrentSentence, SendMessageOptions.DontRequireReceiver);
     }

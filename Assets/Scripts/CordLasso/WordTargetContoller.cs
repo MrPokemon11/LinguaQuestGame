@@ -8,11 +8,16 @@ public class WordTargetController : MonoBehaviour
     public TMP_Text label;
     private WordLassoManager manager;
     private bool collected = false;
+    private Vector3 initialPosition;
+    private Rigidbody2D cachedRb;
 
     public void SetWord(string word, WordLassoManager mgr)
     {
         label.text = word;
         manager = mgr;
+        initialPosition = transform.position;
+        collected = false;
+        cachedRb = GetComponent<Rigidbody2D>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -32,5 +37,20 @@ public class WordTargetController : MonoBehaviour
     {
         return label.text;
     }
-}
 
+    public void ResetWord()
+    {
+        collected = false;
+        gameObject.SetActive(true);
+        transform.position = initialPosition;
+
+        if (cachedRb == null)
+            cachedRb = GetComponent<Rigidbody2D>();
+
+        if (cachedRb != null)
+        {
+            cachedRb.velocity = Vector2.zero;
+            cachedRb.angularVelocity = 0f;
+        }
+    }
+}

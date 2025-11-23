@@ -12,6 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f93454186a0187408c39b2d32d02f93, type: 3}
   m_Name: SentenceRuntimeBank
   m_EditorClassIdentifier: 
+  useStreamingAssets: 0
   jsonFiles:
   - test1.json
-  sentences: []
+  sentences:
+  - guid: 7c6d9a20-aaaa-bbbb-cccc-001
+    sentence: I went for a run.
+    topic: word_classes
+    subtopic: noun_vs_verb
+    difficulty: 2
+    entries:
+    - word: I
+      shownLabel: Noun
+      isLabelCorrect: 0
+    - word: went
+      shownLabel: Verb
+      isLabelCorrect: 1
+    - word: for
+      shownLabel: Adjective
+      isLabelCorrect: 0
+    - word: a
+      shownLabel: Determiner
+      isLabelCorrect: 1
+    - word: run
+      shownLabel: Noun
+      isLabelCorrect: 1

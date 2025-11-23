@@ -1,0 +1,513 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+using UnityEngine.SceneManagement;
+public class FSMWanderingAnimalSmart : MonoBehaviour
+{
+    [Header("Movement Settings")]
+    public float wanderRadius = 5f;
+    public float wanderSpeed = 2.5f;
+    public float fleeSpeed = 4.5f;
+    public float scareRadius = 3f;
+    public float safeRadius = 5f;
+    public float safeDistance = 8f;
+    public float predatorDetectRadius = 5f;
+    public float predatorSafeRadius = 10f;
+    public float eatCooldown = 6f;
+
+    [Header("Food Settings")]
+    public string[] naturalFoodTags = { "Grass", "Berries", "Mushrooms" };
+    public string[] favouriteFoodTags = { "Carrot" };
+    public GameObject rewardPrefab; // Spawned when eating favorite food
+
+    [Header("Predator & Player")]
+    public string[] predatorTags = { "Wolf" };
+    private GameObject predator;
+    private GameObject player;
+
+    [Header("Death & Drops")]
+    public GameObject meatPrefab;
+
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip eatSound;
+
+    [Header("Misc")]
+    public LayerMask obstacleLayerMask;
+    public float scareReductionPerEat = 1f;
+    public float minScareRadius = 0f;
+
+    private Vector2 targetPosition;
+    private Rigidbody2D rb;
+    private Animator animator;
+
+    private GameObject targetFood;
+    private bool isDead = false;
+    private float lastEatTime = 0f;
+    public string SceneToFight;
+
+    private enum State { FleePredator, EatFavourite, FleePlayer, EatNatural, Wander, ApproachPlayer }
+    private State currentState;
+    public BoolValue hasRequestHelp;
+    [Header("Help Request")]
+    public Canvas helpCanvas;
+    public TextMeshProUGUI helpText;
+    public Vector3 helpBubbleOffset = new Vector3(0f, 2f, 0f);
+    public float helpApproachRange = 10f;
+    public float helpTalkRange = 2.5f;
+    public float helpMessageBaseDuration = 4f;
+    public float helpApproachSpeed = 3.5f;
+    public List<string> helpMessages = new List<string>()
+    {
+        "Excuse me, could you help me?",
+        "I lost my way and need guidance."
+    };
+
+    private bool showingHelp = false;
+    private Coroutine helpRoutine;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        StartCoroutine(FSMUpdate());
+    }
+
+    IEnumerator FSMUpdate()
+    {
+        while (true)
+        {
+            if (isDead) yield break;
+            if (showingHelp)
+            {
+                animator.SetBool("isWalking", false);
+                yield return null;
+                continue;
+            }
+
+            State previousState = currentState;
+            bool requestHelpFlag = HasRequestedHelp();
+
+            if (DetectPredator())
+            {
+                //Debug.Log("Predator detected, fleeing!");
+                currentState = State.FleePredator;
+            }
+            else if (DetectFavouriteFood())
+            {
+                //Debug.Log("Favourite food detected, eating!");
+                currentState = State.EatFavourite;
+            }
+            else if (!requestHelpFlag && DetectPlayerForHelp())
+            {
+                currentState = State.ApproachPlayer;
+            }
+            else if (requestHelpFlag && DetectPlayer())
+            {
+                //Debug.Log("Player detected, fleeing!");
+                currentState = State.FleePlayer;
+            }
+            else if (DetectNaturalFood())
+            {
+                //Debug.Log("Natural food detected, eating!");
+                currentState = State.EatNatural;
+            }
+            else
+            {
+                //Debug.Log("No threats or food detected, wandering.");
+                currentState = State.Wander;
+            }
+
+            if (previousState != currentState)
+            {
+                animator.SetBool("isWalking", true);
+            }
+
+            PerformCurrentState();
+
+            yield return null;
+        }
+    }
+
+    void PerformCurrentState()
+    {
+        switch (currentState)
+        {
+            case State.FleePredator:
+                Flee(predator.transform.position);
+                break;
+
+            case State.EatFavourite:
+                MoveTowards(targetFood.transform.position, wanderSpeed);
+                if (IsAtTarget(targetFood.transform.position))
+                    EatFood(true);
+                break;
+
+            case State.FleePlayer:
+                Flee(player.transform.position);
+                break;
+
+            case State.EatNatural:
+                MoveTowards(targetFood.transform.position, wanderSpeed);
+                if (IsAtTarget(targetFood.transform.position))
+                    EatFood(false);
+                break;
+
+            case State.ApproachPlayer:
+                ApproachPlayer();
+                break;
+
+            case State.Wander:
+                Wander();
+                break;
+        }
+    }
+
+    bool DetectPredator()
+    {
+        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, predatorDetectRadius);
+        foreach (var hit in hits)
+        {
+            foreach (string tag in predatorTags)
+            {
+                if (hit.CompareTag(tag))
+                {
+                    float dist = Vector2.Distance(transform.position, hit.transform.position);
+
+                    if (currentState == State.FleePredator)
+                    {
+                        if (dist > predatorSafeRadius)
+                            return false; // Stop fleeing predator
+                        else
+                        {
+                            predator = hit.gameObject;
+                            return true;  // Continue fleeing predator
+                        }
+                    }
+                    else
+                    {
+                        if (dist < predatorDetectRadius)
+                        {
+                            predator = hit.gameObject;
+                            return true; // Start fleeing predator
+                        }
+                    }
+                }
+            }
+        }
+        predator = null;
+        return false;
+    }
+
+    bool DetectPlayer()
+    {
+        if (player == null) return false;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+
+        if (currentState == State.FleePlayer)
+        {
+            if (distanceToPlayer > safeDistance)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+        else
+        {
+            if (distanceToPlayer < scareRadius)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+    }
+
+    bool DetectPlayerForHelp()
+    {
+        if (player == null) return false;
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+        return distanceToPlayer < helpApproachRange;
+    }
+
+    bool HasRequestedHelp()
+    {
+        return hasRequestHelp == null || hasRequestHelp.runtimeValue;
+    }
+
+    bool DetectFavouriteFood()
+    {
+        if (Time.time - lastEatTime < eatCooldown) return false;
+        return FindClosestFood(favouriteFoodTags, out targetFood);
+    }
+
+    bool DetectNaturalFood()
+    {
+        if (Time.time - lastEatTime < eatCooldown) return false;
+        //Debug.Log("Detecting natural food...");
+        return FindClosestFood(naturalFoodTags, out targetFood);
+    }
+
+    bool FindClosestFood(string[] tags, out GameObject closest)
+    {
+        Collider2D[] foods = Physics2D.OverlapCircleAll(transform.position, 50f);
+        float minDist = Mathf.Infinity;
+        closest = null;
+        //Debug.Log($"Found {foods.Length} potential foods");
+
+        foreach (var food in foods)
+        {
+            //Debug.Log($"Found food: {food.name} Tag: {food.tag}");
+            foreach (string tag in tags)
+            {
+                if (food.CompareTag(tag))
+                {
+                    float dist = Vector2.Distance(transform.position, food.transform.position);
+                    if (dist < minDist)
+                    {
+                        minDist = dist;
+                        closest = food.gameObject;
+                    }
+                }
+            }
+        }
+        return closest != null;
+    }
+
+    void EatFood(bool isFavourite)
+    {
+
+        if (targetFood == null || Time.time - lastEatTime < eatCooldown) return; // Safety check
+        lastEatTime = Time.time;
+        Destroy(targetFood);
+
+        if (isFavourite)
+        {
+            if (rewardPrefab != null)
+                Instantiate(rewardPrefab, transform.position, Quaternion.identity);
+
+            scareRadius = Mathf.Max(scareRadius - scareReductionPerEat, minScareRadius);
+        }
+
+        if (audioSource && eatSound)
+            audioSource.PlayOneShot(eatSound);
+
+        targetFood = null;
+    }
+
+    void Flee(Vector2 threatPos)
+    {
+        Vector2 dir = (transform.position - (Vector3)threatPos).normalized;
+        MoveTowards(transform.position + (Vector3)dir, fleeSpeed);
+    }
+
+    public float lastWanderChangeTime = 0f;
+    public float wanderChangeInterval = 1f;
+
+    void Wander()
+    {
+
+
+        // Only pick a new target position if enough time has passed or we've reached the target
+        if ((targetPosition == Vector2.zero || IsAtTarget(targetPosition)) || Time.time - lastWanderChangeTime > wanderChangeInterval)
+        {
+            // Try up to 10 times to find a valid target position not overlapping with obstacles
+            for (int i = 0; i < 10; i++)
+            {
+                Vector2 candidate = (Vector2)transform.position + Random.insideUnitCircle * wanderRadius;
+                if (!Physics2D.OverlapCircle(candidate, 0.3f, obstacleLayerMask))
+                {
+                    targetPosition = candidate;
+                    break;
+                }
+            }
+            //Debug.Log("New wander target position: " + targetPosition);
+            lastWanderChangeTime = Time.time;
+
+        }
+
+        Vector2 desiredDirection = (targetPosition - (Vector2)transform.position).normalized;
+        //Vector2 safeDir = FindSafeDirection(desiredDirection);
+        MoveInDirection(desiredDirection, wanderSpeed);
+    }
+
+    void MoveTowards(Vector2 destination, float speed)
+    {
+        Vector2 dir = (destination - (Vector2)transform.position).normalized;
+        rb.MovePosition(rb.position + dir * speed * Time.deltaTime);
+        animator.SetFloat("moveX", dir.x);
+        animator.SetFloat("moveY", dir.y);
+    }
+
+    // Renamed for clarity. This function just handles the "how" of moving.
+    void MoveInDirection(Vector2 direction, float speed)
+    {
+        // The direction is already calculated, so we just use it.
+        rb.MovePosition(rb.position + direction * speed * Time.deltaTime);
+        //Debug.Log("Moving in direction: " + direction);
+        animator.SetFloat("moveX", direction.x);
+        animator.SetFloat("moveY", direction.y);
+    }
+
+    void ApproachPlayer()
+    {
+        if (player == null)
+        {
+            currentState = State.Wander;
+            return;
+        }
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
+        if (distanceToPlayer > helpApproachRange)
+        {
+            currentState = State.Wander;
+            return;
+        }
+
+        if (distanceToPlayer > helpTalkRange)
+        {
+            MoveTowards(player.transform.position, helpApproachSpeed);
+        }
+        else
+        {
+            animator.SetBool("isWalking", false);
+            if (helpRoutine == null)
+                helpRoutine = StartCoroutine(ShowHelpMessages());
+        }
+    }
+
+    IEnumerator ShowHelpMessages()
+    {
+        if (helpCanvas == null || helpText == null || helpMessages == null || helpMessages.Count == 0)
+        {
+            Debug.LogWarning("Help bubble UI or messages not set on FSMWanderingAnimalSmart.");
+            helpRoutine = null;
+            yield break;
+        }
+
+        showingHelp = true;
+        helpCanvas.gameObject.SetActive(true);
+
+        foreach (var message in helpMessages)
+        {
+            helpText.text = message;
+            float duration = Mathf.Max(helpMessageBaseDuration, message.Length * 0.08f);
+            float elapsed = 0f;
+
+            while (elapsed < duration)
+            {
+                PositionHelpBubble();
+                if (Input.GetKeyDown(KeyCode.V))
+                {
+                    elapsed = duration; // Skip to next message
+                }
+                elapsed += Time.deltaTime;
+                yield return null;
+            }
+        }
+
+        helpText.text = "Press Y to help or N to decline.";
+        bool accepted = false;
+        bool declined = false;
+        while (!accepted && !declined)
+        {
+            PositionHelpBubble();
+            if (Input.GetKeyDown(KeyCode.Y))
+            {
+                accepted = true;
+                break;
+            }
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                declined = true;
+                break;
+            }
+            yield return null;
+        }
+
+        helpCanvas.gameObject.SetActive(false);
+        showingHelp = false;
+        helpRoutine = null;
+        if (hasRequestHelp != null)
+            hasRequestHelp.SetValue(true);
+
+        if (accepted)
+        {
+            startCordMinigame();
+        }
+    }
+
+    void PositionHelpBubble()
+    {
+        if (helpCanvas == null) return;
+
+        helpCanvas.transform.position = transform.position + helpBubbleOffset;
+        if (Camera.main != null)
+            helpCanvas.transform.rotation = Quaternion.LookRotation(
+                helpCanvas.transform.position - Camera.main.transform.position
+            );
+    }
+
+    bool IsAtTarget(Vector2 target)
+    {
+        return Vector2.Distance(transform.position, target) < 0.5f;
+    }
+
+    Vector2 FindSafeDirection(Vector2 desiredDir)
+    {
+        // Try 16 directions (every 22.5 degrees) for more granularity
+        // Increased detection distance from 1f to 2f for better obstacle avoidance
+        for (int i = 0; i < 16; i++)
+        {
+            float angle = i * 22.5f;
+            Vector2 dir = Quaternion.Euler(0, 0, angle) * desiredDir;
+            if (!Physics2D.CircleCast(transform.position, 0.2f, dir, 2f, obstacleLayerMask))
+            {
+                return dir;
+            }
+            if (!Physics2D.CircleCast(transform.position, 0.2f, -dir, 2f, obstacleLayerMask))
+            {
+                return -dir;
+            }
+        }
+
+        // If all directions blocked, try to move a little backwards (unstuck)
+
+        // If still stuck, just return a random direction
+        return Random.insideUnitCircle.normalized;
+    }
+
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("HitBox"))
+        {
+            Die();
+        }
+    }
+
+    public void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+        animator.SetTrigger("isDead");
+        if (meatPrefab != null)
+            Instantiate(meatPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject, 0.35f);
+    }
+
+    public void startCordMinigame()
+    {
+        player.GetComponent<PlayerExploring>().StartingPosition.runtimeValue = player.transform.position;
+        SceneTracker.Instance.RecordSceneAndPosition(player.transform.position);
+        SceneManager.LoadScene(SceneToFight);
+    }
+}

@@ -15,18 +15,30 @@ public class WordLassoManager : MonoBehaviour
     [Header("UI Feedback")]
     public TMP_Text currentSentenceText;
     public TMP_Text feedbackText;
-    public TMP_Text collectedWordsText;         
+    public TMP_Text collectedWordsText;
 
     [Header("UI Panels")]
-    public GameObject startPanel;               
-    public GameObject instructionPanel; 
+    public GameObject startPanel;
     public GameObject successPanel;
     public GameObject failPanel;
     public GameObject gameOverPanel;
+    [Header("Start Messages")]
+    public TMP_Text startPanelText;
+    public List<string> startMessages = new List<string>()
+    {
+        "Welcome to the word lasso!",
+        "Click to shoot the hook and grab words.",
+        "Collect them in the correct order to form the sentence.",
+        "Right-click to put back the last word.",
+        "Get all sentence correct to help lovely squirels gather nuts.",
+        "Good luck!"
+    };
+    public float startMessageDuration = 2f;
 
     [Header("Gameplay Data")]
     public List<WordTargetController> activeWords = new List<WordTargetController>();
     private List<string> collectedWords = new List<string>();
+    private Stack<WordTargetController> collectedWordStack = new Stack<WordTargetController>();
 
 
     void Start()
@@ -40,11 +52,8 @@ public class WordLassoManager : MonoBehaviour
 
     IEnumerator StartSequence()
     {
-        yield return new WaitForSeconds(2f);
-
-        // show instructions for 2 seconds
-        ShowOnly(instructionPanel);
-        yield return new WaitForSeconds(2f);
+        ShowOnly(startPanel);
+        yield return StartCoroutine(ShowStartMessages());
 
         HideAllPanels();
 
@@ -59,6 +68,14 @@ public class WordLassoManager : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            PutWordBack();
+        }
+    }
+
     public void SpawnWords(WordOrderQuestion question)
     {
         foreach (var w in activeWords)
@@ -66,6 +83,7 @@ public class WordLassoManager : MonoBehaviour
 
         activeWords.Clear();
         collectedWords.Clear();
+        collectedWordStack.Clear();
 
         UpdateSentenceText("");
         UpdateFeedback("");
@@ -101,6 +119,7 @@ public class WordLassoManager : MonoBehaviour
         string w = word.GetWord();
         collectedWords.Add(w);
         activeWords.Remove(word);
+        collectedWordStack.Push(word);
 
         UpdateSentenceText(string.Join(" ", collectedWords));
         UpdateCollectedWordsUI();
@@ -125,6 +144,31 @@ public class WordLassoManager : MonoBehaviour
                 StartCoroutine(ResetSameQuestionAfterDelay(1.5f));
             }
         }
+    }
+
+
+    public void PutWordBack()
+    {
+        if (collectedWordStack.Count == 0)
+            return;
+
+        var lastWord = collectedWordStack.Pop();
+
+        if (collectedWords.Count > 0)
+            collectedWords.RemoveAt(collectedWords.Count - 1);
+
+        lastWord.ResetWord();
+
+        if (!activeWords.Contains(lastWord))
+            activeWords.Add(lastWord);
+
+        UpdateSentenceText(string.Join(" ", collectedWords));
+        UpdateCollectedWordsUI();
+        UpdateFeedback("");
+
+        var gun = FindObjectOfType<GunScript>();
+        if (gun != null)
+            gun.ReleaseHook();
     }
 
 
@@ -163,7 +207,7 @@ public class WordLassoManager : MonoBehaviour
 
         if (currentQuestionIndex >= questions.Count)
         {
-            ShowOnly(gameOverPanel);
+            StartCoroutine(gameOver());
             yield break;
         }
 
@@ -181,7 +225,6 @@ public class WordLassoManager : MonoBehaviour
     void HideAllPanels()
     {
         if (startPanel) startPanel.SetActive(false);
-        if (instructionPanel) instructionPanel.SetActive(false);
         if (successPanel) successPanel.SetActive(false);
         if (failPanel) failPanel.SetActive(false);
         if (gameOverPanel) gameOverPanel.SetActive(false);
@@ -203,5 +246,55 @@ public class WordLassoManager : MonoBehaviour
     {
         if (collectedWordsText != null)
             collectedWordsText.text = "Collected: " + string.Join(" ", collectedWords);
+    }
+
+    IEnumerator ShowStartMessages()
+    {
+        if (startPanel == null)
+        {
+            yield return new WaitForSeconds(startMessageDuration);
+            yield break;
+        }
+
+        startPanel.SetActive(true);
+
+        if (startPanelText != null && startMessages != null && startMessages.Count > 0)
+        {
+            foreach (var msg in startMessages)
+            {
+                startPanelText.text = msg;
+                float duration = Mathf.Max(0.5f, startMessageDuration);
+                float elapsed = 0f;
+                while (elapsed < duration)
+                {
+                    if (Input.GetKeyDown(KeyCode.V))
+                    {
+                        break;
+                    }
+                    elapsed += Time.deltaTime;
+                    yield return null;
+                }
+            }
+        }
+        else
+        {
+            yield return new WaitForSeconds(startMessageDuration);
+        }
+    }
+
+    IEnumerator gameOver()
+    {
+        ShowOnly(gameOverPanel);
+        int ePressCount = 0;
+        while (ePressCount < 2)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                ePressCount++;
+            }
+            yield return null;
+        }
+
+        SceneTracker.Instance.ReturnToPreviousScene(true);
     }
 }

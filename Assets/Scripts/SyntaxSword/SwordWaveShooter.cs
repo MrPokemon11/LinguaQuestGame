@@ -33,6 +33,8 @@ public class SwordWaveShooter : MonoBehaviour
     private PlayerExploring player;
     private Animator animator;
     private Camera mainCamera;
+    private AudioSource audioSource;
+    public AudioClip shootSound;
 
     void Awake()
     {
@@ -55,6 +57,13 @@ public class SwordWaveShooter : MonoBehaviour
         if (mainCamera == null)
         {
             Debug.LogError("[SwordWaveShooter] Main Camera not found!");
+        }
+
+        // Get AudioSource component
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            Debug.LogError("[SwordWaveShooter] AudioSource component not found!");
         }
 
         // Start with wave type 1
@@ -145,6 +154,11 @@ public class SwordWaveShooter : MonoBehaviour
         if (SwordWaveManager.Instance != null)
         {
             SwordWaveManager.Instance.UseEnergy((int)energyCost);
+        }
+        // Play shoot sound
+        if (audioSource != null && shootSound != null)
+        {
+            audioSource.PlayOneShot(shootSound);
         }
     }
 

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: 1.1ReceiveItem
   m_EditorClassIdentifier: 
   messages:
-  - nice nice
-  - we get sth!
+  - Good Job! We found a magic note!
+  - 'Click B to open your bag and check your items!
+
+'
