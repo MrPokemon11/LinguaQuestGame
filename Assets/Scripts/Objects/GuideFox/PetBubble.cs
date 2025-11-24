@@ -10,16 +10,20 @@ public class PetBubble : MonoBehaviour
     public Vector3 offset = new Vector3(1.5f, 2f, 0f);
     public float baseDisplayDuration = 4f;
     public BoolValue hasShownIntroduction;
-    public List<string> startMessages = new List<string>() {
+    private List<string> startMessages = new List<string>() {
         "Dear explorer,",
-        "Welcome to the linguistic World!",
-        "Here, you will learn different linguistic skills.",
-        "and have fun!",
-        "I am your guide spirit.",
-        "I will help you on your journey.",
-        "Let's get started!",
+        "Welcome to the Linguistic World!",
+        "Here, you'll discover new language skills,",
+        "and enjoy a journey filled with adventure and learning.",
+        "I am your guiding spirit, here to support you throughout your travels.",
+        "Let's begin your adventure!",
         "Use WASD to move around.",
-        "Press E to interact."
+        "Press E to interact with characters and objects.",
+        "Left-click to swing your sword.",
+        "Make sure to swing your sword at small obstacles blocking your path!",
+        "Enemies will immediately engage you in combat when you touch them.",
+        "Stay alert and be ready!",
+        "That is all from me, good luck!"
     };
 
     private float timer = 0f;
