@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 1743842787509322069}
   - component: {fileID: 3404380449938776630}
   - component: {fileID: 7254468059743317482}
+  - component: {fileID: -1855843681453456937}
   m_Layer: 0
   m_Name: FightingPlayer
   m_TagString: Player
@@ -561,6 +562,24 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &-1855843681453456937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4423874571325688720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 809f99c7b9b8b58439fa5c79842f7cdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character:
+    character: {fileID: 11400000, guid: 1b3f372e897ffc740bdd7e5feb8f7010, type: 2}
+    attack: 0
+    defense: 0
+    speed: 0
+    health: 0
 --- !u!1 &6680769382369620001
 GameObject:
   m_ObjectHideFlags: 0
