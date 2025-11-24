@@ -35,7 +35,7 @@ public class SyntaxSwordGameManager : MonoBehaviour
     void Start()
     {
         // Load JSON → runtime list
-        runtimeBank.LoadAll();
+        //runtimeBank.LoadAll();
         _selector = new SentenceSelector(runtimeBank.sentences);
 
         // Build a round queue

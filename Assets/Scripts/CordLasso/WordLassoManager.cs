@@ -166,7 +166,7 @@ public class WordLassoManager : MonoBehaviour
         UpdateCollectedWordsUI();
         UpdateFeedback("");
 
-        var gun = FindObjectOfType<GunScript>();
+        var gun = FindFirstObjectByType<GunScript>();
         if (gun != null)
             gun.ReleaseHook();
     }

@@ -110,6 +110,9 @@ public class SwordWaveManager : MonoBehaviour
         if (loseUI) loseUI.SetActive(false);
     }
 
+    // ---------------------------------------------------------
+    // CHANGE 1: Update the Start Method
+    // ---------------------------------------------------------
     void Start()
     {
         bgmSource = GetComponent<AudioSource>();
@@ -119,7 +122,24 @@ public class SwordWaveManager : MonoBehaviour
             bgmSource.loop = true;
             bgmSource.Play();
         }
-        runtimeBank.LoadAll();
+
+        // OLD WAY (Crashes WebGL):
+        // runtimeBank.LoadAll();
+        // ... logic ...
+
+        // NEW WAY (Web Safe):
+        // We tell the bank: "Start downloading, and when you are done, run 'OnDataLoaded'"
+        StartCoroutine(runtimeBank.LoadAllCoroutine(OnDataLoaded));
+    }
+
+    // ---------------------------------------------------------
+    // CHANGE 2: Create this new Callback Method
+    // ---------------------------------------------------------
+    private void OnDataLoaded()
+    {
+        Debug.Log("[SwordWaveManager] Data download complete. Initializing Game Logic...");
+
+        // This logic is moved here because we can't do it until the JSON arrives
         _selector = new SentenceSelector(runtimeBank.sentences);
 
         _roundQueue = _selector.PickSet(sentencesPerRound, filterTopic, minDifficulty, maxDifficulty, avoidRepeats: true);
@@ -144,11 +164,22 @@ public class SwordWaveManager : MonoBehaviour
         }
 
         RefreshUI();
+
+        // Optional: If you want the game to start immediately after loading, call NextSentence() here.
+        // If you are waiting for the Beaver, do nothing and let OnBeaverFinished() handle it.
     }
 
     // Called from editor event (beaver bubble finished)
     public void OnBeaverFinished()
     {
+        // Safety Check: Is the round queue empty?
+        if (_roundQueue == null || _roundQueue.Count == 0)
+        {
+            Debug.LogWarning("[SwordWaveManager] Beaver finished, but data is still loading! Waiting...");
+            // Optionally: Start a Coroutine here to check again in 0.5 seconds
+            return;
+        }
+
         Debug.Log("[SwordWaveManager] Beaver finished talking! Starting game...");
         _gameStarted = true;
         _timeRemaining = timeLimit;
@@ -258,7 +289,7 @@ public class SwordWaveManager : MonoBehaviour
 
     private void BroadcastNewSentence()
     {
-        WordSpawnerPoint[] spawners = FindObjectsOfType<WordSpawnerPoint>();
+        WordSpawnerPoint[] spawners = FindFirstObjectByType<WordSpawnerPoint>().GetComponentsInChildren<WordSpawnerPoint>();
         Debug.Log($"[SwordWaveManager] Broadcasting to {spawners.Length} spawners");
 
         foreach (var spawner in spawners)
@@ -283,7 +314,7 @@ public class SwordWaveManager : MonoBehaviour
         Debug.Log($"[SwordWaveManager] ✗ Block cleared incorrectly: {word} ({label}) - Total mistakes: {_incorrectCuts}");
 
         // Tell spawner to requeue this block
-        WordSpawnerPoint spawner = FindObjectOfType<WordSpawnerPoint>();
+        WordSpawnerPoint spawner = FindFirstObjectByType<WordSpawnerPoint>();
         if (spawner != null)
         {
             spawner.RequeueBlock(word, label, isCorrect);
@@ -453,7 +484,7 @@ public class SwordWaveManager : MonoBehaviour
         }
 
         // Show queue count instead of blocks cleared
-        WordSpawnerPoint spawner = FindObjectOfType<WordSpawnerPoint>();
+        WordSpawnerPoint spawner = FindFirstObjectByType<WordSpawnerPoint>();
         int queueCount = spawner != null ? spawner.GetQueueCount() : 0;
         if (progressTMP) progressTMP.text = $"Remaining: {queueCount} | Total: {_totalBlocksCleared}/{_totalBlocksSpawned}";
     }

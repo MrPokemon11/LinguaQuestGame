@@ -41,4 +41,23 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BossFightingScene.unity
     guid: 4dc5eb7cd86f48f4db07e741e7c14cd4
+  - enabled: 1
+    path: Assets/Scenes/FightingCord.unity
+    guid: ee5d4af74150ddd40bc55e0352fdd677
+  - enabled: 1
+    path: Assets/Scenes/HouseInterior2.unity
+    guid: 7465cada26f99ba4ea80f67ef102f1b5
+  - enabled: 1
+    path: Assets/Scenes/HouseInterior3.unity
+    guid: d709a4a1a771ada4b9f65f2498c9d7b1
+  - enabled: 1
+    path: Assets/Scenes/NewSyntaxSword.unity
+    guid: 09b4dd4ec58f553498e52e55cd7ea7b1
+  - enabled: 1
+    path: Assets/Scenes/World3.unity
+    guid: 79637da3a1628174589bf04743fec2c8
+  - enabled: 1
+    path: Assets/Scenes/World4.unity
+    guid: 92d1de51475013746af6f8ea3cf30d50
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

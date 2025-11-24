@@ -121,7 +121,7 @@ public class WordBlock : MonoBehaviour
         if (_rb == null) return;
 
         Vector2 pos = transform.position;
-        Vector2 velocity = _rb.velocity;
+        Vector2 velocity = _rb.linearVelocity;
         bool hitBoundary = false;
 
         if (pos.x < minBounds.x)
@@ -153,7 +153,7 @@ public class WordBlock : MonoBehaviour
         if (hitBoundary)
         {
             transform.position = pos;
-            _rb.velocity = velocity;
+            _rb.linearVelocity = velocity;
         }
     }
 

@@ -49,7 +49,7 @@ public class WordTargetController : MonoBehaviour
 
         if (cachedRb != null)
         {
-            cachedRb.velocity = Vector2.zero;
+            cachedRb.linearVelocity = Vector2.zero;
             cachedRb.angularVelocity = 0f;
         }
     }

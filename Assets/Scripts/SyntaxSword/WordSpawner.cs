@@ -205,7 +205,7 @@ public class WordSpawnerPoint : MonoBehaviour
 
             float vx = Random.Range(leftSpeedRange.x, leftSpeedRange.y);
             float vy = Random.Range(upSpeedRange.x, upSpeedRange.y);
-            rb.velocity = new Vector2(vx, vy);
+            rb.linearVelocity = new Vector2(vx, vy);
         }
         else
         {
