@@ -95,17 +95,19 @@ public class WordLassoManager : MonoBehaviour
         {
             int randIndex = Random.Range(i, shuffledParts.Count);
             (shuffledParts[i], shuffledParts[randIndex]) =
-                (shuffledParts[randIndex], shuffledParts[i]);
+            (shuffledParts[randIndex], shuffledParts[i]);
         }
 
         // spawn words horizontally
         Vector2 center = spawnArea.position;
         Vector2 halfSize = spawnArea.localScale / 2f;
-        float spacing = (halfSize.x * 2f) / shuffledParts.Count;
+        float spacing = (halfSize.x * 2f) / shuffledParts.Count * 1.3f;
 
+        // Adjust the spawn position of the first word
+        float offset = 2.0f; // Adjust this value to move the first word more left
         for (int i = 0; i < shuffledParts.Count; i++)
         {
-            Vector2 spawnPos = new Vector2(center.x - halfSize.x + spacing / 2f + i * spacing, center.y);
+            Vector2 spawnPos = new Vector2(center.x - halfSize.x + spacing / 2f + i * spacing - offset, center.y);
             GameObject newWord = Instantiate(wordPrefab, spawnPos, Quaternion.identity);
             var controller = newWord.GetComponent<WordTargetController>();
             controller.SetWord(shuffledParts[i], this);
@@ -124,7 +126,7 @@ public class WordLassoManager : MonoBehaviour
         UpdateSentenceText(string.Join(" ", collectedWords));
         UpdateCollectedWordsUI();
 
-        FindObjectOfType<GunScript>().ReleaseHook();
+        FindFirstObjectByType<GunScript>().ReleaseHook();
 
         // when all the words are collected
         if (collectedWords.Count == questions[currentQuestionIndex].wordParts.Length)
@@ -286,7 +288,7 @@ public class WordLassoManager : MonoBehaviour
     {
         ShowOnly(gameOverPanel);
         int ePressCount = 0;
-        while (ePressCount < 2)
+        while (ePressCount < 1)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {

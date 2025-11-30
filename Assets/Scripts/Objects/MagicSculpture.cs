@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using NUnit.Framework;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class MagicSculpture : Sign
@@ -16,6 +18,10 @@ public class MagicSculpture : Sign
     public MiniGame_WordOrder wordOrderManager;
     public MiniGame_FeatureMatch featureMatchManager;
     public GameObject PlayerPrefab;
+    public string[] preparedDialogs;
+    public string[] actualDialogs;
+    public bool hasPreparedDialogs = false;
+    public BoolValue[] prereqs;
     public enum ChallengeType
     {
         WordOrder,
@@ -38,9 +44,9 @@ public class MagicSculpture : Sign
             if (isCompleted && spriteRenderer != null)
             {
                 // Change appearance to indicate completion
-                spriteRenderer.color = Color.green; // Example: turn the statue green
                 // Optionally, you can also make it semi-transparent if desired:
                 // spriteRenderer.color = new Color(0f, 1f, 0f, 0.7f); // green and semi-transparent
+                this.gameObject.SetActive(false);
             }
         }
         if (PlayerPrefab == null)
@@ -52,6 +58,7 @@ public class MagicSculpture : Sign
 
     public override void Update()
     {
+
         if (isCompleted)
         {
             return;
@@ -62,41 +69,47 @@ public class MagicSculpture : Sign
             {
                 audioSource.PlayOneShot(interactSound);
             }
+            checkPrereqs();
 
             if (!dialogBox.activeSelf)
             {
+                checkPrereqs();
                 dialogBox.SetActive(true);
                 currentDialogIndex = 0;
-                dialogText.text = dialogs.Length > 0 ? dialogs[currentDialogIndex] : "";
+                dialogText.text = actualDialogs.Length > 0 ? actualDialogs[currentDialogIndex] : "";
             }
             else
             {
+                checkPrereqs();
                 currentDialogIndex++;
-                if (currentDialogIndex < dialogs.Length)
+                if (currentDialogIndex < actualDialogs.Length)
                 {
-                    dialogText.text = dialogs[currentDialogIndex];
+                    dialogText.text = actualDialogs[currentDialogIndex];
                 }
                 else
                 {
                     dialogBox.SetActive(false);
                     dialogActive = false;
                     currentDialogIndex = 0;
-                    PlayerPrefab.GetComponent<PlayerExploring>().changeState(PlayerState.interact);
-                    switch (challengeType)
+                    if (hasPreparedDialogs)
                     {
-                        case ChallengeType.WordOrder:
-                            wordOrderManager.Launch(wordOrderData, OnMiniGameCompleted);
-                            break;
+                        Debug.Log("All dialogs completed, launching mini-game.");
+                        PlayerPrefab.GetComponent<PlayerExploring>().changeState(PlayerState.interact);
+                        switch (challengeType)
+                        {
+                            case ChallengeType.WordOrder:
+                                wordOrderManager.Launch(wordOrderData, OnMiniGameCompleted);
+                                break;
 
-                        case ChallengeType.MultipleChoice:
-                            quizManager.LaunchQuestion(questionData, OnMiniGameCompleted);
-                            break;
-                        case ChallengeType.FeatureMatch:
-                            featureMatchManager.Launch(featureMatchQuestions, OnMiniGameCompleted);
-                            break;
+                            case ChallengeType.MultipleChoice:
+                                quizManager.LaunchQuestion(questionData, OnMiniGameCompleted);
+                                break;
+                            case ChallengeType.FeatureMatch:
+                                featureMatchManager.Launch(featureMatchQuestions, OnMiniGameCompleted);
+                                break;
 
+                        }
                     }
-
                 }
             }
         }
@@ -119,8 +132,12 @@ public class MagicSculpture : Sign
                 sculptureCompletion.runtimeValue = true;
             }
             interactSignal.Raise();
+            PlayerPrefab.GetComponent<PlayerExploring>().changeState(PlayerState.walk);
+            if (gameObject != null)
+            {
+                gameObject.SetActive(false);
+            }
             // Change appearance to indicate completion
-            spriteRenderer.color = Color.green; // Example: turn the statue green
             // Optionally, you can also make it semi-transparent if desired:
             // spriteRenderer.color = new Color(0f, 1f, 0f, 0.7f); // green and semi-transparent
         }
@@ -129,5 +146,23 @@ public class MagicSculpture : Sign
             Debug.Log("Failed mini-game. Try again later.");
         }
         PlayerPrefab.GetComponent<PlayerExploring>().changeState(PlayerState.walk);
+
+    }
+
+    public void checkPrereqs()
+    {
+        foreach (BoolValue prereq in prereqs)
+        {
+            if (prereq.runtimeValue == false)
+            {
+                Debug.Log("Resetting to original dialogs.");
+                actualDialogs = dialogs;
+                hasPreparedDialogs = false;
+                return;
+            }
+        }
+        Debug.Log("All prerequisites met, switching to prepared dialogs.");
+        actualDialogs = preparedDialogs;
+        hasPreparedDialogs = true;
     }
 }

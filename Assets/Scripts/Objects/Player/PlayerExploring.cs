@@ -9,7 +9,8 @@ public enum PlayerState
     walk,
     attack,
     interact,
-    stagger
+    stagger,
+    slip
 }
 
 
@@ -57,7 +58,7 @@ public class PlayerExploring : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
-        stepSoundManager = FindObjectOfType<StepSoundManager>();
+        stepSoundManager = FindFirstObjectByType<StepSoundManager>();
         myRigidbody = GetComponent<Rigidbody2D>();
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
@@ -70,6 +71,15 @@ public class PlayerExploring : MonoBehaviour
         lastStepSoundTime += Time.deltaTime;
         if (currentState == PlayerState.interact)
             return;
+        if (currentState == PlayerState.slip)
+        {
+            UpdateAnimationSlip();
+            return;
+        }
+        else
+        {
+            animator.SetBool("slipping", false);
+        }
 
         change = UnityEngine.Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
@@ -119,6 +129,26 @@ public class PlayerExploring : MonoBehaviour
         {
             isMoving = false;
             animator.SetBool("moving", false);
+        }
+    }
+
+    private void UpdateAnimationSlip()
+    {
+        if (change != UnityEngine.Vector3.zero)
+        {
+            animator.SetFloat("moveX", change.x);
+            animator.SetFloat("moveY", change.y);
+            animator.SetBool("slipping", true);
+            myRigidbody.MovePosition(myRigidbody.position + new UnityEngine.Vector2(change.x, change.y) * speed * Time.fixedDeltaTime);
+            if (stepSoundManager != null && lastStepSoundTime >= stepSoundCooldown)
+            {
+                lastStepSoundTime = 0f;
+                stepSoundManager.PlayStepSound(transform.position);
+            }
+        }
+        else
+        {
+            animator.SetBool("slipping", false);
         }
     }
 
