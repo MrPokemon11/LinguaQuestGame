@@ -27,6 +27,8 @@ public class WordSpawnerPoint : MonoBehaviour
     private SentenceData _currentSentence;
     private float _lastSpawnY;
     private bool _isSpawning = false;
+    public float spawnTime = 0.15f;
+    public Signal spawnSignal; // Signal to listen for new sentences
 
     // Helper class to store block data
     [System.Serializable]
@@ -106,7 +108,9 @@ public class WordSpawnerPoint : MonoBehaviour
     private IEnumerator SpawnLoop()
     {
         _isSpawning = true;
-        var wait = new WaitForSeconds(spawnInterval);
+        var wait = new WaitForSeconds(spawnInterval - spawnTime);
+
+
 
         while (true)
         {
@@ -136,13 +140,15 @@ public class WordSpawnerPoint : MonoBehaviour
             }
 
             yield return wait;
+            spawnSignal.Raise();
+            yield return new WaitForSeconds(spawnTime);
         }
     }
 
     private bool AreAllBlocksGone()
     {
         // Check if any WordBlocks still exist in the scene
-        WordBlock[] remainingBlocks = FindObjectsOfType<WordBlock>();
+        WordBlock[] remainingBlocks = Object.FindObjectsByType<WordBlock>(FindObjectsSortMode.None);
         return remainingBlocks.Length == 0;
     }
 
@@ -170,11 +176,7 @@ public class WordSpawnerPoint : MonoBehaviour
         Vector3 basePos = spawnPoint.position;
         _lastSpawnY += verticalSpacing;
 
-        var pos = new Vector3(
-            basePos.x,
-            _lastSpawnY,
-            0f
-        );
+        var pos = gameObject.transform.position;
 
         // Reset Y position if it goes too high
         if (_lastSpawnY > basePos.y + 10f)
@@ -182,6 +184,7 @@ public class WordSpawnerPoint : MonoBehaviour
             _lastSpawnY = basePos.y;
         }
 
+        spawnSignal.Raise();
         var wb = Instantiate(wordBlockPrefab, pos, Quaternion.identity);
 
         var wordBlock = wb.GetComponent<WordBlock>();

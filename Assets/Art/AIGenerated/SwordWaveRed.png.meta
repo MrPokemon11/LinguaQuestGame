@@ -1,0 +1,5525 @@
+fileFormatVersion: 2
+guid: 69a2f870ec24a4e4f899fe74f99b02a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5190282784622234276
+    second: SwordWaveRed_0
+  - first:
+      213: -3909356021224664523
+    second: SwordWaveRed_1
+  - first:
+      213: 7362253647138911640
+    second: SwordWaveRed_2
+  - first:
+      213: 1740165813497066270
+    second: SwordWaveRed_3
+  - first:
+      213: 1758631233143702811
+    second: SwordWaveRed_4
+  - first:
+      213: 8030971837689751577
+    second: SwordWaveRed_5
+  - first:
+      213: 7687713857926841270
+    second: SwordWaveRed_6
+  - first:
+      213: -277472403248536704
+    second: SwordWaveRed_7
+  - first:
+      213: 11419054171859598
+    second: SwordWaveRed_8
+  - first:
+      213: 449617312253523159
+    second: SwordWaveRed_9
+  - first:
+      213: 1473868750639412049
+    second: SwordWaveRed_10
+  - first:
+      213: -6883162261648190420
+    second: SwordWaveRed_11
+  - first:
+      213: -1841032510641563199
+    second: SwordWaveRed_12
+  - first:
+      213: -7626666553472651247
+    second: SwordWaveRed_13
+  - first:
+      213: 2573250600520462580
+    second: SwordWaveRed_14
+  - first:
+      213: 5359319664569111964
+    second: SwordWaveRed_15
+  - first:
+      213: -4038990740321287329
+    second: SwordWaveRed_16
+  - first:
+      213: -4238982168603522709
+    second: SwordWaveRed_17
+  - first:
+      213: 6234374021058751939
+    second: SwordWaveRed_18
+  - first:
+      213: 1162433560972692717
+    second: SwordWaveRed_19
+  - first:
+      213: -1440265493697620978
+    second: SwordWaveRed_20
+  - first:
+      213: 6536645068643965063
+    second: SwordWaveRed_21
+  - first:
+      213: 7316395924743765753
+    second: SwordWaveRed_22
+  - first:
+      213: -1205742028684861406
+    second: SwordWaveRed_23
+  - first:
+      213: -1061214493200139557
+    second: SwordWaveRed_24
+  - first:
+      213: 1648664625932667585
+    second: SwordWaveRed_25
+  - first:
+      213: 2663801109909767713
+    second: SwordWaveRed_26
+  - first:
+      213: -459029325482050825
+    second: SwordWaveRed_27
+  - first:
+      213: 4306048471652116674
+    second: SwordWaveRed_28
+  - first:
+      213: -8549431548390232393
+    second: SwordWaveRed_29
+  - first:
+      213: -5416972819228639483
+    second: SwordWaveRed_30
+  - first:
+      213: 2121017288612346594
+    second: SwordWaveRed_31
+  - first:
+      213: -6254300444300982731
+    second: SwordWaveRed_32
+  - first:
+      213: -8083686571398363564
+    second: SwordWaveRed_33
+  - first:
+      213: -2402440358501648137
+    second: SwordWaveRed_34
+  - first:
+      213: -3099884292328914741
+    second: SwordWaveRed_35
+  - first:
+      213: 7689320771349608362
+    second: SwordWaveRed_36
+  - first:
+      213: 4223223574807836455
+    second: SwordWaveRed_37
+  - first:
+      213: 3208820665750981469
+    second: SwordWaveRed_38
+  - first:
+      213: 3916881195738970967
+    second: SwordWaveRed_39
+  - first:
+      213: 3281807082804219187
+    second: SwordWaveRed_40
+  - first:
+      213: -6942204906363965202
+    second: SwordWaveRed_41
+  - first:
+      213: -9113614462311746316
+    second: SwordWaveRed_42
+  - first:
+      213: -4177323627418765730
+    second: SwordWaveRed_43
+  - first:
+      213: -1404690569904742926
+    second: SwordWaveRed_44
+  - first:
+      213: -5038822723313924997
+    second: SwordWaveRed_45
+  - first:
+      213: 4059744460407318376
+    second: SwordWaveRed_46
+  - first:
+      213: -7244115734276905869
+    second: SwordWaveRed_47
+  - first:
+      213: -7738563963818891419
+    second: SwordWaveRed_48
+  - first:
+      213: 5616607066330975752
+    second: SwordWaveRed_49
+  - first:
+      213: -5956991440688233528
+    second: SwordWaveRed_50
+  - first:
+      213: -2903587316496343584
+    second: SwordWaveRed_51
+  - first:
+      213: 5976809041625193839
+    second: SwordWaveRed_52
+  - first:
+      213: -6816528475312322547
+    second: SwordWaveRed_53
+  - first:
+      213: -5558203505649770299
+    second: SwordWaveRed_54
+  - first:
+      213: 3600396251563078724
+    second: SwordWaveRed_55
+  - first:
+      213: -7997836995841290461
+    second: SwordWaveRed_56
+  - first:
+      213: 7093090360320132783
+    second: SwordWaveRed_57
+  - first:
+      213: -5834879426115746482
+    second: SwordWaveRed_58
+  - first:
+      213: -5174125543500939223
+    second: SwordWaveRed_59
+  - first:
+      213: -458871040563825794
+    second: SwordWaveRed_60
+  - first:
+      213: 6025760124190537065
+    second: SwordWaveRed_61
+  - first:
+      213: 3652883529608219579
+    second: SwordWaveRed_62
+  - first:
+      213: -5724263314495457166
+    second: SwordWaveRed_63
+  - first:
+      213: -1679440152682643323
+    second: SwordWaveRed_64
+  - first:
+      213: -5819466332974331492
+    second: SwordWaveRed_65
+  - first:
+      213: 7901633780968937465
+    second: SwordWaveRed_66
+  - first:
+      213: -744393346248439301
+    second: SwordWaveRed_67
+  - first:
+      213: -4340985135996912705
+    second: SwordWaveRed_68
+  - first:
+      213: -1353488622577842557
+    second: SwordWaveRed_69
+  - first:
+      213: -3637600678088181868
+    second: SwordWaveRed_70
+  - first:
+      213: -2504947423158498193
+    second: SwordWaveRed_71
+  - first:
+      213: -2320815366752878219
+    second: SwordWaveRed_72
+  - first:
+      213: 866156286151373135
+    second: SwordWaveRed_73
+  - first:
+      213: 8606069748177566954
+    second: SwordWaveRed_74
+  - first:
+      213: 8301416487449100774
+    second: SwordWaveRed_75
+  - first:
+      213: 2566420283308355862
+    second: SwordWaveRed_76
+  - first:
+      213: -7289606219191970416
+    second: SwordWaveRed_77
+  - first:
+      213: 7311401401753664024
+    second: SwordWaveRed_78
+  - first:
+      213: 2103789207281079251
+    second: SwordWaveRed_79
+  - first:
+      213: 6680580064867639529
+    second: SwordWaveRed_80
+  - first:
+      213: 7034597358660305761
+    second: SwordWaveRed_81
+  - first:
+      213: 1191564257214661956
+    second: SwordWaveRed_82
+  - first:
+      213: -921610731778109574
+    second: SwordWaveRed_83
+  - first:
+      213: 4020227289990242381
+    second: SwordWaveRed_84
+  - first:
+      213: -1943289787943196724
+    second: SwordWaveRed_85
+  - first:
+      213: 6833492258801620934
+    second: SwordWaveRed_86
+  - first:
+      213: 2500125233761849506
+    second: SwordWaveRed_87
+  - first:
+      213: 8246602462732380837
+    second: SwordWaveRed_88
+  - first:
+      213: -6781936120782745873
+    second: SwordWaveRed_89
+  - first:
+      213: 8941634910322321455
+    second: SwordWaveRed_90
+  - first:
+      213: -5428075542286550350
+    second: SwordWaveRed_91
+  - first:
+      213: 562089725757387680
+    second: SwordWaveRed_92
+  - first:
+      213: -9174191033487346249
+    second: SwordWaveRed_93
+  - first:
+      213: -4616955974605006352
+    second: SwordWaveRed_94
+  - first:
+      213: 5144185355250493150
+    second: SwordWaveRed_95
+  - first:
+      213: 4838884568784252827
+    second: SwordWaveRed_96
+  - first:
+      213: 7453720238151948453
+    second: SwordWaveRed_97
+  - first:
+      213: 8408021802281794897
+    second: SwordWaveRed_98
+  - first:
+      213: -9084101060733122255
+    second: SwordWaveRed_99
+  - first:
+      213: -8091493866913047072
+    second: SwordWaveRed_100
+  - first:
+      213: -5556796344405824631
+    second: SwordWaveRed_101
+  - first:
+      213: 6830614470317361543
+    second: SwordWaveRed_102
+  - first:
+      213: -1231456064037029699
+    second: SwordWaveRed_103
+  - first:
+      213: -4033297088107928062
+    second: SwordWaveRed_104
+  - first:
+      213: -5636798836159840389
+    second: SwordWaveRed_105
+  - first:
+      213: -2551504479594792279
+    second: SwordWaveRed_106
+  - first:
+      213: -6533670515255306195
+    second: SwordWaveRed_107
+  - first:
+      213: 6375047114912922059
+    second: SwordWaveRed_108
+  - first:
+      213: 1710094317061921974
+    second: SwordWaveRed_109
+  - first:
+      213: 8880218390687438059
+    second: SwordWaveRed_110
+  - first:
+      213: 6209233442485050710
+    second: SwordWaveRed_111
+  - first:
+      213: 558447328625197352
+    second: SwordWaveRed_112
+  - first:
+      213: -6628224014758211919
+    second: SwordWaveRed_113
+  - first:
+      213: 9210067550056409450
+    second: SwordWaveRed_114
+  - first:
+      213: -8161123913604094565
+    second: SwordWaveRed_115
+  - first:
+      213: -61824354492743911
+    second: SwordWaveRed_116
+  - first:
+      213: 7186413010616222018
+    second: SwordWaveRed_117
+  - first:
+      213: 237440465549442107
+    second: SwordWaveRed_118
+  - first:
+      213: 2422486279387519113
+    second: SwordWaveRed_119
+  - first:
+      213: -7820653033037922243
+    second: SwordWaveRed_120
+  - first:
+      213: -7990179958808673654
+    second: SwordWaveRed_121
+  - first:
+      213: -6059937934809887792
+    second: SwordWaveRed_122
+  - first:
+      213: 6584603771358144799
+    second: SwordWaveRed_123
+  - first:
+      213: 2544674148863304587
+    second: SwordWaveRed_124
+  - first:
+      213: 2984796239488225629
+    second: SwordWaveRed_125
+  - first:
+      213: 8633473383322902598
+    second: SwordWaveRed_126
+  - first:
+      213: -4152747649832258942
+    second: SwordWaveRed_127
+  - first:
+      213: -3634719686553049082
+    second: SwordWaveRed_128
+  - first:
+      213: -251366328814857460
+    second: SwordWaveRed_129
+  - first:
+      213: -9044226272286252475
+    second: SwordWaveRed_130
+  - first:
+      213: 5920604394337651030
+    second: SwordWaveRed_131
+  - first:
+      213: -7375842241157230066
+    second: SwordWaveRed_132
+  - first:
+      213: 5171851148627320384
+    second: SwordWaveRed_133
+  - first:
+      213: -2926399282491361883
+    second: SwordWaveRed_134
+  - first:
+      213: 191166386373691285
+    second: SwordWaveRed_135
+  - first:
+      213: 4006297695773797718
+    second: SwordWaveRed_136
+  - first:
+      213: -1286340906721626309
+    second: SwordWaveRed_137
+  - first:
+      213: -1399334263591064517
+    second: SwordWaveRed_138
+  - first:
+      213: -7448519621333811510
+    second: SwordWaveRed_139
+  - first:
+      213: 3588527192257316598
+    second: SwordWaveRed_140
+  - first:
+      213: 1436520769402648090
+    second: SwordWaveRed_141
+  - first:
+      213: -5943552969449755514
+    second: SwordWaveRed_142
+  - first:
+      213: -393808538332890378
+    second: SwordWaveRed_143
+  - first:
+      213: 3906208681544676850
+    second: SwordWaveRed_144
+  - first:
+      213: -1086014286230262934
+    second: SwordWaveRed_145
+  - first:
+      213: -6262266957178326281
+    second: SwordWaveRed_146
+  - first:
+      213: -6696425566721259888
+    second: SwordWaveRed_147
+  - first:
+      213: 7106186423207208402
+    second: SwordWaveRed_148
+  - first:
+      213: 3095484894903941607
+    second: SwordWaveRed_149
+  - first:
+      213: -4279879651652574804
+    second: SwordWaveRed_150
+  - first:
+      213: -846920766025840295
+    second: SwordWaveRed_151
+  - first:
+      213: -8680974005335547606
+    second: SwordWaveRed_152
+  - first:
+      213: 1697717148442504762
+    second: SwordWaveRed_153
+  - first:
+      213: -5385736442631660060
+    second: SwordWaveRed_154
+  - first:
+      213: 4993121410582383106
+    second: SwordWaveRed_155
+  - first:
+      213: 7491216195393408819
+    second: SwordWaveRed_156
+  - first:
+      213: 6658161541336717979
+    second: SwordWaveRed_157
+  - first:
+      213: -6999705263482136980
+    second: SwordWaveRed_158
+  - first:
+      213: 1688134913884252581
+    second: SwordWaveRed_159
+  - first:
+      213: 1295296477141198028
+    second: SwordWaveRed_160
+  - first:
+      213: 4892550410222309354
+    second: SwordWaveRed_161
+  - first:
+      213: -2188427379414897774
+    second: SwordWaveRed_162
+  - first:
+      213: 8716768880088089016
+    second: SwordWaveRed_163
+  - first:
+      213: 127109943329624602
+    second: SwordWaveRed_164
+  - first:
+      213: -6794867992040803740
+    second: SwordWaveRed_165
+  - first:
+      213: 6084868839219847111
+    second: SwordWaveRed_166
+  - first:
+      213: 6298651269824952378
+    second: SwordWaveRed_167
+  - first:
+      213: 5993255416961724440
+    second: SwordWaveRed_168
+  - first:
+      213: 3394223959588008372
+    second: SwordWaveRed_169
+  - first:
+      213: -6497864068813020443
+    second: SwordWaveRed_170
+  - first:
+      213: -4773311774028567187
+    second: SwordWaveRed_171
+  - first:
+      213: 8104188237143084970
+    second: SwordWaveRed_172
+  - first:
+      213: 237830561857638826
+    second: SwordWaveRed_173
+  - first:
+      213: -7913541972903017846
+    second: SwordWaveRed_174
+  - first:
+      213: -2508335764880552962
+    second: SwordWaveRed_175
+  - first:
+      213: 1993134543382696814
+    second: SwordWaveRed_176
+  - first:
+      213: 3195194655053487797
+    second: SwordWaveRed_177
+  - first:
+      213: -602419480523570151
+    second: SwordWaveRed_178
+  - first:
+      213: 2385492679831896929
+    second: SwordWaveRed_179
+  - first:
+      213: 7589129166344213967
+    second: SwordWaveRed_180
+  - first:
+      213: -1113815882547510353
+    second: SwordWaveRed_181
+  - first:
+      213: -6652399257121418978
+    second: SwordWaveRed_182
+  - first:
+      213: -2365576486249047376
+    second: SwordWaveRed_183
+  - first:
+      213: 7499280529438139205
+    second: SwordWaveRed_184
+  - first:
+      213: 1363194755706823196
+    second: SwordWaveRed_185
+  - first:
+      213: -7104881364653351657
+    second: SwordWaveRed_186
+  - first:
+      213: -3127149591911066314
+    second: SwordWaveRed_187
+  - first:
+      213: 5473068824301282282
+    second: SwordWaveRed_188
+  - first:
+      213: -1652028369981414907
+    second: SwordWaveRed_189
+  - first:
+      213: 2156232681391714837
+    second: SwordWaveRed_190
+  - first:
+      213: 2425522513155752529
+    second: SwordWaveRed_191
+  - first:
+      213: -3986554645816212131
+    second: SwordWaveRed_192
+  - first:
+      213: -4245995318840785622
+    second: SwordWaveRed_193
+  - first:
+      213: -6829456560738374182
+    second: SwordWaveRed_194
+  - first:
+      213: -855069405617711775
+    second: SwordWaveRed_195
+  - first:
+      213: -4147054324919768751
+    second: SwordWaveRed_196
+  - first:
+      213: 8824753323925187338
+    second: SwordWaveRed_197
+  - first:
+      213: 2537134529105696631
+    second: SwordWaveRed_198
+  - first:
+      213: -1795910044604807365
+    second: SwordWaveRed_199
+  - first:
+      213: -5359902995356755168
+    second: SwordWaveRed_200
+  - first:
+      213: 5146988365068572838
+    second: SwordWaveRed_201
+  - first:
+      213: 1572360387627530684
+    second: SwordWaveRed_202
+  - first:
+      213: -1402013189322958035
+    second: SwordWaveRed_203
+  - first:
+      213: -970212860295239646
+    second: SwordWaveRed_204
+  - first:
+      213: -8429163482333974904
+    second: SwordWaveRed_205
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwordWaveRed_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 153
+        width: 1833
+        height: 1898
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aacb3d71b6970840800000000000000
+      internalID: 5190282784622234276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_1
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 2095
+        width: 49
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5329e5e496d2fb9c0800000000000000
+      internalID: -3909356021224664523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_2
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 2163
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895f9086faafb2660800000000000000
+      internalID: 7362253647138911640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_3
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 2149
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1375cb669f462810800000000000000
+      internalID: 1740165813497066270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_4
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 2128
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b150076f9c9e76810800000000000000
+      internalID: 1758631233143702811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_5
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 2104
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918e9a2265eb37f60800000000000000
+      internalID: 8030971837689751577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_6
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 2086
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3c394c50f30ba60800000000000000
+      internalID: 7687713857926841270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_7
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1882
+        width: 91
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083a561c158362cf0800000000000000
+      internalID: -277472403248536704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_8
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 2086
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8aa59bb191982000800000000000000
+      internalID: 11419054171859598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_9
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2038
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4bcb5309c5d3600800000000000000
+      internalID: 449617312253523159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_10
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 2024
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153396fd1db347410800000000000000
+      internalID: 1473868750639412049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_11
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 2009
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24d51f34681a70a0800000000000000
+      internalID: -6883162261648190420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_12
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1967
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9934f8fa65376e0800000000000000
+      internalID: -1841032510641563199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_13
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1946
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110f8eb6d23a82690800000000000000
+      internalID: -7626666553472651247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_14
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1931
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0351a99c506b320800000000000000
+      internalID: 2573250600520462580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_15
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1922
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95586c07d0206a40800000000000000
+      internalID: 5359319664569111964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_16
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1895
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53ce08325f92f7c0800000000000000
+      internalID: -4038990740321287329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_17
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 1846
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b690c2f3d2c1c25c0800000000000000
+      internalID: -4238982168603522709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_18
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1660
+        width: 71
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd612a1422f48650800000000000000
+      internalID: 6234374021058751939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_19
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1822
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec05c43a2bc12010800000000000000
+      internalID: 1162433560972692717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_20
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 1791
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0496e11a26230ce0800000000000000
+      internalID: -1440265493697620978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_21
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1775
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788155bae04d6ba50800000000000000
+      internalID: 6536645068643965063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_22
+      rect:
+        serializedVersion: 2
+        x: 1888
+        y: 1776
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9feb772645f098560800000000000000
+      internalID: 7316395924743765753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_23
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 1769
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220ea716308544fe0800000000000000
+      internalID: -1205742028684861406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_24
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 1765
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda3f4e7a0fc541f0800000000000000
+      internalID: -1061214493200139557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_25
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1749
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca08760ebb31e610800000000000000
+      internalID: 1648664625932667585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_26
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1622
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126867cfef8b7f420800000000000000
+      internalID: 2663801109909767713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_27
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1658
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fab721b24331a9f0800000000000000
+      internalID: -459029325482050825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_28
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1645
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c82072454822cb30800000000000000
+      internalID: 4306048471652116674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_29
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1565
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7beaea6bd415a5980800000000000000
+      internalID: -8549431548390232393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_30
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1558
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f3ee7dbeb03d4b0800000000000000
+      internalID: -5416972819228639483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_31
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1563
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea73328cfd5f6d10800000000000000
+      internalID: 2121017288612346594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_32
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1541
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5364fd2f1e24439a0800000000000000
+      internalID: -6254300444300982731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_33
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1529
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456843c74e9f0df80800000000000000
+      internalID: -8083686571398363564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_34
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1517
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8727df831d8aed0800000000000000
+      internalID: -2402440358501648137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_35
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1508
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc00ce6f8affaf4d0800000000000000
+      internalID: -3099884292328914741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_36
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1501
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa773547084f5ba60800000000000000
+      internalID: 7689320771349608362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_37
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727f9773777eb9a30800000000000000
+      internalID: 4223223574807836455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_38
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1447
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b050af465088c20800000000000000
+      internalID: 3208820665750981469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_39
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1441
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bbd6be1be8b5630800000000000000
+      internalID: 3916881195738970967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_40
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1411
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d08ef67225b8d20800000000000000
+      internalID: 3281807082804219187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_41
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1393
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0b3364b6558af90800000000000000
+      internalID: -6942204906363965202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_42
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1366
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4bb0abeefe58180800000000000000
+      internalID: -9113614462311746316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_43
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1366
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56bbd31b4a2706c0800000000000000
+      internalID: -4177323627418765730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_44
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1359
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd9c797e59818ce0800000000000000
+      internalID: -1404690569904742926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_45
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1355
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7405b21e61821ab0800000000000000
+      internalID: -5038822723313924997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_46
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1347
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8672079c31c175830800000000000000
+      internalID: 4059744460407318376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_47
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1327
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3746b92ee1bb77b90800000000000000
+      internalID: -7244115734276905869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_48
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1316
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567afe853191b9490800000000000000
+      internalID: -7738563963818891419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_49
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1297
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e4b976e5232fd40800000000000000
+      internalID: 5616607066330975752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_50
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1303
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c34cbf98d3845da0800000000000000
+      internalID: -5956991440688233528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_51
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1289
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edd7e138b264b7d0800000000000000
+      internalID: -2903587316496343584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_52
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1277
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d99682824e1f250800000000000000
+      internalID: 5976809041625193839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_53
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1261
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d088cab9773d661a0800000000000000
+      internalID: -6816528475312322547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_54
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1256
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c02a683c5b4dd2b0800000000000000
+      internalID: -5558203505649770299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_55
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1256
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444b019a05d27f130800000000000000
+      internalID: 3600396251563078724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_56
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1243
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f076b60a9f10190800000000000000
+      internalID: -7997836995841290461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_57
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1248
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa601a61a18bf6260800000000000000
+      internalID: 7093090360320132783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_58
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1234
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e45c2239318560fa0800000000000000
+      internalID: -5834879426115746482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_59
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 1239
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9200a5c5b30d138b0800000000000000
+      internalID: -5174125543500939223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_60
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1234
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73ba754833c1a9f0800000000000000
+      internalID: -458871040563825794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_61
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 1221
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965371838eccf9350800000000000000
+      internalID: 6025760124190537065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_62
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1225
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb4c246736a1b230800000000000000
+      internalID: 3652883529608219579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_63
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1204
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b2ba08d45f80b0800000000000000
+      internalID: -5724263314495457166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_64
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1211
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580c2d5441e61b8e0800000000000000
+      internalID: -1679440152682643323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_65
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1172
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9948b8f33a1d3fa0800000000000000
+      internalID: -5819466332974331492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_66
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 1172
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f751e32f0e38ad60800000000000000
+      internalID: 7901633780968937465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_67
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1161
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf982bf02326ba5f0800000000000000
+      internalID: -744393346248439301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_68
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1138
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb37a1b409b1c3c0800000000000000
+      internalID: -4340985135996912705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_69
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1135
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38607b3d441773de0800000000000000
+      internalID: -1353488622577842557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_70
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1140
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49775d3c475a48dc0800000000000000
+      internalID: -3637600678088181868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_71
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1131
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c8b952793ac3dd0800000000000000
+      internalID: -2504947423158498193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_72
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5714d6b58becacfd0800000000000000
+      internalID: -2320815366752878219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_73
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1119
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41360c9d84350c00800000000000000
+      internalID: 866156286151373135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_74
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 982
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecfb5cc6d6ee6770800000000000000
+      internalID: 8606069748177566954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_75
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 934
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e189f2005e843370800000000000000
+      internalID: 8301416487449100774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_76
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 902
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611b3f276a1cd9320800000000000000
+      internalID: 2566420283308355862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_77
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 883
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095959004cd16da90800000000000000
+      internalID: -7289606219191970416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_78
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 865
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81af1d166d0577560800000000000000
+      internalID: 7311401401753664024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_79
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 863
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d31a4e3329223d10800000000000000
+      internalID: 2103789207281079251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_80
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 864
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0edfb7c2036bc50800000000000000
+      internalID: 6680580064867639529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_81
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 844
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16349dcd609ef9160800000000000000
+      internalID: 7034597358660305761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_82
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 831
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4450556f069498010800000000000000
+      internalID: 1191564257214661956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_83
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 803
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f8d2f1ce7c533f0800000000000000
+      internalID: -921610731778109574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_84
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 786
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4023309b67bac730800000000000000
+      internalID: 4020227289990242381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_85
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 776
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc7600edb3c0805e0800000000000000
+      internalID: -1943289787943196724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_86
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 774
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c79045010175de50800000000000000
+      internalID: 6833492258801620934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_87
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 768
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a09d5467aa32b220800000000000000
+      internalID: 2500125233761849506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_88
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 753
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa660b5f31d17270800000000000000
+      internalID: 8246602462732380837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_89
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 743
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee8a57c709b1e1a0800000000000000
+      internalID: -6781936120782745873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_90
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 734
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f286efc7391171c70800000000000000
+      internalID: 8941634910322321455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_91
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 713
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3600bd0a9ba4b0800000000000000
+      internalID: -5428075542286550350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_92
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 708
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a37aa3a0a1fcc700800000000000000
+      internalID: 562089725757387680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_93
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 704
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5b96bacd9bea080800000000000000
+      internalID: -9174191033487346249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_94
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 703
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91d06b0074defb0800000000000000
+      internalID: -4616955974605006352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_95
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 700
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6e8765351d36740800000000000000
+      internalID: 5144185355250493150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_96
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f2187b0eb272340800000000000000
+      internalID: 4838884568784252827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_97
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 671
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8df2aa01fe07760800000000000000
+      internalID: 7453720238151948453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_98
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 671
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15dfeb4184b4fa470800000000000000
+      internalID: 8408021802281794897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_99
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 647
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139c043073acee180800000000000000
+      internalID: -9084101060733122255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_100
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 650
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed5568d23d35bf80800000000000000
+      internalID: -8091493866913047072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_101
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 639
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b608a7a2b42e2b0800000000000000
+      internalID: -5556796344405824631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_102
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 633
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789c8ecaba73bce50800000000000000
+      internalID: 6830614470317361543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_103
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 618
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8729afb3df8eee0800000000000000
+      internalID: -1231456064037029699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_104
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 589
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206a5bdeaa9d608c0800000000000000
+      internalID: -4033297088107928062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_105
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 593
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f7b54d25116c1b0800000000000000
+      internalID: -5636798836159840389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_106
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 580
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa3feab13c379cd0800000000000000
+      internalID: -2551504479594792279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_107
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 539
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2893c2884db355a0800000000000000
+      internalID: -6533670515255306195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_108
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 544
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc973c61397b87850800000000000000
+      internalID: 6375047114912922059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_109
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 527
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcd3ec88b97bb710800000000000000
+      internalID: 1710094317061921974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_110
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 536
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4d0d0b39fdc3b70800000000000000
+      internalID: 8880218390687438059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_111
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 511
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d1cc20be0ab2650800000000000000
+      internalID: 6209233442485050710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_112
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 516
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8218878f2e000c700800000000000000
+      internalID: 558447328625197352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_113
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 494
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1be8f9c5061d304a0800000000000000
+      internalID: -6628224014758211919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_114
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 497
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69e676c3abb0df70800000000000000
+      internalID: 9210067550056409450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_115
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 473
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95aea14a0dddbe80800000000000000
+      internalID: -8161123913604094565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_116
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 460
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ffdffb31b542ff0800000000000000
+      internalID: -61824354492743911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_117
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 460
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2418603de844bb360800000000000000
+      internalID: 7186413010616222018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_118
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 445
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cb06c68de8b4300800000000000000
+      internalID: 237440465549442107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_119
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 440
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 988962caf666e9120800000000000000
+      internalID: 2422486279387519113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_120
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 431
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3081368085777390800000000000000
+      internalID: -7820653033037922243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_121
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 411
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8283c749ad2d1190800000000000000
+      internalID: -7990179958808673654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_122
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 421
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db0eb22e86c6eba0800000000000000
+      internalID: -6059937934809887792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_123
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 418
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19ef7a4e36316b50800000000000000
+      internalID: 6584603771358144799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_124
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 391
+        width: 30
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83ed18f7af705320800000000000000
+      internalID: 2544674148863304587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_125
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 412
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d511e9d9d502c6920800000000000000
+      internalID: 2984796239488225629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_126
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 359
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64060cecc4240d770800000000000000
+      internalID: 8633473383322902598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_127
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 364
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282f8e1c30a7e56c0800000000000000
+      internalID: -4152747649832258942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_128
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 353
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608e2e0e3b1ee8dc0800000000000000
+      internalID: -3634719686553049082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_129
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 331
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c031f7ed7a7f28cf0800000000000000
+      internalID: -251366328814857460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_130
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 346
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5426f1caf147c7280800000000000000
+      internalID: -9044226272286252475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_131
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 347
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659cc14f3563a2250800000000000000
+      internalID: 5920604394337651030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_132
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 329
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0290808f8eb3a990800000000000000
+      internalID: -7375842241157230066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_133
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 319
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e9021d73b16c740800000000000000
+      internalID: 5171851148627320384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_134
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 319
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5f4287b575367d0800000000000000
+      internalID: -2926399282491361883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_135
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 309
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5978cc8c0d827a200800000000000000
+      internalID: 191166386373691285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_136
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 287
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d201d278a399730800000000000000
+      internalID: 4006297695773797718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_137
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 272
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37bdcab2cff52ee0800000000000000
+      internalID: -1286340906721626309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_138
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 254
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c2f98b6e0949ce0800000000000000
+      internalID: -1399334263591064517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_139
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 245
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acefedb4eda81a890800000000000000
+      internalID: -7448519621333811510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_140
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 252
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6c351f7720dc130800000000000000
+      internalID: 3588527192257316598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_141
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 223
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1637bc570c8fe310800000000000000
+      internalID: 1436520769402648090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_142
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 216
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68caa388012448da0800000000000000
+      internalID: -5943552969449755514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_143
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 172
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6faf62b8839e88af0800000000000000
+      internalID: -393808538332890378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_144
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f574029914a53630800000000000000
+      internalID: 3906208681544676850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_145
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 173
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bee38b2c3bde0f0800000000000000
+      internalID: -1086014286230262934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_146
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 130
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f238b0a165f719a0800000000000000
+      internalID: -6262266957178326281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_147
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 131
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0964cbe1d648113a0800000000000000
+      internalID: -6696425566721259888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_148
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 137
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d528f6d6ee3e9260800000000000000
+      internalID: 7106186423207208402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_149
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 119
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e936508c1f55fa20800000000000000
+      internalID: 3095484894903941607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_150
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 121
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca163d1f120da94c0800000000000000
+      internalID: -4279879651652574804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_151
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 115
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959c02cec022f34f0800000000000000
+      internalID: -846920766025840295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_152
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 111
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21239bc22cf68780800000000000000
+      internalID: -8680974005335547606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_153
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 116
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e210a60c08f8710800000000000000
+      internalID: 1697717148442504762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_154
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 101
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed50138d350245b0800000000000000
+      internalID: -5385736442631660060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_155
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a092ed7712b4540800000000000000
+      internalID: 4993121410582383106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_156
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 93
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fc316807526f760800000000000000
+      internalID: 7491216195393408819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_157
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 98
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ada8835aa866c50800000000000000
+      internalID: 6658161541336717979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_158
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6617bd162d0cde90800000000000000
+      internalID: -6999705263482136980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_159
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 86
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a9610392c57d6710800000000000000
+      internalID: 1688134913884252581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_160
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 82
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4e0de7841d9f110800000000000000
+      internalID: 1295296477141198028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_161
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 71
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef0efe1da4d5e340800000000000000
+      internalID: 4892550410222309354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_162
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 51
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b6c39a4e421a1e0800000000000000
+      internalID: -2188427379414897774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_163
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 59
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b184deec1f28f870800000000000000
+      internalID: 8716768880088089016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_164
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 47
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12159be1d593c100800000000000000
+      internalID: 127109943329624602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_165
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4627cbedf87c3b1a0800000000000000
+      internalID: -6794867992040803740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_166
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfda8268fbc17450800000000000000
+      internalID: 6084868839219847111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_167
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38bafd45fd496750800000000000000
+      internalID: 6298651269824952378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_168
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 28
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81070305c025c2350800000000000000
+      internalID: 5993255416961724440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_169
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 31
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1fc5735b4ba1f20800000000000000
+      internalID: 3394223959588008372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e220ab7e03f2d5a0800000000000000
+      internalID: -6497864068813020443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_171
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d66da4b3ac1cdb0800000000000000
+      internalID: -4773311774028567187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_172
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 24
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf00db834cd77070800000000000000
+      internalID: 8104188237143084970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_173
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 22
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1914cc2a1fc4300800000000000000
+      internalID: 237830561857638826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_174
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 11
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c8fdd0837d2290800000000000000
+      internalID: -7913541972903017846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_175
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 14
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb03ec59e9903dd0800000000000000
+      internalID: -2508335764880552962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_176
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 18
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63d2ef9e4909ab10800000000000000
+      internalID: 1993134543382696814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_177
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 18
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be90b22c9c975c20800000000000000
+      internalID: 3195194655053487797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_178
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 11
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9140e999ca6c3a7f0800000000000000
+      internalID: -602419480523570151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_179
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1952
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163cca314f8fa1120800000000000000
+      internalID: 2385492679831896929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_180
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 11
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5d08294c0025960800000000000000
+      internalID: 7589129166344213967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_181
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 12
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa341972b5eea80f0800000000000000
+      internalID: -1113815882547510353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_182
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 11
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11943f1f1eeda3a0800000000000000
+      internalID: -6652399257121418978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_183
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0badb1818b8cb2fd0800000000000000
+      internalID: -2365576486249047376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_184
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 6
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543e92c98ebc21860800000000000000
+      internalID: 7499280529438139205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_185
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 11
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12a495686a0be210800000000000000
+      internalID: 1363194755706823196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_186
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 10
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d5b88ca04666d90800000000000000
+      internalID: -7104881364653351657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_187
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 15
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63512a6b3022a94d0800000000000000
+      internalID: -3127149591911066314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_188
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae32ebf191f34fb40800000000000000
+      internalID: 5473068824301282282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_189
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 6
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502e36843f0d219e0800000000000000
+      internalID: -1652028369981414907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_190
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 13
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f073133a7ced10800000000000000
+      internalID: 2156232681391714837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_191
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1528c5fefdf29a120800000000000000
+      internalID: 2425522513155752529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_192
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 14
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55017adba9eca8c0800000000000000
+      internalID: -3986554645816212131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_193
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 15
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a250686f0c13315c0800000000000000
+      internalID: -4245995318840785622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_194
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 8
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add6a382175e831a0800000000000000
+      internalID: -6829456560738374182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_195
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1651adbe7ee2224f0800000000000000
+      internalID: -855069405617711775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_196
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 16
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159e8e24014b276c0800000000000000
+      internalID: -4147054324919768751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_197
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 9
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b220f7462d77a70800000000000000
+      internalID: 8824753323925187338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_198
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 14
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77719b27966b53320800000000000000
+      internalID: 2537134529105696631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_199
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 8
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3746ce5455a317e0800000000000000
+      internalID: -1795910044604807365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_200
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b553baf9ccd95b0800000000000000
+      internalID: -5359902995356755168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_201
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81bfae5a6cd6740800000000000000
+      internalID: 5146988365068572838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_202
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 8
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb93f6b117522d510800000000000000
+      internalID: 1572360387627530684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_203
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 7
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b1ef7be6c0b8ce0800000000000000
+      internalID: -1402013189322958035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_204
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 8
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22826914b8c1982f0800000000000000
+      internalID: -970212860295239646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveRed_205
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ee9c1f878950b80800000000000000
+      internalID: -8429163482333974904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0967aa1c0c3add34182e63655a9b9ba0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwordWaveRed_0: 5190282784622234276
+      SwordWaveRed_1: -3909356021224664523
+      SwordWaveRed_10: 1473868750639412049
+      SwordWaveRed_100: -8091493866913047072
+      SwordWaveRed_101: -5556796344405824631
+      SwordWaveRed_102: 6830614470317361543
+      SwordWaveRed_103: -1231456064037029699
+      SwordWaveRed_104: -4033297088107928062
+      SwordWaveRed_105: -5636798836159840389
+      SwordWaveRed_106: -2551504479594792279
+      SwordWaveRed_107: -6533670515255306195
+      SwordWaveRed_108: 6375047114912922059
+      SwordWaveRed_109: 1710094317061921974
+      SwordWaveRed_11: -6883162261648190420
+      SwordWaveRed_110: 8880218390687438059
+      SwordWaveRed_111: 6209233442485050710
+      SwordWaveRed_112: 558447328625197352
+      SwordWaveRed_113: -6628224014758211919
+      SwordWaveRed_114: 9210067550056409450
+      SwordWaveRed_115: -8161123913604094565
+      SwordWaveRed_116: -61824354492743911
+      SwordWaveRed_117: 7186413010616222018
+      SwordWaveRed_118: 237440465549442107
+      SwordWaveRed_119: 2422486279387519113
+      SwordWaveRed_12: -1841032510641563199
+      SwordWaveRed_120: -7820653033037922243
+      SwordWaveRed_121: -7990179958808673654
+      SwordWaveRed_122: -6059937934809887792
+      SwordWaveRed_123: 6584603771358144799
+      SwordWaveRed_124: 2544674148863304587
+      SwordWaveRed_125: 2984796239488225629
+      SwordWaveRed_126: 8633473383322902598
+      SwordWaveRed_127: -4152747649832258942
+      SwordWaveRed_128: -3634719686553049082
+      SwordWaveRed_129: -251366328814857460
+      SwordWaveRed_13: -7626666553472651247
+      SwordWaveRed_130: -9044226272286252475
+      SwordWaveRed_131: 5920604394337651030
+      SwordWaveRed_132: -7375842241157230066
+      SwordWaveRed_133: 5171851148627320384
+      SwordWaveRed_134: -2926399282491361883
+      SwordWaveRed_135: 191166386373691285
+      SwordWaveRed_136: 4006297695773797718
+      SwordWaveRed_137: -1286340906721626309
+      SwordWaveRed_138: -1399334263591064517
+      SwordWaveRed_139: -7448519621333811510
+      SwordWaveRed_14: 2573250600520462580
+      SwordWaveRed_140: 3588527192257316598
+      SwordWaveRed_141: 1436520769402648090
+      SwordWaveRed_142: -5943552969449755514
+      SwordWaveRed_143: -393808538332890378
+      SwordWaveRed_144: 3906208681544676850
+      SwordWaveRed_145: -1086014286230262934
+      SwordWaveRed_146: -6262266957178326281
+      SwordWaveRed_147: -6696425566721259888
+      SwordWaveRed_148: 7106186423207208402
+      SwordWaveRed_149: 3095484894903941607
+      SwordWaveRed_15: 5359319664569111964
+      SwordWaveRed_150: -4279879651652574804
+      SwordWaveRed_151: -846920766025840295
+      SwordWaveRed_152: -8680974005335547606
+      SwordWaveRed_153: 1697717148442504762
+      SwordWaveRed_154: -5385736442631660060
+      SwordWaveRed_155: 4993121410582383106
+      SwordWaveRed_156: 7491216195393408819
+      SwordWaveRed_157: 6658161541336717979
+      SwordWaveRed_158: -6999705263482136980
+      SwordWaveRed_159: 1688134913884252581
+      SwordWaveRed_16: -4038990740321287329
+      SwordWaveRed_160: 1295296477141198028
+      SwordWaveRed_161: 4892550410222309354
+      SwordWaveRed_162: -2188427379414897774
+      SwordWaveRed_163: 8716768880088089016
+      SwordWaveRed_164: 127109943329624602
+      SwordWaveRed_165: -6794867992040803740
+      SwordWaveRed_166: 6084868839219847111
+      SwordWaveRed_167: 6298651269824952378
+      SwordWaveRed_168: 5993255416961724440
+      SwordWaveRed_169: 3394223959588008372
+      SwordWaveRed_17: -4238982168603522709
+      SwordWaveRed_170: -6497864068813020443
+      SwordWaveRed_171: -4773311774028567187
+      SwordWaveRed_172: 8104188237143084970
+      SwordWaveRed_173: 237830561857638826
+      SwordWaveRed_174: -7913541972903017846
+      SwordWaveRed_175: -2508335764880552962
+      SwordWaveRed_176: 1993134543382696814
+      SwordWaveRed_177: 3195194655053487797
+      SwordWaveRed_178: -602419480523570151
+      SwordWaveRed_179: 2385492679831896929
+      SwordWaveRed_18: 6234374021058751939
+      SwordWaveRed_180: 7589129166344213967
+      SwordWaveRed_181: -1113815882547510353
+      SwordWaveRed_182: -6652399257121418978
+      SwordWaveRed_183: -2365576486249047376
+      SwordWaveRed_184: 7499280529438139205
+      SwordWaveRed_185: 1363194755706823196
+      SwordWaveRed_186: -7104881364653351657
+      SwordWaveRed_187: -3127149591911066314
+      SwordWaveRed_188: 5473068824301282282
+      SwordWaveRed_189: -1652028369981414907
+      SwordWaveRed_19: 1162433560972692717
+      SwordWaveRed_190: 2156232681391714837
+      SwordWaveRed_191: 2425522513155752529
+      SwordWaveRed_192: -3986554645816212131
+      SwordWaveRed_193: -4245995318840785622
+      SwordWaveRed_194: -6829456560738374182
+      SwordWaveRed_195: -855069405617711775
+      SwordWaveRed_196: -4147054324919768751
+      SwordWaveRed_197: 8824753323925187338
+      SwordWaveRed_198: 2537134529105696631
+      SwordWaveRed_199: -1795910044604807365
+      SwordWaveRed_2: 7362253647138911640
+      SwordWaveRed_20: -1440265493697620978
+      SwordWaveRed_200: -5359902995356755168
+      SwordWaveRed_201: 5146988365068572838
+      SwordWaveRed_202: 1572360387627530684
+      SwordWaveRed_203: -1402013189322958035
+      SwordWaveRed_204: -970212860295239646
+      SwordWaveRed_205: -8429163482333974904
+      SwordWaveRed_21: 6536645068643965063
+      SwordWaveRed_22: 7316395924743765753
+      SwordWaveRed_23: -1205742028684861406
+      SwordWaveRed_24: -1061214493200139557
+      SwordWaveRed_25: 1648664625932667585
+      SwordWaveRed_26: 2663801109909767713
+      SwordWaveRed_27: -459029325482050825
+      SwordWaveRed_28: 4306048471652116674
+      SwordWaveRed_29: -8549431548390232393
+      SwordWaveRed_3: 1740165813497066270
+      SwordWaveRed_30: -5416972819228639483
+      SwordWaveRed_31: 2121017288612346594
+      SwordWaveRed_32: -6254300444300982731
+      SwordWaveRed_33: -8083686571398363564
+      SwordWaveRed_34: -2402440358501648137
+      SwordWaveRed_35: -3099884292328914741
+      SwordWaveRed_36: 7689320771349608362
+      SwordWaveRed_37: 4223223574807836455
+      SwordWaveRed_38: 3208820665750981469
+      SwordWaveRed_39: 3916881195738970967
+      SwordWaveRed_4: 1758631233143702811
+      SwordWaveRed_40: 3281807082804219187
+      SwordWaveRed_41: -6942204906363965202
+      SwordWaveRed_42: -9113614462311746316
+      SwordWaveRed_43: -4177323627418765730
+      SwordWaveRed_44: -1404690569904742926
+      SwordWaveRed_45: -5038822723313924997
+      SwordWaveRed_46: 4059744460407318376
+      SwordWaveRed_47: -7244115734276905869
+      SwordWaveRed_48: -7738563963818891419
+      SwordWaveRed_49: 5616607066330975752
+      SwordWaveRed_5: 8030971837689751577
+      SwordWaveRed_50: -5956991440688233528
+      SwordWaveRed_51: -2903587316496343584
+      SwordWaveRed_52: 5976809041625193839
+      SwordWaveRed_53: -6816528475312322547
+      SwordWaveRed_54: -5558203505649770299
+      SwordWaveRed_55: 3600396251563078724
+      SwordWaveRed_56: -7997836995841290461
+      SwordWaveRed_57: 7093090360320132783
+      SwordWaveRed_58: -5834879426115746482
+      SwordWaveRed_59: -5174125543500939223
+      SwordWaveRed_6: 7687713857926841270
+      SwordWaveRed_60: -458871040563825794
+      SwordWaveRed_61: 6025760124190537065
+      SwordWaveRed_62: 3652883529608219579
+      SwordWaveRed_63: -5724263314495457166
+      SwordWaveRed_64: -1679440152682643323
+      SwordWaveRed_65: -5819466332974331492
+      SwordWaveRed_66: 7901633780968937465
+      SwordWaveRed_67: -744393346248439301
+      SwordWaveRed_68: -4340985135996912705
+      SwordWaveRed_69: -1353488622577842557
+      SwordWaveRed_7: -277472403248536704
+      SwordWaveRed_70: -3637600678088181868
+      SwordWaveRed_71: -2504947423158498193
+      SwordWaveRed_72: -2320815366752878219
+      SwordWaveRed_73: 866156286151373135
+      SwordWaveRed_74: 8606069748177566954
+      SwordWaveRed_75: 8301416487449100774
+      SwordWaveRed_76: 2566420283308355862
+      SwordWaveRed_77: -7289606219191970416
+      SwordWaveRed_78: 7311401401753664024
+      SwordWaveRed_79: 2103789207281079251
+      SwordWaveRed_8: 11419054171859598
+      SwordWaveRed_80: 6680580064867639529
+      SwordWaveRed_81: 7034597358660305761
+      SwordWaveRed_82: 1191564257214661956
+      SwordWaveRed_83: -921610731778109574
+      SwordWaveRed_84: 4020227289990242381
+      SwordWaveRed_85: -1943289787943196724
+      SwordWaveRed_86: 6833492258801620934
+      SwordWaveRed_87: 2500125233761849506
+      SwordWaveRed_88: 8246602462732380837
+      SwordWaveRed_89: -6781936120782745873
+      SwordWaveRed_9: 449617312253523159
+      SwordWaveRed_90: 8941634910322321455
+      SwordWaveRed_91: -5428075542286550350
+      SwordWaveRed_92: 562089725757387680
+      SwordWaveRed_93: -9174191033487346249
+      SwordWaveRed_94: -4616955974605006352
+      SwordWaveRed_95: 5144185355250493150
+      SwordWaveRed_96: 4838884568784252827
+      SwordWaveRed_97: 7453720238151948453
+      SwordWaveRed_98: 8408021802281794897
+      SwordWaveRed_99: -9084101060733122255
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

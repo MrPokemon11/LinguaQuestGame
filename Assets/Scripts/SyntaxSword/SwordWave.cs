@@ -67,7 +67,7 @@ public class SwordWave : MonoBehaviour
                 SwordWaveManager.TryAddScore(score);
 
                 // Explode nearby blocks in radius
-                ExplodeNearbyBlocks(other.transform.position);
+                //ExplodeNearbyBlocks(other.transform.position);
 
                 // Restore energy
                 if (SwordWaveManager.Instance)
@@ -83,35 +83,35 @@ public class SwordWave : MonoBehaviour
         }
     }
 
-    void ExplodeNearbyBlocks(Vector2 hitPosition)
-    {
-        // Find all nearby word blocks
-        Collider2D[] nearbyColliders = Physics2D.OverlapCircleAll(hitPosition, explosionRadius);
+    // void ExplodeNearbyBlocks(Vector2 hitPosition)
+    // {
+    //     // Find all nearby word blocks
+    //     Collider2D[] nearbyColliders = Physics2D.OverlapCircleAll(hitPosition, explosionRadius);
 
-        int explodedCount = 0;
-        int totalScore = 0;
+    //     int explodedCount = 0;
+    //     int totalScore = 0;
 
-        foreach (var col in nearbyColliders)
-        {
-            if (col.CompareTag("WordBlock"))
-            {
-                WordBlock block = col.GetComponent<WordBlock>();
-                if (block != null)
-                {
-                    int blockScore = block.Explode(this);
-                    totalScore += blockScore;
-                    explodedCount++;
-                }
-            }
-        }
+    //     foreach (var col in nearbyColliders)
+    //     {
+    //         if (col.CompareTag("WordBlock"))
+    //         {
+    //             WordBlock block = col.GetComponent<WordBlock>();
+    //             if (block != null)
+    //             {
+    //                 int blockScore = block.Explode(this);
+    //                 totalScore += blockScore;
+    //                 explodedCount++;
+    //             }
+    //         }
+    //     }
 
-        if (explodedCount > 1)
-        {
-            Debug.Log($"[SwordWave] Chain reaction! Exploded {explodedCount} blocks, Total score: {totalScore}");
-            // Add the chain reaction score
-            SwordWaveManager.TryAddScore(totalScore);
-        }
-    }
+    //     if (explodedCount > 1)
+    //     {
+    //         Debug.Log($"[SwordWave] Chain reaction! Exploded {explodedCount} blocks, Total score: {totalScore}");
+    //         // Add the chain reaction score
+    //         SwordWaveManager.TryAddScore(totalScore);
+    //     }
+    // }
 
     void SpawnHitFX()
     {

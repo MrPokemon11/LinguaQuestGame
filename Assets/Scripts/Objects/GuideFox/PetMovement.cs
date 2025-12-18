@@ -35,6 +35,7 @@ public class PetMovement : MonoBehaviour
     void Start()
     {
         PickNewWanderTarget();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     void Update()

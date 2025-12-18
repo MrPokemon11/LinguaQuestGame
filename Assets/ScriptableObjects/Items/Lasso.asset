@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lasso
   m_EditorClassIdentifier: 
   itemName: Lasso
-  description: A magic lasso to catch the words\
+  description: A magic lasso to catch the words
   itemSprite: {fileID: 21300000, guid: 65c37ef922b40114bad77307e22b3756, type: 3}
   itemID: 16
   price: -1

@@ -1,0 +1,6045 @@
+fileFormatVersion: 2
+guid: a5c615e1def5d0846bce585cba90ca45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5336176291854668039
+    second: SwordWaveBlue_0
+  - first:
+      213: 8983179430805734511
+    second: SwordWaveBlue_1
+  - first:
+      213: 1264223293362472612
+    second: SwordWaveBlue_2
+  - first:
+      213: 8045160951964857977
+    second: SwordWaveBlue_3
+  - first:
+      213: -3607979003302190679
+    second: SwordWaveBlue_4
+  - first:
+      213: 8604705590890788973
+    second: SwordWaveBlue_5
+  - first:
+      213: 6779778747539020408
+    second: SwordWaveBlue_6
+  - first:
+      213: -7855155595232015089
+    second: SwordWaveBlue_7
+  - first:
+      213: -6489916836320927509
+    second: SwordWaveBlue_8
+  - first:
+      213: -4250092811882935186
+    second: SwordWaveBlue_9
+  - first:
+      213: -8677901555088102945
+    second: SwordWaveBlue_10
+  - first:
+      213: -5100568573763602507
+    second: SwordWaveBlue_11
+  - first:
+      213: 8458579668771646678
+    second: SwordWaveBlue_12
+  - first:
+      213: 5265242384698984511
+    second: SwordWaveBlue_13
+  - first:
+      213: -130169550870630660
+    second: SwordWaveBlue_14
+  - first:
+      213: 8323011207495322564
+    second: SwordWaveBlue_15
+  - first:
+      213: -900047680398526319
+    second: SwordWaveBlue_16
+  - first:
+      213: 7683962617249658716
+    second: SwordWaveBlue_17
+  - first:
+      213: 1817390202082790872
+    second: SwordWaveBlue_18
+  - first:
+      213: 3498541361349030491
+    second: SwordWaveBlue_19
+  - first:
+      213: -4388322233424115454
+    second: SwordWaveBlue_20
+  - first:
+      213: 8035469518990451538
+    second: SwordWaveBlue_21
+  - first:
+      213: -3375427057877520771
+    second: SwordWaveBlue_22
+  - first:
+      213: 8971607538410555559
+    second: SwordWaveBlue_23
+  - first:
+      213: 7060510027611514676
+    second: SwordWaveBlue_24
+  - first:
+      213: 6940653219222089346
+    second: SwordWaveBlue_25
+  - first:
+      213: 6935332219711794230
+    second: SwordWaveBlue_26
+  - first:
+      213: -6273469542391643503
+    second: SwordWaveBlue_27
+  - first:
+      213: 3866690440238643783
+    second: SwordWaveBlue_28
+  - first:
+      213: 9178810784890483932
+    second: SwordWaveBlue_29
+  - first:
+      213: 1605799385726718999
+    second: SwordWaveBlue_30
+  - first:
+      213: -3396874649013486303
+    second: SwordWaveBlue_31
+  - first:
+      213: 5618304214502771687
+    second: SwordWaveBlue_32
+  - first:
+      213: -4911933504841291003
+    second: SwordWaveBlue_33
+  - first:
+      213: -5425138634743367069
+    second: SwordWaveBlue_34
+  - first:
+      213: -821756982595645384
+    second: SwordWaveBlue_35
+  - first:
+      213: 7488029608225509535
+    second: SwordWaveBlue_36
+  - first:
+      213: -1274478756469719523
+    second: SwordWaveBlue_37
+  - first:
+      213: 4856093807002612689
+    second: SwordWaveBlue_38
+  - first:
+      213: 9121418491089374921
+    second: SwordWaveBlue_39
+  - first:
+      213: 7951351180140719523
+    second: SwordWaveBlue_40
+  - first:
+      213: -7973113475383065606
+    second: SwordWaveBlue_41
+  - first:
+      213: 3233622781177312662
+    second: SwordWaveBlue_42
+  - first:
+      213: -6303799591254951354
+    second: SwordWaveBlue_43
+  - first:
+      213: -7813916993558431039
+    second: SwordWaveBlue_44
+  - first:
+      213: 7887672414559332648
+    second: SwordWaveBlue_45
+  - first:
+      213: -4789854154799824070
+    second: SwordWaveBlue_46
+  - first:
+      213: -3927851150583946095
+    second: SwordWaveBlue_47
+  - first:
+      213: 1395556435797535189
+    second: SwordWaveBlue_48
+  - first:
+      213: 1465682768387833664
+    second: SwordWaveBlue_49
+  - first:
+      213: -8374018711216560632
+    second: SwordWaveBlue_50
+  - first:
+      213: -3327460507889805044
+    second: SwordWaveBlue_51
+  - first:
+      213: -1949015186837601102
+    second: SwordWaveBlue_52
+  - first:
+      213: 8657702843749336182
+    second: SwordWaveBlue_53
+  - first:
+      213: 3815613667097377121
+    second: SwordWaveBlue_54
+  - first:
+      213: 8701827233066850048
+    second: SwordWaveBlue_55
+  - first:
+      213: -3339519499324749922
+    second: SwordWaveBlue_56
+  - first:
+      213: -4625762775250376769
+    second: SwordWaveBlue_57
+  - first:
+      213: 5893888891068241531
+    second: SwordWaveBlue_58
+  - first:
+      213: -4781220156940082675
+    second: SwordWaveBlue_59
+  - first:
+      213: 3398240558378299491
+    second: SwordWaveBlue_60
+  - first:
+      213: 8969430741936424265
+    second: SwordWaveBlue_61
+  - first:
+      213: 6759000843818710002
+    second: SwordWaveBlue_62
+  - first:
+      213: -1306366946508625791
+    second: SwordWaveBlue_63
+  - first:
+      213: 2210359213386097019
+    second: SwordWaveBlue_64
+  - first:
+      213: 3106271734972656178
+    second: SwordWaveBlue_65
+  - first:
+      213: -8502053835727653406
+    second: SwordWaveBlue_66
+  - first:
+      213: -4531611456982188469
+    second: SwordWaveBlue_67
+  - first:
+      213: 5182979145799716953
+    second: SwordWaveBlue_68
+  - first:
+      213: 2213032657679225821
+    second: SwordWaveBlue_69
+  - first:
+      213: -5657209355340735441
+    second: SwordWaveBlue_70
+  - first:
+      213: -3079997830710328705
+    second: SwordWaveBlue_71
+  - first:
+      213: 2372357796047818586
+    second: SwordWaveBlue_72
+  - first:
+      213: 7790412567091982231
+    second: SwordWaveBlue_73
+  - first:
+      213: 7437185886330225832
+    second: SwordWaveBlue_74
+  - first:
+      213: -4775631694962734921
+    second: SwordWaveBlue_75
+  - first:
+      213: -6724142650041144479
+    second: SwordWaveBlue_76
+  - first:
+      213: -3637261851584121341
+    second: SwordWaveBlue_77
+  - first:
+      213: 2783835598547990255
+    second: SwordWaveBlue_78
+  - first:
+      213: 8005848058513148768
+    second: SwordWaveBlue_79
+  - first:
+      213: -7435999177591049604
+    second: SwordWaveBlue_80
+  - first:
+      213: -6637830692791646809
+    second: SwordWaveBlue_81
+  - first:
+      213: 1429053678775510163
+    second: SwordWaveBlue_82
+  - first:
+      213: -4342070877251107319
+    second: SwordWaveBlue_83
+  - first:
+      213: -4887596672732214942
+    second: SwordWaveBlue_84
+  - first:
+      213: 3460787221602184613
+    second: SwordWaveBlue_85
+  - first:
+      213: -3407952867011624040
+    second: SwordWaveBlue_86
+  - first:
+      213: -267541003731817631
+    second: SwordWaveBlue_87
+  - first:
+      213: -1554061910522554088
+    second: SwordWaveBlue_88
+  - first:
+      213: -3309529291898590331
+    second: SwordWaveBlue_89
+  - first:
+      213: 6213293475176972823
+    second: SwordWaveBlue_90
+  - first:
+      213: 7849362211798974977
+    second: SwordWaveBlue_91
+  - first:
+      213: 4952761251863453854
+    second: SwordWaveBlue_92
+  - first:
+      213: -4116329291060789375
+    second: SwordWaveBlue_93
+  - first:
+      213: -4501890540974240469
+    second: SwordWaveBlue_94
+  - first:
+      213: -5030319383921568598
+    second: SwordWaveBlue_95
+  - first:
+      213: -9188187253495459765
+    second: SwordWaveBlue_96
+  - first:
+      213: -5855514203624092891
+    second: SwordWaveBlue_97
+  - first:
+      213: 8847637667829657586
+    second: SwordWaveBlue_98
+  - first:
+      213: 9168588780720238494
+    second: SwordWaveBlue_99
+  - first:
+      213: 8780493303545767949
+    second: SwordWaveBlue_100
+  - first:
+      213: 2200201857866982017
+    second: SwordWaveBlue_101
+  - first:
+      213: -6617816807913176949
+    second: SwordWaveBlue_102
+  - first:
+      213: 6634832650719767418
+    second: SwordWaveBlue_103
+  - first:
+      213: -7430159708035151958
+    second: SwordWaveBlue_104
+  - first:
+      213: 3693807332097419599
+    second: SwordWaveBlue_105
+  - first:
+      213: -2597136877069791075
+    second: SwordWaveBlue_106
+  - first:
+      213: 2453510296924753190
+    second: SwordWaveBlue_107
+  - first:
+      213: 992262216568083562
+    second: SwordWaveBlue_108
+  - first:
+      213: 6900325623563882957
+    second: SwordWaveBlue_109
+  - first:
+      213: 3073896495763148224
+    second: SwordWaveBlue_110
+  - first:
+      213: 8356922768570948185
+    second: SwordWaveBlue_111
+  - first:
+      213: 1970527560725335925
+    second: SwordWaveBlue_112
+  - first:
+      213: 6736927506530847625
+    second: SwordWaveBlue_113
+  - first:
+      213: -8615523608789928275
+    second: SwordWaveBlue_114
+  - first:
+      213: 8491879418316792518
+    second: SwordWaveBlue_115
+  - first:
+      213: -409296714333535904
+    second: SwordWaveBlue_116
+  - first:
+      213: -4379241384253809397
+    second: SwordWaveBlue_117
+  - first:
+      213: 2609689811948088739
+    second: SwordWaveBlue_118
+  - first:
+      213: 8391406158823563025
+    second: SwordWaveBlue_119
+  - first:
+      213: -6936822912609661685
+    second: SwordWaveBlue_120
+  - first:
+      213: 3574719822474251769
+    second: SwordWaveBlue_121
+  - first:
+      213: 2247701300830991968
+    second: SwordWaveBlue_122
+  - first:
+      213: -3800626564651490739
+    second: SwordWaveBlue_123
+  - first:
+      213: -4579780545956684400
+    second: SwordWaveBlue_124
+  - first:
+      213: -7630577589895990776
+    second: SwordWaveBlue_125
+  - first:
+      213: 407649986486675644
+    second: SwordWaveBlue_126
+  - first:
+      213: -138988121443937214
+    second: SwordWaveBlue_127
+  - first:
+      213: -4802083308052303114
+    second: SwordWaveBlue_128
+  - first:
+      213: -8020941562499925222
+    second: SwordWaveBlue_129
+  - first:
+      213: -5433538714519833714
+    second: SwordWaveBlue_130
+  - first:
+      213: 5735733372724435611
+    second: SwordWaveBlue_131
+  - first:
+      213: -3663807548351576843
+    second: SwordWaveBlue_132
+  - first:
+      213: -4283754783383076896
+    second: SwordWaveBlue_133
+  - first:
+      213: -4588934135487682241
+    second: SwordWaveBlue_134
+  - first:
+      213: 3811414924954244289
+    second: SwordWaveBlue_135
+  - first:
+      213: -5696066033365380120
+    second: SwordWaveBlue_136
+  - first:
+      213: 4400453621561864277
+    second: SwordWaveBlue_137
+  - first:
+      213: 6989992771679819968
+    second: SwordWaveBlue_138
+  - first:
+      213: 503125730283465862
+    second: SwordWaveBlue_139
+  - first:
+      213: 2957239125160769274
+    second: SwordWaveBlue_140
+  - first:
+      213: 6658942962180131723
+    second: SwordWaveBlue_141
+  - first:
+      213: 6283804367131569683
+    second: SwordWaveBlue_142
+  - first:
+      213: -3751686589316301871
+    second: SwordWaveBlue_143
+  - first:
+      213: -8153270310682504130
+    second: SwordWaveBlue_144
+  - first:
+      213: 2742416613095740375
+    second: SwordWaveBlue_145
+  - first:
+      213: -685254039964003548
+    second: SwordWaveBlue_146
+  - first:
+      213: -62008237088431010
+    second: SwordWaveBlue_147
+  - first:
+      213: 939560251489504904
+    second: SwordWaveBlue_148
+  - first:
+      213: 964345765098679104
+    second: SwordWaveBlue_149
+  - first:
+      213: -4343406415030556082
+    second: SwordWaveBlue_150
+  - first:
+      213: 6422111489345476821
+    second: SwordWaveBlue_151
+  - first:
+      213: 7097791280005788521
+    second: SwordWaveBlue_152
+  - first:
+      213: 2826599941722166625
+    second: SwordWaveBlue_153
+  - first:
+      213: -5267478551135845871
+    second: SwordWaveBlue_154
+  - first:
+      213: -8276924328768167088
+    second: SwordWaveBlue_155
+  - first:
+      213: 6837781949547401262
+    second: SwordWaveBlue_156
+  - first:
+      213: -1275152681070396007
+    second: SwordWaveBlue_157
+  - first:
+      213: 3661106450979794136
+    second: SwordWaveBlue_158
+  - first:
+      213: 5786264289639179617
+    second: SwordWaveBlue_159
+  - first:
+      213: 3314932034114584044
+    second: SwordWaveBlue_160
+  - first:
+      213: 4989128880261621963
+    second: SwordWaveBlue_161
+  - first:
+      213: 190497415069760079
+    second: SwordWaveBlue_162
+  - first:
+      213: 4968323016535221257
+    second: SwordWaveBlue_163
+  - first:
+      213: 1139909625984821850
+    second: SwordWaveBlue_164
+  - first:
+      213: 1007942778494816880
+    second: SwordWaveBlue_165
+  - first:
+      213: 7693822598162665361
+    second: SwordWaveBlue_166
+  - first:
+      213: 5596759515942908183
+    second: SwordWaveBlue_167
+  - first:
+      213: 7707962631076913029
+    second: SwordWaveBlue_168
+  - first:
+      213: 877057323837249349
+    second: SwordWaveBlue_169
+  - first:
+      213: 8092509874485227801
+    second: SwordWaveBlue_170
+  - first:
+      213: -2458218812337449580
+    second: SwordWaveBlue_171
+  - first:
+      213: 6263362365222275424
+    second: SwordWaveBlue_172
+  - first:
+      213: -8155480835007845027
+    second: SwordWaveBlue_173
+  - first:
+      213: 1750876407786273779
+    second: SwordWaveBlue_174
+  - first:
+      213: -5379310879030365579
+    second: SwordWaveBlue_175
+  - first:
+      213: 8609417955398392043
+    second: SwordWaveBlue_176
+  - first:
+      213: -6050539054069852216
+    second: SwordWaveBlue_177
+  - first:
+      213: 255495291634300027
+    second: SwordWaveBlue_178
+  - first:
+      213: 3338145250080621509
+    second: SwordWaveBlue_179
+  - first:
+      213: -5858736132563659629
+    second: SwordWaveBlue_180
+  - first:
+      213: -7593739737541805521
+    second: SwordWaveBlue_181
+  - first:
+      213: -1070225512026505656
+    second: SwordWaveBlue_182
+  - first:
+      213: -4002021219216277730
+    second: SwordWaveBlue_183
+  - first:
+      213: 2256897005887447407
+    second: SwordWaveBlue_184
+  - first:
+      213: 7374794840474875464
+    second: SwordWaveBlue_185
+  - first:
+      213: -7319175776436858145
+    second: SwordWaveBlue_186
+  - first:
+      213: 2507946576893276914
+    second: SwordWaveBlue_187
+  - first:
+      213: -5071946109669521791
+    second: SwordWaveBlue_188
+  - first:
+      213: -2771133731815982933
+    second: SwordWaveBlue_189
+  - first:
+      213: 6864717447861812924
+    second: SwordWaveBlue_190
+  - first:
+      213: -7222170410513098643
+    second: SwordWaveBlue_191
+  - first:
+      213: 5504168137974605325
+    second: SwordWaveBlue_192
+  - first:
+      213: -4973371142845282078
+    second: SwordWaveBlue_193
+  - first:
+      213: 4627093376578573865
+    second: SwordWaveBlue_194
+  - first:
+      213: 7733199711708077075
+    second: SwordWaveBlue_195
+  - first:
+      213: -6020617762721140850
+    second: SwordWaveBlue_196
+  - first:
+      213: 334025771356924191
+    second: SwordWaveBlue_197
+  - first:
+      213: -8494435367988172525
+    second: SwordWaveBlue_198
+  - first:
+      213: 8648429020648200151
+    second: SwordWaveBlue_199
+  - first:
+      213: 1219389062287706037
+    second: SwordWaveBlue_200
+  - first:
+      213: 8091076920005056639
+    second: SwordWaveBlue_201
+  - first:
+      213: 5613334212143670990
+    second: SwordWaveBlue_202
+  - first:
+      213: -1863258857415074534
+    second: SwordWaveBlue_203
+  - first:
+      213: 8931367963036506697
+    second: SwordWaveBlue_204
+  - first:
+      213: -7392361745081382404
+    second: SwordWaveBlue_205
+  - first:
+      213: 2234072217087235107
+    second: SwordWaveBlue_206
+  - first:
+      213: 8605422370853844665
+    second: SwordWaveBlue_207
+  - first:
+      213: 2257247056793316736
+    second: SwordWaveBlue_208
+  - first:
+      213: 7909169411601587569
+    second: SwordWaveBlue_209
+  - first:
+      213: -8085579703840846554
+    second: SwordWaveBlue_210
+  - first:
+      213: -4644611829538751970
+    second: SwordWaveBlue_211
+  - first:
+      213: -1029070691742806659
+    second: SwordWaveBlue_212
+  - first:
+      213: 3350241956718182764
+    second: SwordWaveBlue_213
+  - first:
+      213: -1124524335309372822
+    second: SwordWaveBlue_214
+  - first:
+      213: -3511449572643587472
+    second: SwordWaveBlue_215
+  - first:
+      213: -6233612599011064466
+    second: SwordWaveBlue_216
+  - first:
+      213: -2693281646801685919
+    second: SwordWaveBlue_217
+  - first:
+      213: 7777254143018458302
+    second: SwordWaveBlue_218
+  - first:
+      213: -7901176678727015297
+    second: SwordWaveBlue_219
+  - first:
+      213: 1382893762432638633
+    second: SwordWaveBlue_220
+  - first:
+      213: 6318798834723297656
+    second: SwordWaveBlue_221
+  - first:
+      213: -891054167152146046
+    second: SwordWaveBlue_222
+  - first:
+      213: -6524582772204370328
+    second: SwordWaveBlue_223
+  - first:
+      213: -6743117790169948874
+    second: SwordWaveBlue_224
+  - first:
+      213: -337693450919153746
+    second: SwordWaveBlue_225
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SwordWaveBlue_0
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 2113
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe24215fe712f5b0800000000000000
+      internalID: -5336176291854668039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_1
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 2064
+        width: 20
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6485cee81aaaac70800000000000000
+      internalID: 8983179430805734511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_2
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1991
+        width: 20
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a605ad136c6b8110800000000000000
+      internalID: 1264223293362472612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_3
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 2039
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97675beb24726af60800000000000000
+      internalID: 8045160951964857977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_4
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 145
+        width: 1797
+        height: 1892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1ea1f5632ededc0800000000000000
+      internalID: -3607979003302190679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_5
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 1955
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68fcdd252e0a6770800000000000000
+      internalID: 8604705590890788973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_6
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1982
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a5ece99dc961e50800000000000000
+      internalID: 6779778747539020408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_7
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1848
+        width: 28
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d06c2ca91ecf290800000000000000
+      internalID: -7855155595232015089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_8
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 1810
+        width: 22
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0a34db50f2fe5a0800000000000000
+      internalID: -6489916836320927509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_9
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 1840
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6cc6450b13a405c0800000000000000
+      internalID: -4250092811882935186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_10
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 1688
+        width: 28
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9e92d5386e19780800000000000000
+      internalID: -8677901555088102945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_11
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1809
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7bc48f7e32739b0800000000000000
+      internalID: -5100568573763602507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_12
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 1691
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dca97da469e26570800000000000000
+      internalID: 8458579668771646678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_13
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1697
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38405c6d06e11940800000000000000
+      internalID: 5265242384698984511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_14
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1693
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfea8cfab7b813ef0800000000000000
+      internalID: -130169550870630660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_15
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 1669
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb8a549896418370800000000000000
+      internalID: 8323011207495322564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_16
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1638
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1987ee047636283f0800000000000000
+      internalID: -900047680398526319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_17
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1647
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57fb8cf94be2aa60800000000000000
+      internalID: 7683962617249658716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_18
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 1587
+        width: 14
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd8b6582caa83910800000000000000
+      internalID: 1817390202082790872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_19
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 1570
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52783305d05d8030800000000000000
+      internalID: 3498541361349030491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_20
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1438
+        width: 27
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2098ec4dd2c8913c0800000000000000
+      internalID: -4388322233424115454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_21
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1373
+        width: 21
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253a7ea24f8b38f60800000000000000
+      internalID: 8035469518990451538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_22
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 1320
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ee7f189f21821d0800000000000000
+      internalID: -3375427057877520771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_23
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1255
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a88d27c58d818c70800000000000000
+      internalID: 8971607538410555559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_24
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1056
+        width: 27
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4372ed04678fbf160800000000000000
+      internalID: 7060510027611514676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_25
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1016
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e67e86457225060800000000000000
+      internalID: 6940653219222089346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_26
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 1031
+        width: 5
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c2e3ba8ef3f3060800000000000000
+      internalID: 6935332219711794230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_27
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 848
+        width: 39
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192838080b820f8a0800000000000000
+      internalID: -6273469542391643503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_28
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 799
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ab2d2087e39a530800000000000000
+      internalID: 3866690440238643783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_29
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 856
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4fbe507cfa16f70800000000000000
+      internalID: 9178810784890483932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_30
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 854
+        width: 11
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71418ce8802f84610800000000000000
+      internalID: 1605799385726718999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_31
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 546
+        width: 40
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d750f0180ebd0d0800000000000000
+      internalID: -3396874649013486303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_32
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 793
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb84818ae938fd40800000000000000
+      internalID: 5618304214502771687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_33
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 760
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b689b708e45dbb0800000000000000
+      internalID: -4911933504841291003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_34
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 697
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36abfd2c72906b4b0800000000000000
+      internalID: -5425138634743367069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_35
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 542
+        width: 13
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83090b0d0688894f0800000000000000
+      internalID: -821756982595645384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_36
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 575
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9093e16143dae760800000000000000
+      internalID: 7488029608225509535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_37
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 553
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e37dec254205ee0800000000000000
+      internalID: -1274478756469719523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_38
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 433
+        width: 27
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d37d5ab69f446340800000000000000
+      internalID: 4856093807002612689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_39
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 513
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cecf015ac9c59e70800000000000000
+      internalID: 9121418491089374921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_40
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 394
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adaba035cfd85e60800000000000000
+      internalID: 7951351180140719523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_41
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 342
+        width: 32
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af389e9998fc95190800000000000000
+      internalID: -7973113475383065606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_42
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 285
+        width: 27
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6953fa979c220ec20800000000000000
+      internalID: 3233622781177312662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_43
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 263
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64afef3bba76488a0800000000000000
+      internalID: -6303799591254951354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_44
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 286
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cabf8ee4e36f8390800000000000000
+      internalID: -7813916993558431039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_45
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 144
+        width: 40
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829e4763544a67d60800000000000000
+      internalID: 7887672414559332648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_46
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 250
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a334a312605078db0800000000000000
+      internalID: -4789854154799824070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_47
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 230
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194a5de60387d79c0800000000000000
+      internalID: -3927851150583946095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_48
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 154
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9e8b33f230e5310800000000000000
+      internalID: 1395556435797535189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_49
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 174
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ffa2b56b6275410800000000000000
+      internalID: 1465682768387833664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_50
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 111
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806667f795289cb80800000000000000
+      internalID: -8374018711216560632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_51
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 121
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0956173c4c72d1d0800000000000000
+      internalID: -3327460507889805044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_52
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 138
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b404be8305b3f4e0800000000000000
+      internalID: -1949015186837601102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_53
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 145
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674819cadd6562870800000000000000
+      internalID: 8657702843749336182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_54
+      rect:
+        serializedVersion: 2
+        x: 1791
+        y: 93
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169f67b0a68c3f430800000000000000
+      internalID: 3815613667097377121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_55
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 101
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00715c3a3c913c870800000000000000
+      internalID: 8701827233066850048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_56
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 107
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97024a75b4a7a1d0800000000000000
+      internalID: -3339519499324749922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_57
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 94
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7e9f5a34dfdcfb0800000000000000
+      internalID: -4625762775250376769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_58
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 11
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b765eb128bc4bc150800000000000000
+      internalID: 5893888891068241531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_59
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 63
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0226a86991b5adb0800000000000000
+      internalID: -4781220156940082675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_60
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 63
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360b67f78c9f82f20800000000000000
+      internalID: 3398240558378299491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_61
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 83
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945c69adcb1d97c70800000000000000
+      internalID: 8969430741936424265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_62
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 10
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3316ce47bcccd50800000000000000
+      internalID: 6759000843818710002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188aa0ffe2adedde0800000000000000
+      internalID: -1306366946508625791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_64
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 5
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71e3eb5ef5ccae10800000000000000
+      internalID: 2210359213386097019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_65
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aa1ea6fa1bb1b20800000000000000
+      internalID: 3106271734972656178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_66
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 0
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5b43c0513a20a80800000000000000
+      internalID: -8502053835727653406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_67
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 3
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e7c7ea36b7c11c0800000000000000
+      internalID: -4531611456982188469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_68
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95056af8214ade740800000000000000
+      internalID: 5182979145799716953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_69
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 207
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd31f4d1a7546be10800000000000000
+      internalID: 2213032657679225821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_70
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 7
+        width: 82
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c16e2801e8d71b0800000000000000
+      internalID: -5657209355340735441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_71
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 6
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72898f9a46a145d0800000000000000
+      internalID: -3079997830710328705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_72
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 5
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f0f81a8de4ce020800000000000000
+      internalID: 2372357796047818586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 6
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fa14354fa1d1c60800000000000000
+      internalID: 7790412567091982231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_74
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 13
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a40343e821363760800000000000000
+      internalID: 7437185886330225832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_75
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b846ab964c89bdb0800000000000000
+      internalID: -4775631694962734921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_76
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 13
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b6e35c2eb0fa2a0800000000000000
+      internalID: -6724142650041144479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_77
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 6
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306bf35fd99d58dc0800000000000000
+      internalID: -3637261851584121341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_78
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 9
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe63a8c3abb22a620800000000000000
+      internalID: 2783835598547990255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_79
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 11
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b4d65746c7a1f60800000000000000
+      internalID: 8005848058513148768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_80
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 10
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b69545260ec890800000000000000
+      internalID: -7435999177591049604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_81
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 65
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a508f45720b1e3a0800000000000000
+      internalID: -6637830692791646809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_82
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 15
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3942168dfb405d310800000000000000
+      internalID: 1429053678775510163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_83
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 9
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90601ebda8dddb3c0800000000000000
+      internalID: -4342070877251107319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_84
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 6
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2694a64c8b4cb2cb0800000000000000
+      internalID: -4887596672732214942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_85
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 11
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad2fca54af270030800000000000000
+      internalID: 3460787221602184613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_86
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 5
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8938f7e6ce484b0d0800000000000000
+      internalID: -3407952867011624040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_87
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 8
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ba6b5efd0894cf0800000000000000
+      internalID: -267541003731817631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_88
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 18
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81996581decde6ae0800000000000000
+      internalID: -1554061910522554088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_89
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b62a6c4a03212d0800000000000000
+      internalID: -3309529291898590331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_90
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 121
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7120d290f7d0a3650800000000000000
+      internalID: 6213293475176972823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_91
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 21
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10207ab08598eec60800000000000000
+      internalID: 7849362211798974977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_92
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 14
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90e3a22e1ebbb440800000000000000
+      internalID: 4952761251863453854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_93
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 22
+        width: 37
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f39cba15cdfd6c0800000000000000
+      internalID: -4116329291060789375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_94
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 17
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d0a8fa7621681c0800000000000000
+      internalID: -4501890540974240469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_95
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 14
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d79e0c27b03ab0800000000000000
+      internalID: -5030319383921568598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_96
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 9
+        width: 45
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4091a1cf500d7080800000000000000
+      internalID: -9188187253495459765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_97
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 11
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52b4bbb0bd80dbea0800000000000000
+      internalID: -5855514203624092891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_98
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 23
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff2a54059f19ca70800000000000000
+      internalID: 8847637667829657586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_99
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 24
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f26763bee5d3f70800000000000000
+      internalID: 9168588780720238494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_100
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08aa8673249ad970800000000000000
+      internalID: 8780493303545767949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_101
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 6
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182e05cbeefa88e10800000000000000
+      internalID: 2200201857866982017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_102
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 11
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80c9b70daac824a0800000000000000
+      internalID: -6617816807913176949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_103
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ba05a9429a31c50800000000000000
+      internalID: 6634832650719767418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_104
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 14
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7052abc15c2e890800000000000000
+      internalID: -7430159708035151958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_105
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49666aa23a034330800000000000000
+      internalID: 3693807332097419599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_106
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0
+        width: 74
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90103145cd15fbd0800000000000000
+      internalID: -2597136877069791075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_107
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 6
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d86f4ad9e9c0220800000000000000
+      internalID: 2453510296924753190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_108
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 0
+        width: 116
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64159e8a3935cd00800000000000000
+      internalID: 992262216568083562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_109
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 12
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc11d0b5891e2cf50800000000000000
+      internalID: 6900325623563882957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_110
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 11
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdc742a39ca8aa20800000000000000
+      internalID: 3073896495763148224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_111
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 11
+        width: 17
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95a9b0c2bf0c9f370800000000000000
+      internalID: 8356922768570948185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_112
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 8
+        width: 101
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f862d4068b85b10800000000000000
+      internalID: 1970527560725335925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_113
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 7
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b44589fdf5e7d50800000000000000
+      internalID: 6736927506530847625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_114
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 23
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6b510cce28f6880800000000000000
+      internalID: -8615523608789928275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_115
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 7
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2293cc65739d570800000000000000
+      internalID: 8491879418316792518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_116
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 14
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614a6e8ec2e15af0800000000000000
+      internalID: -409296714333535904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_117
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 0
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d9cd9c92fc933c0800000000000000
+      internalID: -4379241384253809397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_118
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 11
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad2f17ae0b773420800000000000000
+      internalID: 2609689811948088739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_119
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 13
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f14be1173447470800000000000000
+      internalID: 8391406158823563025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_120
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 14
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d4c1850547bbf90800000000000000
+      internalID: -6936822912609661685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_121
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 7
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd00262db4fb9130800000000000000
+      internalID: 3574719822474251769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_122
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 15
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066f63d9c60713f10800000000000000
+      internalID: 2247701300830991968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_123
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 9
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42e80aa646714bc0800000000000000
+      internalID: -3800626564651490739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_124
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 8
+        width: 84
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd101bbd95170c0800000000000000
+      internalID: -4579780545956684400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_125
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 12
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802713b4c1eba1690800000000000000
+      internalID: -7630577589895990776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_126
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 27
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb82b3db08348a500800000000000000
+      internalID: 407649986486675644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_127
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 15
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244d5593a07321ef0800000000000000
+      internalID: -138988121443937214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_128
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 0
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2b5b18ca29b5db0800000000000000
+      internalID: -4802083308052303114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_129
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 5
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b760b4524efa090800000000000000
+      internalID: -8020941562499925222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_130
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 6
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8376b7c3513894b0800000000000000
+      internalID: -5433538714519833714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_131
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1
+        width: 54
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ad79ffc1b699f40800000000000000
+      internalID: 5735733372724435611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_132
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 9
+        width: 51
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f40c1b427a872dc0800000000000000
+      internalID: -3663807548351576843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_133
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 10
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef329788bb0d84c0800000000000000
+      internalID: -4283754783383076896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_134
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 6
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39a79c87b4d050c0800000000000000
+      internalID: -4588934135487682241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_135
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 12
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c415853eadd4e430800000000000000
+      internalID: 3811414924954244289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_136
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e396182f1283f0b0800000000000000
+      internalID: -5696066033365380120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_137
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 14
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550b6c3114d811d30800000000000000
+      internalID: 4400453621561864277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_138
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 13
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8168a2461710160800000000000000
+      internalID: 6989992771679819968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_139
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ca7ee9f267bf600800000000000000
+      internalID: 503125730283465862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_140
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 4
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af63813f0593a0920800000000000000
+      internalID: 2957239125160769274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_141
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 0
+        width: 61
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b8550f751596c50800000000000000
+      internalID: 6658942962180131723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_142
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 14
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31eece467ce843750800000000000000
+      internalID: 6283804367131569683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_143
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 18
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1db743f9ce45febc0800000000000000
+      internalID: -3751686589316301871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_144
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 5
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34d70ea9d3c9de80800000000000000
+      internalID: -8153270310682504130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_145
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 3
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d393b131650f0620800000000000000
+      internalID: 2742416613095740375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_146
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 0
+        width: 155
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4235b0fc41d7d76f0800000000000000
+      internalID: -685254039964003548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_147
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 20
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54223f36d3b32ff0800000000000000
+      internalID: -62008237088431010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_148
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ecb1b121df90d00800000000000000
+      internalID: 939560251489504904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_149
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04beb513d5b026d00800000000000000
+      internalID: 964345765098679104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_150
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 6
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a63fcb0ee19b3c0800000000000000
+      internalID: -4343406415030556082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_151
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8546eaf5cef1950800000000000000
+      internalID: 6422111489345476821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_152
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 9
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9633c9e309b608260800000000000000
+      internalID: 7097791280005788521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_153
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 17
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1655d78cba91a3720800000000000000
+      internalID: 2826599941722166625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_154
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1120f818a2826e6b0800000000000000
+      internalID: -5267478551135845871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_155
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 7
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0532cfe0d25722d80800000000000000
+      internalID: -8276924328768167088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_156
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 15
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20d95a747ea4ee50800000000000000
+      internalID: 6837781949547401262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_157
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d7962846fbd4ee0800000000000000
+      internalID: -1275152681070396007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_158
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 21
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcaa877becdec230800000000000000
+      internalID: 3661106450979794136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_159
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 12
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165a878e6b0fc4050800000000000000
+      internalID: 5786264289639179617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_160
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 11
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced76fb2f11010e20800000000000000
+      internalID: 3314932034114584044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_161
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 38
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8e2a67842fc3540800000000000000
+      internalID: 4989128880261621963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4afcd3c368c4a200800000000000000
+      internalID: 190497415069760079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_163
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904aaf1d57703f440800000000000000
+      internalID: 4968323016535221257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_164
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aafdce3c5c1df00800000000000000
+      internalID: 1139909625984821850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_165
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0729a12ed9eecfd00800000000000000
+      internalID: 1007942778494816880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_166
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fcb50b3e2f5ca60800000000000000
+      internalID: 7693822598162665361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_167
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7117019702fabad40800000000000000
+      internalID: 5596759515942908183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 36
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f1357ac2f28fa60800000000000000
+      internalID: 7707962631076913029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_169
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54759fa3dfeeb2c00800000000000000
+      internalID: 877057323837249349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_170
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911780adade5e4070800000000000000
+      internalID: 8092509874485227801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495917ea307a2edd0800000000000000
+      internalID: -2458218812337449580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069cf9ee2eeebe650800000000000000
+      internalID: 6263362365222275424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_173
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5de9d0e369e1de80800000000000000
+      internalID: -8155480835007845027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_174
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb76bbf0dc5c4810800000000000000
+      internalID: 1750876407786273779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_175
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572300f9149d855b0800000000000000
+      internalID: -5379310879030365579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_176
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8146a040cca7770800000000000000
+      internalID: 8609417955398392043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_177
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 45
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7d98699ca280ca0800000000000000
+      internalID: -6050539054069852216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_178
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74b5a33d93bb8300800000000000000
+      internalID: 255495291634300027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_179
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c386bf2b69735e20800000000000000
+      internalID: 3338145250080621509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_180
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3941cc1478691bea0800000000000000
+      internalID: -5858736132563659629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_181
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a7d0b21fd9d9690800000000000000
+      internalID: -7593739737541805521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_182
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 0
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e791e219bc521f0800000000000000
+      internalID: -1070225512026505656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_183
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 1
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fb90d97e6f578c0800000000000000
+      internalID: -4002021219216277730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_184
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 0
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61609a8edb125f10800000000000000
+      internalID: 2256897005887447407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_185
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 0
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84673e585d8885660800000000000000
+      internalID: 7374794840474875464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_186
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 0
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd256d4f8601d6a90800000000000000
+      internalID: -7319175776436858145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_187
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2716fbf140ec220800000000000000
+      internalID: 2507946576893276914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_188
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1864935b2e3dc99b0800000000000000
+      internalID: -5071946109669521791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_189
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 0
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba871029d84fa89d0800000000000000
+      internalID: -2771133731815982933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_190
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbeba33e520644f50800000000000000
+      internalID: 6864717447861812924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_191
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68970eb642b5cb90800000000000000
+      internalID: -7222170410513098643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_192
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 0
+        width: 46
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06eff752cbb26c40800000000000000
+      internalID: 5504168137974605325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_193
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 5
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8478eab490bfab0800000000000000
+      internalID: -4973371142845282078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_194
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926578d19ecb63040800000000000000
+      internalID: 4627093376578573865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_195
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c53816a28d15b60800000000000000
+      internalID: 7733199711708077075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_196
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 0
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f699c1b08727ca0800000000000000
+      internalID: -6020617762721140850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_197
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 35
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f192e875ba2b2a400800000000000000
+      internalID: 334025771356924191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_198
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 4
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319ec8bc904bd1a80800000000000000
+      internalID: -8494435367988172525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_199
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 0
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d75ae87f54650870800000000000000
+      internalID: 8648429020648200151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_200
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7c7ac34e32ce010800000000000000
+      internalID: 1219389062287706037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_201
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7853432797494070800000000000000
+      internalID: 8091076920005056639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_202
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6ee58a9b196ed40800000000000000
+      internalID: 5613334212143670990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_203
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 41
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d9c2fe0ff5426e0800000000000000
+      internalID: -1863258857415074534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_204
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 0
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a581b87d792fb70800000000000000
+      internalID: 8931367963036506697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_205
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 0
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9cc35c82e096990800000000000000
+      internalID: -7392361745081382404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_206
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 0
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324dd0648d4010f10800000000000000
+      internalID: 2234072217087235107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_207
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 0
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b671f48d0a9c6770800000000000000
+      internalID: 8605422370853844665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_208
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d267e1d3a535f10800000000000000
+      internalID: 2257247056793316736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_209
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dd5eedca303cd60800000000000000
+      internalID: 7909169411601587569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_210
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 0
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d457d39104acf80800000000000000
+      internalID: -8085579703840846554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_211
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 51
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1af3c436260b8fb0800000000000000
+      internalID: -4644611829538751970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_212
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 0
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d87e978a108b1f0800000000000000
+      internalID: -1029070691742806659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_213
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610ccd2f437e7e20800000000000000
+      internalID: 3350241956718182764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_214
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 51
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a624a943313e460f0800000000000000
+      internalID: -1124524335309372822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_215
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 1
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab1e7d733d44fc0800000000000000
+      internalID: -3511449572643587472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_216
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 0
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65cb884e52cd79a0800000000000000
+      internalID: -6233612599011064466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_217
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 0
+        width: 33
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1627e42ac9a8f9ad0800000000000000
+      internalID: -2693281646801685919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_218
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcdc8aff6b5eeb60800000000000000
+      internalID: 7777254143018458302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_219
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 0
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7420e44ca1695290800000000000000
+      internalID: -7901176678727015297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_220
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae96efcc86013310800000000000000
+      internalID: 1382893762432638633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_221
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 0
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87995decf02e0b750800000000000000
+      internalID: 6318798834723297656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_222
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 0
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289c34bb4f652a3f0800000000000000
+      internalID: -891054167152146046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_223
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 0
+        width: 47
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866002399860475a0800000000000000
+      internalID: -6524582772204370328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_224
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 3
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d9d4ea812ab62a0800000000000000
+      internalID: -6743117790169948874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordWaveBlue_225
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 0
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafecf67895405bf0800000000000000
+      internalID: -337693450919153746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SwordWaveBlue_0: -5336176291854668039
+      SwordWaveBlue_1: 8983179430805734511
+      SwordWaveBlue_10: -8677901555088102945
+      SwordWaveBlue_100: 8780493303545767949
+      SwordWaveBlue_101: 2200201857866982017
+      SwordWaveBlue_102: -6617816807913176949
+      SwordWaveBlue_103: 6634832650719767418
+      SwordWaveBlue_104: -7430159708035151958
+      SwordWaveBlue_105: 3693807332097419599
+      SwordWaveBlue_106: -2597136877069791075
+      SwordWaveBlue_107: 2453510296924753190
+      SwordWaveBlue_108: 992262216568083562
+      SwordWaveBlue_109: 6900325623563882957
+      SwordWaveBlue_11: -5100568573763602507
+      SwordWaveBlue_110: 3073896495763148224
+      SwordWaveBlue_111: 8356922768570948185
+      SwordWaveBlue_112: 1970527560725335925
+      SwordWaveBlue_113: 6736927506530847625
+      SwordWaveBlue_114: -8615523608789928275
+      SwordWaveBlue_115: 8491879418316792518
+      SwordWaveBlue_116: -409296714333535904
+      SwordWaveBlue_117: -4379241384253809397
+      SwordWaveBlue_118: 2609689811948088739
+      SwordWaveBlue_119: 8391406158823563025
+      SwordWaveBlue_12: 8458579668771646678
+      SwordWaveBlue_120: -6936822912609661685
+      SwordWaveBlue_121: 3574719822474251769
+      SwordWaveBlue_122: 2247701300830991968
+      SwordWaveBlue_123: -3800626564651490739
+      SwordWaveBlue_124: -4579780545956684400
+      SwordWaveBlue_125: -7630577589895990776
+      SwordWaveBlue_126: 407649986486675644
+      SwordWaveBlue_127: -138988121443937214
+      SwordWaveBlue_128: -4802083308052303114
+      SwordWaveBlue_129: -8020941562499925222
+      SwordWaveBlue_13: 5265242384698984511
+      SwordWaveBlue_130: -5433538714519833714
+      SwordWaveBlue_131: 5735733372724435611
+      SwordWaveBlue_132: -3663807548351576843
+      SwordWaveBlue_133: -4283754783383076896
+      SwordWaveBlue_134: -4588934135487682241
+      SwordWaveBlue_135: 3811414924954244289
+      SwordWaveBlue_136: -5696066033365380120
+      SwordWaveBlue_137: 4400453621561864277
+      SwordWaveBlue_138: 6989992771679819968
+      SwordWaveBlue_139: 503125730283465862
+      SwordWaveBlue_14: -130169550870630660
+      SwordWaveBlue_140: 2957239125160769274
+      SwordWaveBlue_141: 6658942962180131723
+      SwordWaveBlue_142: 6283804367131569683
+      SwordWaveBlue_143: -3751686589316301871
+      SwordWaveBlue_144: -8153270310682504130
+      SwordWaveBlue_145: 2742416613095740375
+      SwordWaveBlue_146: -685254039964003548
+      SwordWaveBlue_147: -62008237088431010
+      SwordWaveBlue_148: 939560251489504904
+      SwordWaveBlue_149: 964345765098679104
+      SwordWaveBlue_15: 8323011207495322564
+      SwordWaveBlue_150: -4343406415030556082
+      SwordWaveBlue_151: 6422111489345476821
+      SwordWaveBlue_152: 7097791280005788521
+      SwordWaveBlue_153: 2826599941722166625
+      SwordWaveBlue_154: -5267478551135845871
+      SwordWaveBlue_155: -8276924328768167088
+      SwordWaveBlue_156: 6837781949547401262
+      SwordWaveBlue_157: -1275152681070396007
+      SwordWaveBlue_158: 3661106450979794136
+      SwordWaveBlue_159: 5786264289639179617
+      SwordWaveBlue_16: -900047680398526319
+      SwordWaveBlue_160: 3314932034114584044
+      SwordWaveBlue_161: 4989128880261621963
+      SwordWaveBlue_162: 190497415069760079
+      SwordWaveBlue_163: 4968323016535221257
+      SwordWaveBlue_164: 1139909625984821850
+      SwordWaveBlue_165: 1007942778494816880
+      SwordWaveBlue_166: 7693822598162665361
+      SwordWaveBlue_167: 5596759515942908183
+      SwordWaveBlue_168: 7707962631076913029
+      SwordWaveBlue_169: 877057323837249349
+      SwordWaveBlue_17: 7683962617249658716
+      SwordWaveBlue_170: 8092509874485227801
+      SwordWaveBlue_171: -2458218812337449580
+      SwordWaveBlue_172: 6263362365222275424
+      SwordWaveBlue_173: -8155480835007845027
+      SwordWaveBlue_174: 1750876407786273779
+      SwordWaveBlue_175: -5379310879030365579
+      SwordWaveBlue_176: 8609417955398392043
+      SwordWaveBlue_177: -6050539054069852216
+      SwordWaveBlue_178: 255495291634300027
+      SwordWaveBlue_179: 3338145250080621509
+      SwordWaveBlue_18: 1817390202082790872
+      SwordWaveBlue_180: -5858736132563659629
+      SwordWaveBlue_181: -7593739737541805521
+      SwordWaveBlue_182: -1070225512026505656
+      SwordWaveBlue_183: -4002021219216277730
+      SwordWaveBlue_184: 2256897005887447407
+      SwordWaveBlue_185: 7374794840474875464
+      SwordWaveBlue_186: -7319175776436858145
+      SwordWaveBlue_187: 2507946576893276914
+      SwordWaveBlue_188: -5071946109669521791
+      SwordWaveBlue_189: -2771133731815982933
+      SwordWaveBlue_19: 3498541361349030491
+      SwordWaveBlue_190: 6864717447861812924
+      SwordWaveBlue_191: -7222170410513098643
+      SwordWaveBlue_192: 5504168137974605325
+      SwordWaveBlue_193: -4973371142845282078
+      SwordWaveBlue_194: 4627093376578573865
+      SwordWaveBlue_195: 7733199711708077075
+      SwordWaveBlue_196: -6020617762721140850
+      SwordWaveBlue_197: 334025771356924191
+      SwordWaveBlue_198: -8494435367988172525
+      SwordWaveBlue_199: 8648429020648200151
+      SwordWaveBlue_2: 1264223293362472612
+      SwordWaveBlue_20: -4388322233424115454
+      SwordWaveBlue_200: 1219389062287706037
+      SwordWaveBlue_201: 8091076920005056639
+      SwordWaveBlue_202: 5613334212143670990
+      SwordWaveBlue_203: -1863258857415074534
+      SwordWaveBlue_204: 8931367963036506697
+      SwordWaveBlue_205: -7392361745081382404
+      SwordWaveBlue_206: 2234072217087235107
+      SwordWaveBlue_207: 8605422370853844665
+      SwordWaveBlue_208: 2257247056793316736
+      SwordWaveBlue_209: 7909169411601587569
+      SwordWaveBlue_21: 8035469518990451538
+      SwordWaveBlue_210: -8085579703840846554
+      SwordWaveBlue_211: -4644611829538751970
+      SwordWaveBlue_212: -1029070691742806659
+      SwordWaveBlue_213: 3350241956718182764
+      SwordWaveBlue_214: -1124524335309372822
+      SwordWaveBlue_215: -3511449572643587472
+      SwordWaveBlue_216: -6233612599011064466
+      SwordWaveBlue_217: -2693281646801685919
+      SwordWaveBlue_218: 7777254143018458302
+      SwordWaveBlue_219: -7901176678727015297
+      SwordWaveBlue_22: -3375427057877520771
+      SwordWaveBlue_220: 1382893762432638633
+      SwordWaveBlue_221: 6318798834723297656
+      SwordWaveBlue_222: -891054167152146046
+      SwordWaveBlue_223: -6524582772204370328
+      SwordWaveBlue_224: -6743117790169948874
+      SwordWaveBlue_225: -337693450919153746
+      SwordWaveBlue_23: 8971607538410555559
+      SwordWaveBlue_24: 7060510027611514676
+      SwordWaveBlue_25: 6940653219222089346
+      SwordWaveBlue_26: 6935332219711794230
+      SwordWaveBlue_27: -6273469542391643503
+      SwordWaveBlue_28: 3866690440238643783
+      SwordWaveBlue_29: 9178810784890483932
+      SwordWaveBlue_3: 8045160951964857977
+      SwordWaveBlue_30: 1605799385726718999
+      SwordWaveBlue_31: -3396874649013486303
+      SwordWaveBlue_32: 5618304214502771687
+      SwordWaveBlue_33: -4911933504841291003
+      SwordWaveBlue_34: -5425138634743367069
+      SwordWaveBlue_35: -821756982595645384
+      SwordWaveBlue_36: 7488029608225509535
+      SwordWaveBlue_37: -1274478756469719523
+      SwordWaveBlue_38: 4856093807002612689
+      SwordWaveBlue_39: 9121418491089374921
+      SwordWaveBlue_4: -3607979003302190679
+      SwordWaveBlue_40: 7951351180140719523
+      SwordWaveBlue_41: -7973113475383065606
+      SwordWaveBlue_42: 3233622781177312662
+      SwordWaveBlue_43: -6303799591254951354
+      SwordWaveBlue_44: -7813916993558431039
+      SwordWaveBlue_45: 7887672414559332648
+      SwordWaveBlue_46: -4789854154799824070
+      SwordWaveBlue_47: -3927851150583946095
+      SwordWaveBlue_48: 1395556435797535189
+      SwordWaveBlue_49: 1465682768387833664
+      SwordWaveBlue_5: 8604705590890788973
+      SwordWaveBlue_50: -8374018711216560632
+      SwordWaveBlue_51: -3327460507889805044
+      SwordWaveBlue_52: -1949015186837601102
+      SwordWaveBlue_53: 8657702843749336182
+      SwordWaveBlue_54: 3815613667097377121
+      SwordWaveBlue_55: 8701827233066850048
+      SwordWaveBlue_56: -3339519499324749922
+      SwordWaveBlue_57: -4625762775250376769
+      SwordWaveBlue_58: 5893888891068241531
+      SwordWaveBlue_59: -4781220156940082675
+      SwordWaveBlue_6: 6779778747539020408
+      SwordWaveBlue_60: 3398240558378299491
+      SwordWaveBlue_61: 8969430741936424265
+      SwordWaveBlue_62: 6759000843818710002
+      SwordWaveBlue_63: -1306366946508625791
+      SwordWaveBlue_64: 2210359213386097019
+      SwordWaveBlue_65: 3106271734972656178
+      SwordWaveBlue_66: -8502053835727653406
+      SwordWaveBlue_67: -4531611456982188469
+      SwordWaveBlue_68: 5182979145799716953
+      SwordWaveBlue_69: 2213032657679225821
+      SwordWaveBlue_7: -7855155595232015089
+      SwordWaveBlue_70: -5657209355340735441
+      SwordWaveBlue_71: -3079997830710328705
+      SwordWaveBlue_72: 2372357796047818586
+      SwordWaveBlue_73: 7790412567091982231
+      SwordWaveBlue_74: 7437185886330225832
+      SwordWaveBlue_75: -4775631694962734921
+      SwordWaveBlue_76: -6724142650041144479
+      SwordWaveBlue_77: -3637261851584121341
+      SwordWaveBlue_78: 2783835598547990255
+      SwordWaveBlue_79: 8005848058513148768
+      SwordWaveBlue_8: -6489916836320927509
+      SwordWaveBlue_80: -7435999177591049604
+      SwordWaveBlue_81: -6637830692791646809
+      SwordWaveBlue_82: 1429053678775510163
+      SwordWaveBlue_83: -4342070877251107319
+      SwordWaveBlue_84: -4887596672732214942
+      SwordWaveBlue_85: 3460787221602184613
+      SwordWaveBlue_86: -3407952867011624040
+      SwordWaveBlue_87: -267541003731817631
+      SwordWaveBlue_88: -1554061910522554088
+      SwordWaveBlue_89: -3309529291898590331
+      SwordWaveBlue_9: -4250092811882935186
+      SwordWaveBlue_90: 6213293475176972823
+      SwordWaveBlue_91: 7849362211798974977
+      SwordWaveBlue_92: 4952761251863453854
+      SwordWaveBlue_93: -4116329291060789375
+      SwordWaveBlue_94: -4501890540974240469
+      SwordWaveBlue_95: -5030319383921568598
+      SwordWaveBlue_96: -9188187253495459765
+      SwordWaveBlue_97: -5855514203624092891
+      SwordWaveBlue_98: 8847637667829657586
+      SwordWaveBlue_99: 9168588780720238494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

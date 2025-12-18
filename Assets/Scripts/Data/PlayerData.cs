@@ -14,4 +14,14 @@ public class PlayerData
         score = 0;
         currentCharacterClass = "Linguist";
     }
+
+    public void setPlayerName(string name)
+    {
+        playerName = name;
+    }
+
+    public string getPlayerName()
+    {
+        return playerName;
+    }
 }

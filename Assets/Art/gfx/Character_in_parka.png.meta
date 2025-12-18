@@ -1,0 +1,2453 @@
+fileFormatVersion: 2
+guid: 83288a8acef83ae4f96c92c06432f0ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8170466027759147824
+    second: Character_in_parka_0
+  - first:
+      213: 7012194485604071898
+    second: Character_in_parka_1
+  - first:
+      213: -8493757010378041880
+    second: Character_in_parka_2
+  - first:
+      213: -2211103413092343843
+    second: Character_in_parka_3
+  - first:
+      213: 143100653163486749
+    second: Character_in_parka_4
+  - first:
+      213: 6564776978820804219
+    second: Character_in_parka_5
+  - first:
+      213: -7760470282689499499
+    second: Character_in_parka_6
+  - first:
+      213: 3182215353580441817
+    second: Character_in_parka_7
+  - first:
+      213: -3693359692257486210
+    second: Character_in_parka_8
+  - first:
+      213: 7645207256881047474
+    second: Character_in_parka_9
+  - first:
+      213: -1485602229042121081
+    second: Character_in_parka_10
+  - first:
+      213: -1224182629753381608
+    second: Character_in_parka_11
+  - first:
+      213: 5013818337740786867
+    second: Character_in_parka_12
+  - first:
+      213: -2324963377587609435
+    second: Character_in_parka_13
+  - first:
+      213: -4298083742944983317
+    second: Character_in_parka_14
+  - first:
+      213: -6700676741358155530
+    second: Character_in_parka_15
+  - first:
+      213: -4215639759316981511
+    second: Character_in_parka_16
+  - first:
+      213: 6950148655375729586
+    second: Character_in_parka_17
+  - first:
+      213: 3821677253347906131
+    second: Character_in_parka_18
+  - first:
+      213: 7550958120342893397
+    second: Character_in_parka_19
+  - first:
+      213: 8183465001003330721
+    second: Character_in_parka_20
+  - first:
+      213: 7847487476360070752
+    second: Character_in_parka_21
+  - first:
+      213: -8599040991547429727
+    second: Character_in_parka_22
+  - first:
+      213: 5384078341122639100
+    second: Character_in_parka_23
+  - first:
+      213: 5264373782490671920
+    second: Character_in_parka_24
+  - first:
+      213: 2676236271208674220
+    second: Character_in_parka_25
+  - first:
+      213: 6346530286178417043
+    second: Character_in_parka_26
+  - first:
+      213: -4611103016548644582
+    second: Character_in_parka_27
+  - first:
+      213: -3656482459973851731
+    second: Character_in_parka_28
+  - first:
+      213: 8965627142337125618
+    second: Character_in_parka_29
+  - first:
+      213: -4060362972070581593
+    second: Character_in_parka_30
+  - first:
+      213: 5902014880133670890
+    second: Character_in_parka_31
+  - first:
+      213: -2331538873308558837
+    second: Character_in_parka_32
+  - first:
+      213: -3894706277475146286
+    second: Character_in_parka_33
+  - first:
+      213: -6486922346314770998
+    second: Character_in_parka_34
+  - first:
+      213: -5295620850942042279
+    second: Character_in_parka_35
+  - first:
+      213: -4879423482069766739
+    second: Character_in_parka_36
+  - first:
+      213: -8028542114793414467
+    second: Character_in_parka_37
+  - first:
+      213: -6421030412755854595
+    second: Character_in_parka_38
+  - first:
+      213: -105150893630513811
+    second: Character_in_parka_39
+  - first:
+      213: 3477839219020650726
+    second: Character_in_parka_40
+  - first:
+      213: 493652157406617399
+    second: Character_in_parka_41
+  - first:
+      213: 9030190745626202528
+    second: Character_in_parka_42
+  - first:
+      213: 1960265777546648154
+    second: Character_in_parka_43
+  - first:
+      213: -3404511185483899348
+    second: Character_in_parka_44
+  - first:
+      213: -9106143280586748844
+    second: Character_in_parka_45
+  - first:
+      213: 8228471052780382068
+    second: Character_in_parka_46
+  - first:
+      213: -7425159471110218928
+    second: Character_in_parka_47
+  - first:
+      213: 7358536686549092833
+    second: Character_in_parka_48
+  - first:
+      213: 8349267938136048077
+    second: Character_in_parka_49
+  - first:
+      213: 7908886912086192571
+    second: Character_in_parka_50
+  - first:
+      213: -7647934392709116523
+    second: Character_in_parka_51
+  - first:
+      213: -2850644147939465520
+    second: Character_in_parka_52
+  - first:
+      213: 5390504905664347794
+    second: Character_in_parka_53
+  - first:
+      213: 8720924313206822751
+    second: Character_in_parka_54
+  - first:
+      213: 3527076665912397175
+    second: Character_in_parka_55
+  - first:
+      213: -7090350664182247488
+    second: Character_in_parka_56
+  - first:
+      213: 3990149901581099127
+    second: Character_in_parka_57
+  - first:
+      213: -3577506584098606096
+    second: Character_in_parka_58
+  - first:
+      213: -1333346303973687039
+    second: Character_in_parka_59
+  - first:
+      213: 2340371269335219841
+    second: Character_in_parka_60
+  - first:
+      213: -4107655402858212751
+    second: Character_in_parka_61
+  - first:
+      213: -7748674109660240552
+    second: Character_in_parka_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Character_in_parka_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1284
+        width: 120
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4e40ecf6cac9e80800000000000000
+      internalID: -8170466027759147824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1793
+        width: 121
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad932628bb1505160800000000000000
+      internalID: 7012194485604071898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_2
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 1793
+        width: 121
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5deeb300d102a80800000000000000
+      internalID: -8493757010378041880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_3
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 2012
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf1af429259051e0800000000000000
+      internalID: -2211103413092343843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 2009
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e9fee29456cf100800000000000000
+      internalID: 143100653163486749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_5
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 2011
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ea64c61e5ca1b50800000000000000
+      internalID: 6564776978820804219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_6
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1793
+        width: 128
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e215605654d4490800000000000000
+      internalID: -7760470282689499499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_7
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 1793
+        width: 154
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0d4f40100892c20800000000000000
+      internalID: 3182215353580441817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_8
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 2012
+        width: 28
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a1f3b9dec8ebcc0800000000000000
+      internalID: -3693359692257486210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 2009
+        width: 75
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b722ac7e7b391a60800000000000000
+      internalID: 7645207256881047474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_10
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 2011
+        width: 43
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7867a6cc4a4126be0800000000000000
+      internalID: -1485602229042121081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1793
+        width: 213
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d985d5264d20fe0800000000000000
+      internalID: -1224182629753381608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_12
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2012
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc016db639a49540800000000000000
+      internalID: 5013818337740786867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_13
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 2012
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0291350221cbfd0800000000000000
+      internalID: -2324963377587609435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_14
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 2008
+        width: 74
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be602e6ab932a54c0800000000000000
+      internalID: -4298083742944983317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_15
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 1793
+        width: 172
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f800a4610a6203a0800000000000000
+      internalID: -6700676741358155530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_16
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 2009
+        width: 81
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8e5ec69f90f75c0800000000000000
+      internalID: -4215639759316981511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_17
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1793
+        width: 179
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b344dbe063e37060800000000000000
+      internalID: 6950148655375729586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_18
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2011
+        width: 89
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3521efbb633590530800000000000000
+      internalID: 3821677253347906131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_19
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 2012
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553b3ec57646ac860800000000000000
+      internalID: 7550958120342893397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_20
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1992
+        width: 134
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac25a08f02819170800000000000000
+      internalID: 8183465001003330721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1793
+        width: 106
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066c4cf2840e7ec60800000000000000
+      internalID: 7847487476360070752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1542
+        width: 110
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aceac127c11aa880800000000000000
+      internalID: -8599040991547429727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1288
+        width: 111
+        height: 197
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf44d75a9b618ba40800000000000000
+      internalID: 5384078341122639100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_24
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1793
+        width: 116
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b6c363010de0940800000000000000
+      internalID: 5264373782490671920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_25
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1536
+        width: 109
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b86895b6e32520800000000000000
+      internalID: 2676236271208674220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_26
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1289
+        width: 122
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3993cef7ba7631850800000000000000
+      internalID: 6346530286178417043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_27
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1538
+        width: 119
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19c2e3bc321200c0800000000000000
+      internalID: -4611103016548644582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_28
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1385
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5efc55390914dc0800000000000000
+      internalID: -3656482459973851731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_29
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1416
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcda9f426e4c6c70800000000000000
+      internalID: 8965627142337125618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_30
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1289
+        width: 120
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa659eb361b6a7c0800000000000000
+      internalID: -4060362972070581593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_31
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 1541
+        width: 110
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7ef65634b28e150800000000000000
+      internalID: 5902014880133670890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1420
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0acd6c6fb5b4afd0800000000000000
+      internalID: -2331538873308558837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_33
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1385
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d52c92964933f9c0800000000000000
+      internalID: -3894706277475146286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_34
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1637
+        width: 5
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac55d56ce72d9f5a0800000000000000
+      internalID: -6486922346314770998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_35
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1538
+        width: 126
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f927ab4ec2286b0800000000000000
+      internalID: -5295620850942042279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_36
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1288
+        width: 122
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad2882023ec84cb0800000000000000
+      internalID: -4879423482069766739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_37
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1420
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0a97fcb73e49090800000000000000
+      internalID: -8028542114793414467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_38
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1289
+        width: 123
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa15b31cdae3e6a0800000000000000
+      internalID: -6421030412755854595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_39
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1536
+        width: 108
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d9651c1dd6a8ef0800000000000000
+      internalID: -105150893630513811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_40
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1289
+        width: 122
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8d5a3e754c34030800000000000000
+      internalID: 3477839219020650726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_41
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1793
+        width: 115
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f93dc850ec9d600800000000000000
+      internalID: 493652157406617399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_42
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1538
+        width: 113
+        height: 184
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1d11f93aea15d70800000000000000
+      internalID: 9030190745626202528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_43
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1421
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ad508b653443b10800000000000000
+      internalID: 1960265777546648154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_44
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1414
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e536b5d1fb0c0d0800000000000000
+      internalID: -3404511185483899348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_45
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1289
+        width: 128
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c01d6ceea70a180800000000000000
+      internalID: -9106143280586748844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_46
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1541
+        width: 115
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4772f8183d6613270800000000000000
+      internalID: 8228471052780382068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_47
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 1288
+        width: 122
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b19db1dc884f890800000000000000
+      internalID: -7425159471110218928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_48
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1793
+        width: 117
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e940741126ce1660800000000000000
+      internalID: 7358536686549092833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_49
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 1638
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1482314fe8ed370800000000000000
+      internalID: 8349267938136048077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_50
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1537
+        width: 114
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb132a35eb202cd60800000000000000
+      internalID: 7908886912086192571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_51
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1289
+        width: 123
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d8419b0341dd590800000000000000
+      internalID: -7647934392709116523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_52
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1037
+        width: 106
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6a505304a7078d0800000000000000
+      internalID: -2850644147939465520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_53
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1541
+        width: 126
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ebf1ec6abeeca40800000000000000
+      internalID: 5390504905664347794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_54
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1248
+        width: 116
+        height: 221
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5792c91572f60970800000000000000
+      internalID: 8720924313206822751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_55
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 1793
+        width: 115
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d07475a81b2f030800000000000000
+      internalID: 3527076665912397175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_56
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1499
+        width: 260
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf467023a30a9d90800000000000000
+      internalID: -7090350664182247488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_57
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 1242
+        width: 20
+        height: 736
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7702d4cd13cdf5730800000000000000
+      internalID: 3990149901581099127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1037
+        width: 99
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f37e2957b42a5ec0800000000000000
+      internalID: -3577506584098606096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1037
+        width: 110
+        height: 171
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1018115d9900f7de0800000000000000
+      internalID: -1333346303973687039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_60
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 1037
+        width: 107
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e7147054baa7020800000000000000
+      internalID: 2340371269335219841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_61
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1037
+        width: 106
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1721ce4ac2daef6c0800000000000000
+      internalID: -4107655402858212751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_62
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1037
+        width: 127
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8556f6593fd277490800000000000000
+      internalID: -7748674109660240552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_63
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1037
+        width: 116
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7ad47e2a6ba6f44b350361b9a7afe6
+      internalID: -1726925416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_64
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1037
+        width: 146
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f2065ed5e14a6458de87d6a56f04a2
+      internalID: 789297247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_65
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 847
+        width: 114
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e60f2e7db67eaa41920c4d05fce72a3
+      internalID: -2028325029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_66
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1037
+        width: 107
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a5c6de4421e544bbfc9c30f0d4ce46
+      internalID: -1626072486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_67
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1037
+        width: 109
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6d35f75cea70447a4b694cd3aa8b4c
+      internalID: 2059176233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_68
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 973
+        width: 9
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6f7ea8e29c75a4b8617df1b1953365
+      internalID: -1478086819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 782
+        width: 171
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83f613065118e94b9740f7e870bd82e
+      internalID: -589921337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_70
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 534
+        width: 181
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ddbf697dfa94b41b97f8ed5614a534
+      internalID: 1626085009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_71
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 777
+        width: 129
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2699abe0ba010744495db3da7c2c73a3
+      internalID: 164719410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_72
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 536
+        width: 160
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dea98b402f786f438505a650e44b9ff
+      internalID: -1138270182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_73
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 529
+        width: 165
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866ec20e39f27b84489bcf0bc2af3202
+      internalID: 1868419571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_74
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 754
+        width: 123
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498dd4114065ab240b0c7e1caa4c5914
+      internalID: -2048024614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_75
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 762
+        width: 130
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94daf2e8d65c7e843a635f363b858c26
+      internalID: -1397169108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_76
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 534
+        width: 131
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c15e4d64d91be4da59f2155f45d7a6
+      internalID: 1289222308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_77
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 610
+        width: 11
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9c3ec8458f9374190cabe824d3d7f7
+      internalID: 124471705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_78
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 525
+        width: 16
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b0f719b788215498054c255fecb0cb
+      internalID: 224730435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 249
+        width: 187
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9cbdf0ac3410f42bf451e9b002cfa0
+      internalID: 29253403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_80
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 240
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5cba4b2c4dd9a4aa54c167cd201668
+      internalID: -1804972923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_81
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 277
+        width: 213
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6eb8cfc4bf37494ca2f6e52dbb40ad4
+      internalID: 484341546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_82
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 274
+        width: 125
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6089e225c9858414f8d112dcb856ce2e
+      internalID: 388497898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_83
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 281
+        width: 171
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e04fa218d25b14d8cbff90dc7c72d7
+      internalID: 1655766663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_84
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 221
+        width: 15
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f131a9201ce0b4aac97cce2ab595d4
+      internalID: 68240573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a564e6f7c7761834c86294ce94d7f0b1
+      internalID: 1395578523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_86
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 0
+        width: 225
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d11c0c95f26f42a36f25b3427f788
+      internalID: 1529588429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_87
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 0
+        width: 221
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41991384dafb664aa9e0639690570ff
+      internalID: -378361497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_88
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 168
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff1db362e64be346bf6b17e7b0fdf42
+      internalID: -1112899496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_89
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 825
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3b1b1efa265484d8b0780a5a153a75
+      internalID: 1085548942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_in_parka_90
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 0
+        width: 329
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100cbcd7ba284ee44a01bdf640262af4
+      internalID: -1909649978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 916eaef7f8fd4dc44af93564a3ea9122
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Character_in_parka_0: -8170466027759147824
+      Character_in_parka_1: 7012194485604071898
+      Character_in_parka_10: -1485602229042121081
+      Character_in_parka_11: -1224182629753381608
+      Character_in_parka_12: 5013818337740786867
+      Character_in_parka_13: -2324963377587609435
+      Character_in_parka_14: -4298083742944983317
+      Character_in_parka_15: -6700676741358155530
+      Character_in_parka_16: -4215639759316981511
+      Character_in_parka_17: 6950148655375729586
+      Character_in_parka_18: 3821677253347906131
+      Character_in_parka_19: 7550958120342893397
+      Character_in_parka_2: -8493757010378041880
+      Character_in_parka_20: 8183465001003330721
+      Character_in_parka_21: 7847487476360070752
+      Character_in_parka_22: -8599040991547429727
+      Character_in_parka_23: 5384078341122639100
+      Character_in_parka_24: 5264373782490671920
+      Character_in_parka_25: 2676236271208674220
+      Character_in_parka_26: 6346530286178417043
+      Character_in_parka_27: -4611103016548644582
+      Character_in_parka_28: -3656482459973851731
+      Character_in_parka_29: 8965627142337125618
+      Character_in_parka_3: -2211103413092343843
+      Character_in_parka_30: -4060362972070581593
+      Character_in_parka_31: 5902014880133670890
+      Character_in_parka_32: -2331538873308558837
+      Character_in_parka_33: -3894706277475146286
+      Character_in_parka_34: -6486922346314770998
+      Character_in_parka_35: -5295620850942042279
+      Character_in_parka_36: -4879423482069766739
+      Character_in_parka_37: -8028542114793414467
+      Character_in_parka_38: -6421030412755854595
+      Character_in_parka_39: -105150893630513811
+      Character_in_parka_4: 143100653163486749
+      Character_in_parka_40: 3477839219020650726
+      Character_in_parka_41: 493652157406617399
+      Character_in_parka_42: 9030190745626202528
+      Character_in_parka_43: 1960265777546648154
+      Character_in_parka_44: -3404511185483899348
+      Character_in_parka_45: -9106143280586748844
+      Character_in_parka_46: 8228471052780382068
+      Character_in_parka_47: -7425159471110218928
+      Character_in_parka_48: 7358536686549092833
+      Character_in_parka_49: 8349267938136048077
+      Character_in_parka_5: 6564776978820804219
+      Character_in_parka_50: 7908886912086192571
+      Character_in_parka_51: -7647934392709116523
+      Character_in_parka_52: -2850644147939465520
+      Character_in_parka_53: 5390504905664347794
+      Character_in_parka_54: 8720924313206822751
+      Character_in_parka_55: 3527076665912397175
+      Character_in_parka_56: -7090350664182247488
+      Character_in_parka_57: 3990149901581099127
+      Character_in_parka_58: -3577506584098606096
+      Character_in_parka_59: -1333346303973687039
+      Character_in_parka_6: -7760470282689499499
+      Character_in_parka_60: 2340371269335219841
+      Character_in_parka_61: -4107655402858212751
+      Character_in_parka_62: -7748674109660240552
+      Character_in_parka_63: -1726925416
+      Character_in_parka_64: 789297247
+      Character_in_parka_65: -2028325029
+      Character_in_parka_66: -1626072486
+      Character_in_parka_67: 2059176233
+      Character_in_parka_68: -1478086819
+      Character_in_parka_69: -589921337
+      Character_in_parka_7: 3182215353580441817
+      Character_in_parka_70: 1626085009
+      Character_in_parka_71: 164719410
+      Character_in_parka_72: -1138270182
+      Character_in_parka_73: 1868419571
+      Character_in_parka_74: -2048024614
+      Character_in_parka_75: -1397169108
+      Character_in_parka_76: 1289222308
+      Character_in_parka_77: 124471705
+      Character_in_parka_78: 224730435
+      Character_in_parka_79: 29253403
+      Character_in_parka_8: -3693359692257486210
+      Character_in_parka_80: -1804972923
+      Character_in_parka_81: 484341546
+      Character_in_parka_82: 388497898
+      Character_in_parka_83: 1655766663
+      Character_in_parka_84: 68240573
+      Character_in_parka_85: 1395578523
+      Character_in_parka_86: 1529588429
+      Character_in_parka_87: -378361497
+      Character_in_parka_88: -1112899496
+      Character_in_parka_89: 1085548942
+      Character_in_parka_9: 7645207256881047474
+      Character_in_parka_90: -1909649978
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

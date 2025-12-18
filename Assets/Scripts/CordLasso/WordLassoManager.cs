@@ -22,6 +22,7 @@ public class WordLassoManager : MonoBehaviour
     public GameObject successPanel;
     public GameObject failPanel;
     public GameObject gameOverPanel;
+    public GameObject HelpPanel;
     [Header("Start Messages")]
     public TMP_Text startPanelText;
     public List<string> startMessages = new List<string>()
@@ -39,6 +40,7 @@ public class WordLassoManager : MonoBehaviour
     public List<WordTargetController> activeWords = new List<WordTargetController>();
     private List<string> collectedWords = new List<string>();
     private Stack<WordTargetController> collectedWordStack = new Stack<WordTargetController>();
+    public bool paused = false;
 
 
     void Start()
@@ -95,17 +97,19 @@ public class WordLassoManager : MonoBehaviour
         {
             int randIndex = Random.Range(i, shuffledParts.Count);
             (shuffledParts[i], shuffledParts[randIndex]) =
-                (shuffledParts[randIndex], shuffledParts[i]);
+            (shuffledParts[randIndex], shuffledParts[i]);
         }
 
         // spawn words horizontally
         Vector2 center = spawnArea.position;
         Vector2 halfSize = spawnArea.localScale / 2f;
-        float spacing = (halfSize.x * 2f) / shuffledParts.Count;
+        float spacing = (halfSize.x * 2f) / shuffledParts.Count * 1.15f;
 
+        // Adjust the spawn position of the first word
+        float offset = 1f; // Adjust this value to move the first word more left
         for (int i = 0; i < shuffledParts.Count; i++)
         {
-            Vector2 spawnPos = new Vector2(center.x - halfSize.x + spacing / 2f + i * spacing, center.y);
+            Vector2 spawnPos = new Vector2(center.x - halfSize.x + spacing / 2f + i * spacing - offset, center.y);
             GameObject newWord = Instantiate(wordPrefab, spawnPos, Quaternion.identity);
             var controller = newWord.GetComponent<WordTargetController>();
             controller.SetWord(shuffledParts[i], this);
@@ -124,7 +128,7 @@ public class WordLassoManager : MonoBehaviour
         UpdateSentenceText(string.Join(" ", collectedWords));
         UpdateCollectedWordsUI();
 
-        FindObjectOfType<GunScript>().ReleaseHook();
+        FindFirstObjectByType<GunScript>().ReleaseHook();
 
         // when all the words are collected
         if (collectedWords.Count == questions[currentQuestionIndex].wordParts.Length)
@@ -286,15 +290,59 @@ public class WordLassoManager : MonoBehaviour
     {
         ShowOnly(gameOverPanel);
         int ePressCount = 0;
-        while (ePressCount < 2)
+        while (ePressCount < 1)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
                 ePressCount++;
             }
+            string _goMarker = "|goStart:";
+            float _timeoutSeconds = 3f;
+
+            if (gameOverPanel != null)
+            {
+                if (!gameOverPanel.name.Contains(_goMarker))
+                {
+                    gameOverPanel.name += _goMarker + Time.realtimeSinceStartup.ToString("F3");
+                }
+                else
+                {
+                    int _idx = gameOverPanel.name.IndexOf(_goMarker);
+                    string _timeStr = gameOverPanel.name.Substring(_idx + _goMarker.Length);
+                    if (float.TryParse(_timeStr, out float _start))
+                    {
+                        if (Time.realtimeSinceStartup - _start >= _timeoutSeconds)
+                        {
+                            // clean up marker and break to return
+                            gameOverPanel.name = gameOverPanel.name.Substring(0, _idx);
+                            break;
+                        }
+                    }
+                }
+            }
             yield return null;
         }
 
         SceneTracker.Instance.ReturnToPreviousScene(true);
+    }
+
+    public void ShowHelpPanel()
+    {
+        if (HelpPanel != null)
+        {
+            HelpPanel.SetActive(true);
+            paused = true;
+            Time.timeScale = 0f;
+        }
+    }
+
+    public void HideHelpPanel()
+    {
+        if (HelpPanel != null)
+        {
+            HelpPanel.SetActive(false);
+            paused = false;
+            Time.timeScale = 1f;
+        }
     }
 }

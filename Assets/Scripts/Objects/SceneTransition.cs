@@ -40,7 +40,7 @@ public class SceneTransition : MonoBehaviour
         }
         if (targetCamera == null)
         {
-            targetCamera = FindObjectOfType<Camera>();
+            targetCamera = FindFirstObjectByType<Camera>();
         }
         //CheckConditions();
         if (isActivated != null && isActivated.runtimeValue)

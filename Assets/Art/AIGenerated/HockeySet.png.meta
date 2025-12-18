@@ -1,0 +1,3237 @@
+fileFormatVersion: 2
+guid: 988b9b5705932fe429ca4340f8f61c11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1965254682993603621
+    second: HockeySet_0
+  - first:
+      213: -4692806106059894870
+    second: HockeySet_1
+  - first:
+      213: -5345844661485511559
+    second: HockeySet_2
+  - first:
+      213: 276688634638578099
+    second: HockeySet_3
+  - first:
+      213: -1251669537376312604
+    second: HockeySet_4
+  - first:
+      213: -8153285930301651910
+    second: HockeySet_5
+  - first:
+      213: -3010141025951829571
+    second: HockeySet_6
+  - first:
+      213: 1360547971285299519
+    second: HockeySet_7
+  - first:
+      213: -8556421248289392943
+    second: HockeySet_8
+  - first:
+      213: 4488520788033195831
+    second: HockeySet_9
+  - first:
+      213: -3773273712736684898
+    second: HockeySet_10
+  - first:
+      213: 7063136524348673761
+    second: HockeySet_11
+  - first:
+      213: -6074599112371771745
+    second: HockeySet_12
+  - first:
+      213: 5450984795888264880
+    second: HockeySet_13
+  - first:
+      213: -1200952492024130586
+    second: HockeySet_14
+  - first:
+      213: 7327085151568961677
+    second: HockeySet_15
+  - first:
+      213: 1788562816819542011
+    second: HockeySet_16
+  - first:
+      213: 829016151200349747
+    second: HockeySet_17
+  - first:
+      213: -1464276511177106674
+    second: HockeySet_18
+  - first:
+      213: -5487718306537161988
+    second: HockeySet_19
+  - first:
+      213: -3911652385889139391
+    second: HockeySet_20
+  - first:
+      213: 1698807057639604182
+    second: HockeySet_21
+  - first:
+      213: 5769951038959731345
+    second: HockeySet_22
+  - first:
+      213: -7641063777632289447
+    second: HockeySet_23
+  - first:
+      213: 3476006926886855151
+    second: HockeySet_24
+  - first:
+      213: -7085122922226559607
+    second: HockeySet_25
+  - first:
+      213: -7001580913122038971
+    second: HockeySet_26
+  - first:
+      213: -6409851950169372000
+    second: HockeySet_27
+  - first:
+      213: -4664245684775906010
+    second: HockeySet_28
+  - first:
+      213: 6656099107937171226
+    second: HockeySet_29
+  - first:
+      213: 760648277579504638
+    second: HockeySet_30
+  - first:
+      213: -3661831061463253270
+    second: HockeySet_31
+  - first:
+      213: -1520848333502907391
+    second: HockeySet_32
+  - first:
+      213: -1300774641370712906
+    second: HockeySet_33
+  - first:
+      213: 881854382024325452
+    second: HockeySet_34
+  - first:
+      213: -7507664313885211450
+    second: HockeySet_35
+  - first:
+      213: -6175959707245126459
+    second: HockeySet_36
+  - first:
+      213: 5381897588886267521
+    second: HockeySet_37
+  - first:
+      213: 7270995356023147166
+    second: HockeySet_38
+  - first:
+      213: -8244115106879963599
+    second: HockeySet_39
+  - first:
+      213: -6701714160439643401
+    second: HockeySet_40
+  - first:
+      213: 2867671628957721623
+    second: HockeySet_41
+  - first:
+      213: -1050574397851999440
+    second: HockeySet_42
+  - first:
+      213: -7309763573031577497
+    second: HockeySet_43
+  - first:
+      213: 4336856354384923471
+    second: HockeySet_44
+  - first:
+      213: -5515529025469442347
+    second: HockeySet_45
+  - first:
+      213: -4072766227358303867
+    second: HockeySet_46
+  - first:
+      213: -3093827662772683405
+    second: HockeySet_47
+  - first:
+      213: 5390936028407221124
+    second: HockeySet_48
+  - first:
+      213: -6829983252524243764
+    second: HockeySet_49
+  - first:
+      213: 8368113993669002933
+    second: HockeySet_50
+  - first:
+      213: 3309129817852113701
+    second: HockeySet_51
+  - first:
+      213: -3854386121686376840
+    second: HockeySet_52
+  - first:
+      213: -2614818706127598229
+    second: HockeySet_53
+  - first:
+      213: -1226381825550312375
+    second: HockeySet_54
+  - first:
+      213: 5295095839528282859
+    second: HockeySet_55
+  - first:
+      213: -2953371820925294097
+    second: HockeySet_56
+  - first:
+      213: 8687816056954491865
+    second: HockeySet_57
+  - first:
+      213: 6990242792841120371
+    second: HockeySet_58
+  - first:
+      213: 7277187782317360480
+    second: HockeySet_59
+  - first:
+      213: -3075696262186119845
+    second: HockeySet_60
+  - first:
+      213: 647331294798728315
+    second: HockeySet_61
+  - first:
+      213: -8963661134109077447
+    second: HockeySet_62
+  - first:
+      213: -8146713414189508121
+    second: HockeySet_63
+  - first:
+      213: -7161214822812033400
+    second: HockeySet_64
+  - first:
+      213: 5490651758701275289
+    second: HockeySet_65
+  - first:
+      213: -5004502487708265443
+    second: HockeySet_66
+  - first:
+      213: -3605176787708156116
+    second: HockeySet_67
+  - first:
+      213: 1086571491116262595
+    second: HockeySet_68
+  - first:
+      213: -2396953397431788682
+    second: HockeySet_69
+  - first:
+      213: -5347840219711264766
+    second: HockeySet_70
+  - first:
+      213: 6946811820762704962
+    second: HockeySet_71
+  - first:
+      213: 4803315506143054435
+    second: HockeySet_72
+  - first:
+      213: 4935082797563897745
+    second: HockeySet_73
+  - first:
+      213: -6095237004483502397
+    second: HockeySet_74
+  - first:
+      213: -4380780434016151017
+    second: HockeySet_75
+  - first:
+      213: 2990937165852540221
+    second: HockeySet_76
+  - first:
+      213: -5289289887630209325
+    second: HockeySet_77
+  - first:
+      213: 8379668704579303663
+    second: HockeySet_78
+  - first:
+      213: -643240893160647607
+    second: HockeySet_79
+  - first:
+      213: -2403938437576565180
+    second: HockeySet_80
+  - first:
+      213: -2532389999874883828
+    second: HockeySet_81
+  - first:
+      213: -6211219383669854314
+    second: HockeySet_82
+  - first:
+      213: -6210477618446247860
+    second: HockeySet_83
+  - first:
+      213: -8116736430973535687
+    second: HockeySet_84
+  - first:
+      213: 4224254476761567973
+    second: HockeySet_85
+  - first:
+      213: -1455125854460548038
+    second: HockeySet_86
+  - first:
+      213: -5087368635350473448
+    second: HockeySet_87
+  - first:
+      213: -9159397014954615062
+    second: HockeySet_88
+  - first:
+      213: -1719371080704018017
+    second: HockeySet_89
+  - first:
+      213: 1702179125501816032
+    second: HockeySet_90
+  - first:
+      213: -4364720684557117516
+    second: HockeySet_91
+  - first:
+      213: 6063592857891702808
+    second: HockeySet_92
+  - first:
+      213: -7336808785701967006
+    second: HockeySet_93
+  - first:
+      213: 8285748071764458537
+    second: HockeySet_94
+  - first:
+      213: 8354938176548782894
+    second: HockeySet_95
+  - first:
+      213: -3226220625826048099
+    second: HockeySet_96
+  - first:
+      213: 4536663165638563606
+    second: HockeySet_97
+  - first:
+      213: -6490326299216057484
+    second: HockeySet_98
+  - first:
+      213: -6085877138860226494
+    second: HockeySet_99
+  - first:
+      213: 7450830563667501080
+    second: HockeySet_100
+  - first:
+      213: -7839354064197510834
+    second: HockeySet_101
+  - first:
+      213: 2943262140586576385
+    second: HockeySet_102
+  - first:
+      213: 4668457355980625856
+    second: HockeySet_103
+  - first:
+      213: -7659460236832023313
+    second: HockeySet_104
+  - first:
+      213: 7770278829107365833
+    second: HockeySet_105
+  - first:
+      213: -4085448570419503228
+    second: HockeySet_106
+  - first:
+      213: 7912994506897127660
+    second: HockeySet_107
+  - first:
+      213: -5097275996880130950
+    second: HockeySet_108
+  - first:
+      213: 7275020586070871744
+    second: HockeySet_109
+  - first:
+      213: 4410701210673509428
+    second: HockeySet_110
+  - first:
+      213: -8802633396863008719
+    second: HockeySet_111
+  - first:
+      213: -1265372903731085492
+    second: HockeySet_112
+  - first:
+      213: 5607299367508486269
+    second: HockeySet_113
+  - first:
+      213: -8399541299514824100
+    second: HockeySet_114
+  - first:
+      213: 7829977905285233443
+    second: HockeySet_115
+  - first:
+      213: 8498546453408747194
+    second: HockeySet_116
+  - first:
+      213: -2292594839153635089
+    second: HockeySet_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HockeySet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 126
+        height: 1432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb4ef637430ab4e0800000000000000
+      internalID: -1965254682993603621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf0488c5bdcfdeb0800000000000000
+      internalID: -4692806106059894870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1599
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97cdcb79a9ebfc5b0800000000000000
+      internalID: -5345844661485511559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_3
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1602
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b13505e8def6d300800000000000000
+      internalID: 276688634638578099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_4
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1616
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e2e188ff2d21aee0800000000000000
+      internalID: -1251669537376312604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1582
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a340e24f4a5b9de80800000000000000
+      internalID: -8153285930301651910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_6
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1612
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1bf407fa4d936d0800000000000000
+      internalID: -3010141025951829571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1614
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f31b650eb23a1e210800000000000000
+      internalID: 1360547971285299519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1623
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d63b13653c714980800000000000000
+      internalID: -8556421248289392943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1608
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fcca120ed6a4e30800000000000000
+      internalID: 4488520788033195831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_10
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1590
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94b208cc83a2abc0800000000000000
+      internalID: -3773273712736684898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1623
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eec3ed2f3d450260800000000000000
+      internalID: 7063136524348673761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1538
+        width: 105
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f966d2aba40b2bba0800000000000000
+      internalID: -6074599112371771745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_13
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 849
+        width: 359
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6a9f29ac9c5ab40800000000000000
+      internalID: 5450984795888264880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1538
+        width: 115
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e318c8421c555fe0800000000000000
+      internalID: -1200952492024130586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_15
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1610
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80ae42ff190fa560800000000000000
+      internalID: 7327085151568961677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_16
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 1624
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7300bd76042d810800000000000000
+      internalID: 1788562816819542011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_17
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1539
+        width: 141
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ebb551cc1418b00800000000000000
+      internalID: 829016151200349747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_18
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1501
+        width: 103
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b175a6548ddabe0800000000000000
+      internalID: -1464276511177106674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_19
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1537
+        width: 378
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfab17f7645b7d3b0800000000000000
+      internalID: -5487718306537161988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_20
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1538
+        width: 163
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145c44e31e407b9c0800000000000000
+      internalID: -3911652385889139391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_21
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1539
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dff88ca400639710800000000000000
+      internalID: 1698807057639604182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_22
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1538
+        width: 111
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192479046ebf21050800000000000000
+      internalID: 5769951038959731345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_23
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 1538
+        width: 625
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d7f147afc75f590800000000000000
+      internalID: -7641063777632289447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_24
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 1540
+        width: 130
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe163e122e14d3030800000000000000
+      internalID: 3476006926886855151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_25
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 1539
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98555b6ad369cad90800000000000000
+      internalID: -7085122922226559607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_26
+      rect:
+        serializedVersion: 2
+        x: 2347
+        y: 200
+        width: 277
+        height: 1432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ba437614365de90800000000000000
+      internalID: -7001580913122038971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1582
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa4f47bc91ab07a0800000000000000
+      internalID: -6409851950169372000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1586
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62598cd0345454fb0800000000000000
+      internalID: -4664245684775906010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_29
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1569
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17b3668fd63f5c50800000000000000
+      internalID: 6656099107937171226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_30
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1555
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb9320149d5e8a00800000000000000
+      internalID: 760648277579504638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1530
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeebdf10d009e2dc0800000000000000
+      internalID: -3661831061463253270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1545
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c705c9f7cd4eae0800000000000000
+      internalID: -1520848333502907391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1545
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b433400b58b2fde0800000000000000
+      internalID: -1300774641370712906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1519
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c497e2063e9fc3c00800000000000000
+      internalID: 881854382024325452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_35
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1531
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4cef5751b6fc790800000000000000
+      internalID: -7507664313885211450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_36
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1508
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc578e2e559a4aa0800000000000000
+      internalID: -6175959707245126459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1515
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e813b75750ba40800000000000000
+      internalID: 5381897588886267521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1499
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a464fb0c3c7e460800000000000000
+      internalID: 7270995356023147166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_39
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1509
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13efcfe4df4079d80800000000000000
+      internalID: -8244115106879963599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_40
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1519
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f23ac07a7abef2a0800000000000000
+      internalID: -6701714160439643401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1495
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714ad7827240cc720800000000000000
+      internalID: 2867671628957721623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1471
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03369edb62c9b61f0800000000000000
+      internalID: -1050574397851999440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_43
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1495
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768dc5552c08e8a90800000000000000
+      internalID: -7309763573031577497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_44
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1487
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b420d60eb9f2c30800000000000000
+      internalID: 4336856354384923471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_45
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1498
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d69988e297e473b0800000000000000
+      internalID: -5515529025469442347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_46
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1494
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589b915d1b0aa77c0800000000000000
+      internalID: -4072766227358303867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_47
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1469
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d382ce1248015d0800000000000000
+      internalID: -3093827662772683405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_48
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1495
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b411461c370da40800000000000000
+      internalID: 5390936028407221124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_49
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1480
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ec6b2b660731a0800000000000000
+      internalID: -6829983252524243764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1507
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6cd905753812470800000000000000
+      internalID: 8368113993669002933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_51
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1492
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5237abc69046ced20800000000000000
+      internalID: 3309129817852113701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1484
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e10b56e38728ac0800000000000000
+      internalID: -3854386121686376840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_53
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1477
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6dc73d9d3c46bbd0800000000000000
+      internalID: -2614818706127598229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1478
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c14113a340bfee0800000000000000
+      internalID: -1226381825550312375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_55
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1473
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea6bb68c95fb7940800000000000000
+      internalID: 5295095839528282859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_56
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1458
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9691cf9f38307d0800000000000000
+      internalID: -2953371820925294097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1468
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d315bc7ca2519870800000000000000
+      internalID: 8687816056954491865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1447
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a8701c8c4520160800000000000000
+      internalID: 6990242792841120371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_59
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1462
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065c6d85bb3cdf460800000000000000
+      internalID: 7277187782317360480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1438
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d46679b8ee055d0800000000000000
+      internalID: -3075696262186119845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1428
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cc8760268cbf800800000000000000
+      internalID: 647331294798728315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1444
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9301476a0bdaa9380800000000000000
+      internalID: -8963661134109077447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1228
+        width: 44
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9135c105f01fe80800000000000000
+      internalID: -8146713414189508121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1415
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ed6067f014e9c90800000000000000
+      internalID: -7161214822812033400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_65
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1432
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99863ce0fa6b23c40800000000000000
+      internalID: 5490651758701275289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_66
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1431
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14179e908f6c8ab0800000000000000
+      internalID: -5004502487708265443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1430
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27eb2800d6d7fdc0800000000000000
+      internalID: -3605176787708156116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1407
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c42d07a307441f00800000000000000
+      internalID: 1086571491116262595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1395
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b99eaa59f4cbed0800000000000000
+      internalID: -2396953397431788682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1381
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208209c77a7a8c5b0800000000000000
+      internalID: -5347840219711264766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_71
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1368
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24cab029b88086060800000000000000
+      internalID: 6946811820762704962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1361
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a48c7f00ec8a240800000000000000
+      internalID: 4803315506143054435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_73
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1368
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197efed38afec7440800000000000000
+      internalID: 4935082797563897745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_74
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 232
+        width: 1113
+        height: 1142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ced1f50d3e596ba0800000000000000
+      internalID: -6095237004483502397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_75
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1345
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a5c77d7675433c0800000000000000
+      internalID: -4380780434016151017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_76
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1328
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d77247181f18920800000000000000
+      internalID: 2990937165852540221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_77
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1302
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de4cbdfedaa896b0800000000000000
+      internalID: -5289289887630209325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_78
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1302
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe838e71a409a4470800000000000000
+      internalID: 8379668704579303663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1243
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9449722d0dfb217f0800000000000000
+      internalID: -643240893160647607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_80
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1250
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e57564abe73aed0800000000000000
+      internalID: -2403938437576565180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_81
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1254
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fb4b856b42bdcd0800000000000000
+      internalID: -2532389999874883828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f665601e05dc9a0800000000000000
+      internalID: -6211219383669854314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_83
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1222
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c485ff2b283ffc9a0800000000000000
+      internalID: -6210477618446247860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_84
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1231
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ab958683f8b5f80800000000000000
+      internalID: -8116736430973535687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_85
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1215
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e21a38c0119f9a30800000000000000
+      internalID: 4224254476761567973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1220
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c6465beba5ecbe0800000000000000
+      internalID: -1455125854460548038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_87
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815a8702e290669b0800000000000000
+      internalID: -5087368635350473448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1204
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee5bd681f843e080800000000000000
+      internalID: -9159397014954615062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1195
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99be899c119328e0800000000000000
+      internalID: -1719371080704018017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_90
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1201
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecee9765ea5f9710800000000000000
+      internalID: 1702179125501816032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_91
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1182
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b75c25a9a56d63c0800000000000000
+      internalID: -4364720684557117516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_92
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1207
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8180b35f395362450800000000000000
+      internalID: 6063592857891702808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_93
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1208
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26be44f084b6e2a90800000000000000
+      internalID: -7336808785701967006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_94
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1187
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cf5e3b8f3ecf270800000000000000
+      internalID: 8285748071764458537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_95
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1192
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e234a855104b2f370800000000000000
+      internalID: 8354938176548782894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_96
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1192
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97999e1f692a33d0800000000000000
+      internalID: -3226220625826048099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_97
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1180
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6175c75ec1775fe30800000000000000
+      internalID: 4536663165638563606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_98
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1184
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47be9da3e9abde5a0800000000000000
+      internalID: -6490326299216057484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_99
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1179
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248c09f8cfe9a8ba0800000000000000
+      internalID: -6085877138860226494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1168
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8106605ebeaa66760800000000000000
+      internalID: 7450830563667501080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1068
+        width: 17
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e491ef66305053390800000000000000
+      internalID: -7839354064197510834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_102
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1172
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ac482a25198d820800000000000000
+      internalID: 2943262140586576385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_103
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1170
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7d8401b31b9c040800000000000000
+      internalID: 4668457355980625856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_104
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1140
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fecd5640f7124b590800000000000000
+      internalID: -7659460236832023313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_105
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1155
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7cea62d6395db60800000000000000
+      internalID: 7770278829107365833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_106
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f940cbb229d47c0800000000000000
+      internalID: -4085448570419503228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_107
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87835449a90dd60800000000000000
+      internalID: 7912994506897127660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_108
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1124
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ca5d3cc76d249b0800000000000000
+      internalID: -5097275996880130950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1090
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce8866ada016f460800000000000000
+      internalID: 7275020586070871744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_110
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1067
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4347498d165f53d30800000000000000
+      internalID: 4410701210673509428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_111
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1047
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1308dfb5093c6d580800000000000000
+      internalID: -8802633396863008719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_112
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1048
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f34bc5c0e707ee0800000000000000
+      internalID: -1265372903731085492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_113
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 921
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78ad95e01121dd40800000000000000
+      internalID: 5607299367508486269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_114
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 232
+        width: 325
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a2236d0b5de6b80800000000000000
+      internalID: -8399541299514824100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_115
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 428
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32bfeab7b6ba9ac60800000000000000
+      internalID: 7829977905285233443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_116
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 227
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe859ed8f6e0f570800000000000000
+      internalID: 8498546453408747194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HockeySet_117
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2624
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe09a56f3211f20e0800000000000000
+      internalID: -2292594839153635089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HockeySet_0: -1965254682993603621
+      HockeySet_1: -4692806106059894870
+      HockeySet_10: -3773273712736684898
+      HockeySet_100: 7450830563667501080
+      HockeySet_101: -7839354064197510834
+      HockeySet_102: 2943262140586576385
+      HockeySet_103: 4668457355980625856
+      HockeySet_104: -7659460236832023313
+      HockeySet_105: 7770278829107365833
+      HockeySet_106: -4085448570419503228
+      HockeySet_107: 7912994506897127660
+      HockeySet_108: -5097275996880130950
+      HockeySet_109: 7275020586070871744
+      HockeySet_11: 7063136524348673761
+      HockeySet_110: 4410701210673509428
+      HockeySet_111: -8802633396863008719
+      HockeySet_112: -1265372903731085492
+      HockeySet_113: 5607299367508486269
+      HockeySet_114: -8399541299514824100
+      HockeySet_115: 7829977905285233443
+      HockeySet_116: 8498546453408747194
+      HockeySet_117: -2292594839153635089
+      HockeySet_12: -6074599112371771745
+      HockeySet_13: 5450984795888264880
+      HockeySet_14: -1200952492024130586
+      HockeySet_15: 7327085151568961677
+      HockeySet_16: 1788562816819542011
+      HockeySet_17: 829016151200349747
+      HockeySet_18: -1464276511177106674
+      HockeySet_19: -5487718306537161988
+      HockeySet_2: -5345844661485511559
+      HockeySet_20: -3911652385889139391
+      HockeySet_21: 1698807057639604182
+      HockeySet_22: 5769951038959731345
+      HockeySet_23: -7641063777632289447
+      HockeySet_24: 3476006926886855151
+      HockeySet_25: -7085122922226559607
+      HockeySet_26: -7001580913122038971
+      HockeySet_27: -6409851950169372000
+      HockeySet_28: -4664245684775906010
+      HockeySet_29: 6656099107937171226
+      HockeySet_3: 276688634638578099
+      HockeySet_30: 760648277579504638
+      HockeySet_31: -3661831061463253270
+      HockeySet_32: -1520848333502907391
+      HockeySet_33: -1300774641370712906
+      HockeySet_34: 881854382024325452
+      HockeySet_35: -7507664313885211450
+      HockeySet_36: -6175959707245126459
+      HockeySet_37: 5381897588886267521
+      HockeySet_38: 7270995356023147166
+      HockeySet_39: -8244115106879963599
+      HockeySet_4: -1251669537376312604
+      HockeySet_40: -6701714160439643401
+      HockeySet_41: 2867671628957721623
+      HockeySet_42: -1050574397851999440
+      HockeySet_43: -7309763573031577497
+      HockeySet_44: 4336856354384923471
+      HockeySet_45: -5515529025469442347
+      HockeySet_46: -4072766227358303867
+      HockeySet_47: -3093827662772683405
+      HockeySet_48: 5390936028407221124
+      HockeySet_49: -6829983252524243764
+      HockeySet_5: -8153285930301651910
+      HockeySet_50: 8368113993669002933
+      HockeySet_51: 3309129817852113701
+      HockeySet_52: -3854386121686376840
+      HockeySet_53: -2614818706127598229
+      HockeySet_54: -1226381825550312375
+      HockeySet_55: 5295095839528282859
+      HockeySet_56: -2953371820925294097
+      HockeySet_57: 8687816056954491865
+      HockeySet_58: 6990242792841120371
+      HockeySet_59: 7277187782317360480
+      HockeySet_6: -3010141025951829571
+      HockeySet_60: -3075696262186119845
+      HockeySet_61: 647331294798728315
+      HockeySet_62: -8963661134109077447
+      HockeySet_63: -8146713414189508121
+      HockeySet_64: -7161214822812033400
+      HockeySet_65: 5490651758701275289
+      HockeySet_66: -5004502487708265443
+      HockeySet_67: -3605176787708156116
+      HockeySet_68: 1086571491116262595
+      HockeySet_69: -2396953397431788682
+      HockeySet_7: 1360547971285299519
+      HockeySet_70: -5347840219711264766
+      HockeySet_71: 6946811820762704962
+      HockeySet_72: 4803315506143054435
+      HockeySet_73: 4935082797563897745
+      HockeySet_74: -6095237004483502397
+      HockeySet_75: -4380780434016151017
+      HockeySet_76: 2990937165852540221
+      HockeySet_77: -5289289887630209325
+      HockeySet_78: 8379668704579303663
+      HockeySet_79: -643240893160647607
+      HockeySet_8: -8556421248289392943
+      HockeySet_80: -2403938437576565180
+      HockeySet_81: -2532389999874883828
+      HockeySet_82: -6211219383669854314
+      HockeySet_83: -6210477618446247860
+      HockeySet_84: -8116736430973535687
+      HockeySet_85: 4224254476761567973
+      HockeySet_86: -1455125854460548038
+      HockeySet_87: -5087368635350473448
+      HockeySet_88: -9159397014954615062
+      HockeySet_89: -1719371080704018017
+      HockeySet_9: 4488520788033195831
+      HockeySet_90: 1702179125501816032
+      HockeySet_91: -4364720684557117516
+      HockeySet_92: 6063592857891702808
+      HockeySet_93: -7336808785701967006
+      HockeySet_94: 8285748071764458537
+      HockeySet_95: 8354938176548782894
+      HockeySet_96: -3226220625826048099
+      HockeySet_97: 4536663165638563606
+      HockeySet_98: -6490326299216057484
+      HockeySet_99: -6085877138860226494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

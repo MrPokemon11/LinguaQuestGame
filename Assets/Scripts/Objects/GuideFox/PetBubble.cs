@@ -10,7 +10,7 @@ public class PetBubble : MonoBehaviour
     public Vector3 offset = new Vector3(1.5f, 2f, 0f);
     public float baseDisplayDuration = 4f;
     public BoolValue hasShownIntroduction;
-    private List<string> startMessages = new List<string>() {
+    public List<string> startMessages = new List<string>() {
         "Dear explorer,",
         "Welcome to the Linguistic World!",
         "Here, you'll discover new language skills,",

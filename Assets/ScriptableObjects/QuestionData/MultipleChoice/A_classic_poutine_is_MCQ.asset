@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2309ddfb73f4bee408b66029679192b6, type: 3}
+  m_Name: A_classic_poutine_is_MCQ
+  m_EditorClassIdentifier: Assembly-CSharp::MultipleChoiceQuestion
+  question: A classic poutine is a famous dish from Quebec. Which three ingredients
+    must it contain?
+  choices:
+  - Fries, Ketchup, and Mayo
+  - Rice, Beans, and Chicken
+  - Fries, Gravy, and Cheese Curds
+  - Bread, Soup, and Salad
+  correctAnswerIndex: 2
+  explanation: 

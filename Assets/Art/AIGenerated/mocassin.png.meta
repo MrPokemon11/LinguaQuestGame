@@ -1,0 +1,3419 @@
+fileFormatVersion: 2
+guid: a91b71d97d48440448bfd3d41053f7d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3161923132964220736
+    second: mocassin_0
+  - first:
+      213: 9143614743984977786
+    second: mocassin_1
+  - first:
+      213: 1027218951391928806
+    second: mocassin_2
+  - first:
+      213: -8454097413044833072
+    second: mocassin_3
+  - first:
+      213: 731633032090318094
+    second: mocassin_4
+  - first:
+      213: -3524060350287665631
+    second: mocassin_5
+  - first:
+      213: 2305290353623184859
+    second: mocassin_6
+  - first:
+      213: -7618594975203376054
+    second: mocassin_7
+  - first:
+      213: -6900329389595688447
+    second: mocassin_8
+  - first:
+      213: -6730808727240755309
+    second: mocassin_9
+  - first:
+      213: 2582729373434541433
+    second: mocassin_10
+  - first:
+      213: 5940377279972292560
+    second: mocassin_11
+  - first:
+      213: -1711383142953759310
+    second: mocassin_12
+  - first:
+      213: -1180271796997924065
+    second: mocassin_13
+  - first:
+      213: 4580729503250670783
+    second: mocassin_14
+  - first:
+      213: 6406521930772870233
+    second: mocassin_15
+  - first:
+      213: -1612441914778254274
+    second: mocassin_16
+  - first:
+      213: 7807338823639115152
+    second: mocassin_17
+  - first:
+      213: 4299661384228034171
+    second: mocassin_18
+  - first:
+      213: 7180972397722205356
+    second: mocassin_19
+  - first:
+      213: -1931771338856580476
+    second: mocassin_20
+  - first:
+      213: -5043537071794506652
+    second: mocassin_21
+  - first:
+      213: -7240063853600641151
+    second: mocassin_22
+  - first:
+      213: -8726494866335009731
+    second: mocassin_23
+  - first:
+      213: -4846860773280451626
+    second: mocassin_24
+  - first:
+      213: 78031921188495942
+    second: mocassin_25
+  - first:
+      213: 3749367911711401951
+    second: mocassin_26
+  - first:
+      213: 3636096466775757507
+    second: mocassin_27
+  - first:
+      213: 4142986364099599738
+    second: mocassin_28
+  - first:
+      213: -589953330650098248
+    second: mocassin_29
+  - first:
+      213: 7709946305590852038
+    second: mocassin_30
+  - first:
+      213: 4891040138673221011
+    second: mocassin_31
+  - first:
+      213: 8981901017565881568
+    second: mocassin_32
+  - first:
+      213: -8791260815639324419
+    second: mocassin_33
+  - first:
+      213: -379488009006853575
+    second: mocassin_34
+  - first:
+      213: 1917424022070102265
+    second: mocassin_35
+  - first:
+      213: 9022786055445449498
+    second: mocassin_36
+  - first:
+      213: -4488394555788216300
+    second: mocassin_37
+  - first:
+      213: -4980962023321223393
+    second: mocassin_38
+  - first:
+      213: -720057043744628541
+    second: mocassin_39
+  - first:
+      213: 1815362970459776027
+    second: mocassin_40
+  - first:
+      213: 7710952033861071077
+    second: mocassin_41
+  - first:
+      213: -4544993320004622523
+    second: mocassin_42
+  - first:
+      213: 6269287352757796917
+    second: mocassin_43
+  - first:
+      213: -4516341189587033671
+    second: mocassin_44
+  - first:
+      213: -4602472180489281555
+    second: mocassin_45
+  - first:
+      213: -3410412605983788443
+    second: mocassin_46
+  - first:
+      213: -6224265955861935351
+    second: mocassin_47
+  - first:
+      213: -1823713341886311637
+    second: mocassin_48
+  - first:
+      213: -1501143487013004381
+    second: mocassin_49
+  - first:
+      213: -8654957077894884100
+    second: mocassin_50
+  - first:
+      213: 7921243537810826986
+    second: mocassin_51
+  - first:
+      213: 798638615902468875
+    second: mocassin_52
+  - first:
+      213: -138766999545952444
+    second: mocassin_53
+  - first:
+      213: -601708823045373216
+    second: mocassin_54
+  - first:
+      213: 2648331214148716898
+    second: mocassin_55
+  - first:
+      213: 7779016860937499750
+    second: mocassin_56
+  - first:
+      213: -2061687188019945466
+    second: mocassin_57
+  - first:
+      213: -4051314278842747855
+    second: mocassin_58
+  - first:
+      213: 5209036117655360645
+    second: mocassin_59
+  - first:
+      213: -6204146579889501639
+    second: mocassin_60
+  - first:
+      213: -8847287749634586020
+    second: mocassin_61
+  - first:
+      213: 1893933248947291564
+    second: mocassin_62
+  - first:
+      213: 6556674775337994627
+    second: mocassin_63
+  - first:
+      213: -6336670716764333374
+    second: mocassin_64
+  - first:
+      213: 4219779268358701120
+    second: mocassin_65
+  - first:
+      213: -8069710942539949551
+    second: mocassin_66
+  - first:
+      213: 6388623793350443885
+    second: mocassin_67
+  - first:
+      213: 2656254614575091082
+    second: mocassin_68
+  - first:
+      213: -1240130036333862655
+    second: mocassin_69
+  - first:
+      213: 2891736013572506423
+    second: mocassin_70
+  - first:
+      213: 4434421959774290209
+    second: mocassin_71
+  - first:
+      213: 1960200060144873427
+    second: mocassin_72
+  - first:
+      213: 8189870034111716817
+    second: mocassin_73
+  - first:
+      213: 4649890471324708491
+    second: mocassin_74
+  - first:
+      213: 2368444472999852909
+    second: mocassin_75
+  - first:
+      213: 5608180982233460501
+    second: mocassin_76
+  - first:
+      213: -7633247761809311290
+    second: mocassin_77
+  - first:
+      213: -6471509556516897573
+    second: mocassin_78
+  - first:
+      213: 8119767812390647475
+    second: mocassin_79
+  - first:
+      213: -2464740199364960056
+    second: mocassin_80
+  - first:
+      213: -2519867571946986174
+    second: mocassin_81
+  - first:
+      213: 431064901298500024
+    second: mocassin_82
+  - first:
+      213: -2874832993030506371
+    second: mocassin_83
+  - first:
+      213: -4464547679116167388
+    second: mocassin_84
+  - first:
+      213: 8451220699116589547
+    second: mocassin_85
+  - first:
+      213: -5113491634362259695
+    second: mocassin_86
+  - first:
+      213: 7323591352420881436
+    second: mocassin_87
+  - first:
+      213: -8164654092416945419
+    second: mocassin_88
+  - first:
+      213: -645378798461182064
+    second: mocassin_89
+  - first:
+      213: -1029773841864746201
+    second: mocassin_90
+  - first:
+      213: -8945541297445955974
+    second: mocassin_91
+  - first:
+      213: 3421090873508911011
+    second: mocassin_92
+  - first:
+      213: -7326291908268927531
+    second: mocassin_93
+  - first:
+      213: -7114991955457137596
+    second: mocassin_94
+  - first:
+      213: -3351517413655415432
+    second: mocassin_95
+  - first:
+      213: 7757229999383599673
+    second: mocassin_96
+  - first:
+      213: -4069665895758812708
+    second: mocassin_97
+  - first:
+      213: 3588529443544181518
+    second: mocassin_98
+  - first:
+      213: 6822024301584699639
+    second: mocassin_99
+  - first:
+      213: 1866730288196814810
+    second: mocassin_100
+  - first:
+      213: 4751636276579928859
+    second: mocassin_101
+  - first:
+      213: 7580987852786918455
+    second: mocassin_102
+  - first:
+      213: 7288577714398339594
+    second: mocassin_103
+  - first:
+      213: -8650892383532625628
+    second: mocassin_104
+  - first:
+      213: -3078269635075177983
+    second: mocassin_105
+  - first:
+      213: -646928025436793745
+    second: mocassin_106
+  - first:
+      213: 6961825410558441364
+    second: mocassin_107
+  - first:
+      213: 4969243675056365558
+    second: mocassin_108
+  - first:
+      213: 1681300944209063192
+    second: mocassin_109
+  - first:
+      213: -7951085301597054509
+    second: mocassin_110
+  - first:
+      213: -7744845845402994798
+    second: mocassin_111
+  - first:
+      213: -4854123235903851237
+    second: mocassin_112
+  - first:
+      213: 509296548478308289
+    second: mocassin_113
+  - first:
+      213: 5455769650807709431
+    second: mocassin_114
+  - first:
+      213: -4224900415978561234
+    second: mocassin_115
+  - first:
+      213: -9043673510589707935
+    second: mocassin_116
+  - first:
+      213: -3969588323625825764
+    second: mocassin_117
+  - first:
+      213: -2590097438653312812
+    second: mocassin_118
+  - first:
+      213: 1374212371364788916
+    second: mocassin_119
+  - first:
+      213: 3290941290617995985
+    second: mocassin_120
+  - first:
+      213: -8554947238326828952
+    second: mocassin_121
+  - first:
+      213: -8911475495430879670
+    second: mocassin_122
+  - first:
+      213: -5686122669380283664
+    second: mocassin_123
+  - first:
+      213: 273646346027882154
+    second: mocassin_124
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 2048
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mocassin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 2195
+        height: 1622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f2c6b365861eb20800000000000000
+      internalID: 3161923132964220736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2624
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77bf3a2a25a4ee70800000000000000
+      internalID: 9143614743984977786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 179
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1e340a13a614e00800000000000000
+      internalID: 1027218951391928806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 212
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4f9eec1330daa80800000000000000
+      internalID: -8454097413044833072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 250
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e057fa7cd58472a00800000000000000
+      internalID: 731633032090318094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_5
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 167
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126a01e58c5081fc0800000000000000
+      internalID: -3524060350287665631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 275
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd538d7dc590eff10800000000000000
+      internalID: 2305290353623184859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a444d6f2c30554690800000000000000
+      internalID: -7618594975203376054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_8
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 275
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10206fbcafa1d30a0800000000000000
+      internalID: -6900329389595688447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_9
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 200
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39737b9bf1d5792a0800000000000000
+      internalID: -6730808727240755309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_10
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 319
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97578866ea2b7d320800000000000000
+      internalID: 2582729373434541433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_11
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 292
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7bc84a9a5707250800000000000000
+      internalID: 5940377279972292560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_12
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 283
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd46a94912ff38e0800000000000000
+      internalID: -1711383142953759310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_13
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 301
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bd681dd05de9fe0800000000000000
+      internalID: -1180271796997924065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 310
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb46865a635029f30800000000000000
+      internalID: 4580729503250670783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_15
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 310
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547779b0c988e850800000000000000
+      internalID: 6406521930772870233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_16
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 318
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3401b02f947f99e0800000000000000
+      internalID: -1612441914778254274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_17
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 10
+        width: 423
+        height: 1622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09520288b4d395c60800000000000000
+      internalID: 7807338823639115152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_18
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7650659f377bab30800000000000000
+      internalID: 4299661384228034171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_19
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacfd1c6950f7a360800000000000000
+      internalID: 7180972397722205356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_20
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3c28c338f035e0800000000000000
+      internalID: -1931771338856580476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_21
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 96
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464bc2841c1c10ab0800000000000000
+      internalID: -5043537071794506652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_22
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 74
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fecfed840268b90800000000000000
+      internalID: -7240063853600641151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_23
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 131
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34f4dd672345e680800000000000000
+      internalID: -8726494866335009731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_24
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3f7d47ecd7cbcb0800000000000000
+      internalID: -4846860773280451626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_25
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 23
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642e49f6e99351100800000000000000
+      internalID: 78031921188495942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_26
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 123
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd76ecd204e680430800000000000000
+      internalID: 3749367911711401951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_27
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2d83fb872067230800000000000000
+      internalID: 3636096466775757507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_28
+      rect:
+        serializedVersion: 2
+        x: 2561
+        y: 442
+        width: 63
+        height: 469
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d917dc528de7930800000000000000
+      internalID: 4142986364099599738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_29
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 394
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5da8c429010d7f0800000000000000
+      internalID: -589953330650098248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_30
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 449
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9f31ed05b3ffa60800000000000000
+      internalID: 7709946305590852038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_31
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 341
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d6bcf971770e340800000000000000
+      internalID: 4891040138673221011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_32
+      rect:
+        serializedVersion: 2
+        x: 2570
+        y: 307
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4ebb7236f16ac70800000000000000
+      internalID: 8981901017565881568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_33
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 375
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df8d104cdda2ff580800000000000000
+      internalID: -8791260815639324419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_34
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 393
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93250aa9aa9cbbaf0800000000000000
+      internalID: -379488009006853575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_35
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 323
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f80a473dfe0c9a10800000000000000
+      internalID: 1917424022070102265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_36
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 728
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b8c27dc10673d70800000000000000
+      internalID: 9022786055445449498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_37
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 687
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418327a9ee406b1c0800000000000000
+      internalID: -4488394555788216300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_38
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 437
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f3a381e6110eab0800000000000000
+      internalID: -4980962023321223393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_39
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 396
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c065990fe7d106f0800000000000000
+      internalID: -720057043744628541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_40
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 233
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1427a0e007713910800000000000000
+      internalID: 1815362970459776027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_41
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 144
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e07d5a350ec20b60800000000000000
+      internalID: 7710952033861071077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_42
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 355
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547e996e7a0fce0c0800000000000000
+      internalID: -4544993320004622523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_43
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 896
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5304af791abf00750800000000000000
+      internalID: 6269287352757796917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_44
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 874
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1233edd9bb251c0800000000000000
+      internalID: -4516341189587033671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_45
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 448
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def9151dfebb020c0800000000000000
+      internalID: -4602472180489281555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_46
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 136
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56272d2ddc7cba0d0800000000000000
+      internalID: -3410412605983788443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_47
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 641
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bca493717fe99a0800000000000000
+      internalID: -6224265955861935351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_48
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 151
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23d9b4c06ed0b6e0800000000000000
+      internalID: -1823713341886311637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_49
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 396
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abd2b3b3fdda2be0800000000000000
+      internalID: -1501143487013004381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_50
+      rect:
+        serializedVersion: 2
+        x: 2587
+        y: 682
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf492d1c46a63e780800000000000000
+      internalID: -8654957077894884100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_51
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 776
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6a2927709eded60800000000000000
+      internalID: 7921243537810826986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_52
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 391
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bb6ccf695551b00800000000000000
+      internalID: 798638615902468875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_53
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 359
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447448d2620031ef0800000000000000
+      internalID: -138766999545952444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_54
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 312
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e28920730d46a7f0800000000000000
+      internalID: -601708823045373216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_55
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 448
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269c9e23533c0c420800000000000000
+      internalID: 2648331214148716898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_56
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 213
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66434f9be9e94fb60800000000000000
+      internalID: 7779016860937499750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_57
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 421
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600e8100d6a6363e0800000000000000
+      internalID: -2061687188019945466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_58
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 186
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1343c10d027d6c7c0800000000000000
+      internalID: -4051314278842747855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_59
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1073
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584170710c63a4840800000000000000
+      internalID: 5209036117655360645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_60
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 563
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a4b3b7e8176e9a0800000000000000
+      internalID: -6204146579889501639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_61
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 393
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a8d59aaae183580800000000000000
+      internalID: -8847287749634586020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_62
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 314
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca50ec3614a984a10800000000000000
+      internalID: 1893933248947291564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_63
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 754
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38909cb28fcfdfa50800000000000000
+      internalID: 6556674775337994627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_64
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 743
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca54a46e8f9f08a0800000000000000
+      internalID: -6336670716764333374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_65
+      rect:
+        serializedVersion: 2
+        x: 2596
+        y: 496
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040041123eaaf8a30800000000000000
+      internalID: 4219779268358701120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_66
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 708
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ad2d527a0a20090800000000000000
+      internalID: -8069710942539949551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_67
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 386
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63034edd73f8a850800000000000000
+      internalID: 6388623793350443885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_68
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 282
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d8dbe9f79ecd420800000000000000
+      internalID: 2656254614575091082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_69
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 170
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101270d6d4c2acee0800000000000000
+      internalID: -1240130036333862655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_70
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 160
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73381315592812820800000000000000
+      internalID: 2891736013572506423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_71
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 666
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121c980274b3a8d30800000000000000
+      internalID: 4434421959774290209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_72
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 835
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df62a1b197043b10800000000000000
+      internalID: 1960200060144873427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_73
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 341
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd58db776348a170800000000000000
+      internalID: 8189870034111716817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_74
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 287
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e68cb5fbab78040800000000000000
+      internalID: 4649890471324708491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_75
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 695
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bb46b13b76ed020800000000000000
+      internalID: 2368444472999852909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_76
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 659
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f6022d3e244dd40800000000000000
+      internalID: 5608180982233460501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_77
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c97fc27a91411690800000000000000
+      internalID: -7633247761809311290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_78
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 97
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcb34b88549036a0800000000000000
+      internalID: -6471509556516897573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_79
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 681
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6f1341ec53fa070800000000000000
+      internalID: 8119767812390647475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_80
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0e931f8db7bcdd0800000000000000
+      internalID: -2464740199364960056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_81
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 839
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245e21d4bc1a70dd0800000000000000
+      internalID: -2519867571946986174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_82
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 359
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1390d6e337bf500800000000000000
+      internalID: 431064901298500024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_83
+      rect:
+        serializedVersion: 2
+        x: 2605
+        y: 456
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78f7d5df9a8a18d0800000000000000
+      internalID: -2874832993030506371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_84
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 421
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4277c7f3a8dba02c0800000000000000
+      internalID: -4464547679116167388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_85
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 253
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be1d5490374c84570800000000000000
+      internalID: 8451220699116589547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_86
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 623
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117e7e3737a3909b0800000000000000
+      internalID: -5113491634362259695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_87
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 611
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c145b21788f92a560800000000000000
+      internalID: 7323591352420881436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_88
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 448
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f27c837c5251be80800000000000000
+      internalID: -8164654092416945419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_89
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 257
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f1724f6672b07f0800000000000000
+      internalID: -645378798461182064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_90
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 186
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b99a4952285b1f0800000000000000
+      internalID: -1029773841864746201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_91
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 180
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a769522e59d0bd380800000000000000
+      internalID: -8945541297445955974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_92
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 137
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a754d316082a7f20800000000000000
+      internalID: 3421090873508911011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_93
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 123
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5dfc66358c35a90800000000000000
+      internalID: -7326291908268927531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_94
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 941
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444273b6388724d90800000000000000
+      internalID: -7114991955457137596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_95
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 643
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875788c5ba40d71d0800000000000000
+      internalID: -3351517413655415432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_96
+      rect:
+        serializedVersion: 2
+        x: 2610
+        y: 481
+        width: 14
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a534ab59737ab60800000000000000
+      internalID: 7757229999383599673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_97
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 1040
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd926c80e64a587c0800000000000000
+      internalID: -4069665895758812708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_98
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 542
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2b7c14840dc130800000000000000
+      internalID: 3588529443544181518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_99
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 1114
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0d90925f2bcae50800000000000000
+      internalID: 6822024301584699639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_100
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 910
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad70f678e45f7e910800000000000000
+      internalID: 1866730288196814810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_101
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 519
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b086fa40431f140800000000000000
+      internalID: 4751636276579928859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_102
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 534
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7346aeb4944153960800000000000000
+      internalID: 7580987852786918455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_103
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 422
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02aa8090da362560800000000000000
+      internalID: 7288577714398339594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_104
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 408
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421d769263bd1f780800000000000000
+      internalID: -8650892383532625628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_105
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 154
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1020976831ac745d0800000000000000
+      internalID: -3078269635075177983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_106
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 483
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6458907366a507f0800000000000000
+      internalID: -646928025436793745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_107
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 334
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497bf98535f5d9060800000000000000
+      internalID: 6961825410558441364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_108
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 241
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff57165bcc46f440800000000000000
+      internalID: 4969243675056365558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_109
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 329
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d2c140d4e255710800000000000000
+      internalID: 1681300944209063192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_110
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 296
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d95a7b7b0218a190800000000000000
+      internalID: -7951085301597054509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_111
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 145
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2973890dcb7c48490800000000000000
+      internalID: -7744845845402994798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_112
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 129
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b153bfb92a0b2acb0800000000000000
+      internalID: -4854123235903851237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_113
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 360
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfc1613382611700800000000000000
+      internalID: 509296548478308289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_114
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 255
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe10cc6799c6bb40800000000000000
+      internalID: 5455769650807709431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_115
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 118
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e21a236c4732e55c0800000000000000
+      internalID: -4224900415978561234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_116
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 438
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169c0b88bda6e7280800000000000000
+      internalID: -9043673510589707935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_117
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 297
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a8eb1937039e8c0800000000000000
+      internalID: -3969588323625825764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_118
+      rect:
+        serializedVersion: 2
+        x: 2616
+        y: 179
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d09b6b3a102e0cd0800000000000000
+      internalID: -2590097438653312812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_119
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 1011
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba3521fede221310800000000000000
+      internalID: 1374212371364788916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_120
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 973
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d283fbeaa5cbad20800000000000000
+      internalID: 3290941290617995985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_121
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 107
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860025310d8b64980800000000000000
+      internalID: -8554947238326828952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_122
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 102
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a468e3e7044145480800000000000000
+      internalID: -8911475495430879670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_123
+      rect:
+        serializedVersion: 2
+        x: 2618
+        y: 1020
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2da4efe85d611b0800000000000000
+      internalID: -5686122669380283664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mocassin_124
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 451
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa65311e6ef2cc300800000000000000
+      internalID: 273646346027882154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      mocassin_0: 3161923132964220736
+      mocassin_1: 9143614743984977786
+      mocassin_10: 2582729373434541433
+      mocassin_100: 1866730288196814810
+      mocassin_101: 4751636276579928859
+      mocassin_102: 7580987852786918455
+      mocassin_103: 7288577714398339594
+      mocassin_104: -8650892383532625628
+      mocassin_105: -3078269635075177983
+      mocassin_106: -646928025436793745
+      mocassin_107: 6961825410558441364
+      mocassin_108: 4969243675056365558
+      mocassin_109: 1681300944209063192
+      mocassin_11: 5940377279972292560
+      mocassin_110: -7951085301597054509
+      mocassin_111: -7744845845402994798
+      mocassin_112: -4854123235903851237
+      mocassin_113: 509296548478308289
+      mocassin_114: 5455769650807709431
+      mocassin_115: -4224900415978561234
+      mocassin_116: -9043673510589707935
+      mocassin_117: -3969588323625825764
+      mocassin_118: -2590097438653312812
+      mocassin_119: 1374212371364788916
+      mocassin_12: -1711383142953759310
+      mocassin_120: 3290941290617995985
+      mocassin_121: -8554947238326828952
+      mocassin_122: -8911475495430879670
+      mocassin_123: -5686122669380283664
+      mocassin_124: 273646346027882154
+      mocassin_13: -1180271796997924065
+      mocassin_14: 4580729503250670783
+      mocassin_15: 6406521930772870233
+      mocassin_16: -1612441914778254274
+      mocassin_17: 7807338823639115152
+      mocassin_18: 4299661384228034171
+      mocassin_19: 7180972397722205356
+      mocassin_2: 1027218951391928806
+      mocassin_20: -1931771338856580476
+      mocassin_21: -5043537071794506652
+      mocassin_22: -7240063853600641151
+      mocassin_23: -8726494866335009731
+      mocassin_24: -4846860773280451626
+      mocassin_25: 78031921188495942
+      mocassin_26: 3749367911711401951
+      mocassin_27: 3636096466775757507
+      mocassin_28: 4142986364099599738
+      mocassin_29: -589953330650098248
+      mocassin_3: -8454097413044833072
+      mocassin_30: 7709946305590852038
+      mocassin_31: 4891040138673221011
+      mocassin_32: 8981901017565881568
+      mocassin_33: -8791260815639324419
+      mocassin_34: -379488009006853575
+      mocassin_35: 1917424022070102265
+      mocassin_36: 9022786055445449498
+      mocassin_37: -4488394555788216300
+      mocassin_38: -4980962023321223393
+      mocassin_39: -720057043744628541
+      mocassin_4: 731633032090318094
+      mocassin_40: 1815362970459776027
+      mocassin_41: 7710952033861071077
+      mocassin_42: -4544993320004622523
+      mocassin_43: 6269287352757796917
+      mocassin_44: -4516341189587033671
+      mocassin_45: -4602472180489281555
+      mocassin_46: -3410412605983788443
+      mocassin_47: -6224265955861935351
+      mocassin_48: -1823713341886311637
+      mocassin_49: -1501143487013004381
+      mocassin_5: -3524060350287665631
+      mocassin_50: -8654957077894884100
+      mocassin_51: 7921243537810826986
+      mocassin_52: 798638615902468875
+      mocassin_53: -138766999545952444
+      mocassin_54: -601708823045373216
+      mocassin_55: 2648331214148716898
+      mocassin_56: 7779016860937499750
+      mocassin_57: -2061687188019945466
+      mocassin_58: -4051314278842747855
+      mocassin_59: 5209036117655360645
+      mocassin_6: 2305290353623184859
+      mocassin_60: -6204146579889501639
+      mocassin_61: -8847287749634586020
+      mocassin_62: 1893933248947291564
+      mocassin_63: 6556674775337994627
+      mocassin_64: -6336670716764333374
+      mocassin_65: 4219779268358701120
+      mocassin_66: -8069710942539949551
+      mocassin_67: 6388623793350443885
+      mocassin_68: 2656254614575091082
+      mocassin_69: -1240130036333862655
+      mocassin_7: -7618594975203376054
+      mocassin_70: 2891736013572506423
+      mocassin_71: 4434421959774290209
+      mocassin_72: 1960200060144873427
+      mocassin_73: 8189870034111716817
+      mocassin_74: 4649890471324708491
+      mocassin_75: 2368444472999852909
+      mocassin_76: 5608180982233460501
+      mocassin_77: -7633247761809311290
+      mocassin_78: -6471509556516897573
+      mocassin_79: 8119767812390647475
+      mocassin_8: -6900329389595688447
+      mocassin_80: -2464740199364960056
+      mocassin_81: -2519867571946986174
+      mocassin_82: 431064901298500024
+      mocassin_83: -2874832993030506371
+      mocassin_84: -4464547679116167388
+      mocassin_85: 8451220699116589547
+      mocassin_86: -5113491634362259695
+      mocassin_87: 7323591352420881436
+      mocassin_88: -8164654092416945419
+      mocassin_89: -645378798461182064
+      mocassin_9: -6730808727240755309
+      mocassin_90: -1029773841864746201
+      mocassin_91: -8945541297445955974
+      mocassin_92: 3421090873508911011
+      mocassin_93: -7326291908268927531
+      mocassin_94: -7114991955457137596
+      mocassin_95: -3351517413655415432
+      mocassin_96: 7757229999383599673
+      mocassin_97: -4069665895758812708
+      mocassin_98: 3588529443544181518
+      mocassin_99: 6822024301584699639
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
