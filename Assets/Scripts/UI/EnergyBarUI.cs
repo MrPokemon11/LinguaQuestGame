@@ -112,7 +112,7 @@ public class EnergyBarUI : MonoBehaviour
         if (fillImage)
         {
             fillImage.color = Color.red;
-            glowImage.color = Color.red;
+            //glowImage.color = Color.red;
         }
     }
 
@@ -121,7 +121,7 @@ public class EnergyBarUI : MonoBehaviour
         if (fillImage)
         {
             fillImage.color = Color.white;
-            glowImage.color = normalGlowColor;
+            //glowImage.color = normalGlowColor;
         }
     }
 }

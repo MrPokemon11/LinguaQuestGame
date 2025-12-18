@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: d48990d9b3f9a8741bc7cf8ea5ea1308
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5508307921466208283
+    second: Overworld_CAD_Final_0
+  - first:
+      213: -6532628427410260293
+    second: Overworld_CAD_Final_1
+  - first:
+      213: 5612946574416069118
+    second: Overworld_CAD_Final_2
+  - first:
+      213: -618164407144094034
+    second: Overworld_CAD_Final_3
+  - first:
+      213: 2352896360564919183
+    second: Overworld_CAD_Final_4
+  - first:
+      213: -5772782680126143858
+    second: Overworld_CAD_Final_5
+  - first:
+      213: -7059196560939317868
+    second: Overworld_CAD_Final_6
+  - first:
+      213: -6668360642816761856
+    second: Overworld_CAD_Final_7
+  - first:
+      213: 5797939850619322544
+    second: Overworld_CAD_Final_8
+  - first:
+      213: 5026656218924688979
+    second: Overworld_CAD_Final_9
+  - first:
+      213: -2677099802645893192
+    second: Overworld_CAD_Final_10
+  - first:
+      213: 1709186800915384039
+    second: Overworld_CAD_Final_11
+  - first:
+      213: 8111682315400031102
+    second: Overworld_CAD_Final_12
+  - first:
+      213: -5462241810465975252
+    second: Overworld_CAD_Final_13
+  - first:
+      213: 6330716320431657204
+    second: Overworld_CAD_Final_14
+  - first:
+      213: -1557606540590445779
+    second: Overworld_CAD_Final_15
+  - first:
+      213: -2321875755930037782
+    second: Overworld_CAD_Final_16
+  - first:
+      213: 7244887416270688160
+    second: Overworld_CAD_Final_17
+  - first:
+      213: 3598080649235584823
+    second: Overworld_CAD_Final_18
+  - first:
+      213: 338200110044314818
+    second: Overworld_CAD_Final_19
+  - first:
+      213: -8950532627032615833
+    second: Overworld_CAD_Final_20
+  - first:
+      213: 256284340937013798
+    second: Overworld_CAD_Final_21
+  - first:
+      213: -3995413280990978377
+    second: Overworld_CAD_Final_22
+  - first:
+      213: 2135746418967299052
+    second: Overworld_CAD_Final_23
+  - first:
+      213: 2859292431241529658
+    second: Overworld_CAD_Final_24
+  - first:
+      213: 2809335590806320471
+    second: Overworld_CAD_Final_25
+  - first:
+      213: -4903244601756024807
+    second: Overworld_CAD_Final_26
+  - first:
+      213: 2147080837406211547
+    second: Overworld_CAD_Final_27
+  - first:
+      213: -2826652352686712483
+    second: Overworld_CAD_Final_28
+  - first:
+      213: -4527820819183577315
+    second: Overworld_CAD_Final_29
+  - first:
+      213: 5367904508898761256
+    second: Overworld_CAD_Final_30
+  - first:
+      213: -8318381863826480432
+    second: Overworld_CAD_Final_31
+  - first:
+      213: 2176379326196189818
+    second: Overworld_CAD_Final_32
+  - first:
+      213: 5900166880102951426
+    second: Overworld_CAD_Final_33
+  - first:
+      213: 2598469324341597122
+    second: Overworld_CAD_Final_34
+  - first:
+      213: 7001305606504108821
+    second: Overworld_CAD_Final_35
+  - first:
+      213: -5833883143394186689
+    second: Overworld_CAD_Final_36
+  - first:
+      213: -6908281360766871088
+    second: Overworld_CAD_Final_37
+  - first:
+      213: -8634378013641547346
+    second: Overworld_CAD_Final_38
+  - first:
+      213: -2849325846643525122
+    second: Overworld_CAD_Final_39
+  - first:
+      213: 540320339890531034
+    second: Overworld_CAD_Final_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 433
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10b67cced0717c40800000000000000
+      internalID: 5508307921466208283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_1
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 481
+        width: 109
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbeb79e7e017755a0800000000000000
+      internalID: -6532628427410260293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 547
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1c057bb2135ed40800000000000000
+      internalID: 5612946574416069118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_3
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 527
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6e2633fb6db67f0800000000000000
+      internalID: -618164407144094034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 561
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b08c416ca27a020800000000000000
+      internalID: 2352896360564919183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_5
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 559
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82cd89ecb4f2efa0800000000000000
+      internalID: -5772782680126143858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_6
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 559
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4958d890122b80e90800000000000000
+      internalID: -7059196560939317868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_7
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 559
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00026ba63593573a0800000000000000
+      internalID: -6668360642816761856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_8
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 529
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b00f39439b667050800000000000000
+      internalID: 5797939850619322544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 543
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356a301e23542c540800000000000000
+      internalID: 5026656218924688979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_10
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 543
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfe503d9e709dad0800000000000000
+      internalID: -2677099802645893192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 453
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6095bf65048b710800000000000000
+      internalID: 1709186800915384039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_12
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 463
+        width: 33
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bac3c961c729070800000000000000
+      internalID: 8111682315400031102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_13
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 463
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2493e973083234b0800000000000000
+      internalID: -5462241810465975252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_14
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 496
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0d81da3f83bd750800000000000000
+      internalID: 6330716320431657204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_15
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 496
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b08489a15426ae0800000000000000
+      internalID: -1557606540590445779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_16
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 495
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1d2334d4a07cfd0800000000000000
+      internalID: -2321875755930037782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_17
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 449
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af038458b20b8460800000000000000
+      internalID: 7244887416270688160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_18
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 468
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737d4ea7943fee130800000000000000
+      internalID: 3598080649235584823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_19
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 469
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc703e453781b400800000000000000
+      internalID: 338200110044314818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_20
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 468
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7645d276ff159c380800000000000000
+      internalID: -8950532627032615833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_21
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 384
+        width: 146
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62abb0f00418e8300800000000000000
+      internalID: 256284340937013798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 432
+        width: 49
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be97af1ac07d88c0800000000000000
+      internalID: -3995413280990978377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_23
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 415
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3cbd86d02b3ad10800000000000000
+      internalID: 2135746418967299052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_24
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 447
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a394d19215f3ea720800000000000000
+      internalID: 2859292431241529658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_25
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 419
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7557fd8d5d3ccf620800000000000000
+      internalID: 2809335590806320471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_26
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 307
+        width: 108
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9100b71630d24fbb0800000000000000
+      internalID: -4903244601756024807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_27
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 335
+        width: 18
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd35a955a6fbcd10800000000000000
+      internalID: 2147080837406211547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_28
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 335
+        width: 50
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d59169659a6b5c8d0800000000000000
+      internalID: -2826652352686712483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_29
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 335
+        width: 37
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17d1f154f2f921c0800000000000000
+      internalID: -4527820819183577315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_30
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 232
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ad021e5b0ae7a40800000000000000
+      internalID: 5367904508898761256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_31
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 256
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2229c74cb2f8c80800000000000000
+      internalID: -8318381863826480432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 232
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a8d6a577d043e10800000000000000
+      internalID: 2176379326196189818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_33
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 232
+        width: 177
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20aaf0c548a91e150800000000000000
+      internalID: 5900166880102951426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 59
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3512d451e9f0420800000000000000
+      internalID: 2598469324341597122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_35
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 120
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 513d0a7ca52a92160800000000000000
+      internalID: 7001305606504108821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3aa9d8b032e90fa0800000000000000
+      internalID: -5833883143394186689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 0
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9d90b34bad020a0800000000000000
+      internalID: -6908281360766871088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_38
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 31
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1e37881f68c2880800000000000000
+      internalID: -8634378013641547346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_39
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef939752d392578d0800000000000000
+      internalID: -2849325846643525122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Overworld_CAD_Final_40
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 6
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae7148c7a9f7700800000000000000
+      internalID: 540320339890531034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Overworld_CAD_Final_0: 5508307921466208283
+      Overworld_CAD_Final_1: -6532628427410260293
+      Overworld_CAD_Final_10: -2677099802645893192
+      Overworld_CAD_Final_11: 1709186800915384039
+      Overworld_CAD_Final_12: 8111682315400031102
+      Overworld_CAD_Final_13: -5462241810465975252
+      Overworld_CAD_Final_14: 6330716320431657204
+      Overworld_CAD_Final_15: -1557606540590445779
+      Overworld_CAD_Final_16: -2321875755930037782
+      Overworld_CAD_Final_17: 7244887416270688160
+      Overworld_CAD_Final_18: 3598080649235584823
+      Overworld_CAD_Final_19: 338200110044314818
+      Overworld_CAD_Final_2: 5612946574416069118
+      Overworld_CAD_Final_20: -8950532627032615833
+      Overworld_CAD_Final_21: 256284340937013798
+      Overworld_CAD_Final_22: -3995413280990978377
+      Overworld_CAD_Final_23: 2135746418967299052
+      Overworld_CAD_Final_24: 2859292431241529658
+      Overworld_CAD_Final_25: 2809335590806320471
+      Overworld_CAD_Final_26: -4903244601756024807
+      Overworld_CAD_Final_27: 2147080837406211547
+      Overworld_CAD_Final_28: -2826652352686712483
+      Overworld_CAD_Final_29: -4527820819183577315
+      Overworld_CAD_Final_3: -618164407144094034
+      Overworld_CAD_Final_30: 5367904508898761256
+      Overworld_CAD_Final_31: -8318381863826480432
+      Overworld_CAD_Final_32: 2176379326196189818
+      Overworld_CAD_Final_33: 5900166880102951426
+      Overworld_CAD_Final_34: 2598469324341597122
+      Overworld_CAD_Final_35: 7001305606504108821
+      Overworld_CAD_Final_36: -5833883143394186689
+      Overworld_CAD_Final_37: -6908281360766871088
+      Overworld_CAD_Final_38: -8634378013641547346
+      Overworld_CAD_Final_39: -2849325846643525122
+      Overworld_CAD_Final_4: 2352896360564919183
+      Overworld_CAD_Final_40: 540320339890531034
+      Overworld_CAD_Final_5: -5772782680126143858
+      Overworld_CAD_Final_6: -7059196560939317868
+      Overworld_CAD_Final_7: -6668360642816761856
+      Overworld_CAD_Final_8: 5797939850619322544
+      Overworld_CAD_Final_9: 5026656218924688979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,11 +6,21 @@ public class BulletScript : MonoBehaviour
 {
 
     GunScript gun;
+    public WordLassoManager wordLassoManager;
 
     // Start is called before the first frame update
     void Start()
     {
         gun = GameObject.FindGameObjectWithTag("Gun").GetComponent<GunScript>();
+        wordLassoManager = FindFirstObjectByType<WordLassoManager>();
+    }
+
+    void Update()
+    {
+        if (wordLassoManager != null && wordLassoManager.paused)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -23,7 +33,7 @@ public class BulletScript : MonoBehaviour
         {
             return;
         }
-        if(collision.gameObject.tag == "Word")
+        if (collision.gameObject.tag == "Word")
         {
             gun.TargetHit(collision.gameObject);
         }

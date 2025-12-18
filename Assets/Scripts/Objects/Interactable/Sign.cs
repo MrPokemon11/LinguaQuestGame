@@ -23,6 +23,13 @@ public class Sign : Interactable
         {
             dialogText = dialogBox.GetComponentInChildren<TextMeshProUGUI>();
         }
+        if (firstInteractionDone.runtimeValue == true)
+        {
+            if (flashingAnimator != null)
+            {
+                flashingAnimator.SetBool("isFlashing", false);
+            }
+        }
     }
     public virtual void Update()
     {

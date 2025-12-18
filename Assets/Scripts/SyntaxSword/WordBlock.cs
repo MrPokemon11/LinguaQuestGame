@@ -60,6 +60,8 @@ public class WordBlock : MonoBehaviour
     private string _originalWord;
     private string _originalLabel;
     private bool _originalIsCorrect;
+    public Signal celebrationSignal;
+    public Signal failureSignal;
 
     void Reset()
     {
@@ -226,11 +228,13 @@ public class WordBlock : MonoBehaviour
             {
                 // Incorrectly cut - requeue the block
                 SwordWaveManager.Instance?.OnBlockClearedIncorrectly(_originalWord, _originalLabel, _originalIsCorrect);
+                failureSignal?.Raise();
             }
             else
             {
                 // Correctly cut
                 SwordWaveManager.Instance?.OnBlockClearedCorrectly();
+                celebrationSignal?.Raise();
             }
         }
         else

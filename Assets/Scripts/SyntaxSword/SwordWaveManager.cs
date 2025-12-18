@@ -1,6 +1,8 @@
 using UnityEngine;
 using TMPro;
 using System.Collections.Generic;
+using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 
 public class SwordWaveManager : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class SwordWaveManager : MonoBehaviour
     [Header("HUD")]
     [SerializeField] private TextMeshProUGUI sentenceTMP;
     [SerializeField] private TextMeshProUGUI scoreTMP;
-    [SerializeField] private TextMeshProUGUI energyTMP;
+    [SerializeField] private TextMeshProUGUI testoverTMP;
     [SerializeField] private TextMeshProUGUI healthTMP;
     [SerializeField] private TextMeshProUGUI progressTMP;
     [SerializeField] private TextMeshProUGUI timerTMP;
@@ -32,11 +34,10 @@ public class SwordWaveManager : MonoBehaviour
     [SerializeField]
     private List<string> endMessages = new List<string>()
     {
-        "This is the end of our test.",
+        "This is the end of our game test.",
         "Press Q to quit the whole game.",
         "Press E to go back to the main world and keep exploring.",
         "Press R to restart the whole game from start.",
-        "Thank you for playing!"
     };
     [SerializeField] private AudioClip winSound;
     [SerializeField] private AudioClip loseSound;
@@ -74,7 +75,7 @@ public class SwordWaveManager : MonoBehaviour
 
     [Header("Game Flow")]
     private bool _gameStarted = false;
-
+    public GameObject helpPanel;
     // round state
     private List<SentenceData> _roundQueue = new();
     private int _currentIndex = -1;
@@ -84,9 +85,17 @@ public class SwordWaveManager : MonoBehaviour
     public static SentenceData CurrentSentence { get; private set; }
     public AudioSource bgmSource;
     public AudioClip bgmClip;
+    public bool IsPaused;
+    private static readonly Color GoldColor = new Color(1f, 0.84f, 0f);
 
     void Awake()
     {
+        string playerName = GameManager.Instance.playerData.getPlayerName();
+        if (playerName == null || playerName.Trim() == "")
+        {
+            playerName = "Player";
+        }
+        endMessages.Add("Thank you for playing, " + playerName + "!");
         if (Instance && Instance != this)
         {
             Destroy(gameObject);
@@ -458,9 +467,10 @@ public class SwordWaveManager : MonoBehaviour
     private void RefreshUI()
     {
         if (scoreTMP) scoreTMP.text = $"Score: {_score}/{winScore}";
-        if (energyTMP) energyTMP.text = $"Energy: {energy}/{maxEnergy}";
+        //if (energyTMP) energyTMP.text = $"Energy: {energy}/{maxEnergy}";
         if (healthTMP) healthTMP.text = $"Health: {health}";
 
+        UpdateScoreColor();
         // Timer display
         if (timerTMP && timeLimit > 0)
         {
@@ -468,25 +478,46 @@ public class SwordWaveManager : MonoBehaviour
             int seconds = Mathf.FloorToInt(_timeRemaining % 60f);
             timerTMP.text = $"Time: {minutes:00}:{seconds:00}";
 
-            // Change color when time is low
-            if (_timeRemaining <= 30f)
-            {
-                timerTMP.color = Color.red;
-            }
-            else if (_timeRemaining <= 60f)
-            {
-                timerTMP.color = Color.yellow;
-            }
-            else
-            {
-                timerTMP.color = Color.white;
-            }
+            UpdateTimerColor();
         }
 
         // Show queue count instead of blocks cleared
         WordSpawnerPoint spawner = FindFirstObjectByType<WordSpawnerPoint>();
         int queueCount = spawner != null ? spawner.GetQueueCount() : 0;
         if (progressTMP) progressTMP.text = $"Remaining: {queueCount} | Total: {_totalBlocksCleared}/{_totalBlocksSpawned}";
+    }
+
+    private void UpdateTimerColor()
+    {
+        float t = Mathf.InverseLerp(60f, 30f, _timeRemaining); // 60 -> yellow, 30 -> red
+        Color target = Color.Lerp(Color.yellow, Color.red, t);
+
+        // Work on an instance so other labels aren't affected
+        var mat = timerTMP.fontMaterial; // this clones the shared material at runtime
+        mat.SetColor(ShaderUtilities.ID_FaceColor, target);
+        timerTMP.UpdateVertexData(TMP_VertexDataUpdateFlags.Colors32);
+    }
+
+    private void UpdateScoreColor()
+    {
+        if (scoreTMP == null) return;
+
+        Color target;
+        if (_score >= 0)
+        {
+            float t = Mathf.Clamp01(_score / 1500f); // 0 -> 1500 maps white -> gold
+            target = Color.Lerp(Color.white, GoldColor, t);
+        }
+        else
+        {
+            // Below 0, fade from white toward red as it goes negative
+            float t = Mathf.Clamp01(-_score / 500f); // adjust 500f to control how fast it reddens
+            target = Color.Lerp(Color.white, Color.red, t);
+        }
+
+        var mat = scoreTMP.fontMaterial; // instance material so other TMPs aren’t affected
+        mat.SetColor(TMPro.ShaderUtilities.ID_FaceColor, target);
+        scoreTMP.UpdateVertexData(TMPro.TMP_VertexDataUpdateFlags.Colors32);
     }
 
     // Public methods for UI buttons
@@ -554,4 +585,24 @@ public class SwordWaveManager : MonoBehaviour
     public bool IsGameStarted() => _gameStarted;
     public bool IsGameEnded() => _gameEnded;
     public float GetTimeRemaining() => _timeRemaining;
+    public void ShowHelpPanel()
+    {
+        if (helpPanel != null)
+        {
+            helpPanel.SetActive(true);
+            IsPaused = true;
+            Time.timeScale = 0f; // Pause game
+
+        }
+    }
+
+    public void HideHelpPanel()
+    {
+        if (helpPanel != null)
+        {
+            helpPanel.SetActive(false);
+            IsPaused = false;
+            Time.timeScale = 1f; // Resume game
+        }
+    }
 }

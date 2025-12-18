@@ -35,9 +35,11 @@ public class SwordWaveShooter : MonoBehaviour
     private Camera mainCamera;
     private AudioSource audioSource;
     public AudioClip shootSound;
+    private SwordWaveManager swordWaveManager;
 
     void Awake()
     {
+        swordWaveManager = FindFirstObjectByType<SwordWaveManager>();
         // Get PlayerExploring component (same GameObject since script is on player)
         player = GetComponent<PlayerExploring>();
         if (player == null)
@@ -72,6 +74,8 @@ public class SwordWaveShooter : MonoBehaviour
 
     void Update()
     {
+        if (swordWaveManager != null && swordWaveManager.IsPaused)
+            return;
         // Right-click to switch wave type
         if (Input.GetMouseButtonDown(1))
         {

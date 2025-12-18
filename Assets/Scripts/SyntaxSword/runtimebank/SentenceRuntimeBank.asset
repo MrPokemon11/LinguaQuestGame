@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f93454186a0187408c39b2d32d02f93, type: 3}
   m_Name: SentenceRuntimeBank
   m_EditorClassIdentifier: 
-  useStreamingAssets: 0
   jsonFiles:
-  - test1.json
+  - S1.json
   sentences:
   - guid: 7c6d9a20-aaaa-bbbb-cccc-001
     sentence: I went for a run.

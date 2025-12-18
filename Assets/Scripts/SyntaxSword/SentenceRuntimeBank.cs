@@ -8,7 +8,7 @@ using UnityEngine.Scripting;
 [CreateAssetMenu(menuName = "LinguaQuest/Sentence Runtime Bank", fileName = "SentenceRuntimeBank")]
 public class SentenceRuntimeBank : ScriptableObject
 {
-    public List<string> jsonFiles = new() { "test1.json" };
+    public List<string> jsonFiles = new() { "S1.json" };
     [HideInInspector] public List<SentenceData> sentences = new();
 
     // Change 'void' to 'IEnumerator' and add a callback
@@ -47,6 +47,7 @@ public class SentenceRuntimeBank : ScriptableObject
     private void ProcessJson(string json, string fileName)
     {
         // Your parsing logic here
+        Debug.Log($"[Bank] Processing {fileName}");
         var pack = JsonUtility.FromJson<SentencePack>(json);
         if (pack != null && pack.sentences != null)
         {

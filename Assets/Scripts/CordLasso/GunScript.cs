@@ -18,12 +18,14 @@ public class GunScript : MonoBehaviour
     GameObject target;
 
     public SpringJoint2D spring;
+    public WordLassoManager wordLassoManager;
 
     // Start is called before the first frame update
     void Start()
     {
         line.enabled = false;
         spring.enabled = false;
+        wordLassoManager = FindFirstObjectByType<WordLassoManager>();
     }
 
     // Update is called once per frame
@@ -40,7 +42,7 @@ public class GunScript : MonoBehaviour
             Shoot();
         }
 
-        if(target != null)
+        if (target != null)
         {
             line.SetPosition(0, ShootPoint.position);
             line.SetPosition(1, target.transform.position);
@@ -54,7 +56,10 @@ public class GunScript : MonoBehaviour
 
     void Shoot()
     {
-        GameObject BulletIns = Instantiate(Bullet,ShootPoint.position,Quaternion.identity);
+        if (wordLassoManager != null && wordLassoManager.paused)
+            return;
+
+        GameObject BulletIns = Instantiate(Bullet, ShootPoint.position, Quaternion.identity);
 
         BulletIns.GetComponent<Rigidbody2D>().AddForce(transform.up * BulletSpeed);
     }
@@ -63,9 +68,9 @@ public class GunScript : MonoBehaviour
     {
         target = hit;
 
-        line.enabled=true;
+        line.enabled = true;
 
-        spring.enabled=true;
+        spring.enabled = true;
 
         spring.connectedBody = target.GetComponent<Rigidbody2D>();
     }

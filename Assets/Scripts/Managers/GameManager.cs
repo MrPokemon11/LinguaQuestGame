@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -7,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     public PlayerData playerData;
     public AudioSource audioSource;
+    public string playerName = "Explorer";
 
     void Awake()
     {
@@ -38,6 +40,11 @@ public class GameManager : MonoBehaviour
         {
             audioSource.PlayOneShot(clip);
         }
+    }
+
+    public void SetPlayerName(string playerName)
+    {
+        playerData.setPlayerName(playerName);
     }
 
 
