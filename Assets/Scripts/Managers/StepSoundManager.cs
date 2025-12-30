@@ -21,15 +21,17 @@ public class StepSoundManager : MonoBehaviour
     public void PlayStepSound(Vector3 playerWorldPos)
     {
         Vector3Int gridPos = grassTilemap.WorldToCell(playerWorldPos);
-
+        //Debug.Log("Player grid position: " + gridPos);
         string groundType = DetectGroundType(gridPos);
 
 
         if (!string.IsNullOrEmpty(groundType))
         {
             GroundTypeSound soundSet = groundSounds.Find(g => g.groundTypeName == groundType);
+            ///Debug.Log("Detected ground type: " + groundType);
             if (soundSet != null && soundSet.stepSounds.Length > 0)
             {
+                //Debug.Log("Playing step sound for ground type: " + groundType);
                 AudioClip clip = soundSet.stepSounds[Random.Range(0, soundSet.stepSounds.Length)];
                 audioSource.PlayOneShot(clip);
             }

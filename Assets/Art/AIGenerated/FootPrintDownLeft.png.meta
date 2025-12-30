@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: aca20b6f5de371b4ab587c0b1ca7a092
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -32622886437765560
+    second: FootPrintDownLeft_0
+  - first:
+      213: -6470523566714172815
+    second: FootPrintDownLeft_1
+  - first:
+      213: 3238341526659658057
+    second: FootPrintDownLeft_2
+  - first:
+      213: 7621067013257167485
+    second: FootPrintDownLeft_3
+  - first:
+      213: 5611614466601819415
+    second: FootPrintDownLeft_4
+  - first:
+      213: -7274324168921961617
+    second: FootPrintDownLeft_5
+  - first:
+      213: 5970100804227412528
+    second: FootPrintDownLeft_6
+  - first:
+      213: -1664880457524511535
+    second: FootPrintDownLeft_7
+  - first:
+      213: 4045615321918705502
+    second: FootPrintDownLeft_8
+  - first:
+      213: 3878225771192670757
+    second: FootPrintDownLeft_9
+  - first:
+      213: -141593008431783682
+    second: FootPrintDownLeft_10
+  - first:
+      213: 331484730363106362
+    second: FootPrintDownLeft_11
+  - first:
+      213: -7581131245606745535
+    second: FootPrintDownLeft_12
+  - first:
+      213: 6499923417240834852
+    second: FootPrintDownLeft_13
+  - first:
+      213: -6454724792152283481
+    second: FootPrintDownLeft_14
+  - first:
+      213: -7590419503147102268
+    second: FootPrintDownLeft_15
+  - first:
+      213: -599035563570876386
+    second: FootPrintDownLeft_16
+  - first:
+      213: 7892195592889345242
+    second: FootPrintDownLeft_17
+  - first:
+      213: 8549604189784855065
+    second: FootPrintDownLeft_18
+  - first:
+      213: 3932068345221723665
+    second: FootPrintDownLeft_19
+  - first:
+      213: -1559232596246793805
+    second: FootPrintDownLeft_20
+  - first:
+      213: 4058580313118461353
+    second: FootPrintDownLeft_21
+  - first:
+      213: -6278686633446932031
+    second: FootPrintDownLeft_22
+  - first:
+      213: -7128127081431165208
+    second: FootPrintDownLeft_23
+  - first:
+      213: -1302432447808773758
+    second: FootPrintDownLeft_24
+  - first:
+      213: 5449869158526156424
+    second: FootPrintDownLeft_25
+  - first:
+      213: -2303407663876032293
+    second: FootPrintDownLeft_26
+  - first:
+      213: 4767571300994917104
+    second: FootPrintDownLeft_27
+  - first:
+      213: 3675894231829249360
+    second: FootPrintDownLeft_28
+  - first:
+      213: 2065265031231780429
+    second: FootPrintDownLeft_29
+  - first:
+      213: 5724263080442751082
+    second: FootPrintDownLeft_30
+  - first:
+      213: 7069689161148343558
+    second: FootPrintDownLeft_31
+  - first:
+      213: -5110848203829665549
+    second: FootPrintDownLeft_32
+  - first:
+      213: -689619084828740342
+    second: FootPrintDownLeft_33
+  - first:
+      213: 213673786033218000
+    second: FootPrintDownLeft_34
+  - first:
+      213: 1378884937660913098
+    second: FootPrintDownLeft_35
+  - first:
+      213: -3018109316120870076
+    second: FootPrintDownLeft_36
+  - first:
+      213: 1283935024744832680
+    second: FootPrintDownLeft_37
+  - first:
+      213: -7626347556949272206
+    second: FootPrintDownLeft_38
+  - first:
+      213: -1877819492764582391
+    second: FootPrintDownLeft_39
+  - first:
+      213: -8820339498016748677
+    second: FootPrintDownLeft_40
+  - first:
+      213: 8625073034143275686
+    second: FootPrintDownLeft_41
+  - first:
+      213: -1388754138212297910
+    second: FootPrintDownLeft_42
+  - first:
+      213: -2399202148793771389
+    second: FootPrintDownLeft_43
+  - first:
+      213: -4755780966550246735
+    second: FootPrintDownLeft_44
+  - first:
+      213: 1799038522773119423
+    second: FootPrintDownLeft_45
+  - first:
+      213: -884292998512450050
+    second: FootPrintDownLeft_46
+  - first:
+      213: 2098144073831870065
+    second: FootPrintDownLeft_47
+  - first:
+      213: 588390648234855867
+    second: FootPrintDownLeft_48
+  - first:
+      213: -4772550153724056258
+    second: FootPrintDownLeft_49
+  - first:
+      213: -820393246253008423
+    second: FootPrintDownLeft_50
+  - first:
+      213: 8330335473218087094
+    second: FootPrintDownLeft_51
+  - first:
+      213: 3665321361279367770
+    second: FootPrintDownLeft_52
+  - first:
+      213: -6858119491895419319
+    second: FootPrintDownLeft_53
+  - first:
+      213: 5937213251902588768
+    second: FootPrintDownLeft_54
+  - first:
+      213: -5085114963344075109
+    second: FootPrintDownLeft_55
+  - first:
+      213: -6980151460374636806
+    second: FootPrintDownLeft_56
+  - first:
+      213: -3366774480898166763
+    second: FootPrintDownLeft_57
+  - first:
+      213: 3907334319676126782
+    second: FootPrintDownLeft_58
+  - first:
+      213: 5240192144113671408
+    second: FootPrintDownLeft_59
+  - first:
+      213: -9195188950864060547
+    second: FootPrintDownLeft_60
+  - first:
+      213: 4983115904998359113
+    second: FootPrintDownLeft_61
+  - first:
+      213: 2788429469061961422
+    second: FootPrintDownLeft_62
+  - first:
+      213: 8448608806924930543
+    second: FootPrintDownLeft_63
+  - first:
+      213: 1805522420425999652
+    second: FootPrintDownLeft_64
+  - first:
+      213: 2950418050497750904
+    second: FootPrintDownLeft_65
+  - first:
+      213: -4490512837927604954
+    second: FootPrintDownLeft_66
+  - first:
+      213: 7630295702455807821
+    second: FootPrintDownLeft_67
+  - first:
+      213: -5147307589472848270
+    second: FootPrintDownLeft_68
+  - first:
+      213: -6639985164109638636
+    second: FootPrintDownLeft_69
+  - first:
+      213: 9119240777015582406
+    second: FootPrintDownLeft_70
+  - first:
+      213: 2872684033372606835
+    second: FootPrintDownLeft_71
+  - first:
+      213: -1431379012457484271
+    second: FootPrintDownLeft_72
+  - first:
+      213: -2552476024711721567
+    second: FootPrintDownLeft_73
+  - first:
+      213: 5010371415087182258
+    second: FootPrintDownLeft_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FootPrintDownLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1474
+        width: 81
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e345a58a91c8ff0800000000000000
+      internalID: -32622886437765560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 475
+        width: 475
+        height: 1061
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a453f29151436a0800000000000000
+      internalID: -6470523566714172815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1503
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941f1f50676e0fc20800000000000000
+      internalID: 3238341526659658057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1500
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7204a6021873c960800000000000000
+      internalID: 7621067013257167485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 1468
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d9e3230a570ed40800000000000000
+      internalID: 5611614466601819415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_5
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1504
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b2e5a95b86c0b90800000000000000
+      internalID: -7274324168921961617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 1505
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032bf3dec0f0ad250800000000000000
+      internalID: 5970100804227412528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_7
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1511
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcf2c77b0825e8e0800000000000000
+      internalID: -1664880457524511535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 1472
+        height: 1536
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f87d063b9e42830800000000000000
+      internalID: 4045615321918705502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1296
+        width: 123
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a54ba8ac932d530800000000000000
+      internalID: 3878225771192670757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1519
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0aeb5b8e5f80ef0800000000000000
+      internalID: -141593008431783682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1466
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3452c12b9ba99400800000000000000
+      internalID: 331484730363106362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1453
+        width: 277
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14acef57c496ac690800000000000000
+      internalID: -7581131245606745535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_13
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1504
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42312efe8ed543a50800000000000000
+      internalID: 6499923417240834852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_14
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1505
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a62bd800063c66a0800000000000000
+      internalID: -6454724792152283481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_15
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 1483
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf48ba7da969a690800000000000000
+      internalID: -7590419503147102268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_16
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1528
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e103889245ccfa7f0800000000000000
+      internalID: -599035563570876386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_17
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 1463
+        width: 109
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4a21cb316b68d60800000000000000
+      internalID: 7892195592889345242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_18
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1457
+        width: 175
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912515e76bb46a670800000000000000
+      internalID: 8549604189784855065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_19
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1529
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116bf75b353819630800000000000000
+      internalID: 3932068345221723665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_20
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1505
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1ff72073e7c5ae0800000000000000
+      internalID: -1559232596246793805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_21
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1486
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adc1df9a49f25830800000000000000
+      internalID: 4058580313118461353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_22
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1472
+        width: 84
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c10765d5cf9dd8a0800000000000000
+      internalID: -6278686633446932031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_23
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1497
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e614759f2ec31d90800000000000000
+      internalID: -7128127081431165208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_24
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1528
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2816a6cd694dcede0800000000000000
+      internalID: -1302432447808773758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_25
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 1475
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efe420023d1ab40800000000000000
+      internalID: 5449869158526156424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_26
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1500
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8b1c50fe6a800e0800000000000000
+      internalID: -2303407663876032293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_27
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 1501
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2262da6d0d92240800000000000000
+      internalID: 4767571300994917104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_28
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 1466
+        width: 188
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05df6100456630330800000000000000
+      internalID: 3675894231829249360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_29
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 1507
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d463b998a9b49ac10800000000000000
+      internalID: 2065265031231780429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_30
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 1500
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a686ca671faa07f40800000000000000
+      internalID: 5724263080442751082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_31
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1472
+        width: 82
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6052da2d5d49c1260800000000000000
+      internalID: 7069689161148343558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_32
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1527
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f02ac513ae9219b0800000000000000
+      internalID: -5110848203829665549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_33
+      rect:
+        serializedVersion: 2
+        x: 1725
+        y: 505
+        width: 674
+        height: 1031
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05f37a981bfd66f0800000000000000
+      internalID: -689619084828740342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_34
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1474
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1a2522d2f17f200800000000000000
+      internalID: 213673786033218000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_35
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1503
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac55a6f8b88c22310800000000000000
+      internalID: 1378884937660913098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_36
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 1508
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443815f41958d16d0800000000000000
+      internalID: -3018109316120870076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_37
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1
+        width: 647
+        height: 1535
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae19983a1471d110800000000000000
+      internalID: 1283935024744832680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_38
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 1470
+        width: 216
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279de569d45c92690800000000000000
+      internalID: -7626347556949272206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_39
+      rect:
+        serializedVersion: 2
+        x: 2253
+        y: 1506
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e7675de15a0f5e0800000000000000
+      internalID: -1877819492764582391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_40
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 1520
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b4d5e65fbd79580800000000000000
+      internalID: -8820339498016748677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_41
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 1521
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa19e91a3a62b770800000000000000
+      internalID: 8625073034143275686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_42
+      rect:
+        serializedVersion: 2
+        x: 2330
+        y: 1213
+        width: 200
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43908f18772abce0800000000000000
+      internalID: -1388754138212297910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_43
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 1495
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a1bc07b5254bed0800000000000000
+      internalID: -2399202148793771389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_44
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1505
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba653b7862100eb0800000000000000
+      internalID: -4755780966550246735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_45
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1529
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1a227310877f810800000000000000
+      internalID: 1799038522773119423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_46
+      rect:
+        serializedVersion: 2
+        x: 2485
+        y: 1516
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5ec4af33c5ab3f0800000000000000
+      internalID: -884292998512450050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_47
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 1463
+        width: 85
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17ee6503bea1e1d10800000000000000
+      internalID: 2098144073831870065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_48
+      rect:
+        serializedVersion: 2
+        x: 2568
+        y: 1494
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd43395d226a2800800000000000000
+      internalID: 588390648234855867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_49
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1508
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3daa86dbee74cdb0800000000000000
+      internalID: -4772550153724056258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_50
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 1468
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b5fc60b06d94f0800000000000000
+      internalID: -820393246253008423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_51
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 1426
+        width: 17
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8eff41afb4b9370800000000000000
+      internalID: 8330335473218087094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_52
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 1484
+        width: 10
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a35bebb56ddd230800000000000000
+      internalID: 3665321361279367770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_53
+      rect:
+        serializedVersion: 2
+        x: 2655
+        y: 1375
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e146278a013d0a0800000000000000
+      internalID: -6858119491895419319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_54
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1409
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0674563fef7356250800000000000000
+      internalID: 5937213251902588768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_55
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1095
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b965ad702ea0e69b0800000000000000
+      internalID: -5085114963344075109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_56
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 865
+        width: 218
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af612fdaa35812f90800000000000000
+      internalID: -6980151460374636806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_57
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1049
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510f6339270d641d0800000000000000
+      internalID: -3366774480898166763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_58
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1006
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36fcfe9cd3a93630800000000000000
+      internalID: 3907334319676126782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_59
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 1025
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fc10b8cdf6e8b840800000000000000
+      internalID: 5240192144113671408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_60
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 962
+        width: 7
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f962d0e50246080800000000000000
+      internalID: -9195188950864060547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_61
+      rect:
+        serializedVersion: 2
+        x: 2810
+        y: 996
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940c6009385972540800000000000000
+      internalID: 4983115904998359113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_62
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 465
+        width: 448
+        height: 494
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec65ba014dd72b620800000000000000
+      internalID: 2788429469061961422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_63
+      rect:
+        serializedVersion: 2
+        x: 2807
+        y: 897
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed4ffe72fc7f3570800000000000000
+      internalID: 8448608806924930543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_64
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 913
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425ce7743118e0910800000000000000
+      internalID: 1805522420425999652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_65
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 790
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877a1deb59df1f820800000000000000
+      internalID: 2950418050497750904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_66
+      rect:
+        serializedVersion: 2
+        x: 2802
+        y: 706
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d6efb9d5e7ea1c0800000000000000
+      internalID: -4490512837927604954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_67
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 670
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f611ca38144e960800000000000000
+      internalID: 7630295702455807821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_68
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 561
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2767ccbd4071198b0800000000000000
+      internalID: -5147307589472848270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_69
+      rect:
+        serializedVersion: 2
+        x: 2790
+        y: 588
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41491636ca80ad3a0800000000000000
+      internalID: -6639985164109638636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_70
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 601
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce554fbb2d0e8e70800000000000000
+      internalID: 9119240777015582406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_71
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 545
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3715c1188e2ddd720800000000000000
+      internalID: 2872684033372606835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_72
+      rect:
+        serializedVersion: 2
+        x: 2806
+        y: 564
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 110b5873f58b22ce0800000000000000
+      internalID: -1431379012457484271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_73
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 551
+        width: 8
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad4b514498c39cd0800000000000000
+      internalID: -2552476024711721567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintDownLeft_74
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 523
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1fa05814a688540800000000000000
+      internalID: 5010371415087182258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FootPrintDownLeft_0: -32622886437765560
+      FootPrintDownLeft_1: -6470523566714172815
+      FootPrintDownLeft_10: -141593008431783682
+      FootPrintDownLeft_11: 331484730363106362
+      FootPrintDownLeft_12: -7581131245606745535
+      FootPrintDownLeft_13: 6499923417240834852
+      FootPrintDownLeft_14: -6454724792152283481
+      FootPrintDownLeft_15: -7590419503147102268
+      FootPrintDownLeft_16: -599035563570876386
+      FootPrintDownLeft_17: 7892195592889345242
+      FootPrintDownLeft_18: 8549604189784855065
+      FootPrintDownLeft_19: 3932068345221723665
+      FootPrintDownLeft_2: 3238341526659658057
+      FootPrintDownLeft_20: -1559232596246793805
+      FootPrintDownLeft_21: 4058580313118461353
+      FootPrintDownLeft_22: -6278686633446932031
+      FootPrintDownLeft_23: -7128127081431165208
+      FootPrintDownLeft_24: -1302432447808773758
+      FootPrintDownLeft_25: 5449869158526156424
+      FootPrintDownLeft_26: -2303407663876032293
+      FootPrintDownLeft_27: 4767571300994917104
+      FootPrintDownLeft_28: 3675894231829249360
+      FootPrintDownLeft_29: 2065265031231780429
+      FootPrintDownLeft_3: 7621067013257167485
+      FootPrintDownLeft_30: 5724263080442751082
+      FootPrintDownLeft_31: 7069689161148343558
+      FootPrintDownLeft_32: -5110848203829665549
+      FootPrintDownLeft_33: -689619084828740342
+      FootPrintDownLeft_34: 213673786033218000
+      FootPrintDownLeft_35: 1378884937660913098
+      FootPrintDownLeft_36: -3018109316120870076
+      FootPrintDownLeft_37: 1283935024744832680
+      FootPrintDownLeft_38: -7626347556949272206
+      FootPrintDownLeft_39: -1877819492764582391
+      FootPrintDownLeft_4: 5611614466601819415
+      FootPrintDownLeft_40: -8820339498016748677
+      FootPrintDownLeft_41: 8625073034143275686
+      FootPrintDownLeft_42: -1388754138212297910
+      FootPrintDownLeft_43: -2399202148793771389
+      FootPrintDownLeft_44: -4755780966550246735
+      FootPrintDownLeft_45: 1799038522773119423
+      FootPrintDownLeft_46: -884292998512450050
+      FootPrintDownLeft_47: 2098144073831870065
+      FootPrintDownLeft_48: 588390648234855867
+      FootPrintDownLeft_49: -4772550153724056258
+      FootPrintDownLeft_5: -7274324168921961617
+      FootPrintDownLeft_50: -820393246253008423
+      FootPrintDownLeft_51: 8330335473218087094
+      FootPrintDownLeft_52: 3665321361279367770
+      FootPrintDownLeft_53: -6858119491895419319
+      FootPrintDownLeft_54: 5937213251902588768
+      FootPrintDownLeft_55: -5085114963344075109
+      FootPrintDownLeft_56: -6980151460374636806
+      FootPrintDownLeft_57: -3366774480898166763
+      FootPrintDownLeft_58: 3907334319676126782
+      FootPrintDownLeft_59: 5240192144113671408
+      FootPrintDownLeft_6: 5970100804227412528
+      FootPrintDownLeft_60: -9195188950864060547
+      FootPrintDownLeft_61: 4983115904998359113
+      FootPrintDownLeft_62: 2788429469061961422
+      FootPrintDownLeft_63: 8448608806924930543
+      FootPrintDownLeft_64: 1805522420425999652
+      FootPrintDownLeft_65: 2950418050497750904
+      FootPrintDownLeft_66: -4490512837927604954
+      FootPrintDownLeft_67: 7630295702455807821
+      FootPrintDownLeft_68: -5147307589472848270
+      FootPrintDownLeft_69: -6639985164109638636
+      FootPrintDownLeft_7: -1664880457524511535
+      FootPrintDownLeft_70: 9119240777015582406
+      FootPrintDownLeft_71: 2872684033372606835
+      FootPrintDownLeft_72: -1431379012457484271
+      FootPrintDownLeft_73: -2552476024711721567
+      FootPrintDownLeft_74: 5010371415087182258
+      FootPrintDownLeft_8: 4045615321918705502
+      FootPrintDownLeft_9: 3878225771192670757
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,8 +1,19 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class blackIce : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private float blackIceEdgeSize;
+    private float slippingTime;
+
+    private void Start()
+    {
+        // Calculate edge size based on transform scale
+        blackIceEdgeSize = Mathf.Max(transform.localScale.x, transform.localScale.y) / 2f;
+        // Calculate slipping time proportional to ice size
+        slippingTime = blackIceEdgeSize * 1.5f; // Scale factor for slipping duration
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -10,7 +21,7 @@ public class blackIce : MonoBehaviour
             PlayerExploring player = other.GetComponent<PlayerExploring>();
             if (player != null)
             {
-                player.currentState = PlayerState.slip;
+                player.pushed(player.GetCurrentMovementDirection(), slippingTime, true);
             }
         }
     }
@@ -22,7 +33,7 @@ public class blackIce : MonoBehaviour
             PlayerExploring player = other.GetComponent<PlayerExploring>();
             if (player != null)
             {
-                player.currentState = PlayerState.walk;
+                player.changeState(PlayerState.walk);
             }
         }
     }

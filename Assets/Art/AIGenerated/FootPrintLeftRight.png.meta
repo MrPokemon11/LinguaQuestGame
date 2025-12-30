@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: c239bc93c30beae4abf3e90d88156a49
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3140617829592106052
+    second: FootPrintLeftRight_0
+  - first:
+      213: 5450248701589084596
+    second: FootPrintLeftRight_1
+  - first:
+      213: 864100984974778187
+    second: FootPrintLeftRight_2
+  - first:
+      213: 2861042414296176359
+    second: FootPrintLeftRight_3
+  - first:
+      213: -6381097947836439030
+    second: FootPrintLeftRight_4
+  - first:
+      213: 5318123497292686899
+    second: FootPrintLeftRight_5
+  - first:
+      213: 5819986263073153830
+    second: FootPrintLeftRight_6
+  - first:
+      213: -8636171489617103169
+    second: FootPrintLeftRight_7
+  - first:
+      213: 1983260089957953231
+    second: FootPrintLeftRight_8
+  - first:
+      213: -2334333630254652976
+    second: FootPrintLeftRight_9
+  - first:
+      213: 5171315514212417803
+    second: FootPrintLeftRight_10
+  - first:
+      213: -8844496730997469025
+    second: FootPrintLeftRight_11
+  - first:
+      213: -2780555747493661489
+    second: FootPrintLeftRight_12
+  - first:
+      213: -1852557014209855256
+    second: FootPrintLeftRight_13
+  - first:
+      213: 3911636344747901041
+    second: FootPrintLeftRight_14
+  - first:
+      213: 559812245416920210
+    second: FootPrintLeftRight_15
+  - first:
+      213: 155775474575126293
+    second: FootPrintLeftRight_16
+  - first:
+      213: 4881175605361018835
+    second: FootPrintLeftRight_17
+  - first:
+      213: 1701612117701758831
+    second: FootPrintLeftRight_18
+  - first:
+      213: -3508188165548540699
+    second: FootPrintLeftRight_19
+  - first:
+      213: -1496678934428094819
+    second: FootPrintLeftRight_20
+  - first:
+      213: 2295543479548400373
+    second: FootPrintLeftRight_21
+  - first:
+      213: 2064897350461589599
+    second: FootPrintLeftRight_22
+  - first:
+      213: 2053040448786382656
+    second: FootPrintLeftRight_23
+  - first:
+      213: -1186405817938407383
+    second: FootPrintLeftRight_24
+  - first:
+      213: -558440709292585389
+    second: FootPrintLeftRight_25
+  - first:
+      213: -834057029685704059
+    second: FootPrintLeftRight_26
+  - first:
+      213: 2995773644906300382
+    second: FootPrintLeftRight_27
+  - first:
+      213: 6794811359175382561
+    second: FootPrintLeftRight_28
+  - first:
+      213: -4556036519578689958
+    second: FootPrintLeftRight_29
+  - first:
+      213: 2951014799071739857
+    second: FootPrintLeftRight_30
+  - first:
+      213: -6917548082315345459
+    second: FootPrintLeftRight_31
+  - first:
+      213: -2076120073179175919
+    second: FootPrintLeftRight_32
+  - first:
+      213: -806066701626086234
+    second: FootPrintLeftRight_33
+  - first:
+      213: 8194394246833284073
+    second: FootPrintLeftRight_34
+  - first:
+      213: -5199246032392035354
+    second: FootPrintLeftRight_35
+  - first:
+      213: -1816250712697921480
+    second: FootPrintLeftRight_36
+  - first:
+      213: 5556909830514266234
+    second: FootPrintLeftRight_37
+  - first:
+      213: 8165020826905528719
+    second: FootPrintLeftRight_38
+  - first:
+      213: -331268999363706465
+    second: FootPrintLeftRight_39
+  - first:
+      213: -1695973860573893309
+    second: FootPrintLeftRight_40
+  - first:
+      213: -1871226443863537849
+    second: FootPrintLeftRight_41
+  - first:
+      213: -590400864953047438
+    second: FootPrintLeftRight_42
+  - first:
+      213: 5085308757899371475
+    second: FootPrintLeftRight_43
+  - first:
+      213: 7625155900562426252
+    second: FootPrintLeftRight_44
+  - first:
+      213: 6124209796192025653
+    second: FootPrintLeftRight_45
+  - first:
+      213: -2616557853136253105
+    second: FootPrintLeftRight_46
+  - first:
+      213: -4150997453357629119
+    second: FootPrintLeftRight_47
+  - first:
+      213: 2084916964666247941
+    second: FootPrintLeftRight_48
+  - first:
+      213: -7266532399289226995
+    second: FootPrintLeftRight_49
+  - first:
+      213: -4429901763710048889
+    second: FootPrintLeftRight_50
+  - first:
+      213: 1767948675942778362
+    second: FootPrintLeftRight_51
+  - first:
+      213: 2607699954866671447
+    second: FootPrintLeftRight_52
+  - first:
+      213: 3344481395843199821
+    second: FootPrintLeftRight_53
+  - first:
+      213: -3393095104609662929
+    second: FootPrintLeftRight_54
+  - first:
+      213: -2523913084323901096
+    second: FootPrintLeftRight_55
+  - first:
+      213: 4699054674028478306
+    second: FootPrintLeftRight_56
+  - first:
+      213: -2088362459834912534
+    second: FootPrintLeftRight_57
+  - first:
+      213: -8406126742182309169
+    second: FootPrintLeftRight_58
+  - first:
+      213: -6532747374393015655
+    second: FootPrintLeftRight_59
+  - first:
+      213: -1036113857365166026
+    second: FootPrintLeftRight_60
+  - first:
+      213: 7536856463129547801
+    second: FootPrintLeftRight_61
+  - first:
+      213: -2582009157942647017
+    second: FootPrintLeftRight_62
+  - first:
+      213: -6572257527181889755
+    second: FootPrintLeftRight_63
+  - first:
+      213: -684522189538590590
+    second: FootPrintLeftRight_64
+  - first:
+      213: -7540439681144422578
+    second: FootPrintLeftRight_65
+  - first:
+      213: 7232631044829806104
+    second: FootPrintLeftRight_66
+  - first:
+      213: -3578308956505102424
+    second: FootPrintLeftRight_67
+  - first:
+      213: 9026577963258537474
+    second: FootPrintLeftRight_68
+  - first:
+      213: 5869295338920448043
+    second: FootPrintLeftRight_69
+  - first:
+      213: -5079186081213150874
+    second: FootPrintLeftRight_70
+  - first:
+      213: -2887369866279869555
+    second: FootPrintLeftRight_71
+  - first:
+      213: -1106913125487941378
+    second: FootPrintLeftRight_72
+  - first:
+      213: -5710477103406725117
+    second: FootPrintLeftRight_73
+  - first:
+      213: 7723244134704766822
+    second: FootPrintLeftRight_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FootPrintLeftRight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1443
+        width: 594
+        height: 1373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb77e349b84a64d0800000000000000
+      internalID: -3140617829592106052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_1
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 2367
+        width: 247
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b950c3415c23ab40800000000000000
+      internalID: 5450248701589084596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_2
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1568
+        width: 512
+        height: 1248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f9c738447edfb00800000000000000
+      internalID: 864100984974778187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_3
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 2773
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e61377dae674b720800000000000000
+      internalID: 2861042414296176359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_4
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 2800
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a062c369939c177a0800000000000000
+      internalID: -6381097947836439030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 2806
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336e9c7e425cdc940800000000000000
+      internalID: 5318123497292686899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_6
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2795
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623e020bbaeb4c050800000000000000
+      internalID: 5819986263073153830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 2798
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6340e59c7262880800000000000000
+      internalID: -8636171489617103169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_8
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2768
+        width: 149
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce27274b84f58b10800000000000000
+      internalID: 1983260089957953231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_9
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2796
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d16c6d5ee7ca9fd0800000000000000
+      internalID: -2334333630254652976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_10
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 2802
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b010916bf0434c740800000000000000
+      internalID: 5171315514212417803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_11
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 2773
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90dac35519024580800000000000000
+      internalID: -8844496730997469025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_12
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 2737
+        width: 71
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc43878974b7969d0800000000000000
+      internalID: -2780555747493661489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_13
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 2774
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e00dd9f5356a46e0800000000000000
+      internalID: -1852557014209855256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_14
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2810
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170c433e78ce84630800000000000000
+      internalID: 3911636344747901041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_15
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2766
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2944dfc654ad4c700800000000000000
+      internalID: 559812245416920210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_16
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 2756
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fa4c208fc692200800000000000000
+      internalID: 155775474575126293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_17
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 2769
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d788dbf95b6db340800000000000000
+      internalID: 4881175605361018835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_18
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 2271
+        width: 331
+        height: 545
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f0d1d94375d9710800000000000000
+      internalID: 1701612117701758831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_19
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 1074
+        width: 311
+        height: 1742
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecff3b5379605fc0800000000000000
+      internalID: -3508188165548540699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_20
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 2617
+        width: 106
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e6a9a507aba3be0800000000000000
+      internalID: -1496678934428094819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_21
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 2770
+        width: 67
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f252f0e1a86bdf10800000000000000
+      internalID: 2295543479548400373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_22
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 2666
+        width: 54
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5888ef233df7ac10800000000000000
+      internalID: 2064897350461589599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_23
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 2568
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04fbb63296ddd7c10800000000000000
+      internalID: 2053040448786382656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_24
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 2422
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9201356c13a098fe0800000000000000
+      internalID: -1186405817938407383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_25
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 2442
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e8f7632250048f0800000000000000
+      internalID: -558440709292585389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_26
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 2578
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a8a2fec85dc64f0800000000000000
+      internalID: -834057029685704059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_27
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 2296
+        width: 19
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed30e1cf140239920800000000000000
+      internalID: 2995773644906300382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_28
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 2296
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12610734ee40c4e50800000000000000
+      internalID: 6794811359175382561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_29
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 2300
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e1ec2ace4b5c0c0800000000000000
+      internalID: -4556036519578689958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_30
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 2652
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df7799135c14f820800000000000000
+      internalID: 2951014799071739857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_31
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 2486
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1c8ec7baeefff90800000000000000
+      internalID: -6917548082315345459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_32
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 2467
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 114e81f0bc32033e0800000000000000
+      internalID: -2076120073179175919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_33
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 2288
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac6e480b9640d4f0800000000000000
+      internalID: -806066701626086234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_34
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 2572
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3a008d62658b170800000000000000
+      internalID: 8194394246833284073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_35
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 2252
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3e963c74198d7b0800000000000000
+      internalID: -5199246032392035354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_36
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 2176
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830279689916bc6e0800000000000000
+      internalID: -1816250712697921480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_37
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 2064
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70dda09c0c1e1d40800000000000000
+      internalID: 5556909830514266234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_38
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1994
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89ce539e2bff4170800000000000000
+      internalID: 8165020826905528719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_39
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1796
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91c3d7a998176bf0800000000000000
+      internalID: -331268999363706465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_40
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1668
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d252c62c0b678e0800000000000000
+      internalID: -1695973860573893309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_41
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1665
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7474237a6711806e0800000000000000
+      internalID: -1871226443863537849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 1035
+        height: 1557
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276e3699a897ec7f0800000000000000
+      internalID: -590400864953047438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_43
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1273
+        width: 64
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d366c74f55a29640800000000000000
+      internalID: 5085308757899371475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_44
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1499
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c894ff944eef1d960800000000000000
+      internalID: 7625155900562426252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_45
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1493
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c3ef7bc509df450800000000000000
+      internalID: 6124209796192025653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_46
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1240
+        width: 218
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f0e85ee7e10bbd0800000000000000
+      internalID: -2616557853136253105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_47
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1439
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14141112fc1b466c0800000000000000
+      internalID: -4150997453357629119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_48
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1408
+        width: 16
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b0e19deec1fec10800000000000000
+      internalID: 2084916964666247941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_49
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1420
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09af775847182b90800000000000000
+      internalID: -7266532399289226995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_50
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1377
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785af2801d3d582c0800000000000000
+      internalID: -4429901763710048889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_51
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1301
+        width: 29
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af501ba24f3098810800000000000000
+      internalID: 1767948675942778362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_52
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 1382
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f41a2fa49603420800000000000000
+      internalID: 2607699954866671447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_53
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 928
+        width: 79
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43f2251c1cf96e20800000000000000
+      internalID: 3344481395843199821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_54
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 1169
+        width: 27
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28cf90dafd49e0d0800000000000000
+      internalID: -3393095104609662929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_55
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 1258
+        width: 7
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851d9ec0c6249fcd0800000000000000
+      internalID: -2523913084323901096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_56
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 0
+        width: 251
+        height: 1095
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f3b915455663140800000000000000
+      internalID: 4699054674028478306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_57
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 985
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0774b4865a403e0800000000000000
+      internalID: -2088362459834912534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_58
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 889
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2df4bf340775b80800000000000000
+      internalID: -8406126742182309169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_59
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 788
+        width: 9
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99240fdffd40755a0800000000000000
+      internalID: -6532747374393015655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_60
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 792
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638b3e0bfebfe91f0800000000000000
+      internalID: -1036113857365166026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_61
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 741
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91491ff650b489860800000000000000
+      internalID: 7536856463129547801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_62
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 704
+        width: 18
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717e506d95cda2cd0800000000000000
+      internalID: -2582009157942647017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_63
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 557
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fafefa996aac4a0800000000000000
+      internalID: -6572257527181889755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_64
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 463
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2800ea302b61086f0800000000000000
+      internalID: -684522189538590590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_65
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 472
+        width: 7
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f702b9f0afa5790800000000000000
+      internalID: -7540439681144422578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_66
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 413
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81efa8a7d977f5460800000000000000
+      internalID: 7232631044829806104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_67
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 340
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a72ae676fa475ec0800000000000000
+      internalID: -3578308956505102424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_68
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 166
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206e46d25d8d44d70800000000000000
+      internalID: 9026577963258537474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_69
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 138
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20953e830de37150800000000000000
+      internalID: 5869295338920448043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_70
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 101
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6698e297b2b1389b0800000000000000
+      internalID: -5079186081213150874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_71
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 90
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83a83197600ee7d0800000000000000
+      internalID: -2887369866279869555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_72
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 57
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8e216806473a0f0800000000000000
+      internalID: -1106913125487941378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_73
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 54
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 308c071745f40c0b0800000000000000
+      internalID: -5710477103406725117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FootPrintLeftRight_74
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 16
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f52bafe997e2b60800000000000000
+      internalID: 7723244134704766822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FootPrintLeftRight_0: -3140617829592106052
+      FootPrintLeftRight_1: 5450248701589084596
+      FootPrintLeftRight_10: 5171315514212417803
+      FootPrintLeftRight_11: -8844496730997469025
+      FootPrintLeftRight_12: -2780555747493661489
+      FootPrintLeftRight_13: -1852557014209855256
+      FootPrintLeftRight_14: 3911636344747901041
+      FootPrintLeftRight_15: 559812245416920210
+      FootPrintLeftRight_16: 155775474575126293
+      FootPrintLeftRight_17: 4881175605361018835
+      FootPrintLeftRight_18: 1701612117701758831
+      FootPrintLeftRight_19: -3508188165548540699
+      FootPrintLeftRight_2: 864100984974778187
+      FootPrintLeftRight_20: -1496678934428094819
+      FootPrintLeftRight_21: 2295543479548400373
+      FootPrintLeftRight_22: 2064897350461589599
+      FootPrintLeftRight_23: 2053040448786382656
+      FootPrintLeftRight_24: -1186405817938407383
+      FootPrintLeftRight_25: -558440709292585389
+      FootPrintLeftRight_26: -834057029685704059
+      FootPrintLeftRight_27: 2995773644906300382
+      FootPrintLeftRight_28: 6794811359175382561
+      FootPrintLeftRight_29: -4556036519578689958
+      FootPrintLeftRight_3: 2861042414296176359
+      FootPrintLeftRight_30: 2951014799071739857
+      FootPrintLeftRight_31: -6917548082315345459
+      FootPrintLeftRight_32: -2076120073179175919
+      FootPrintLeftRight_33: -806066701626086234
+      FootPrintLeftRight_34: 8194394246833284073
+      FootPrintLeftRight_35: -5199246032392035354
+      FootPrintLeftRight_36: -1816250712697921480
+      FootPrintLeftRight_37: 5556909830514266234
+      FootPrintLeftRight_38: 8165020826905528719
+      FootPrintLeftRight_39: -331268999363706465
+      FootPrintLeftRight_4: -6381097947836439030
+      FootPrintLeftRight_40: -1695973860573893309
+      FootPrintLeftRight_41: -1871226443863537849
+      FootPrintLeftRight_42: -590400864953047438
+      FootPrintLeftRight_43: 5085308757899371475
+      FootPrintLeftRight_44: 7625155900562426252
+      FootPrintLeftRight_45: 6124209796192025653
+      FootPrintLeftRight_46: -2616557853136253105
+      FootPrintLeftRight_47: -4150997453357629119
+      FootPrintLeftRight_48: 2084916964666247941
+      FootPrintLeftRight_49: -7266532399289226995
+      FootPrintLeftRight_5: 5318123497292686899
+      FootPrintLeftRight_50: -4429901763710048889
+      FootPrintLeftRight_51: 1767948675942778362
+      FootPrintLeftRight_52: 2607699954866671447
+      FootPrintLeftRight_53: 3344481395843199821
+      FootPrintLeftRight_54: -3393095104609662929
+      FootPrintLeftRight_55: -2523913084323901096
+      FootPrintLeftRight_56: 4699054674028478306
+      FootPrintLeftRight_57: -2088362459834912534
+      FootPrintLeftRight_58: -8406126742182309169
+      FootPrintLeftRight_59: -6532747374393015655
+      FootPrintLeftRight_6: 5819986263073153830
+      FootPrintLeftRight_60: -1036113857365166026
+      FootPrintLeftRight_61: 7536856463129547801
+      FootPrintLeftRight_62: -2582009157942647017
+      FootPrintLeftRight_63: -6572257527181889755
+      FootPrintLeftRight_64: -684522189538590590
+      FootPrintLeftRight_65: -7540439681144422578
+      FootPrintLeftRight_66: 7232631044829806104
+      FootPrintLeftRight_67: -3578308956505102424
+      FootPrintLeftRight_68: 9026577963258537474
+      FootPrintLeftRight_69: 5869295338920448043
+      FootPrintLeftRight_7: -8636171489617103169
+      FootPrintLeftRight_70: -5079186081213150874
+      FootPrintLeftRight_71: -2887369866279869555
+      FootPrintLeftRight_72: -1106913125487941378
+      FootPrintLeftRight_73: -5710477103406725117
+      FootPrintLeftRight_74: 7723244134704766822
+      FootPrintLeftRight_8: 1983260089957953231
+      FootPrintLeftRight_9: -2334333630254652976
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

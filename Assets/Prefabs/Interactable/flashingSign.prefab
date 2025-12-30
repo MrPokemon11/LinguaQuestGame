@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2300872500005676521}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.07445, y: 0.9077263, z: 0}
   m_LocalScale: {x: 1.1378314, y: 1.2754525, z: 1}
   m_ConstrainProportionsScale: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayerID: 820058413
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1174707255, guid: 16f6416b522295449b6391951cf40584, type: 3}
+  m_Sprite: {fileID: -5496027818215760842, guid: cc1c56425d5f3e14c9b630125ff567ce, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -132,8 +132,8 @@ BoxCollider2D:
   m_Offset: {x: 0.5, y: -0.7106087}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 1}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -178,8 +178,8 @@ BoxCollider2D:
   m_Offset: {x: 0.5252222, y: -1.6233222}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 1}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 10.24}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -203,7 +203,7 @@ MonoBehaviour:
   context: {fileID: 11400000, guid: d34fcd4961c36a34cbd61c6313562265, type: 2}
   audioSource: {fileID: 0}
   interactSound: {fileID: 8300000, guid: 19ee79ae6541aba4ca0f0a45c0f64d89, type: 3}
-  interactSignal: {fileID: 0}
+  interactSignal: {fileID: 11400000, guid: df844c6a50c328e46a83e54b550dcc1b, type: 2}
   firstInteractionDone: {fileID: 11400000, guid: 4aaf1575c4d765942a51dd3df8265de5, type: 2}
   flashingAnimator: {fileID: 4601502502170140664}
   dialogBox: {fileID: 0}

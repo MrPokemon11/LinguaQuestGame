@@ -1,0 +1,2613 @@
+fileFormatVersion: 2
+guid: 1089451927f0ed34789429b236633a9e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7048142418566166556
+    second: snowflakes_0
+  - first:
+      213: -6787337141978798493
+    second: snowflakes_1
+  - first:
+      213: 1619123932332391459
+    second: snowflakes_2
+  - first:
+      213: 76365007888673838
+    second: snowflakes_3
+  - first:
+      213: -5226719612953953119
+    second: snowflakes_4
+  - first:
+      213: -7298340962671978294
+    second: snowflakes_5
+  - first:
+      213: 508344598351485512
+    second: snowflakes_6
+  - first:
+      213: 1432935271864973308
+    second: snowflakes_7
+  - first:
+      213: 993867659907516868
+    second: snowflakes_8
+  - first:
+      213: 8535780145043218052
+    second: snowflakes_9
+  - first:
+      213: -795871014091180133
+    second: snowflakes_10
+  - first:
+      213: -813004352560679232
+    second: snowflakes_11
+  - first:
+      213: -616238464163803292
+    second: snowflakes_12
+  - first:
+      213: -1719735118888879953
+    second: snowflakes_13
+  - first:
+      213: -5663519495625589889
+    second: snowflakes_14
+  - first:
+      213: -349916644837503397
+    second: snowflakes_15
+  - first:
+      213: 7218981619247333744
+    second: snowflakes_16
+  - first:
+      213: -9168001379491668069
+    second: snowflakes_17
+  - first:
+      213: -7544715631853927430
+    second: snowflakes_18
+  - first:
+      213: -4635538056374724413
+    second: snowflakes_19
+  - first:
+      213: -4480201118917778531
+    second: snowflakes_20
+  - first:
+      213: 7213382375081219980
+    second: snowflakes_21
+  - first:
+      213: -5756922314932618769
+    second: snowflakes_22
+  - first:
+      213: 3735134812544996329
+    second: snowflakes_23
+  - first:
+      213: 5323966418956647748
+    second: snowflakes_24
+  - first:
+      213: -9003739174548288080
+    second: snowflakes_25
+  - first:
+      213: 1491638496788155630
+    second: snowflakes_26
+  - first:
+      213: -5569833968776309160
+    second: snowflakes_27
+  - first:
+      213: -6542557996978162749
+    second: snowflakes_28
+  - first:
+      213: -326682594410883028
+    second: snowflakes_29
+  - first:
+      213: -8928585410590284681
+    second: snowflakes_30
+  - first:
+      213: -9114115441007487269
+    second: snowflakes_31
+  - first:
+      213: 5769772298226773841
+    second: snowflakes_32
+  - first:
+      213: -1446366978512923470
+    second: snowflakes_33
+  - first:
+      213: 581871120118023044
+    second: snowflakes_34
+  - first:
+      213: -253730334568458730
+    second: snowflakes_35
+  - first:
+      213: -3570118245831354194
+    second: snowflakes_36
+  - first:
+      213: 7126179276639916538
+    second: snowflakes_37
+  - first:
+      213: -2178565448441154530
+    second: snowflakes_38
+  - first:
+      213: 3195299073001332792
+    second: snowflakes_39
+  - first:
+      213: 2198578086682380466
+    second: snowflakes_40
+  - first:
+      213: -5459310383801587697
+    second: snowflakes_41
+  - first:
+      213: -1355013683050685594
+    second: snowflakes_42
+  - first:
+      213: 527481362671665080
+    second: snowflakes_43
+  - first:
+      213: -1128202247627447559
+    second: snowflakes_44
+  - first:
+      213: 662709990482604170
+    second: snowflakes_45
+  - first:
+      213: 5989182720958993315
+    second: snowflakes_46
+  - first:
+      213: 3690941050644550568
+    second: snowflakes_47
+  - first:
+      213: 5300330205506278381
+    second: snowflakes_48
+  - first:
+      213: -8110650080004064925
+    second: snowflakes_49
+  - first:
+      213: 2321076158627639674
+    second: snowflakes_50
+  - first:
+      213: -9003614623085236910
+    second: snowflakes_51
+  - first:
+      213: -5889949458739981915
+    second: snowflakes_52
+  - first:
+      213: -5017881893180664453
+    second: snowflakes_53
+  - first:
+      213: 3464014037221210090
+    second: snowflakes_54
+  - first:
+      213: 3897204224763132529
+    second: snowflakes_55
+  - first:
+      213: 630623219516190339
+    second: snowflakes_56
+  - first:
+      213: -6426130033573680155
+    second: snowflakes_57
+  - first:
+      213: 2198603034561632412
+    second: snowflakes_58
+  - first:
+      213: -6598110533874925851
+    second: snowflakes_59
+  - first:
+      213: -1011882599747402497
+    second: snowflakes_60
+  - first:
+      213: -5177979549513659064
+    second: snowflakes_61
+  - first:
+      213: 3827129632653342637
+    second: snowflakes_62
+  - first:
+      213: 6917234074643616124
+    second: snowflakes_63
+  - first:
+      213: 1325197459898444731
+    second: snowflakes_64
+  - first:
+      213: -3698500331328733160
+    second: snowflakes_65
+  - first:
+      213: -6010929615764817428
+    second: snowflakes_66
+  - first:
+      213: 5817254739989404332
+    second: snowflakes_67
+  - first:
+      213: 1253345949520439118
+    second: snowflakes_68
+  - first:
+      213: 914307959423528617
+    second: snowflakes_69
+  - first:
+      213: 5855542874060350048
+    second: snowflakes_70
+  - first:
+      213: 87322220861054022
+    second: snowflakes_71
+  - first:
+      213: -2055895063553127578
+    second: snowflakes_72
+  - first:
+      213: 2986175413963347213
+    second: snowflakes_73
+  - first:
+      213: -8787751508015749942
+    second: snowflakes_74
+  - first:
+      213: -1987849043115818403
+    second: snowflakes_75
+  - first:
+      213: -293066400095451080
+    second: snowflakes_76
+  - first:
+      213: 2881122083621822927
+    second: snowflakes_77
+  - first:
+      213: 243561403823667129
+    second: snowflakes_78
+  - first:
+      213: -9063610610864085518
+    second: snowflakes_79
+  - first:
+      213: 2881496029505942116
+    second: snowflakes_80
+  - first:
+      213: 8933341890720069778
+    second: snowflakes_81
+  - first:
+      213: -406185749189428163
+    second: snowflakes_82
+  - first:
+      213: 2886835691419290615
+    second: snowflakes_83
+  - first:
+      213: -995315551891436326
+    second: snowflakes_84
+  - first:
+      213: -5609511367766054324
+    second: snowflakes_85
+  - first:
+      213: -4002327886725360200
+    second: snowflakes_86
+  - first:
+      213: 7511179936777036934
+    second: snowflakes_87
+  - first:
+      213: -9085745943297951088
+    second: snowflakes_88
+  - first:
+      213: 2012134446806110723
+    second: snowflakes_89
+  - first:
+      213: 3644567567397023858
+    second: snowflakes_90
+  - first:
+      213: 3202918123972469341
+    second: snowflakes_91
+  - first:
+      213: -1096336708096050291
+    second: snowflakes_92
+  - first:
+      213: 6611143468312395854
+    second: snowflakes_93
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snowflakes_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 945
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18bff0ef2800d160800000000000000
+      internalID: 7048142418566166556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 756
+        width: 181
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366e98984d88ec1a0800000000000000
+      internalID: -6787337141978798493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 959
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c710253a8487610800000000000000
+      internalID: 1619123932332391459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 914
+        width: 99
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c6970f19d4f0100800000000000000
+      internalID: 76365007888673838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 968
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acff415436f677b0800000000000000
+      internalID: -5226719612953953119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_5
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 943
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac8114e009517ba90800000000000000
+      internalID: -7298340962671978294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 960
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a9a3808b00e0700800000000000000
+      internalID: 508344598351485512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_7
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 915
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7b3a9a90fc2e310800000000000000
+      internalID: 1432935271864973308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_8
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 785
+        width: 168
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c94986fe5deacd00800000000000000
+      internalID: 993867659907516868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_9
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 964
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e122241de257670800000000000000
+      internalID: 8535780145043218052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_10
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 902
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97b016878f74f4f0800000000000000
+      internalID: -795871014091180133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 866
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c636cc49d0a7b4f0800000000000000
+      internalID: -813004352560679232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 763
+        width: 142
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f859eb16ea277f0800000000000000
+      internalID: -616238464163803292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 799
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa83dda55064228e0800000000000000
+      internalID: -1719735118888879953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 786
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7bbcbc76032761b0800000000000000
+      internalID: -5663519495625589889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_15
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 811
+        width: 89
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ec67b5aa8d42bf0800000000000000
+      internalID: -349916644837503397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 778
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071cf4fe889fe2460800000000000000
+      internalID: 7218981619247333744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_17
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 712
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f9b1bc157b4c080800000000000000
+      internalID: -9168001379491668069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_18
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 689
+        width: 87
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af382004b19cb4790800000000000000
+      internalID: -7544715631853927430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_19
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 778
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8daf6a2b24bafb0800000000000000
+      internalID: -4635538056374724413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_20
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 765
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d932998c1d023d1c0800000000000000
+      internalID: -4480201118917778531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_21
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 673
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8797cf4d051b1460800000000000000
+      internalID: 7213382375081219980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_22
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 730
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9fbe2f7ad4b10b0800000000000000
+      internalID: -5756922314932618769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_23
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 735
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e390f9825dd5d330800000000000000
+      internalID: 3735134812544996329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_24
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 634
+        width: 97
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44df40e104782e940800000000000000
+      internalID: 5323966418956647748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_25
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 698
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdc7c2bcea4c0380800000000000000
+      internalID: -9003739174548288080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 708
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec0b5e4f4d53b410800000000000000
+      internalID: 1491638496788155630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_27
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 672
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8561f210489f3b2b0800000000000000
+      internalID: -5569833968776309160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_28
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 670
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3b9bb6a2a2435a0800000000000000
+      internalID: -6542557996978162749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_29
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 675
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2816d549e3677bf0800000000000000
+      internalID: -326682594410883028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_30
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 559
+        width: 89
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774e70fefda471480800000000000000
+      internalID: -8928585410590284681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_31
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 628
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd698d88b48248180800000000000000
+      internalID: -9114115441007487269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_32
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 480
+        width: 154
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f22bee559521050800000000000000
+      internalID: 5769772298226773841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_33
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 611
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4d1ee65e87debe0800000000000000
+      internalID: -1446366978512923470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_34
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 639
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48381bb63b8331800800000000000000
+      internalID: 581871120118023044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_35
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 555
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6165e43ea919a7cf0800000000000000
+      internalID: -253730334568458730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_36
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 568
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8d417ee54647ec0800000000000000
+      internalID: -3570118245831354194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_37
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 435
+        width: 177
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af15fd5cb4645e260800000000000000
+      internalID: 7126179276639916538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_38
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 536
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14b9b5644e24c1e0800000000000000
+      internalID: -2178565448441154530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 490
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8302165d39bf75c20800000000000000
+      internalID: 3195299073001332792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_40
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 394
+        width: 116
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b849ab0f1be28e10800000000000000
+      internalID: 2198578086682380466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_41
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 460
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08a7ee6122ac34b0800000000000000
+      internalID: -5459310383801587697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_42
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 521
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b58f30c36023de0800000000000000
+      internalID: -1355013683050685594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_43
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 483
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bffeaf218df15700800000000000000
+      internalID: 527481362671665080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_44
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 463
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f26e538802d750f0800000000000000
+      internalID: -1128202247627447559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_45
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 465
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8071d3a93b623900800000000000000
+      internalID: 662709990482604170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 453
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a31ba1e3f9dd1350800000000000000
+      internalID: 5989182720958993315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_47
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 453
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a35392845bd83330800000000000000
+      internalID: 3690941050644550568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 439
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de399735d3e8e8940800000000000000
+      internalID: 5300330205506278381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_49
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 408
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3693ddb69be217f80800000000000000
+      internalID: -8110650080004064925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_50
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 446
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71f0abf77e163020800000000000000
+      internalID: 2321076158627639674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_51
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 435
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ded78143cbc0380800000000000000
+      internalID: -9003614623085236910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_52
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 422
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a19cce6c22b24ea0800000000000000
+      internalID: -5889949458739981915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_53
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 412
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b751a180107ec5ab0800000000000000
+      internalID: -5017881893180664453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_54
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 211
+        width: 219
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae77989e966a21030800000000000000
+      internalID: 3464014037221210090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_55
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 421
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a782a1896a51630800000000000000
+      internalID: 3897204224763132529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_56
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 411
+        width: 37
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e206a1a7c60c800800000000000000
+      internalID: 630623219516190339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_57
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 269
+        width: 122
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb2f5418ccc1d6a0800000000000000
+      internalID: -6426130033573680155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_58
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 375
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98542dafc1038e10800000000000000
+      internalID: 2198603034561632412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_59
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 356
+        width: 48
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee3f9f7d6dce64a0800000000000000
+      internalID: -6598110533874925851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_60
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 378
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff448aff22215f1f0800000000000000
+      internalID: -1011882599747402497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_61
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 361
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d4009a80f1428b0800000000000000
+      internalID: -5177979549513659064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_62
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 361
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da77ca7bf12bc1530800000000000000
+      internalID: 3827129632653342637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_63
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 358
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c715c57edb3feff50800000000000000
+      internalID: 6917234074643616124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_64
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 347
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb2f7e811c046210800000000000000
+      internalID: 1325197459898444731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_65
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 343
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8108c7d4b894cacc0800000000000000
+      internalID: -3698500331328733160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_66
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 329
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9767a9c53e49ca0800000000000000
+      internalID: -6010929615764817428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_67
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 292
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa96096d5a0bb050800000000000000
+      internalID: 5817254739989404332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_68
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 334
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4727d52087c46110800000000000000
+      internalID: 1253345949520439118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_69
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 310
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae60c0be3640bc00800000000000000
+      internalID: 914307959423528617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_70
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 312
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062ef6f4831134150800000000000000
+      internalID: 5855542874060350048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_71
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 314
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cdb63e81b363100800000000000000
+      internalID: 87322220861054022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_72
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 315
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bcf61155ef773e0800000000000000
+      internalID: -2055895063553127578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_73
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 270
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d055a42b7b6017920800000000000000
+      internalID: 2986175413963347213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_74
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 299
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4615e1092ab0680800000000000000
+      internalID: -8787751508015749942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_75
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 272
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d524bfdc3ddb964e0800000000000000
+      internalID: -1987849043115818403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_76
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 91
+        width: 158
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83845be69a1deebf0800000000000000
+      internalID: -293066400095451080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_77
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 261
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1efcc254dcbf720800000000000000
+      internalID: 2881122083621822927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_78
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 157
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7b7eb6ecd416300800000000000000
+      internalID: 243561403823667129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_79
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f52cf4ab26973280800000000000000
+      internalID: -9063610610864085518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_80
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 86
+        width: 160
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 462766c3f512df720800000000000000
+      internalID: 2881496029505942116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_81
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 193
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2987c756e1b99fb70800000000000000
+      internalID: 8933341890720069778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_82
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 178
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3cfcb29630fc5af0800000000000000
+      internalID: -406185749189428163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_83
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 170
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb47f724c9101820800000000000000
+      internalID: 2886835691419290615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_84
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 163
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcc61a67cdef22f0800000000000000
+      internalID: -995315551891436326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_85
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 149
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ae9c8a1230722b0800000000000000
+      internalID: -5609511367766054324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_86
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 143
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b558150effd478c0800000000000000
+      internalID: -4002327886725360200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_87
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 95
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684e2a74b521d3860800000000000000
+      internalID: 7511179936777036934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_88
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 53
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a7742f332f8e180800000000000000
+      internalID: -9085745943297951088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_89
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 59
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302943e5e998ceb10800000000000000
+      internalID: 2012134446806110723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_90
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 50
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270fb9e84ea149230800000000000000
+      internalID: 3644567567397023858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_91
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 46
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d522a00601d037c20800000000000000
+      internalID: 3202918123972469341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_92
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bb6b7929709c0f0800000000000000
+      internalID: -1096336708096050291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowflakes_93
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 47
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4087e305ff7fbb50800000000000000
+      internalID: 6611143468312395854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f3c8ef3904397cf4a8995823aa276a02
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      snowflakes_0: 7048142418566166556
+      snowflakes_1: -6787337141978798493
+      snowflakes_10: -795871014091180133
+      snowflakes_11: -813004352560679232
+      snowflakes_12: -616238464163803292
+      snowflakes_13: -1719735118888879953
+      snowflakes_14: -5663519495625589889
+      snowflakes_15: -349916644837503397
+      snowflakes_16: 7218981619247333744
+      snowflakes_17: -9168001379491668069
+      snowflakes_18: -7544715631853927430
+      snowflakes_19: -4635538056374724413
+      snowflakes_2: 1619123932332391459
+      snowflakes_20: -4480201118917778531
+      snowflakes_21: 7213382375081219980
+      snowflakes_22: -5756922314932618769
+      snowflakes_23: 3735134812544996329
+      snowflakes_24: 5323966418956647748
+      snowflakes_25: -9003739174548288080
+      snowflakes_26: 1491638496788155630
+      snowflakes_27: -5569833968776309160
+      snowflakes_28: -6542557996978162749
+      snowflakes_29: -326682594410883028
+      snowflakes_3: 76365007888673838
+      snowflakes_30: -8928585410590284681
+      snowflakes_31: -9114115441007487269
+      snowflakes_32: 5769772298226773841
+      snowflakes_33: -1446366978512923470
+      snowflakes_34: 581871120118023044
+      snowflakes_35: -253730334568458730
+      snowflakes_36: -3570118245831354194
+      snowflakes_37: 7126179276639916538
+      snowflakes_38: -2178565448441154530
+      snowflakes_39: 3195299073001332792
+      snowflakes_4: -5226719612953953119
+      snowflakes_40: 2198578086682380466
+      snowflakes_41: -5459310383801587697
+      snowflakes_42: -1355013683050685594
+      snowflakes_43: 527481362671665080
+      snowflakes_44: -1128202247627447559
+      snowflakes_45: 662709990482604170
+      snowflakes_46: 5989182720958993315
+      snowflakes_47: 3690941050644550568
+      snowflakes_48: 5300330205506278381
+      snowflakes_49: -8110650080004064925
+      snowflakes_5: -7298340962671978294
+      snowflakes_50: 2321076158627639674
+      snowflakes_51: -9003614623085236910
+      snowflakes_52: -5889949458739981915
+      snowflakes_53: -5017881893180664453
+      snowflakes_54: 3464014037221210090
+      snowflakes_55: 3897204224763132529
+      snowflakes_56: 630623219516190339
+      snowflakes_57: -6426130033573680155
+      snowflakes_58: 2198603034561632412
+      snowflakes_59: -6598110533874925851
+      snowflakes_6: 508344598351485512
+      snowflakes_60: -1011882599747402497
+      snowflakes_61: -5177979549513659064
+      snowflakes_62: 3827129632653342637
+      snowflakes_63: 6917234074643616124
+      snowflakes_64: 1325197459898444731
+      snowflakes_65: -3698500331328733160
+      snowflakes_66: -6010929615764817428
+      snowflakes_67: 5817254739989404332
+      snowflakes_68: 1253345949520439118
+      snowflakes_69: 914307959423528617
+      snowflakes_7: 1432935271864973308
+      snowflakes_70: 5855542874060350048
+      snowflakes_71: 87322220861054022
+      snowflakes_72: -2055895063553127578
+      snowflakes_73: 2986175413963347213
+      snowflakes_74: -8787751508015749942
+      snowflakes_75: -1987849043115818403
+      snowflakes_76: -293066400095451080
+      snowflakes_77: 2881122083621822927
+      snowflakes_78: 243561403823667129
+      snowflakes_79: -9063610610864085518
+      snowflakes_8: 993867659907516868
+      snowflakes_80: 2881496029505942116
+      snowflakes_81: 8933341890720069778
+      snowflakes_82: -406185749189428163
+      snowflakes_83: 2886835691419290615
+      snowflakes_84: -995315551891436326
+      snowflakes_85: -5609511367766054324
+      snowflakes_86: -4002327886725360200
+      snowflakes_87: 7511179936777036934
+      snowflakes_88: -9085745943297951088
+      snowflakes_89: 2012134446806110723
+      snowflakes_9: 8535780145043218052
+      snowflakes_90: 3644567567397023858
+      snowflakes_91: 3202918123972469341
+      snowflakes_92: -1096336708096050291
+      snowflakes_93: 6611143468312395854
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

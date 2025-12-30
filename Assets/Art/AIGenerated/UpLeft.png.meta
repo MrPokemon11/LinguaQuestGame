@@ -1,0 +1,2119 @@
+fileFormatVersion: 2
+guid: b147c777cd446fc4db3c55804c53d895
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1710200031355080025
+    second: UpLeft_0
+  - first:
+      213: -6787947663766070914
+    second: UpLeft_1
+  - first:
+      213: -8123344945864601214
+    second: UpLeft_2
+  - first:
+      213: 8629281950881078983
+    second: UpLeft_3
+  - first:
+      213: 2297991877241242227
+    second: UpLeft_4
+  - first:
+      213: 242514946082053897
+    second: UpLeft_5
+  - first:
+      213: 9200482252582642148
+    second: UpLeft_6
+  - first:
+      213: 8242374351202017045
+    second: UpLeft_7
+  - first:
+      213: -6304040811668493683
+    second: UpLeft_8
+  - first:
+      213: -5758987523995931848
+    second: UpLeft_9
+  - first:
+      213: -9123527425480540114
+    second: UpLeft_10
+  - first:
+      213: 331477182642121230
+    second: UpLeft_11
+  - first:
+      213: 5067248717198568016
+    second: UpLeft_12
+  - first:
+      213: 4578809531788450069
+    second: UpLeft_13
+  - first:
+      213: -7523676645413372136
+    second: UpLeft_14
+  - first:
+      213: 8920895238606228612
+    second: UpLeft_15
+  - first:
+      213: 5388608849807248215
+    second: UpLeft_16
+  - first:
+      213: 3707595308762735684
+    second: UpLeft_17
+  - first:
+      213: -8138655411647220688
+    second: UpLeft_18
+  - first:
+      213: -8530844403361908200
+    second: UpLeft_19
+  - first:
+      213: -4017967415417281559
+    second: UpLeft_20
+  - first:
+      213: 106151487508740364
+    second: UpLeft_21
+  - first:
+      213: 7753349182277140919
+    second: UpLeft_22
+  - first:
+      213: 6420029246956312116
+    second: UpLeft_23
+  - first:
+      213: 1532319184977891945
+    second: UpLeft_24
+  - first:
+      213: 1275277425003623452
+    second: UpLeft_25
+  - first:
+      213: 8455242066425343630
+    second: UpLeft_26
+  - first:
+      213: 4864224963599818867
+    second: UpLeft_27
+  - first:
+      213: -7931662894798493590
+    second: UpLeft_28
+  - first:
+      213: -1896160712806924683
+    second: UpLeft_29
+  - first:
+      213: -4991284477579172855
+    second: UpLeft_30
+  - first:
+      213: 907840206551583248
+    second: UpLeft_31
+  - first:
+      213: -3726525012787808672
+    second: UpLeft_32
+  - first:
+      213: 5228264895367836245
+    second: UpLeft_33
+  - first:
+      213: -509079265367800897
+    second: UpLeft_34
+  - first:
+      213: -2014724170614307527
+    second: UpLeft_35
+  - first:
+      213: -1553456698072902852
+    second: UpLeft_36
+  - first:
+      213: 567629229636892583
+    second: UpLeft_37
+  - first:
+      213: -7472619573111127338
+    second: UpLeft_38
+  - first:
+      213: 8136612501643871128
+    second: UpLeft_39
+  - first:
+      213: 8829008489567298422
+    second: UpLeft_40
+  - first:
+      213: -9120528079895472921
+    second: UpLeft_41
+  - first:
+      213: 4391528073902912665
+    second: UpLeft_42
+  - first:
+      213: -5785310164267487063
+    second: UpLeft_43
+  - first:
+      213: 6124647269002995993
+    second: UpLeft_44
+  - first:
+      213: -5469610804367618976
+    second: UpLeft_45
+  - first:
+      213: 5363961643689354993
+    second: UpLeft_46
+  - first:
+      213: -3937251725575234737
+    second: UpLeft_47
+  - first:
+      213: -7062052776771858881
+    second: UpLeft_48
+  - first:
+      213: 1635928417655624121
+    second: UpLeft_49
+  - first:
+      213: -9157461589044750172
+    second: UpLeft_50
+  - first:
+      213: 2224652095193741421
+    second: UpLeft_51
+  - first:
+      213: -7037168345165708215
+    second: UpLeft_52
+  - first:
+      213: -3096285688839940260
+    second: UpLeft_53
+  - first:
+      213: 8038025118919374047
+    second: UpLeft_54
+  - first:
+      213: 230619258092596851
+    second: UpLeft_55
+  - first:
+      213: 8181345450588821163
+    second: UpLeft_56
+  - first:
+      213: -6703183702619445069
+    second: UpLeft_57
+  - first:
+      213: -2838543589757283305
+    second: UpLeft_58
+  - first:
+      213: -965639753021472550
+    second: UpLeft_59
+  - first:
+      213: -6324801714973263718
+    second: UpLeft_60
+  - first:
+      213: -6320018868744226314
+    second: UpLeft_61
+  - first:
+      213: -2332818009847944941
+    second: UpLeft_62
+  - first:
+      213: 221818554187329132
+    second: UpLeft_63
+  - first:
+      213: -3683768574748329404
+    second: UpLeft_64
+  - first:
+      213: 149317195121358535
+    second: UpLeft_65
+  - first:
+      213: 864304429971915587
+    second: UpLeft_66
+  - first:
+      213: -4077446716936772901
+    second: UpLeft_67
+  - first:
+      213: -918274111086124162
+    second: UpLeft_68
+  - first:
+      213: -9030540108863420881
+    second: UpLeft_69
+  - first:
+      213: -803261756540247428
+    second: UpLeft_70
+  - first:
+      213: -7987795402278802027
+    second: UpLeft_71
+  - first:
+      213: 7952955537324238004
+    second: UpLeft_72
+  - first:
+      213: 1396407462344257606
+    second: UpLeft_73
+  - first:
+      213: 4412501850772056497
+    second: UpLeft_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1800
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UpLeft_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1034
+        height: 1535
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d08c31ed9dbb710800000000000000
+      internalID: 1710200031355080025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 961
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79d74b509d5cc1a0800000000000000
+      internalID: -6787947663766070914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 733
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28196c1afc4144f80800000000000000
+      internalID: -8123344945864601214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ced4f4e63e51c770800000000000000
+      internalID: 8629281950881078983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 609
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37282b3ef6b14ef10800000000000000
+      internalID: 2297991877241242227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 537
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f91fdfe069d5300800000000000000
+      internalID: 242514946082053897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1697bccddaeaf70800000000000000
+      internalID: 9200482252582642148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 509
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fdf2d6dcbc26270800000000000000
+      internalID: 8242374351202017045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 494
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a2fe2384c8388a0800000000000000
+      internalID: -6304040811668493683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83be05efb57f310b0800000000000000
+      internalID: -5758987523995931848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 430
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20c2b12528b26180800000000000000
+      internalID: -9123527425480540114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 109
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ae78acdb4a99400800000000000000
+      internalID: 331477182642121230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aac216cdb725640800000000000000
+      internalID: 5067248717198568016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7
+        width: 11
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5195c6472033b8f30800000000000000
+      internalID: 4578809531788450069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 40
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fbb3104f7869790800000000000000
+      internalID: -7523676645413372136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 888
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c099f54f26dcb70800000000000000
+      internalID: 8920895238606228612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 966
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b8946e23f28ca40800000000000000
+      internalID: 5388608849807248215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 938
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44425b52a46047330800000000000000
+      internalID: 3707595308762735684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_18
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 824
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034f4770600bd0f80800000000000000
+      internalID: -8138655411647220688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_19
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 966
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81afb77a63a5c9980800000000000000
+      internalID: -8530844403361908200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_20
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 928
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e365fc7cef4d38c0800000000000000
+      internalID: -4017967415417281559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 859
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0976592730297100800000000000000
+      internalID: 106151487508740364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_22
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 98
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1c135900e699b60800000000000000
+      internalID: 7753349182277140919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_23
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4361378d596881950800000000000000
+      internalID: 6420029246956312116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 0
+        width: 81
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9629f1f1e24e34510800000000000000
+      internalID: 1532319184977891945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_25
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c147a63bf02b2b110800000000000000
+      internalID: 1275277425003623452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_26
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ee8339cdd075570800000000000000
+      internalID: 8455242066425343630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_27
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 0
+        width: 97
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37064f625d2318340800000000000000
+      internalID: 4864224963599818867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_28
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68a365fe921de190800000000000000
+      internalID: -7931662894798493590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e7714c0eb7fa5e0800000000000000
+      internalID: -1896160712806924683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_30
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904e8fc66356bbab0800000000000000
+      internalID: -4991284477579172855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_31
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 21
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a0350abdb499c00800000000000000
+      internalID: 907840206551583248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_32
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 9
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066bc2eae39b84cc0800000000000000
+      internalID: -3726525012787808672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_33
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 7
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5527b08c8378e8840800000000000000
+      internalID: 5228264895367836245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_34
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb34c39fa136fe8f0800000000000000
+      internalID: -509079265367800897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_35
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 14
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93504229a034a04e0800000000000000
+      internalID: -2014724170614307527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_36
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 0
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33d9691d53017ae0800000000000000
+      internalID: -1553456698072902852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_37
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 15
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7b2a4e6cf90e700800000000000000
+      internalID: 567629229636892583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_38
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d28413071ceb4890800000000000000
+      internalID: -7472619573111127338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_39
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 501
+        width: 1928
+        height: 1035
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8934c7be5fd0be070800000000000000
+      internalID: 8136612501643871128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_40
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 0
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67321937170f68a70800000000000000
+      internalID: 8829008489567298422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_41
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 207
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4dad1b8006d6180800000000000000
+      internalID: -9120528079895472921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_42
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 3
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99473221487d1fc30800000000000000
+      internalID: 4391528073902912665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_43
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 0
+        width: 181
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a03167be0376bfa0800000000000000
+      internalID: -5785310164267487063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_44
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1
+        width: 136
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9196d7bcd3e1ff450800000000000000
+      internalID: 6124647269002995993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_45
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 11
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c8702e3f90814b0800000000000000
+      internalID: -5469610804367618976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_46
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 0
+        width: 67
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6ace802be907a40800000000000000
+      internalID: 5363961643689354993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_47
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 6
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b5bc18a621c59c0800000000000000
+      internalID: -3937251725575234737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_48
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 432
+        width: 411
+        height: 670
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ec3777a6c8efd90800000000000000
+      internalID: -7062052776771858881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_49
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 25
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b194547a3cf3b610800000000000000
+      internalID: 1635928417655624121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_50
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 0
+        width: 510
+        height: 231
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a814bcf3392ae080800000000000000
+      internalID: -9157461589044750172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_51
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 0
+        width: 57
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68f9da3b4d8fde10800000000000000
+      internalID: 2224652095193741421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_52
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94446c1bca4f65e90800000000000000
+      internalID: -7037168345165708215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_53
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 25
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57d1912298c705d0800000000000000
+      internalID: -3096285688839940260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_54
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 0
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43bd4224dcc8f60800000000000000
+      internalID: 8038025118919374047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_55
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e29fc4ef2533300800000000000000
+      internalID: 230619258092596851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_56
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6da17375af98170800000000000000
+      internalID: 8181345450588821163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_57
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b82e2dffe189f2a0800000000000000
+      internalID: -6703183702619445069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_58
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 0
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7141e05f4a77b98d0800000000000000
+      internalID: -2838543589757283305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_59
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 0
+        width: 266
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0c824c2cb5992f0800000000000000
+      internalID: -965639753021472550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_60
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 0
+        width: 43
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98bc38b95ac938a0800000000000000
+      internalID: -6324801714973263718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_61
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9fbb2e258ca48a0800000000000000
+      internalID: -6320018868744226314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_62
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 0
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319216d316a20afd0800000000000000
+      internalID: -2332818009847944941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_63
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 0
+        width: 393
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e2deebcce041300800000000000000
+      internalID: 221818554187329132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_64
+      rect:
+        serializedVersion: 2
+        x: 2252
+        y: 23
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44af06bafff90ecc0800000000000000
+      internalID: -3683768574748329404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_65
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 0
+        width: 37
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6f016a23b721200800000000000000
+      internalID: 149317195121358535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_66
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 1
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343c54ebc40aefb00800000000000000
+      internalID: 864304429971915587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_67
+      rect:
+        serializedVersion: 2
+        x: 2449
+        y: 0
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2a66e60dff967c0800000000000000
+      internalID: -4077446716936772901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_68
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 0
+        width: 244
+        height: 251
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73264aaf82a143f0800000000000000
+      internalID: -918274111086124162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_69
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 16
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f264749ed931da280800000000000000
+      internalID: -9030540108863420881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_70
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7223c330bd3ad4f0800000000000000
+      internalID: -803261756540247428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_71
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 24
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d6cac1766a52190800000000000000
+      internalID: -7987795402278802027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_72
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 0
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4efa4bce29e5e60800000000000000
+      internalID: 7952955537324238004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_73
+      rect:
+        serializedVersion: 2
+        x: 2733
+        y: 0
+        width: 83
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640fbb24039016310800000000000000
+      internalID: 1396407462344257606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpLeft_74
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 20
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9a50a0e0b5c3d30800000000000000
+      internalID: 4412501850772056497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 57aa14bcc73d47c459f7c8aac93a31c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UpLeft_0: 1710200031355080025
+      UpLeft_1: -6787947663766070914
+      UpLeft_10: -9123527425480540114
+      UpLeft_11: 331477182642121230
+      UpLeft_12: 5067248717198568016
+      UpLeft_13: 4578809531788450069
+      UpLeft_14: -7523676645413372136
+      UpLeft_15: 8920895238606228612
+      UpLeft_16: 5388608849807248215
+      UpLeft_17: 3707595308762735684
+      UpLeft_18: -8138655411647220688
+      UpLeft_19: -8530844403361908200
+      UpLeft_2: -8123344945864601214
+      UpLeft_20: -4017967415417281559
+      UpLeft_21: 106151487508740364
+      UpLeft_22: 7753349182277140919
+      UpLeft_23: 6420029246956312116
+      UpLeft_24: 1532319184977891945
+      UpLeft_25: 1275277425003623452
+      UpLeft_26: 8455242066425343630
+      UpLeft_27: 4864224963599818867
+      UpLeft_28: -7931662894798493590
+      UpLeft_29: -1896160712806924683
+      UpLeft_3: 8629281950881078983
+      UpLeft_30: -4991284477579172855
+      UpLeft_31: 907840206551583248
+      UpLeft_32: -3726525012787808672
+      UpLeft_33: 5228264895367836245
+      UpLeft_34: -509079265367800897
+      UpLeft_35: -2014724170614307527
+      UpLeft_36: -1553456698072902852
+      UpLeft_37: 567629229636892583
+      UpLeft_38: -7472619573111127338
+      UpLeft_39: 8136612501643871128
+      UpLeft_4: 2297991877241242227
+      UpLeft_40: 8829008489567298422
+      UpLeft_41: -9120528079895472921
+      UpLeft_42: 4391528073902912665
+      UpLeft_43: -5785310164267487063
+      UpLeft_44: 6124647269002995993
+      UpLeft_45: -5469610804367618976
+      UpLeft_46: 5363961643689354993
+      UpLeft_47: -3937251725575234737
+      UpLeft_48: -7062052776771858881
+      UpLeft_49: 1635928417655624121
+      UpLeft_5: 242514946082053897
+      UpLeft_50: -9157461589044750172
+      UpLeft_51: 2224652095193741421
+      UpLeft_52: -7037168345165708215
+      UpLeft_53: -3096285688839940260
+      UpLeft_54: 8038025118919374047
+      UpLeft_55: 230619258092596851
+      UpLeft_56: 8181345450588821163
+      UpLeft_57: -6703183702619445069
+      UpLeft_58: -2838543589757283305
+      UpLeft_59: -965639753021472550
+      UpLeft_6: 9200482252582642148
+      UpLeft_60: -6324801714973263718
+      UpLeft_61: -6320018868744226314
+      UpLeft_62: -2332818009847944941
+      UpLeft_63: 221818554187329132
+      UpLeft_64: -3683768574748329404
+      UpLeft_65: 149317195121358535
+      UpLeft_66: 864304429971915587
+      UpLeft_67: -4077446716936772901
+      UpLeft_68: -918274111086124162
+      UpLeft_69: -9030540108863420881
+      UpLeft_7: 8242374351202017045
+      UpLeft_70: -803261756540247428
+      UpLeft_71: -7987795402278802027
+      UpLeft_72: 7952955537324238004
+      UpLeft_73: 1396407462344257606
+      UpLeft_74: 4412501850772056497
+      UpLeft_8: -6304040811668493683
+      UpLeft_9: -5758987523995931848
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
