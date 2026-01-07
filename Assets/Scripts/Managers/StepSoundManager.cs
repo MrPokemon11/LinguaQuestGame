@@ -14,16 +14,23 @@ public class StepSoundManager : MonoBehaviour
     public List<GroundTypeSound> groundSounds;
     public AudioSource audioSource;
 
-    public Tilemap grassTilemap;
-    public Tilemap stoneTilemap;
-    public Tilemap woodTilemap;
+    public Tilemap[] grassTilemaps;
+    public Tilemap[] stoneTilemaps;
+    public Tilemap[] woodTilemaps;
 
     public void PlayStepSound(Vector3 playerWorldPos)
     {
-        Vector3Int gridPos = grassTilemap.WorldToCell(playerWorldPos);
-        //Debug.Log("Player grid position: " + gridPos);
-        string groundType = DetectGroundType(gridPos);
+        string groundType = null;
 
+        foreach (Tilemap grassTilemap in grassTilemaps)
+        {
+            Vector3Int gridPos = grassTilemap.WorldToCell(playerWorldPos);
+            //Debug.Log("Player grid position: " + gridPos);
+            groundType = DetectGroundType(gridPos);
+
+            if (!string.IsNullOrEmpty(groundType))
+                break;
+        }
 
         if (!string.IsNullOrEmpty(groundType))
         {
@@ -40,10 +47,16 @@ public class StepSoundManager : MonoBehaviour
 
     private string DetectGroundType(Vector3Int gridPos)
     {
-        if (grassTilemap.HasTile(gridPos)) return "Grass";
-        if (stoneTilemap.HasTile(gridPos)) return "Stone";
-        if (woodTilemap.HasTile(gridPos)) return "Wood";
+        foreach (var map in grassTilemaps)
+            if (map != null && map.HasTile(gridPos)) return "Grass";
 
-        return null;  // No known ground type
+        foreach (var map in stoneTilemaps)
+            if (map != null && map.HasTile(gridPos)) return "Stone";
+
+        foreach (var map in woodTilemaps)
+            if (map != null && map.HasTile(gridPos)) return "Wood";
+
+        return null; // No known ground type
     }
+
 }

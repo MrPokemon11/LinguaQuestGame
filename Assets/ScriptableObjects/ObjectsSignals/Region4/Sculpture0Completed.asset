@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Sculpture0Completed
   m_EditorClassIdentifier: 
   initialValue: 0
-  runtimeValue: 0
+  runtimeValue: 1

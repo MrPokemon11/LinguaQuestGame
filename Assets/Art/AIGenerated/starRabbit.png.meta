@@ -1,0 +1,715 @@
+fileFormatVersion: 2
+guid: 32959f26f9799424298ec3ac5ffc43d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1286693784736636982
+    second: starRabbit_0
+  - first:
+      213: -171029908441785506
+    second: starRabbit_1
+  - first:
+      213: -7099269325761090980
+    second: starRabbit_2
+  - first:
+      213: -5325668474294483356
+    second: starRabbit_3
+  - first:
+      213: -664390171011624023
+    second: starRabbit_4
+  - first:
+      213: -7207295230925767920
+    second: starRabbit_5
+  - first:
+      213: -8271244097948303105
+    second: starRabbit_6
+  - first:
+      213: 6168400524873378719
+    second: starRabbit_7
+  - first:
+      213: -5523890479669540513
+    second: starRabbit_8
+  - first:
+      213: -1846682697964088396
+    second: starRabbit_9
+  - first:
+      213: -6145536008817474472
+    second: starRabbit_10
+  - first:
+      213: -5949307274979404233
+    second: starRabbit_11
+  - first:
+      213: 108783461124007615
+    second: starRabbit_12
+  - first:
+      213: -1837899597111920663
+    second: starRabbit_13
+  - first:
+      213: 3266068504069666844
+    second: starRabbit_14
+  - first:
+      213: 7497571211628015629
+    second: starRabbit_15
+  - first:
+      213: -1841173820860191347
+    second: starRabbit_16
+  - first:
+      213: 3737113096466727249
+    second: starRabbit_17
+  - first:
+      213: 1971745610257544873
+    second: starRabbit_18
+  - first:
+      213: 1721046138660603520
+    second: starRabbit_19
+  - first:
+      213: -4499769711862655851
+    second: starRabbit_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 420
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: starRabbit_0
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1820
+        width: 325
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6302ee51e214bd110800000000000000
+      internalID: 1286693784736636982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1797
+        width: 325
+        height: 359
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b1c55543160adf0800000000000000
+      internalID: -171029908441785506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_2
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1817
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aee2969245a7d90800000000000000
+      internalID: -7099269325761090980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1198
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4664e2e3dbc6716b0800000000000000
+      internalID: -5325668474294483356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_4
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1197
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a35798d8ac97c6f0800000000000000
+      internalID: -664390171011624023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_5
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1504
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b7d416c2b8afb90800000000000000
+      internalID: -7207295230925767920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_6
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1157
+        width: 326
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0ce3bd053a63d80800000000000000
+      internalID: -8271244097948303105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_7
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 598
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b2965889f8a9550800000000000000
+      internalID: 6168400524873378719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_8
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 549
+        width: 324
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59822520e23753b0800000000000000
+      internalID: -5523890479669540513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_9
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 590
+        width: 326
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b39dfeced34f56e0800000000000000
+      internalID: -1846682697964088396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85400187f8ba6baa0800000000000000
+      internalID: -6145536008817474472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_11
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 0
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736943fdd80df6da0800000000000000
+      internalID: -5949307274979404233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_12
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 0
+        width: 325
+        height: 360
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ebb54bf9728100800000000000000
+      internalID: 108783461124007615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_13
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 131
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e77f45dd087e76e0800000000000000
+      internalID: -1837899597111920663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_14
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 132
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18f9250008635d20800000000000000
+      internalID: 3266068504069666844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_15
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 121
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00784b0b49bc0860800000000000000
+      internalID: 7497571211628015629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_16
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 115
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d21e53a26d276e0800000000000000
+      internalID: -1841173820860191347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_17
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 96
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510c58af84ecd330800000000000000
+      internalID: 3737113096466727249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_18
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 86
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a636de8f2c0d5b10800000000000000
+      internalID: 1971745610257544873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_19
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 93
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0864ce8385262e710800000000000000
+      internalID: 1721046138660603520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starRabbit_20
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 71
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945d51b94b9d81c0800000000000000
+      internalID: -4499769711862655851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8c7a871d4845c6144b0d1ce10c027181
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      starRabbit_0: 1286693784736636982
+      starRabbit_1: -171029908441785506
+      starRabbit_10: -6145536008817474472
+      starRabbit_11: -5949307274979404233
+      starRabbit_12: 108783461124007615
+      starRabbit_13: -1837899597111920663
+      starRabbit_14: 3266068504069666844
+      starRabbit_15: 7497571211628015629
+      starRabbit_16: -1841173820860191347
+      starRabbit_17: 3737113096466727249
+      starRabbit_18: 1971745610257544873
+      starRabbit_19: 1721046138660603520
+      starRabbit_2: -7099269325761090980
+      starRabbit_20: -4499769711862655851
+      starRabbit_3: -5325668474294483356
+      starRabbit_4: -664390171011624023
+      starRabbit_5: -7207295230925767920
+      starRabbit_6: -8271244097948303105
+      starRabbit_7: 6168400524873378719
+      starRabbit_8: -5523890479669540513
+      starRabbit_9: -1846682697964088396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

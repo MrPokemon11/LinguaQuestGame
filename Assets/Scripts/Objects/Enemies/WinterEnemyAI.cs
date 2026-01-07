@@ -1,6 +1,4 @@
 using System.Collections;
-using JetBrains.Annotations;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class WinterEnemyAI : MonoBehaviour
@@ -10,10 +8,13 @@ public class WinterEnemyAI : MonoBehaviour
     public float chaseRadius = 5f;
     public float attackRadius = 0.6f;
 
+    [Header("Territory Settings")]
+    [Tooltip("The distance from the spawn point the enemy is allowed to travel.")]
+    public float boundaryRadius = 7f;
+    private Vector3 homePosition; // Remembers where it spawned
+
     [Header("Inchworm Rhythm")]
-    // How long the enemy moves forward (the "Stretch" frames)
     public float moveDuration = 0.5f;
-    // How long the enemy waits (the "Bunch/Idle" frames)
     public float pauseDuration = 1.0f;
 
     [Header("Targeting")]
@@ -24,74 +25,127 @@ public class WinterEnemyAI : MonoBehaviour
     private bool isMovingPhase = false;
 
     [Header("State Effects")]
-    // If true, touching this enemy makes the player slip instead of taking damage immediately
-    public bool causesSlipping = true;
-    public float slipDuration = 1.5f;
-    public float pushed_speed = 1f;
+    public bool causesTripping = true;
+    public float tripDuration = 1f;
+
+    [Header("Cooldown Settings")]
+    [Tooltip("How long the enemy stops moving after successfully tripping the player.")]
+    public float impactCooldown = 10f;
+    private bool isInCooldown = false;
 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        // Find the player automatically using the tag
+        // 1. Record the starting position as "Home"
+        homePosition = transform.position;
+
         GameObject playerObj = GameObject.FindGameObjectWithTag(targetTag);
         if (playerObj != null)
         {
             target = playerObj.transform;
         }
 
-        // Start the inchworm cycle
         StartCoroutine(MoveCycleCo());
     }
 
     void FixedUpdate()
     {
-        CheckDistanceAndMove();
-    }
-
-    private void CheckDistanceAndMove()
-    {
-        if (target == null) return;
-
-        float distance = Vector3.Distance(target.position, transform.position);
-
-        // Only move if:
-        // 1. Within Chase Radius
-        // 2. Outside Attack Radius (stop if touching)
-        // 3. Currently in the "Moving Phase" of the rhythm
-        if (distance <= chaseRadius && distance > attackRadius && isMovingPhase)
+        // 1. PRIORITY CHECK: Are we recovering from an attack?
+        if (isInCooldown)
         {
-            Vector3 temp = Vector3.MoveTowards(transform.position, target.position, moveSpeed * Time.fixedDeltaTime);
-            myRigidbody.MovePosition(temp);
-            ChangeAnim(temp - transform.position);
+            animator.SetBool("moving", false);
+            return; // STOP all movement logic
+        }
+
+        // 2. Normal Movement Logic
+        // Only attempt to move during the "Stretch" phase of the inchworm animation
+        if (isMovingPhase)
+        {
+            CheckDistanceAndMove();
         }
         else
         {
-            // Stop movement if in Pause phase or out of range
             animator.SetBool("moving", false);
         }
     }
 
-    // This Coroutine creates the "Inchworm" effect: Squirm -> Stop -> Squirm
+    private void CheckDistanceAndMove()
+    {
+        // If no target, just try to go home
+        if (target == null)
+        {
+            ReturnHome();
+            return;
+        }
+
+        float distToPlayer = Vector3.Distance(target.position, transform.position);
+        float distPlayerToHome = Vector3.Distance(target.position, homePosition);
+        float distSelfToHome = Vector3.Distance(transform.position, homePosition);
+
+        // LOGIC GATE:
+        // 1. Is Player close enough to see? (Chase Radius)
+        // 2. Is Player inside my Territory? (Boundary Radius)
+        bool shouldChase = (distToPlayer <= chaseRadius) && (distPlayerToHome <= boundaryRadius);
+
+        if (shouldChase)
+        {
+            // Stop if we are practically touching the player (Attack Radius)
+            if (distToPlayer > attackRadius)
+            {
+                MoveTowards(target.position);
+            }
+            else
+            {
+                // We are close enough to attack/trip, so stop moving
+                animator.SetBool("moving", false);
+            }
+        }
+        else
+        {
+            // If we aren't chasing, check if we need to return home.
+            if (distSelfToHome > 0.2f)
+            {
+                ReturnHome();
+            }
+            else
+            {
+                // We are home and idle.
+                animator.SetBool("moving", false);
+            }
+        }
+    }
+
+    private void ReturnHome()
+    {
+        MoveTowards(homePosition);
+    }
+
+    private void MoveTowards(Vector3 destination)
+    {
+        // Move Rigidbody
+        Vector3 temp = Vector3.MoveTowards(transform.position, destination, moveSpeed * Time.fixedDeltaTime);
+        myRigidbody.MovePosition(temp);
+
+        // Update Animation
+        ChangeAnim(temp - transform.position);
+    }
+
     private IEnumerator MoveCycleCo()
     {
         while (true)
         {
-            // Phase 1: Move (Stretch)
             isMovingPhase = true;
             yield return new WaitForSeconds(moveDuration);
 
-            // Phase 2: Pause (Gather/Idle)
             isMovingPhase = false;
-            // Stop logic is handled in FixedUpdate via the bool flag
             yield return new WaitForSeconds(pauseDuration);
         }
     }
 
     private void ChangeAnim(Vector2 direction)
     {
-        // Only update animation if we are actually moving significantly
         if (Mathf.Abs(direction.x) > 0 || Mathf.Abs(direction.y) > 0)
         {
             animator.SetFloat("moveX", direction.x);
@@ -102,32 +156,43 @@ public class WinterEnemyAI : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("WinterEnemyAI: Collided with " + collision.gameObject.name);
-        if (collision.gameObject.CompareTag("Player") && causesSlipping)
+        // Don't trigger if we are already in cooldown
+        if (isInCooldown) return;
+
+        if (collision.gameObject.CompareTag("Player") && causesTripping)
         {
-            Debug.Log("WinterEnemyAI: Collided with player, attempting to inflict slip");
             PlayerExploring player = collision.gameObject.GetComponent<PlayerExploring>();
-            if (player != null && player.currentState != PlayerState.slip)
+
+            // Check if player is valid and NOT currently falling
+            // This ensures we only stop moving if we actually caused a NEW fall
+            if (player != null && player.currentState != PlayerState.falling)
             {
-                StartCoroutine(InflictSlip(player));
+                player.TripPlayer(tripDuration);
+                StartCoroutine(ImpactCooldownCo());
             }
         }
     }
 
-    private IEnumerator InflictSlip(PlayerExploring player)
+    // --- NEW: Cooldown Routine ---
+    private IEnumerator ImpactCooldownCo()
     {
-        // Reference to existing state enum
-        Debug.Log("WinterEnemyAI: Inflicting slip on player");
-        player.pushed((player.transform.position - transform.position).normalized * pushed_speed, slipDuration);
+        isInCooldown = true;
 
-        // Optional: Knockback could go here
+        // Optional: If you have a specific "Laugh" or "Idle" trigger, play it here
+        // animator.SetTrigger("laugh"); 
 
-        yield return new WaitForSeconds(slipDuration);
+        yield return new WaitForSeconds(impactCooldown);
 
-        // Return to walk state if they are still slipping
-        if (player.currentState == PlayerState.slip)
-        {
-            player.currentState = PlayerState.walk;
-        }
+        isInCooldown = false;
+    }
+
+    // --- VISUAL DEBUGGING ---
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, chaseRadius); // Vision range
+
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(Application.isPlaying ? homePosition : transform.position, boundaryRadius); // Territory
     }
 }

@@ -8,12 +8,13 @@ public enum PlayerState
     attack,
     interact,
     stagger,
-    slip
+    slip,
+    falling
 }
 
 public class PlayerExploring : MonoBehaviour
 {
-    // --- Serialized Fields (visible in Inspector) ---
+    // --- Serialized Fields ---
     [Header("Movement")]
     public float speed = 5f;
     public Rigidbody2D myRigidbody;
@@ -50,17 +51,40 @@ public class PlayerExploring : MonoBehaviour
     public float lightningCastOffset = 4.5f;
 
     [Header("Combat & Slip Mechanics")]
-    public float pushCooldown = 1.0f; // Time before player can be pushed again
+    public float pushCooldown = 1.0f;
     private float lastPushTime = -10f;
-
-    // New variables for dynamic slipping
     private float currentSlipTimer = 0f;
-    [Tooltip("How much player input affects slip time. Higher = easier to brake/coast.")]
+
+    [Tooltip("How much player input affects slip time.")]
     public float slipInputInfluence = 0.8f;
 
+    [Tooltip("How much control the player has while sliding.")]
+    public float slipSteeringPower = 2.0f;
+
+    [Tooltip("Time added to slide when bouncing off a wall.")]
+    public float wallBounceExtension = 0.5f;
+
+    [Header("Slip Limits")]
+    [Tooltip("Current multiplier for speed when slipping.")]
+    public float slipSpeedMultiplier = 1.6f;
+    public float maxSlipSpeedMultiplier = 3.0f;
+    public float maxSlipDuration = 4.0f;
+    private float defaultSlipSpeedMultiplier;
+
+    [Header("Falling Mechanics")]
+    public float fallingDuration = 0.5f;
+
+    [Tooltip("Speed multiplier while falling (0.1 = 10% speed).")]
+    public float fallingSpeedPenalty = 0.1f;
+
+    [Tooltip("Grace period cooldown after falling.")]
+    public float fallingCooldown = 2.0f;
+    private float lastFallingTime = -10f;
+
     [HideInInspector] public bool isMoving;
+
     [Header("Visual Effects")]
-    public TrailRenderer[] slipTrails; // Change from single variable to Array
+    public TrailRenderer[] slipTrails;
     public FootprintsFromPlayerExploring footprintSystem;
 
     // --- Unity Methods ---
@@ -69,6 +93,9 @@ public class PlayerExploring : MonoBehaviour
         animator = GetComponent<Animator>();
         stepSoundManager = FindFirstObjectByType<StepSoundManager>();
         myRigidbody = GetComponent<Rigidbody2D>();
+
+        defaultSlipSpeedMultiplier = slipSpeedMultiplier;
+
         if (footprintSystem == null)
             footprintSystem = GetComponent<FootprintsFromPlayerExploring>();
         footprintSystem.enabled = true;
@@ -76,9 +103,10 @@ public class PlayerExploring : MonoBehaviour
         {
             if (trail != null) trail.emitting = false;
         }
+
         animator.SetFloat("moveX", 0);
         animator.SetFloat("moveY", -1);
-        myRigidbody.position = StartingPosition.runtimeValue;
+        myRigidbody.position = StartingPosition.initialValue;
         magicLevel.runtimeValue = magicLevel.initialValue;
     }
 
@@ -86,28 +114,27 @@ public class PlayerExploring : MonoBehaviour
     {
         lastStepSoundTime += Time.deltaTime;
 
-        // --- State Checks ---
-        if (currentState == PlayerState.interact)
-            return;
+        if (currentState == PlayerState.interact) return;
 
+        // Slipping Logic takes priority
         if (currentState == PlayerState.slip)
         {
             UpdateAnimationSlip();
-            return; // Lock standard movement logic
+            return;
         }
         else
         {
             animator.SetBool("slipping", false);
         }
 
-        // --- Standard Input Processing ---
+        // Standard Input Processing
         change = UnityEngine.Vector3.zero;
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
         change.z = 0;
         change.Normalize();
 
-        if (Input.GetMouseButtonDown(0) && currentState != PlayerState.attack)
+        if (Input.GetMouseButtonDown(0) && currentState != PlayerState.attack && currentState != PlayerState.falling)
         {
             StartCoroutine(AttackCo());
         }
@@ -115,15 +142,16 @@ public class PlayerExploring : MonoBehaviour
         {
             animator.SetTrigger("swordDance");
         }
-        else if (Input.GetKeyDown(KeyCode.F) && magicLevel.runtimeValue >= 1)
+        else if (Input.GetKeyDown(KeyCode.F) && magicLevel.runtimeValue >= 1 && currentState != PlayerState.falling)
         {
             CastFireball();
         }
-        else if (Input.GetKeyDown(KeyCode.G) && magicLevel.runtimeValue >= 2)
+        else if (Input.GetKeyDown(KeyCode.G) && magicLevel.runtimeValue >= 2 && currentState != PlayerState.falling)
         {
             CastLightning();
         }
-        else if (currentState == PlayerState.walk)
+        // Allow movement logic for both Walk AND Falling
+        else if (currentState == PlayerState.walk || currentState == PlayerState.falling)
         {
             UpdateAnimationAndMove();
         }
@@ -138,11 +166,22 @@ public class PlayerExploring : MonoBehaviour
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
             animator.SetBool("moving", true);
-            foreach (var trail in slipTrails)
+            foreach (var trail in slipTrails) if (trail) trail.emitting = false;
+
+            // --- MOVEMENT CALCULATION ---
+            float currentMoveSpeed = speed;
+
+            // APPLY PENALTY IF FALLING
+            if (currentState == PlayerState.falling)
             {
-                if (trail != null) trail.emitting = false;
+                currentMoveSpeed *= fallingSpeedPenalty;
             }
-            myRigidbody.MovePosition(myRigidbody.position + new UnityEngine.Vector2(change.x, change.y) * speed * Time.fixedDeltaTime);
+
+            // Move
+            // Use fixedDeltaTime here because MovePosition is processed on the physics step; multiple Update calls between physics ticks would otherwise shrink the per-step move.
+            myRigidbody.MovePosition(myRigidbody.position + (Vector2)change * currentMoveSpeed * Time.fixedDeltaTime);
+
+            // Play sound only if walking (optional: could disable sound when falling if desired)
             if (stepSoundManager != null && lastStepSoundTime >= stepSoundCooldown)
             {
                 lastStepSoundTime = 0f;
@@ -158,24 +197,21 @@ public class PlayerExploring : MonoBehaviour
 
     private void UpdateAnimationSlip()
     {
-        // 1. Decrease timer naturally
         currentSlipTimer -= Time.deltaTime;
-
-        // 2. Get Player Input (WASD) purely for influence calculation
         Vector2 inputDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
-        // 3. Compare Input vs Slip Direction (Dot Product)
-        // Dot = 1 (Same direction), Dot = -1 (Opposite direction), Dot = 0 (Perpendicular)
-        if (change != Vector3.zero && inputDir != Vector2.zero)
+        if (change != Vector3.zero)
         {
-            float alignment = Vector2.Dot(inputDir, (Vector2)change.normalized);
-
-            // If alignment > 0 (Same dir), we add time (slide longer)
-            // If alignment < 0 (Opposite dir), we subtract time (stop faster)
-            currentSlipTimer += alignment * slipInputInfluence * Time.deltaTime;
+            if (inputDir != Vector2.zero)
+            {
+                float alignment = Vector2.Dot(inputDir, (Vector2)change.normalized);
+                currentSlipTimer += alignment * slipInputInfluence * Time.deltaTime;
+                currentSlipTimer = Mathf.Min(currentSlipTimer, maxSlipDuration);
+                change = Vector3.Lerp(change, inputDir, slipSteeringPower * Time.deltaTime);
+                change.Normalize();
+            }
         }
 
-        // 4. Check if slip is finished
         if (currentSlipTimer <= 0)
         {
             currentSlipTimer = 0;
@@ -184,15 +220,13 @@ public class PlayerExploring : MonoBehaviour
             return;
         }
 
-        // 5. Apply Movement
         if (change != UnityEngine.Vector3.zero)
         {
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
             animator.SetBool("slipping", true);
-
-            // Move in the push direction
-            myRigidbody.MovePosition(myRigidbody.position + new UnityEngine.Vector2(change.x, change.y) * speed * Time.fixedDeltaTime);
+            // Same fixedDeltaTime reasoning as walking movement to avoid frame-rate dependent slowdown.
+            myRigidbody.MovePosition(myRigidbody.position + (Vector2)change * speed * slipSpeedMultiplier * Time.fixedDeltaTime);
 
             if (stepSoundManager != null && lastStepSoundTime >= stepSoundCooldown)
             {
@@ -202,7 +236,111 @@ public class PlayerExploring : MonoBehaviour
         }
     }
 
-    // --- Item Handling ---
+    public void BoostSlip(float addedTime, float speedBoost)
+    {
+        currentSlipTimer += addedTime;
+        currentSlipTimer = Mathf.Min(currentSlipTimer, maxSlipDuration);
+        slipSpeedMultiplier += speedBoost;
+        slipSpeedMultiplier = Mathf.Min(slipSpeedMultiplier, maxSlipSpeedMultiplier);
+
+        if (currentState != PlayerState.slip)
+        {
+            changeState(PlayerState.slip);
+        }
+    }
+
+    public void changeState(PlayerState newState)
+    {
+        if (newState != PlayerState.falling)
+        {
+            animator.SetBool("falling", false);
+        }
+
+        currentState = newState;
+
+        if (newState == PlayerState.falling) animator.SetBool("falling", true);
+
+        if (newState == PlayerState.slip)
+        {
+            if (slipTrails != null) foreach (var trail in slipTrails) if (trail) trail.emitting = true;
+            if (footprintSystem != null) footprintSystem.enabled = false;
+        }
+        else if (newState == PlayerState.walk)
+        {
+            if (slipTrails != null) foreach (var trail in slipTrails) if (trail) trail.emitting = false;
+            if (footprintSystem != null) footprintSystem.enabled = true;
+            slipSpeedMultiplier = defaultSlipSpeedMultiplier;
+        }
+        else
+        {
+            if (slipTrails != null) foreach (var trail in slipTrails) if (trail) trail.emitting = false;
+            if (footprintSystem != null) footprintSystem.enabled = true;
+        }
+
+        if (newState != PlayerState.attack) animator.SetBool("attacking", false);
+        if (newState != PlayerState.walk) animator.SetBool("moving", false);
+        if (newState != PlayerState.slip) animator.SetBool("slipping", false);
+    }
+
+    // --- Falling Logic ---
+    public void TripPlayer(float duration)
+    {
+        if (Time.time < lastFallingTime + fallingCooldown) return;
+
+        if (currentState != PlayerState.falling && currentState != PlayerState.interact)
+        {
+            lastFallingTime = Time.time;
+            StartCoroutine(FallingCo(duration));
+        }
+    }
+
+    private IEnumerator FallingCo(float duration)
+    {
+        changeState(PlayerState.falling);
+
+        // Kill initial velocity from impact
+        myRigidbody.linearVelocity = Vector2.zero;
+
+        // Note: We do NOT set isMoving=false or block Input here anymore, 
+        // because UpdateAnimationAndMove() will now handle slow movement.
+
+        yield return new WaitForSeconds(duration);
+
+        changeState(PlayerState.walk);
+    }
+
+    // --- Other Interaction Methods ---
+    public void pushed(Vector3 direction, float slipping_time, bool ignoreCooldown = false)
+    {
+        if (Time.time < lastPushTime + pushCooldown && !ignoreCooldown) return;
+        lastPushTime = Time.time;
+        changeState(PlayerState.slip);
+        currentSlipTimer = Mathf.Min(slipping_time, maxSlipDuration);
+        change.x = direction.x;
+        change.y = direction.y;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (currentState == PlayerState.slip)
+        {
+            if (Input.GetKey(KeyCode.G))
+            {
+                currentSlipTimer = 0;
+                change = Vector3.zero;
+                if (slipTrails != null) foreach (var trail in slipTrails) if (trail) trail.emitting = false;
+                changeState(PlayerState.walk);
+            }
+            else
+            {
+                Vector2 surfaceNormal = collision.contacts[0].normal;
+                change = Vector2.Reflect(change, surfaceNormal).normalized;
+                currentSlipTimer += wallBounceExtension;
+                currentSlipTimer = Mathf.Min(currentSlipTimer, maxSlipDuration);
+            }
+        }
+    }
+
     public void RaiseItem()
     {
         if (currentState != PlayerState.interact)
@@ -219,7 +357,6 @@ public class PlayerExploring : MonoBehaviour
         }
     }
 
-    // --- Attack ---
     private IEnumerator AttackCo()
     {
         animator.SetBool("attacking", true);
@@ -229,97 +366,6 @@ public class PlayerExploring : MonoBehaviour
         currentState = PlayerState.walk;
     }
 
-    public void changeState(PlayerState newState)
-    {
-        // 1. Handle Visual Effects Toggle
-        if (newState == PlayerState.slip)
-        {
-            // Enable Slip Trails (The Lines)
-            if (slipTrails != null)
-            {
-                foreach (var trail in slipTrails)
-                {
-                    if (trail != null) trail.emitting = true;
-                }
-            }
-
-            // Disable Footprints Script (Stops stamping)
-            if (footprintSystem != null) footprintSystem.enabled = false;
-        }
-        else if (newState == PlayerState.walk)
-        {
-            // Disable Slip Trails
-            if (slipTrails != null)
-            {
-                foreach (var trail in slipTrails)
-                {
-                    if (trail != null) trail.emitting = false;
-                }
-            }
-
-            // Enable Footprints Script
-            if (footprintSystem != null) footprintSystem.enabled = true;
-        }
-        else
-        {
-            // For other states (idle, attack), decide behavior.
-            // Usually we turn off trails, and leave footprints enabled (but they won't stamp if not moving)
-            if (slipTrails != null)
-            {
-                foreach (var trail in slipTrails)
-                {
-                    if (trail != null) trail.emitting = false;
-                }
-            }
-            // We generally keep the footprint system enabled here so old prints can fade out
-            if (footprintSystem != null) footprintSystem.enabled = true;
-        }
-        currentState = newState;
-        if (newState != PlayerState.attack) animator.SetBool("attacking", false);
-        if (newState != PlayerState.walk) animator.SetBool("moving", false);
-        if (newState != PlayerState.slip) animator.SetBool("slipping", false);
-    }
-
-    // --- External Physics Interaction ---
-    // UPDATED: Now takes slipping_time as a parameter
-    public void pushed(Vector3 direction, float slipping_time, bool ignoreCooldown = false)
-    {
-        if (Time.time < lastPushTime + pushCooldown && !ignoreCooldown)
-        {
-            return;
-        }
-
-        Debug.Log($"Player pushed. Slipping for base time: {slipping_time}s");
-        lastPushTime = Time.time;
-
-        changeState(PlayerState.slip);
-        currentSlipTimer = slipping_time; // Set the timer
-
-        change.x = direction.x;
-        change.y = direction.y;
-        //change.Normalize();
-    }
-
-    // Stop slipping on collision
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (currentState == PlayerState.slip)
-        {
-            Debug.Log("Hit wall while slipping - Recovering.");
-            currentSlipTimer = 0; // Kill the timer
-            change = Vector3.zero;
-            if (slipTrails != null)
-            {
-                foreach (var trail in slipTrails)
-                {
-                    if (trail != null) trail.emitting = false;
-                }
-            }
-            changeState(PlayerState.walk);
-        }
-    }
-
-    // --- Magic Attacks ---
     private void CastFireball()
     {
         animator.SetTrigger("castFireball");
@@ -331,8 +377,7 @@ public class PlayerExploring : MonoBehaviour
     {
         animator.SetTrigger("castFireball");
         Vector2 castDirection = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
-        if (castDirection.sqrMagnitude < 0.01f)
-            castDirection = new Vector2(0, -1);
+        if (castDirection.sqrMagnitude < 0.01f) castDirection = new Vector2(0, -1);
         Vector2 strikePosition = (Vector2)transform.position + castDirection.normalized * lightningCastOffset;
         Instantiate(lightningEffectPrefab, strikePosition, Quaternion.identity);
     }

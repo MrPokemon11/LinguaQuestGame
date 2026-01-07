@@ -38,15 +38,27 @@ public class CameraMovement : MonoBehaviour
         cameraAnimator.SetBool("KickActive", false);
     }
 
-    private IEnumerator PayAttentionToThings(GameObject thing)
-    {
-        target = thing.transform; // Change the target to the specified thing
-        yield return new WaitForSeconds(2f);
-        target = GameObject.FindGameObjectWithTag("Player").transform; // Reset target back to player after 2 seconds
-    }
-
+    // Keep original for backward compatibility
     public void PayAttentionTo(GameObject thing)
     {
-        StartCoroutine(PayAttentionToThings(thing));
+        StartCoroutine(PayAttentionToThings(thing, 2f));
+    }
+
+    private IEnumerator PayAttentionToThings(GameObject thing, float duration)
+    {
+        target = thing.transform;
+        yield return new WaitForSeconds(duration);
+
+        // Safety check: ensure Player still exists before switching back
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
+        {
+            target = player.transform;
+        }
+    }
+    // --- NEW: Overloaded method with custom duration ---
+    public void PayAttentionTo(GameObject thing, float duration)
+    {
+        StartCoroutine(PayAttentionToThings(thing, duration));
     }
 }
