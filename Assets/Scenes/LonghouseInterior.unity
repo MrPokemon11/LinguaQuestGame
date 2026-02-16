@@ -6921,8 +6921,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2300872500005676521, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1230953623}
   m_SourcePrefab: {fileID: 100100000, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
+--- !u!1 &1230953622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2300872500005676521, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
+  m_PrefabInstance: {fileID: 1230953621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1230953623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230953622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea976bec3fadd348a47c0f46b9552b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TotemMinigame
+  TopPiece: {fileID: 1553522468}
+  TopPieceSpot: {fileID: 975026801}
+  MiddlePiece: {fileID: 1602365412}
+  MiddlePieceSpot: {fileID: 1252157421}
+  BottomPiece: {fileID: 887761889}
+  BottomPieceSpot: {fileID: 1003045815}
 --- !u!1 &1252157421
 GameObject:
   m_ObjectHideFlags: 0
