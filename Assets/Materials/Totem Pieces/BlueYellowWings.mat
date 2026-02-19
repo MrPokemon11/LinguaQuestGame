@@ -69,7 +69,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Primary_Color: {r: 0.3726415, g: 0.61393327, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Secondary_Color: {r: 0.7720784, g: 0.7921569, b: 0.039215676, a: 1}
+    - _Secondary_Color: {r: 0.9739584, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &6382470040126525712
