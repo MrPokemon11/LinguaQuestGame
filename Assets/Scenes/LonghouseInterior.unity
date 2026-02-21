@@ -6931,10 +6931,14 @@ PrefabInstance:
       propertyPath: 'dialogs.Array.data[8]'
       value: Good luck explorer!
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6610298952553556158, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2300872500005676521, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
+      insertIndex: 4
+      addedObject: {fileID: 1230953631}
     - targetCorrespondingSourceObject: {fileID: 2300872500005676521, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1230953623}
@@ -6962,6 +6966,58 @@ MonoBehaviour:
   MiddlePieceSpot: {fileID: 1252157421}
   BottomPiece: {fileID: 887761889}
   BottomPieceSpot: {fileID: 1003045815}
+--- !u!95 &1230953624 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4601502502170140664, guid: 6f33585c79d1b3c41b5ae35e609bb957, type: 3}
+  m_PrefabInstance: {fileID: 1230953621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1230953631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1230953622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b28c3e819bfde248a4d22af95799e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::QuestGiver
+  playerInRange: 0
+  context: {fileID: 11400000, guid: d34fcd4961c36a34cbd61c6313562265, type: 2}
+  audioSource: {fileID: 0}
+  interactSound: {fileID: 8300000, guid: 19ee79ae6541aba4ca0f0a45c0f64d89, type: 3}
+  interactSignal: {fileID: 11400000, guid: df844c6a50c328e46a83e54b550dcc1b, type: 2}
+  firstInteractionDone: {fileID: 11400000, guid: 4aaf1575c4d765942a51dd3df8265de5, type: 2}
+  flashingAnimator: {fileID: 1230953624}
+  dialogBox: {fileID: 1941590862}
+  dialogText: {fileID: 1941590861}
+  introDialogue:
+  - Hello, I'm the chieftain of this clan.
+  - We record our history by carving the logs of the red cedar tree into totem poles.
+  - Say, you look like an explorer. If you can reconstruct the totem pole below using
+    my clues, I'll give you a reward.
+  - 1. The top piece has wings.
+  - 2. The bottom piece does not have stripes.
+  - 3. The middle piece does not contain blue.
+  - 4. Exactly two of the pieces contain the color yellow.
+  - Come talk to me when you think you have the correct answer.Good luck explorer!
+  dialogueQuestIncomplete:
+  - Hmm, that's not quite right. Let me go over the clues again.
+  - 1. The top piece has wings.
+  - 2. The bottom piece does not have stripes.
+  - 3. The middle piece does not contain blue.
+  - 4. Exactly two of the pieces contain the color yellow.
+  - Come talk to me when you think you have the correct answer.Good luck explorer!
+  dialogueQuestComplete:
+  - Well done explorer, you put the pieces in the correct order!
+  - As promised, you will be rewarded for your efforts.
+  - You will find your reward in the chest to my right.
+  - Stay safe, adventurer!
+  dialogActive: 0
+  currentDialogIndex: 0
+  checkQuestCompletion: {fileID: 11400000, guid: 4db999047b81aae428270015282381b3, type: 2}
+  questComplete: {fileID: 11400000, guid: 82efc9fc51dca2f438a9e13ac3c1f40e, type: 2}
 --- !u!1 &1252157421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7099,6 +7155,24 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1391466496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4907291144626464245, guid: 6ad508775d64aee478c61b889a22a24f, type: 3}
+  m_PrefabInstance: {fileID: 1479775037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1391466504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1391466496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee1bc0d08d454c4092d41126a943441, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RevealHiddenChest
+  QuestGiverObject: {fileID: 1230953622}
 --- !u!1 &1417920840
 GameObject:
   m_ObjectHideFlags: 0
@@ -7509,7 +7583,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4907291144626464245, guid: 6ad508775d64aee478c61b889a22a24f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1391466504}
   m_SourcePrefab: {fileID: 100100000, guid: 6ad508775d64aee478c61b889a22a24f, type: 3}
 --- !u!1 &1553522468
 GameObject:
