@@ -23,6 +23,8 @@ TagManager:
   - Word
   - CatchZone
   - WordBlock
+  - Log
+  - Void
   layers:
   - Default
   - TransparentFX
