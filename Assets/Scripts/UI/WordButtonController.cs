@@ -26,7 +26,7 @@ public class WordButtonController : MonoBehaviour
         clickSound = GetComponent<AudioSource>();
         button.onClick.AddListener(OnClick);
         originalColor = GetComponent<Image>().color;
-        Debug.Log($"Original color for button '{word}': {originalColor}");
+        // Debug.Log($"Original color for button '{word}': {originalColor}");
         
     }
 
