@@ -9,50 +9,73 @@ public class PetManager : MonoBehaviour
     [System.Serializable]
     public class PetTrigger
     {
+        [Tooltip("Optional stable key. If empty, a key is built from signal+message names.")]
+        public string triggerKey;
         public Signal triggerSignal;
         public MessageSequence messageSequence;
     }
 
     public List<PetTrigger> petTriggers = new();
 
-    private void Start()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
+    private PetSignalManager petSignalManager;
 
-    // In PetManager.cs
     private void Awake()
     {
-        if (petBubble == null) { /*...*/ return; }
+        if (petBubble == null)
+        {
+            Debug.LogWarning($"{nameof(PetManager)} on {name} has no {nameof(petBubble)} reference.", this);
+            return;
+        }
+
+        petSignalManager = GameManager.Instance != null ? GameManager.Instance.PetSignalManager : null;
 
         foreach (var trigger in petTriggers)
         {
-            if (trigger.triggerSignal == null || trigger.messageSequence == null) { /*...*/ continue; }
+            if (trigger.triggerSignal == null || trigger.messageSequence == null)
+            {
+                continue;
+            }
+
+            string key = BuildTriggerKey(trigger);
+            if (petSignalManager != null && petSignalManager.IsConsumed(key))
+            {
+                continue;
+            }
 
             SignalListener listener = gameObject.AddComponent<SignalListener>();
-
-            // Temporarily disable the listener component itself
             listener.enabled = false;
-
-            // Configure it while it's disabled
             listener.signal = trigger.triggerSignal;
 
-            // Create a local copy of the listener for the closure
             SignalListener capturedListener = listener;
-
             UnityEngine.Events.UnityAction action = null;
             action = () =>
             {
+                if (petSignalManager != null && !petSignalManager.Consume(key))
+                {
+                    capturedListener.response.RemoveListener(action);
+                    Destroy(capturedListener);
+                    return;
+                }
+
                 petBubble.ShowMessagesToPlayer(trigger.messageSequence.messages);
-                // Remove this listener so it only triggers once
                 capturedListener.response.RemoveListener(action);
                 Destroy(capturedListener);
             };
 
             listener.response.AddListener(action);
-
-            // Now, enable it. This will call its OnEnable(), and since 'signal' is now assigned, it will register correctly.
             listener.enabled = true;
         }
+    }
+
+    private static string BuildTriggerKey(PetTrigger trigger)
+    {
+        if (!string.IsNullOrWhiteSpace(trigger.triggerKey))
+        {
+            return trigger.triggerKey;
+        }
+
+        string signalPart = trigger.triggerSignal != null ? trigger.triggerSignal.name : "null_signal";
+        string sequencePart = trigger.messageSequence != null ? trigger.messageSequence.name : "null_sequence";
+        return $"{signalPart}:{sequencePart}";
     }
 }

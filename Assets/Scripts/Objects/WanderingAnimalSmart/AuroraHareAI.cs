@@ -32,6 +32,7 @@ public class AuroraHareAI : MonoBehaviour
     private GameObject targetFood;
 
     [Header("Rewards")]
+    public GameObject EmberObject;
     public GameObject eternalEmberPrefab;
     private bool hasDroppedEmber = false;
 
@@ -60,6 +61,7 @@ public class AuroraHareAI : MonoBehaviour
         if (player != null) playerTransform = player.transform;
 
         mainCamera = FindFirstObjectByType<CameraMovement>();
+        EmberObject.SetActive(true);
 
         // --- FIX: Capture the spawn point as the anchor for wandering ---
         initialPosition = transform.position;
@@ -269,6 +271,7 @@ public class AuroraHareAI : MonoBehaviour
             Instantiate(eternalEmberPrefab, transform.position, Quaternion.identity);
             hasDroppedEmber = true;
         }
+        EmberObject.SetActive(false);
 
         currentState = HareState.Tamed;
         rb.linearVelocity = Vector2.zero;

@@ -135,6 +135,8 @@ GameObject:
   - component: {fileID: 462503852}
   - component: {fileID: 462503851}
   - component: {fileID: 462503853}
+  - component: {fileID: 462503854}
+  - component: {fileID: 462503855}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -162,6 +164,8 @@ MonoBehaviour:
     morphologyPoints: 0
     phonologyPoints: 0
   audioSource: {fileID: 0}
+  startingSceneName: World1_Revamped
+  playerName: Explorer
 --- !u!4 &462503847
 Transform:
   m_ObjectHideFlags: 0
@@ -233,6 +237,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c5f954e2dc668064f8c0e371d1160ae6, type: 2}
   - {fileID: 11400000, guid: 55d43c9ee6ca4be4cbd4c356f73018b4, type: 2}
   - {fileID: 11400000, guid: 799e4f20ed16ab642b9c350383829544, type: 2}
+  - {fileID: 11400000, guid: 6af47e1a332301f45992605c110f8053, type: 2}
 --- !u!114 &462503851
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -386,6 +391,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &462503854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462503845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7b841557219c442b1e78db5087a857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PetSignalManager
+--- !u!114 &462503855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462503845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a893de8408402f547bb623a9c63a6bbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MechanicContentLoader
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

@@ -677,6 +677,7 @@ GameObject:
   - component: {fileID: 606680404686773452}
   - component: {fileID: 8132065934847564163}
   - component: {fileID: 7421987924500848716}
+  - component: {fileID: 2565248535079442591}
   m_Layer: 0
   m_Name: PlayerInScene
   m_TagString: Player
@@ -809,7 +810,19 @@ MonoBehaviour:
   firePoint: {fileID: 2200159935357943152}
   lightningEffectPrefab: {fileID: 1068689431743136575, guid: 2fe84ba0c21516a44b5c210d2fe229cd, type: 3}
   lightningCastOffset: 4.5
+  pushCooldown: 1
+  slipInputInfluence: 0.8
+  slipSteeringPower: 2
+  wallBounceExtension: 0.5
+  slipSpeedMultiplier: 1.6
+  maxSlipSpeedMultiplier: 3
+  maxSlipDuration: 4
+  fallingDuration: 0.5
+  fallingSpeedPenalty: 0.1
+  fallingCooldown: 2
   isMoving: 0
+  slipTrails: []
+  footprintSystem: {fileID: 0}
 --- !u!212 &3540530879073513603
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -996,3 +1009,28 @@ MonoBehaviour:
     defense: 1
     speed: 1
     health: 1
+--- !u!114 &2565248535079442591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6528882001420741387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee677cb9f50ff64888b0b850a07deb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FootprintSystem2D
+  player: {fileID: 0}
+  footprintsTilemap: {fileID: 0}
+  snowColliderMask:
+    serializedVersion: 2
+    m_Bits: 2048
+  leftFootTile: {fileID: 11400000, guid: c28b56680c274fa49b35f5f06a13e450, type: 2}
+  rightFootTile: {fileID: 11400000, guid: 1342e0b3af374bd478584d97da90312a, type: 2}
+  stepInterval: 0.18
+  lateralOffsetCells: 0.1
+  forwardOffsetCells: 0.1
+  yCorrectionOnHorizontalCells: 0.6
+  footprintLifetime: 2.5
+  clearWhenGone: 1

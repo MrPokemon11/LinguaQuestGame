@@ -8,7 +8,12 @@ public class GameManager : MonoBehaviour
 
     public PlayerData playerData;
     public AudioSource audioSource;
+    public string startingSceneName = "StartingPage";
     public string playerName = "Explorer";
+
+    private PetSignalManager petSignalManager;
+
+    public PetSignalManager PetSignalManager => petSignalManager;
 
     void Awake()
     {
@@ -21,17 +26,25 @@ public class GameManager : MonoBehaviour
         else
         {
             Destroy(gameObject); // Prevent duplicate managers
+            return;
         }
+
         if (audioSource == null)
         {
             audioSource = GetComponent<AudioSource>();
+        }
+
+        petSignalManager = GetComponent<PetSignalManager>();
+        if (petSignalManager == null)
+        {
+            petSignalManager = gameObject.AddComponent<PetSignalManager>();
         }
     }
 
     void Start()
     {
         // Initialize player data or load from saved data
-        SceneManager.LoadScene("StartingPage");
+        SceneManager.LoadScene(startingSceneName);
     }
 
     public void PlaySound(AudioClip clip)
@@ -46,7 +59,5 @@ public class GameManager : MonoBehaviour
     {
         playerData.setPlayerName(playerName);
     }
-
-
 }
 // Add methods to save and load player data here

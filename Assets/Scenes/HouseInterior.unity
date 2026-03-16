@@ -20589,6 +20589,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3169046761176812161, guid: 2c81843eef9bd4f40bf939326e4acf49, type: 3}
+      propertyPath: petTriggers.Array.data[0].triggerKey
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169046761176812161, guid: 2c81843eef9bd4f40bf939326e4acf49, type: 3}
+      propertyPath: petTriggers.Array.data[1].triggerKey
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3169046761176812161, guid: 2c81843eef9bd4f40bf939326e4acf49, type: 3}
+      propertyPath: petTriggers.Array.data[2].triggerKey
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6815641998803265146, guid: 2c81843eef9bd4f40bf939326e4acf49, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.77
@@ -23950,6 +23962,22 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4922159312561162790, guid: 3a67c634d2a7c224a9d44f79a49b1428, type: 3}
+      propertyPath: woodTilemaps.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922159312561162790, guid: 3a67c634d2a7c224a9d44f79a49b1428, type: 3}
+      propertyPath: grassTilemaps.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4922159312561162790, guid: 3a67c634d2a7c224a9d44f79a49b1428, type: 3}
+      propertyPath: 'woodTilemaps.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1004058738}
+    - target: {fileID: 4922159312561162790, guid: 3a67c634d2a7c224a9d44f79a49b1428, type: 3}
+      propertyPath: 'grassTilemaps.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1367687017}
+    - target: {fileID: 4922159312561162790, guid: 3a67c634d2a7c224a9d44f79a49b1428, type: 3}
       propertyPath: groundSounds.Array.data[1].groundTypeName
       value: Wood
       objectReference: {fileID: 0}
@@ -24906,7 +24934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4337185287134595853, guid: 7b9e8b0159a6761468419bd5cd0670bb, type: 3}
       propertyPath: sceneToLoad
-      value: World1
+      value: World1_Revamped
       objectReference: {fileID: 0}
     - target: {fileID: 4337185287134595853, guid: 7b9e8b0159a6761468419bd5cd0670bb, type: 3}
       propertyPath: fadeDuration
