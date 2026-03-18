@@ -62,5 +62,11 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/World1_Revamped.unity
     guid: 3e62cfb273b9f5d40b614ecb6c7cd2cd
+  - enabled: 1
+    path: Assets/Scenes/Canada_WestCoastArea.unity
+    guid: a289f03c7eab6c044a5ea4a00e2e009c
+  - enabled: 1
+    path: Assets/Scenes/LonghouseInterior.unity
+    guid: a83922e52067a3647a3a33662ce4830c
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
