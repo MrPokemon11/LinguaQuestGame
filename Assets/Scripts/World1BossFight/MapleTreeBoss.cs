@@ -33,6 +33,7 @@ namespace World1BossFight
         [SerializeField] private Animator bridgeAnimator;
         [SerializeField] private GameObject enableOnFightStart;
         [SerializeField] private GameObject disableOnFightStart;
+        [SerializeField] private Signal bossDefeatedSignal;
         
         [Header("Questions")]
         [SerializeField] private QuestionBubble questionBubble;
@@ -342,6 +343,7 @@ namespace World1BossFight
             bridgeAnimator.SetTrigger("Show");
             if (enableOnFightStart) enableOnFightStart.SetActive(false);
             if (disableOnFightStart) disableOnFightStart.SetActive(true);
+            bossDefeatedSignal?.Raise();
         }
     }
 }

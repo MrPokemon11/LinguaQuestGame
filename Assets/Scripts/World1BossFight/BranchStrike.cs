@@ -26,6 +26,9 @@ namespace World1BossFight
         private Vector2 _direction;
         private AudioSource _audioSource;
 
+        [Header("Damage")]
+        [SerializeField] private Signal bossDamagedSignal;
+
         private void Awake()
         {
             _animator = GetComponent<Animator>();
@@ -44,7 +47,7 @@ namespace World1BossFight
 
             _direction = _branchStrikeData.Direction;
             _tileSize = _branchStrikeData.PlatformData.TileSize;
-            
+
             if (_direction == Vector2.down) disableOnDown.SetActive(false);
 
             transform.position = _branchStrikeData.PlatformData.StartPosition + transform.localScale * 0.5f;
@@ -59,8 +62,8 @@ namespace World1BossFight
         private void RotateToDirection()
         {
             float angle = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
-            transform.rotation = Quaternion.Euler(0,0,angle);
-            disableOnDown.transform.localRotation = Quaternion.Euler(0,0,-angle);
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+            disableOnDown.transform.localRotation = Quaternion.Euler(0, 0, -angle);
         }
 
         private void SetupWarning()
@@ -74,7 +77,7 @@ namespace World1BossFight
 
         private IEnumerator StrikeRoutine(float delay, float speed, float duration)
         {
-            
+
             yield return new WaitForSeconds(delay);
 
             _audioSource.Play();
@@ -92,11 +95,11 @@ namespace World1BossFight
             }
 
             UpdateBranch(targetLength);
-            
+
             yield return new WaitForSeconds(duration);
 
             PlatformManager.Instance.UnreservePositions(_branchStrikeData.PlatformData.Positions);
-            
+
             while (length > 1)
             {
                 length -= speed * Time.deltaTime;
@@ -105,16 +108,16 @@ namespace World1BossFight
 
                 yield return null;
             }
-            
+
             UpdateBranch(1);
-            
+
             _animator.SetTrigger("Hide");
             yield return new WaitForSeconds(dissolveDelay);
 
             Destroy(gameObject);
         }
-        
-        
+
+
 
         private void UpdateBranch(float length)
         {
@@ -123,7 +126,7 @@ namespace World1BossFight
             branchBody.size = new Vector2(bodyLength, _tileSize);
             branchBody.transform.localPosition = new Vector2(length * 0.5f, 0);
 
-            branchEnd.localPosition = new Vector3(length,0,0);
+            branchEnd.localPosition = new Vector3(length, 0, 0);
 
             damageTrigger.size = new Vector2(length, _tileSize);
             damageTrigger.offset = new Vector2(length * 0.5f, 0);
@@ -134,6 +137,8 @@ namespace World1BossFight
             if (!other.CompareTag("Player")) return;
 
             Debug.Log("Damaged Player");
+            bossDamagedSignal?.Raise();
+
         }
     }
 }

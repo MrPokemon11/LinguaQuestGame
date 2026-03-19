@@ -7,6 +7,7 @@ namespace World1BossFight
     public class RollingLog : MonoBehaviour
     {
         [SerializeField] private float dissolveDelay;
+        [SerializeField] private Signal bossDamagedSignal;
         
         private Rigidbody2D _rigidbody2D;
         private Animator _animator;
@@ -42,9 +43,8 @@ namespace World1BossFight
             if (!_isRolling) return;
             if (other.CompareTag("Player"))
             {
-                //var player = other.GetComponent<PlayerExploring>();
-                // Damage Player
                 Debug.Log("Damaged Player");
+                bossDamagedSignal?.Raise();
             }
             else if (other.CompareTag("Log"))
             {

@@ -54,6 +54,7 @@ MonoBehaviour:
   disableOnDown: {fileID: 9168921634848187359}
   damageTrigger: {fileID: 6135028503746992323}
   dissolveDelay: 1
+  bossDamagedSignal: {fileID: 11400000, guid: ba8d0d66b83c30d46835dc1c7d9cd084, type: 2}
 --- !u!95 &305884437324673852
 Animator:
   serializedVersion: 7

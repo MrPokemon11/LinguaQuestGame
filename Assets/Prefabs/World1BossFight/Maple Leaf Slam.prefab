@@ -231,6 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MapleLeafSlam
   bounds: {x: 4, y: 3}
   dissolveDelay: 0.5
+  bossDamagedSignal: {fileID: 11400000, guid: ba8d0d66b83c30d46835dc1c7d9cd084, type: 2}
 --- !u!95 &4395786164694905569
 Animator:
   serializedVersion: 7

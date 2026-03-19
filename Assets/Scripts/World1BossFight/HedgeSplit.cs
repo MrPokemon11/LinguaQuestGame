@@ -10,6 +10,7 @@ namespace World1BossFight
         private static readonly int HideHash = Animator.StringToHash("Hide");
 
         [SerializeField] private float dissolveDelay;
+        [SerializeField] private Signal bossDamagedSignal;
         
         private Animator _animator;
         private AudioSource _audioSource;
@@ -43,6 +44,7 @@ namespace World1BossFight
             if (other.CompareTag("Player"))
             {
                 Debug.Log("Damaged Player");
+                bossDamagedSignal?.Raise();
                 StopAllCoroutines();
                 StartCoroutine(DestroyRoutine());
             }

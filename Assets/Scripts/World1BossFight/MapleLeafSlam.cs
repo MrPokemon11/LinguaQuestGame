@@ -9,6 +9,7 @@ namespace World1BossFight
     {
         [SerializeField] private Vector2Int bounds;
         [SerializeField] private float dissolveDelay;
+        [SerializeField] private Signal bossDamagedSignal;
         
         private Animator _animator;
         private PlatformData _platformData;
@@ -60,6 +61,7 @@ namespace World1BossFight
             if (other.CompareTag("Player"))
             {
                 Debug.Log("Damaged Player");
+                bossDamagedSignal?.Raise();
             }
         }
     }
