@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerPosition_WestCoast
   m_EditorClassIdentifier: Assembly-CSharp::VectorValue
   initialValue: {x: 6, y: 0}
-  runtimeValue: {x: 0, y: 0}
+  runtimeValue: {x: 6, y: 0}

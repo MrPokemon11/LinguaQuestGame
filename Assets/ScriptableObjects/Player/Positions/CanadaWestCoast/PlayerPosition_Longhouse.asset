@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: PlayerPosition_Longhouse
   m_EditorClassIdentifier: Assembly-CSharp::VectorValue
   initialValue: {x: 0, y: -2.5}
-  runtimeValue: {x: 0, y: 0}
+  runtimeValue: {x: 0, y: -2.5}
