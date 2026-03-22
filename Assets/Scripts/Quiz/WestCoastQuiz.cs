@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System;
 using UnityEngine.Events;
 using TMPro;
+using UnityEngine.UI;
 
 public class WestCoastQuiz : Interactable
 {
@@ -44,6 +45,7 @@ public class WestCoastQuiz : Interactable
         if(dialogActive && Input.GetKeyDown(KeyCode.E) && firstInteractionDone.runtimeValue == true)
         {
             TriggerQuiz();
+            dialogActive = false;
         }        
         else if (dialogActive && Input.GetKeyDown(KeyCode.E))
         {
