@@ -41,7 +41,7 @@ public class WestCoastQuiz : Interactable
     }
     public virtual void Update()
     {
-        if(dialogActive && Input.GetKeyDown(KeyCode.E) && firstInteractionDone)
+        if(dialogActive && Input.GetKeyDown(KeyCode.E) && firstInteractionDone.runtimeValue == true)
         {
             TriggerQuiz();
         }        
