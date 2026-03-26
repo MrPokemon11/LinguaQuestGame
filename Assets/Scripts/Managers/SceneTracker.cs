@@ -35,7 +35,8 @@ public class SceneTracker : MonoBehaviour
         if (string.IsNullOrEmpty(previousSceneName))
         {
             Debug.LogWarning("No previous scene recorded!");
-            return;
+            SceneManager.LoadScene("World1_Revamped");
+            //return;
         }
 
         if (isWin)
