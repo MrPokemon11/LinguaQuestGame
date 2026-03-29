@@ -10,7 +10,17 @@ public class PrairieConfirmTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+
         Debug.Log("TRIGGER ENTERED");
+
+        if (!PrairieNPCTracker.Instance.AllVisited())
+        {
+            UIConfirmPrompt.Instance.Show(
+                "TALK TO ALL THE PEOPLE IN THE AREA BEFORE ENTERING THE MINIGAME",
+                () => { }
+            );
+            return;
+        }
 
         if (hasTriggered) return;
 

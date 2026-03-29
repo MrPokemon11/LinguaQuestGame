@@ -4,6 +4,7 @@ using UnityEngine;
 public class PrairieGameManager : MonoBehaviour
 {
     public static PrairieGameManager Instance;
+
     public bool gameStarted = false;
 
     public GameObject sackPrefab;
@@ -12,7 +13,7 @@ public class PrairieGameManager : MonoBehaviour
     public TextMeshProUGUI progressText;
 
     public float difficultyMultiplier = 1f;
-    public float difficultyIncreaseRate = 0.05f; // increase every correct sack
+    public float difficultyIncreaseRate = 0.05f;
 
     public int currentLane = 1; // 0 = top, 1 = middle, 2 = bottom
     public int correctCount = 0;
@@ -20,6 +21,11 @@ public class PrairieGameManager : MonoBehaviour
 
     private float spawnTimer = 0f;
     public float spawnInterval = 2f;
+
+    [Header("Win Settings")]
+    public AudioSource audioSource;
+    public AudioClip winSound;
+    public float winDelay = 1f;
 
     void Awake()
     {
@@ -40,7 +46,6 @@ public class PrairieGameManager : MonoBehaviour
         }
     }
 
-
     void SpawnSack()
     {
         Instantiate(sackPrefab, spawnPoint.position, Quaternion.identity);
@@ -50,14 +55,13 @@ public class PrairieGameManager : MonoBehaviour
     {
         correctCount++;
         UpdateUI();
+
         difficultyMultiplier += difficultyIncreaseRate;
         difficultyMultiplier = Mathf.Min(difficultyMultiplier, 2f);
 
         if (correctCount >= winAmount)
         {
-
             WinGame();
-            SceneTracker.Instance.ReturnToPreviousScene(true);
         }
     }
 
@@ -65,12 +69,25 @@ public class PrairieGameManager : MonoBehaviour
     {
         progressText.text = correctCount + " / " + winAmount;
     }
+
     void WinGame()
     {
         gameStarted = false;
 
         PrairieProgress.Completed = true;
 
+        // play win sound
+        if (audioSource != null && winSound != null)
+        {
+            audioSource.PlayOneShot(winSound);
+        }
+
+        // delay before returning
+        Invoke(nameof(ReturnToPrairie), winDelay);
+    }
+
+    void ReturnToPrairie()
+    {
         SceneTracker.Instance.ReturnToPreviousScene(true);
     }
 }
